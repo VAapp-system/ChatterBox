@@ -1,0 +1,94 @@
+{
+    "response": "聞き取れませんでした。また運勢を聞きにきてください。",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [
+            {
+                "name": "ImmersiveResponse",
+                "debugInfo": "Json payload can not be parsed.",
+                "subDebugEntryList": []
+            }
+        ],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "status",
+                                                {
+                                                    "stringValue": "ERROR_EXIT"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {},
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dh0-8KoHpKuo7kEGtX1XpMtuZfAJGwFAUqHQW_z127V6q3XEMzubs2o64QbGC3I0r6RNOs7w_0f-",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "updatedStateJson": "",
+                "ownedByGoogle": true,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "今日の運勢",
+    "servingModelOutdated": false,
+    "request": "welcome"
+}

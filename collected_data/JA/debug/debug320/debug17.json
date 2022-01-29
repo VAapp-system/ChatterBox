@@ -1,0 +1,205 @@
+{
+    "response": "パスしました。\n不正解です。正解は「04:05」でした。 （問題6） 今、何時ですか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/read_the_clock",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "base_url",
+                                {
+                                    "stringValue": "https://www.voice-ui.work"
+                                }
+                            ],
+                            [
+                                "content",
+                                {
+                                    "stringValue": "問題6<br/>今、何時ですか？"
+                                }
+                            ],
+                            [
+                                "five_point_rating",
+                                {
+                                    "stringValue": ""
+                                }
+                            ],
+                            [
+                                "locale",
+                                {
+                                    "stringValue": "ja-JP"
+                                }
+                            ],
+                            [
+                                "order",
+                                {
+                                    "numberValue": 5
+                                }
+                            ],
+                            [
+                                "photo",
+                                {
+                                    "stringValue": "https://www.voice-ui.work/images/read_the_clock/hour09/min20.png"
+                                }
+                            ],
+                            [
+                                "post_content",
+                                {
+                                    "stringValue": ""
+                                }
+                            ],
+                            [
+                                "pre_content",
+                                {
+                                    "stringValue": "パスしました。正解は「04:05」でした。"
+                                }
+                            ],
+                            [
+                                "results",
+                                {
+                                    "stringValue": "0, 0, 0, 0, 0"
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "wrong_answer"
+                                }
+                            ],
+                            [
+                                "title",
+                                {
+                                    "stringValue": "不正解"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "base_url",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work"
+                                    }
+                                ],
+                                [
+                                    "content",
+                                    {
+                                        "stringValue": "問題6<br/>今、何時ですか？"
+                                    }
+                                ],
+                                [
+                                    "five_point_rating",
+                                    {
+                                        "stringValue": ""
+                                    }
+                                ],
+                                [
+                                    "locale",
+                                    {
+                                        "stringValue": "ja-JP"
+                                    }
+                                ],
+                                [
+                                    "order",
+                                    {
+                                        "numberValue": 5
+                                    }
+                                ],
+                                [
+                                    "photo",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work/images/read_the_clock/hour09/min20.png"
+                                    }
+                                ],
+                                [
+                                    "post_content",
+                                    {
+                                        "stringValue": ""
+                                    }
+                                ],
+                                [
+                                    "pre_content",
+                                    {
+                                        "stringValue": "パスしました。正解は「04:05」でした。"
+                                    }
+                                ],
+                                [
+                                    "results",
+                                    {
+                                        "stringValue": "0, 0, 0, 0, 0"
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "wrong_answer"
+                                    }
+                                ],
+                                [
+                                    "title",
+                                    {
+                                        "stringValue": "不正解"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/v2Xt6zLTbuwgWF467LAq1wsGDnf1Mf-F9PVY7Caaf7k10_c2Ru_WyOqUdf_2hHrHFSu2js2MGE2g",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/read_the_clock",
+                "updatedStateJson": "{\"photo\":\"https://www.voice-ui.work/images/read_the_clock/hour09/min20.png\",\"order\":5,\"locale\":\"ja-JP\",\"pre_content\":\"パスしました。正解は「04:05」でした。\",\"results\":\"0, 0, 0, 0, 0\",\"post_content\":\"\",\"title\":\"不正解\",\"five_point_rating\":\"\",\"scene\":\"wrong_answer\",\"base_url\":\"https://www.voice-ui.work\",\"content\":\"問題6\\u003cbr/\\u003e今、何時ですか？\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "時計の読み方",
+    "servingModelOutdated": false,
+    "request": "1"
+}

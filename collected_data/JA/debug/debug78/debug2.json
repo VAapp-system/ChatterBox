@@ -1,0 +1,76 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1dm...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "3分のタイマーをセットしたよ。時間が来たらお知らせするね。"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "name",
+                                "description": "",
+                                "contentUrl": "https://s3.ap-northeast-1.amazonaws.com/pansayzm.pansayzm.io/common/silence/180sec.mp3?AWSAccessKeyId=ASIA4VPXTGCKIKUDQL2Z&Signature=w5WUX%2B5PDDZTL50tBHkICE4VpuA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgab3cthyuXufrNq1BTK6yk6BoLYx8zMmNWMpk%2FycyyJcCIBwpyDo80Jk%2BMi93uJ7Hd6rRSdxmkXDFupG50ocfvaZJKrsCCHkQAhoMODcwNzg3MDAyNTE2IgxMp2xj5TqWNGtqdk4qmALUY0ciLVHrtY4%2FlHfuohPd9gL800aqxtRsp5VgeqstNO9iN3R80rkxQbgUPPBFx30cJ%2F%2FZNmgUflSbuXjyXtOFhLXKHm8FlTsW8EIAIOJZ%2BuQ7Js36jZ9FGVQJuQEuhTNn91wljhwnwcIEPYO4K%2BHTwV1oN3m9oC699dVtsWpyDhzkPqpxn32FK%2FW2YOlJq6CYNhle54FCjkE34NIWJMYFa0EbH1qWMhEdqya6swXx9Ue%2Fo1PPD%2FMTFkMuFl1ZOXGbkwVuqHtCesZAFLwasFCnIsmmcrShajk6Ygp5tCLapsPd1EU6SDSmtln%2BjOOfpoH50IZBH7oC3%2FY2lp3r5I41fRXtPd11%2BSetGIpBiukmDBm6I09y3vL3MNeynIcGOpsBA%2FnLVLmNzWvtx%2BVn3yKdv0D6D2AAMSLh7fSP0aN1GO0B2WBoIDivn4FPc8cVMIiPKJJkJF80wVwgWrOEJHnSSHDa5xucb%2BKuEn4OkncCkYer7uWitI1Vex7jXfZiC2ee9ARM6BrOnkdaeN6RDTbFjOL3Gtp5Oal5qZCpAIFISk1ABx22ygG82KHY5XB4%2Fn0hjr4mT%2Fn1BcJ%2BaD0%3D&Expires=1625761653"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "1599461443881012002"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "残り時間"
+            },
+            {
+                "title": "キャンセル"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/GVayuRYDSL6zsPmbxx7aZ0u7Strlvek0SKzF9s7qk4qIjtlb9lg5awW1o0_S-czUBcoZrncgLPsd",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "残り時間",
+                    "キャンセル"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "西山宏太朗のタイマー",
+    "servingModelOutdated": false,
+    "request": "3分"
+}

@@ -1,0 +1,133 @@
+{
+    "response": "音声認識ができませんでした。 [34] と [43] と [56] と [65] に駒を置くことができます。 次の駒の位置を数字で答えてください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/othello",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "content",
+                                {
+                                    "stringValue": "[34]<break time=\"500ms\"/> と [43]<break time=\"500ms\"/> と [56]<break time=\"500ms\"/> と [65] に駒を置くことができます。"
+                                }
+                            ],
+                            [
+                                "post_content",
+                                {
+                                    "stringValue": "次の駒の位置を数字で答えてください。"
+                                }
+                            ],
+                            [
+                                "pre_content",
+                                {
+                                    "stringValue": "音声認識ができませんでした。"
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "no_change_board"
+                                }
+                            ],
+                            [
+                                "user_has_move",
+                                {
+                                    "boolValue": true
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "content",
+                                    {
+                                        "stringValue": "[34]<break time=\"500ms\"/> と [43]<break time=\"500ms\"/> と [56]<break time=\"500ms\"/> と [65] に駒を置くことができます。"
+                                    }
+                                ],
+                                [
+                                    "post_content",
+                                    {
+                                        "stringValue": "次の駒の位置を数字で答えてください。"
+                                    }
+                                ],
+                                [
+                                    "pre_content",
+                                    {
+                                        "stringValue": "音声認識ができませんでした。"
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "no_change_board"
+                                    }
+                                ],
+                                [
+                                    "user_has_move",
+                                    {
+                                        "boolValue": true
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/rpO6Nw4iJzSw7EsvTpCrVAe4tzJii77YQbgjk3LgxV2fsGAfmqnMKe8wxWdysvQzDNXNb1Gl18-q",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/othello",
+                "updatedStateJson": "{\"content\":\"[34]\\u003cbreak time=\\\"500ms\\\"/\\u003e と [43]\\u003cbreak time=\\\"500ms\\\"/\\u003e と [56]\\u003cbreak time=\\\"500ms\\\"/\\u003e と [65] に駒を置くことができます。\",\"pre_content\":\"音声認識ができませんでした。\",\"post_content\":\"次の駒の位置を数字で答えてください。\",\"user_has_move\":true,\"scene\":\"no_change_board\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "音声オセロ",
+    "servingModelOutdated": false,
+    "request": "AI"
+}

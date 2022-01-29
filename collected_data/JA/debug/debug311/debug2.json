@@ -1,0 +1,72 @@
+{
+    "response": "私は思いつきました！ 来て推測！ 数字の範囲は0〜50です 入力後、答えと一致するかどうかを尋ねます！",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "私は思いつきました！"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "0 ~ 50",
+                    "subtitle": "これは現在の回答の可能な間隔です。  \nゲーム终了したい場合は、「あきらめる」または「答えを見る」と言ってください",
+                    "formattedText": "_[!]任意の数字を入力することができます_",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "ゲーム终了"
+            },
+            {
+                "title": "21"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/98fcN9pEn4mfaJJxil5jvKD6PADUa7d2LfMexZriVgMxXw47y8_If3bxuhibtClnscx4TvE0d7cP",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "ゲーム终了",
+                    "21"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "数字エルフ",
+    "servingModelOutdated": false,
+    "request": "50"
+}

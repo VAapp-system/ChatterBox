@@ -1,0 +1,85 @@
+{
+    "response": "はい。 シンプルじゃんけんです。どの手を出しますか？グー？チョキ？それとも、パー？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。シンプルじゃんけんです。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://rock-paper-scissors-68c5b.firebaseapp.com/index-ja.html",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": []
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/zrxi60wEFSTM_EJ41U97WTwHcv8oE5ZrtecnfdDR-6DZwiTXafiDHCBow-8fT1Oh9JSMcicnhEU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://rock-paper-scissors-68c5b.firebaseapp.com/index-ja.html",
+                "updatedStateJson": "{}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"__conversation_analytics_user_id__\":\"819e8323-fe6b-411c-840d-f996f496d262\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "シンプルじゃんけん",
+    "servingModelOutdated": false,
+    "request": "シンプルじゃんけんにつないで"
+}

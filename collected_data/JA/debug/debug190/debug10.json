@@ -1,0 +1,205 @@
+{
+    "response": "あなたの指し手は「 2 駒 」です。\n不正解です。正解は「 1 二 馬 」でした。 ▲ 1 二 馬 （投了） 次に進みます。 問題7 初期配置は次のとおり。 先手配置「 2 三 桂 3 三 馬 」。 後手配置「 2 一 王 3 一 角 」。 先手持ち駒「なし」。 後手持ち駒「すべての駒」。 １手詰めの問題です。次の一手を答えなさい。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/tsume_shogi",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "appName",
+                                {
+                                    "stringValue": "音声詰将棋"
+                                }
+                            ],
+                            [
+                                "content",
+                                {
+                                    "stringValue": "先手配置「<sub alias=\"にい\">2</sub><sub alias=\"さん\">三</sub><sub alias=\"けい\">桂</sub><break time=\"1000ms\"/><sub alias=\"さん\">3</sub><sub alias=\"さん\">三</sub><sub alias=\"うま\">馬</sub><break time=\"1000ms\"/>」。<break time=\"2000ms\"/><br/>後手配置「<sub alias=\"にい\">2</sub><sub alias=\"いち\">一</sub><sub alias=\"おう\">王</sub><break time=\"1000ms\"/><sub alias=\"さん\">3</sub><sub alias=\"いち\">一</sub><sub alias=\"かく\">角</sub><break time=\"1000ms\"/>」。<break time=\"2000ms\"/><br/>先手持ち駒「なし」。<break time=\"2000ms\"/><br/>後手持ち駒「すべての駒」。<break time=\"2000ms\"/>"
+                                }
+                            ],
+                            [
+                                "info",
+                                {
+                                    "stringValue": "▲1二馬（投了）"
+                                }
+                            ],
+                            [
+                                "kyokumen",
+                                {
+                                    "stringValue": "<figure class=\"shogi black-side\"><figcaption>音声詰将棋第7局</figcaption><div class=\"board\"><div class=\"line board-border\">&nbsp;</div><div class=\"line area_f2\">&nbsp;</div><div class=\"line area_f4\">&nbsp;</div><div class=\"line area_f6\">&nbsp;</div><div class=\"line area_f8\">&nbsp;</div><div class=\"line area_r2\">&nbsp;</div><div class=\"line area_r4\">&nbsp;</div><div class=\"line area_r6\">&nbsp;</div><div class=\"line area_r8\">&nbsp;</div><div class=\"num rank1\">一</div><div class=\"num rank2\">二</div><div class=\"num rank3\">三</div><div class=\"num rank4\">四</div><div class=\"num rank5\">五</div><div class=\"num rank6\">六</div><div class=\"num rank7\">七</div><div class=\"num rank8\">八</div><div class=\"num rank9\">九</div><div class=\"num file1\">１</div><div class=\"num file2\">２</div><div class=\"num file3\">３</div><div class=\"num file4\">４</div><div class=\"num file5\">５</div><div class=\"num file6\">６</div><div class=\"num file7\">７</div><div class=\"num file8\">８</div><div class=\"num file9\">９</div><!--第１列--><div id=\"position11\"></div><div id=\"position21\" class=\"sq21 white\">王</div><div id=\"position31\" class=\"sq31 white\">角</div><div id=\"position41\"></div><div id=\"position51\"></div><div id=\"position61\"></div><div id=\"position71\"></div><div id=\"position81\"></div><div id=\"position91\"></div><!--第２列--><div id=\"position12\"></div><div id=\"position22\"></div><div id=\"position32\"></div><div id=\"position42\"></div><div id=\"position52\"></div><div id=\"position62\"></div><div id=\"position72\"></div><div id=\"position82\"></div><div id=\"position92\"></div><!--第３列--><div id=\"position13\"></div><div id=\"position23\" class=\"sq23 black\">桂</div><div id=\"position33\" class=\"sq33 black\">馬</div><div id=\"position43\"></div><div id=\"position53\"></div><div id=\"position63\"></div><div id=\"position73\"></div><div id=\"position83\"></div><div id=\"position93\"></div><!--第４列--><div id=\"position14\"></div><div id=\"position24\"></div><div id=\"position34\"></div><div id=\"position44\"></div><div id=\"position54\"></div><div id=\"position64\"></div><div id=\"position74\"></div><div id=\"position84\"></div><div id=\"position94\"></div><!--第５列--><div id=\"position15\"></div><div id=\"position25\"></div><div id=\"position35\"></div><div id=\"position45\"></div><div id=\"position55\"></div><div id=\"position65\"></div><div id=\"position75\"></div><div id=\"position85\"></div><div id=\"position95\"></div><!--第６列--><div id=\"position16\"></div><div id=\"position26\"></div><div id=\"position36\"></div><div id=\"position46\"></div><div id=\"position56\"></div><div id=\"position66\"></div><div id=\"position76\"></div><div id=\"position86\"></div><div id=\"position96\"></div><!--第７列--><div id=\"position17\"></div><div id=\"position27\"></div><div id=\"position37\"></div><div id=\"position47\"></div><div id=\"position57\"></div><div id=\"position67\"></div><div id=\"position77\"></div><div id=\"position87\"></div><div id=\"position97\"></div><!--第８列--><div id=\"position18\"></div><div id=\"position28\"></div><div id=\"position38\"></div><div id=\"position48\"></div><div id=\"position58\"></div><div id=\"position68\"></div><div id=\"position78\"></div><div id=\"position88\"></div><div id=\"position98\"></div><!--第９列--><div id=\"position19\"></div><div id=\"position29\"></div><div id=\"position39\"></div><div id=\"position49\"></div><div id=\"position59\"></div><div id=\"position69\"></div><div id=\"position79\"></div><div id=\"position89\"></div><div id=\"position99\"></div></div><div class=\"hands-black\"><span class=\"name\">貴殿</span><span class=\"piece\">なし</span></div><div class=\"hands-white\"><span class=\"name\">音声詰将棋</span><span class=\"piece\">すべて</span></div><p class=\"info\">１手詰め</p></figure>"
+                                }
+                            ],
+                            [
+                                "locale",
+                                {
+                                    "stringValue": "ja-JP"
+                                }
+                            ],
+                            [
+                                "order",
+                                {
+                                    "numberValue": 6
+                                }
+                            ],
+                            [
+                                "photo",
+                                {
+                                    "stringValue": "https://www.voice-ui.work/images/tsume_shogi1920x1080.png"
+                                }
+                            ],
+                            [
+                                "post_content",
+                                {
+                                    "stringValue": "１手詰めの問題です。次の一手を答えなさい。"
+                                }
+                            ],
+                            [
+                                "pre_content",
+                                {
+                                    "stringValue": "あなたの指し手は「<sub alias=\"にい\">2</sub><sub alias=\"不明な駒\">駒</sub><break time=\"1000ms\"/>」です。<audio src=\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\"><desc></desc></audio>不正解です。正解は「<sub alias=\"いち\">1</sub><sub alias=\"にい\">二</sub><sub alias=\"うま\">馬</sub><break time=\"1000ms\"/>」でした。<break time=\"2000ms\"/><sub alias=\"せんて\">▲</sub><sub alias=\"いち\">1</sub><sub alias=\"にい\">二</sub><sub alias=\"うま\">馬</sub><break time=\"1000ms\"/>（投了）<break time=\"1000ms\"/>　次に進みます。\n                        問題7<break time=\"2000ms\"/>　初期配置は次のとおり。<break time=\"2000ms\"/>"
+                                }
+                            ],
+                            [
+                                "repeat_count",
+                                {
+                                    "numberValue": 0
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "answer"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "appName",
+                                    {
+                                        "stringValue": "音声詰将棋"
+                                    }
+                                ],
+                                [
+                                    "content",
+                                    {
+                                        "stringValue": "先手配置「<sub alias=\"にい\">2</sub><sub alias=\"さん\">三</sub><sub alias=\"けい\">桂</sub><break time=\"1000ms\"/><sub alias=\"さん\">3</sub><sub alias=\"さん\">三</sub><sub alias=\"うま\">馬</sub><break time=\"1000ms\"/>」。<break time=\"2000ms\"/><br/>後手配置「<sub alias=\"にい\">2</sub><sub alias=\"いち\">一</sub><sub alias=\"おう\">王</sub><break time=\"1000ms\"/><sub alias=\"さん\">3</sub><sub alias=\"いち\">一</sub><sub alias=\"かく\">角</sub><break time=\"1000ms\"/>」。<break time=\"2000ms\"/><br/>先手持ち駒「なし」。<break time=\"2000ms\"/><br/>後手持ち駒「すべての駒」。<break time=\"2000ms\"/>"
+                                    }
+                                ],
+                                [
+                                    "info",
+                                    {
+                                        "stringValue": "▲1二馬（投了）"
+                                    }
+                                ],
+                                [
+                                    "kyokumen",
+                                    {
+                                        "stringValue": "<figure class=\"shogi black-side\"><figcaption>音声詰将棋第7局</figcaption><div class=\"board\"><div class=\"line board-border\">&nbsp;</div><div class=\"line area_f2\">&nbsp;</div><div class=\"line area_f4\">&nbsp;</div><div class=\"line area_f6\">&nbsp;</div><div class=\"line area_f8\">&nbsp;</div><div class=\"line area_r2\">&nbsp;</div><div class=\"line area_r4\">&nbsp;</div><div class=\"line area_r6\">&nbsp;</div><div class=\"line area_r8\">&nbsp;</div><div class=\"num rank1\">一</div><div class=\"num rank2\">二</div><div class=\"num rank3\">三</div><div class=\"num rank4\">四</div><div class=\"num rank5\">五</div><div class=\"num rank6\">六</div><div class=\"num rank7\">七</div><div class=\"num rank8\">八</div><div class=\"num rank9\">九</div><div class=\"num file1\">１</div><div class=\"num file2\">２</div><div class=\"num file3\">３</div><div class=\"num file4\">４</div><div class=\"num file5\">５</div><div class=\"num file6\">６</div><div class=\"num file7\">７</div><div class=\"num file8\">８</div><div class=\"num file9\">９</div><!--第１列--><div id=\"position11\"></div><div id=\"position21\" class=\"sq21 white\">王</div><div id=\"position31\" class=\"sq31 white\">角</div><div id=\"position41\"></div><div id=\"position51\"></div><div id=\"position61\"></div><div id=\"position71\"></div><div id=\"position81\"></div><div id=\"position91\"></div><!--第２列--><div id=\"position12\"></div><div id=\"position22\"></div><div id=\"position32\"></div><div id=\"position42\"></div><div id=\"position52\"></div><div id=\"position62\"></div><div id=\"position72\"></div><div id=\"position82\"></div><div id=\"position92\"></div><!--第３列--><div id=\"position13\"></div><div id=\"position23\" class=\"sq23 black\">桂</div><div id=\"position33\" class=\"sq33 black\">馬</div><div id=\"position43\"></div><div id=\"position53\"></div><div id=\"position63\"></div><div id=\"position73\"></div><div id=\"position83\"></div><div id=\"position93\"></div><!--第４列--><div id=\"position14\"></div><div id=\"position24\"></div><div id=\"position34\"></div><div id=\"position44\"></div><div id=\"position54\"></div><div id=\"position64\"></div><div id=\"position74\"></div><div id=\"position84\"></div><div id=\"position94\"></div><!--第５列--><div id=\"position15\"></div><div id=\"position25\"></div><div id=\"position35\"></div><div id=\"position45\"></div><div id=\"position55\"></div><div id=\"position65\"></div><div id=\"position75\"></div><div id=\"position85\"></div><div id=\"position95\"></div><!--第６列--><div id=\"position16\"></div><div id=\"position26\"></div><div id=\"position36\"></div><div id=\"position46\"></div><div id=\"position56\"></div><div id=\"position66\"></div><div id=\"position76\"></div><div id=\"position86\"></div><div id=\"position96\"></div><!--第７列--><div id=\"position17\"></div><div id=\"position27\"></div><div id=\"position37\"></div><div id=\"position47\"></div><div id=\"position57\"></div><div id=\"position67\"></div><div id=\"position77\"></div><div id=\"position87\"></div><div id=\"position97\"></div><!--第８列--><div id=\"position18\"></div><div id=\"position28\"></div><div id=\"position38\"></div><div id=\"position48\"></div><div id=\"position58\"></div><div id=\"position68\"></div><div id=\"position78\"></div><div id=\"position88\"></div><div id=\"position98\"></div><!--第９列--><div id=\"position19\"></div><div id=\"position29\"></div><div id=\"position39\"></div><div id=\"position49\"></div><div id=\"position59\"></div><div id=\"position69\"></div><div id=\"position79\"></div><div id=\"position89\"></div><div id=\"position99\"></div></div><div class=\"hands-black\"><span class=\"name\">貴殿</span><span class=\"piece\">なし</span></div><div class=\"hands-white\"><span class=\"name\">音声詰将棋</span><span class=\"piece\">すべて</span></div><p class=\"info\">１手詰め</p></figure>"
+                                    }
+                                ],
+                                [
+                                    "locale",
+                                    {
+                                        "stringValue": "ja-JP"
+                                    }
+                                ],
+                                [
+                                    "order",
+                                    {
+                                        "numberValue": 6
+                                    }
+                                ],
+                                [
+                                    "photo",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work/images/tsume_shogi1920x1080.png"
+                                    }
+                                ],
+                                [
+                                    "post_content",
+                                    {
+                                        "stringValue": "１手詰めの問題です。次の一手を答えなさい。"
+                                    }
+                                ],
+                                [
+                                    "pre_content",
+                                    {
+                                        "stringValue": "あなたの指し手は「<sub alias=\"にい\">2</sub><sub alias=\"不明な駒\">駒</sub><break time=\"1000ms\"/>」です。<audio src=\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\"><desc></desc></audio>不正解です。正解は「<sub alias=\"いち\">1</sub><sub alias=\"にい\">二</sub><sub alias=\"うま\">馬</sub><break time=\"1000ms\"/>」でした。<break time=\"2000ms\"/><sub alias=\"せんて\">▲</sub><sub alias=\"いち\">1</sub><sub alias=\"にい\">二</sub><sub alias=\"うま\">馬</sub><break time=\"1000ms\"/>（投了）<break time=\"1000ms\"/>　次に進みます。\n                        問題7<break time=\"2000ms\"/>　初期配置は次のとおり。<break time=\"2000ms\"/>"
+                                    }
+                                ],
+                                [
+                                    "repeat_count",
+                                    {
+                                        "numberValue": 0
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "answer"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/6SFJBzGJ-tUxohyy8zux5Rx5FTN9LssWQOCcg4OHqP9AGpP89NM20gjuKiU4qsREU9UCAHK5Jcqr",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/tsume_shogi",
+                "updatedStateJson": "{\"appName\":\"音声詰将棋\",\"repeat_count\":0,\"pre_content\":\"あなたの指し手は「\\u003csub alias=\\\"にい\\\"\\u003e2\\u003c/sub\\u003e\\u003csub alias=\\\"不明な駒\\\"\\u003e駒\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e」です。\\u003caudio src=\\\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\\\"\\u003e\\u003cdesc\\u003e\\u003c/desc\\u003e\\u003c/audio\\u003e不正解です。正解は「\\u003csub alias=\\\"いち\\\"\\u003e1\\u003c/sub\\u003e\\u003csub alias=\\\"にい\\\"\\u003e二\\u003c/sub\\u003e\\u003csub alias=\\\"うま\\\"\\u003e馬\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e」でした。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003csub alias=\\\"せんて\\\"\\u003e▲\\u003c/sub\\u003e\\u003csub alias=\\\"いち\\\"\\u003e1\\u003c/sub\\u003e\\u003csub alias=\\\"にい\\\"\\u003e二\\u003c/sub\\u003e\\u003csub alias=\\\"うま\\\"\\u003e馬\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e（投了）\\u003cbreak time=\\\"1000ms\\\"/\\u003e　次に進みます。\\n                        問題7\\u003cbreak time=\\\"2000ms\\\"/\\u003e　初期配置は次のとおり。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\",\"photo\":\"https://www.voice-ui.work/images/tsume_shogi1920x1080.png\",\"post_content\":\"１手詰めの問題です。次の一手を答えなさい。\",\"content\":\"先手配置「\\u003csub alias=\\\"にい\\\"\\u003e2\\u003c/sub\\u003e\\u003csub alias=\\\"さん\\\"\\u003e三\\u003c/sub\\u003e\\u003csub alias=\\\"けい\\\"\\u003e桂\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e\\u003csub alias=\\\"さん\\\"\\u003e3\\u003c/sub\\u003e\\u003csub alias=\\\"さん\\\"\\u003e三\\u003c/sub\\u003e\\u003csub alias=\\\"うま\\\"\\u003e馬\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e」。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e後手配置「\\u003csub alias=\\\"にい\\\"\\u003e2\\u003c/sub\\u003e\\u003csub alias=\\\"いち\\\"\\u003e一\\u003c/sub\\u003e\\u003csub alias=\\\"おう\\\"\\u003e王\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e\\u003csub alias=\\\"さん\\\"\\u003e3\\u003c/sub\\u003e\\u003csub alias=\\\"いち\\\"\\u003e一\\u003c/sub\\u003e\\u003csub alias=\\\"かく\\\"\\u003e角\\u003c/sub\\u003e\\u003cbreak time=\\\"1000ms\\\"/\\u003e」。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e先手持ち駒「なし」。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e後手持ち駒「すべての駒」。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\",\"info\":\"▲1二馬（投了）\",\"locale\":\"ja-JP\",\"kyokumen\":\"\\u003cfigure class=\\\"shogi black-side\\\"\\u003e\\u003cfigcaption\\u003e音声詰将棋第7局\\u003c/figcaption\\u003e\\u003cdiv class=\\\"board\\\"\\u003e\\u003cdiv class=\\\"line board-border\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_f2\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_f4\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_f6\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_f8\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_r2\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_r4\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_r6\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"line area_r8\\\"\\u003e&nbsp;\\u003c/div\\u003e\\u003cdiv class=\\\"num rank1\\\"\\u003e一\\u003c/div\\u003e\\u003cdiv class=\\\"num rank2\\\"\\u003e二\\u003c/div\\u003e\\u003cdiv class=\\\"num rank3\\\"\\u003e三\\u003c/div\\u003e\\u003cdiv class=\\\"num rank4\\\"\\u003e四\\u003c/div\\u003e\\u003cdiv class=\\\"num rank5\\\"\\u003e五\\u003c/div\\u003e\\u003cdiv class=\\\"num rank6\\\"\\u003e六\\u003c/div\\u003e\\u003cdiv class=\\\"num rank7\\\"\\u003e七\\u003c/div\\u003e\\u003cdiv class=\\\"num rank8\\\"\\u003e八\\u003c/div\\u003e\\u003cdiv class=\\\"num rank9\\\"\\u003e九\\u003c/div\\u003e\\u003cdiv class=\\\"num file1\\\"\\u003e１\\u003c/div\\u003e\\u003cdiv class=\\\"num file2\\\"\\u003e２\\u003c/div\\u003e\\u003cdiv class=\\\"num file3\\\"\\u003e３\\u003c/div\\u003e\\u003cdiv class=\\\"num file4\\\"\\u003e４\\u003c/div\\u003e\\u003cdiv class=\\\"num file5\\\"\\u003e５\\u003c/div\\u003e\\u003cdiv class=\\\"num file6\\\"\\u003e６\\u003c/div\\u003e\\u003cdiv class=\\\"num file7\\\"\\u003e７\\u003c/div\\u003e\\u003cdiv class=\\\"num file8\\\"\\u003e８\\u003c/div\\u003e\\u003cdiv class=\\\"num file9\\\"\\u003e９\\u003c/div\\u003e\\u003c!--第１列--\\u003e\\u003cdiv id=\\\"position11\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position21\\\" class=\\\"sq21 white\\\"\\u003e王\\u003c/div\\u003e\\u003cdiv id=\\\"position31\\\" class=\\\"sq31 white\\\"\\u003e角\\u003c/div\\u003e\\u003cdiv id=\\\"position41\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position51\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position61\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position71\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position81\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position91\\\"\\u003e\\u003c/div\\u003e\\u003c!--第２列--\\u003e\\u003cdiv id=\\\"position12\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position22\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position32\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position42\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position52\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position62\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position72\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position82\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position92\\\"\\u003e\\u003c/div\\u003e\\u003c!--第３列--\\u003e\\u003cdiv id=\\\"position13\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position23\\\" class=\\\"sq23 black\\\"\\u003e桂\\u003c/div\\u003e\\u003cdiv id=\\\"position33\\\" class=\\\"sq33 black\\\"\\u003e馬\\u003c/div\\u003e\\u003cdiv id=\\\"position43\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position53\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position63\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position73\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position83\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position93\\\"\\u003e\\u003c/div\\u003e\\u003c!--第４列--\\u003e\\u003cdiv id=\\\"position14\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position24\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position34\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position44\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position54\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position64\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position74\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position84\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position94\\\"\\u003e\\u003c/div\\u003e\\u003c!--第５列--\\u003e\\u003cdiv id=\\\"position15\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position25\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position35\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position45\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position55\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position65\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position75\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position85\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position95\\\"\\u003e\\u003c/div\\u003e\\u003c!--第６列--\\u003e\\u003cdiv id=\\\"position16\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position26\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position36\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position46\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position56\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position66\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position76\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position86\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position96\\\"\\u003e\\u003c/div\\u003e\\u003c!--第７列--\\u003e\\u003cdiv id=\\\"position17\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position27\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position37\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position47\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position57\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position67\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position77\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position87\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position97\\\"\\u003e\\u003c/div\\u003e\\u003c!--第８列--\\u003e\\u003cdiv id=\\\"position18\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position28\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position38\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position48\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position58\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position68\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position78\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position88\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position98\\\"\\u003e\\u003c/div\\u003e\\u003c!--第９列--\\u003e\\u003cdiv id=\\\"position19\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position29\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position39\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position49\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position59\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position69\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position79\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position89\\\"\\u003e\\u003c/div\\u003e\\u003cdiv id=\\\"position99\\\"\\u003e\\u003c/div\\u003e\\u003c/div\\u003e\\u003cdiv class=\\\"hands-black\\\"\\u003e\\u003cspan class=\\\"name\\\"\\u003e貴殿\\u003c/span\\u003e\\u003cspan class=\\\"piece\\\"\\u003eなし\\u003c/span\\u003e\\u003c/div\\u003e\\u003cdiv class=\\\"hands-white\\\"\\u003e\\u003cspan class=\\\"name\\\"\\u003e音声詰将棋\\u003c/span\\u003e\\u003cspan class=\\\"piece\\\"\\u003eすべて\\u003c/span\\u003e\\u003c/div\\u003e\\u003cp class=\\\"info\\\"\\u003e１手詰め\\u003c/p\\u003e\\u003c/figure\\u003e\",\"order\":6,\"scene\":\"answer\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "音声詰将棋",
+    "servingModelOutdated": false,
+    "request": "2"
+}

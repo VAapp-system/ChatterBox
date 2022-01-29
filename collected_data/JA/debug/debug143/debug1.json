@@ -1,0 +1,74 @@
+{
+    "response": "はい。 K POPクイズです。今週人気のK-POPを、三択で当てるイントロクイズです。遊んでみますか？",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201ak...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。K POPクイズです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "今週人気のK-POPを、三択で当てるイントロクイズです。遊んでみますか？（音声🔊が聞こえていない場合、マイクアイコンをタップして「はい」と話しかけてください🎙）"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "はい"
+            },
+            {
+                "title": "いいえ"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/RCMrsr64UwRhl4C8Jd5cmtyGrDD0YQiqpE2L0NGIMrwz6AUADvCfSDYJ8gF4vtJnySO_AA0-y7xB",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "はい",
+                    "いいえ"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "K POPクイズ",
+    "servingModelOutdated": false,
+    "request": "K POPクイズにつないで"
+}

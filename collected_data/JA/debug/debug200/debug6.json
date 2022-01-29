@@ -1,0 +1,183 @@
+{
+    "response": "パスしました。 正解は「オクラホマ」です。 （問題3） この州の名前は何ですか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 27
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": "ALL"
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": "オクラホマ"
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names/OH.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 50
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 2
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "<sub alias=\"次に進みます。\"></sub><break time=\"2000ms\"/>（問題3）<break time=\"500ms\"/><br/>この州の名前は何ですか？"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "<audio src=\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\"><desc></desc></audio>パスしました。<break time=\"500ms\"/>正解は「オクラホマ」です。<br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names/ALL.png"
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": "0, 0"
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "answer"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ne73qU1dMlvP2ndx3PuN7HVQvl5ZFYdYQBpwTxATXafcKHC63Jlvp0Bh6e7A4e_oShUdUjz53tQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                "updatedStateJson": "[{\"postContent\":\"\\u003csub alias=\\\"次に進みます。\\\"\\u003e\\u003c/sub\\u003e\\u003cbreak time=\\\"2000ms\\\"/\\u003e（問題3）\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003cbr/\\u003eこの州の名前は何ですか？\",\"chosenRegion\":\"ALL\",\"order\":2,\"app_id\":27,\"imageSilhouetteUrl\":\"\",\"locale\":\"ja-JP\",\"number_of_questions\":50,\"preImageUrl\":\"https://www.voice-ui.work/images/state_names/ALL.png\",\"imageUrl\":\"https://www.voice-ui.work/images/state_names/OH.png\",\"preContent\":\"\\u003caudio src=\\\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\\\"\\u003e\\u003cdesc\\u003e\\u003c/desc\\u003e\\u003c/audio\\u003eパスしました。\\u003cbreak time=\\\"500ms\\\"/\\u003e正解は「オクラホマ」です。\\u003cbr/\\u003e\",\"scene\":\"answer\",\"total_score\":0,\"hintWord\":\"\",\"results\":\"0, 0\",\"correctAnswer\":\"オクラホマ\",\"difficulty\":\"\",\"content\":\"\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"aud\":\"256611444361-25f0f3h9ened9np3hj6khar5n3igbvo6.apps.googleusercontent.com\",\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJx7uSKSYKwxuXfL1AarmP5LAIlhnI7cadoVFHas=s96-c\",\"iss\":\"https://accounts.google.com\",\"name\":\"Logue Dia\",\"family_name\":\"Dia\",\"exp\":1.625708962E9,\"jti\":\"b5f0d455a2738d8a8a1cd9c8550aef7c06103384\",\"nbf\":1.625705062E9,\"email\":\"XXX@example.com\",\"given_name\":\"Logue\",\"sub\":\"116039277228415351579\",\"iat\":1.625705362E9,\"email_verified\":true}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "アメリカの州の名前",
+    "servingModelOutdated": false,
+    "request": "パス"
+}

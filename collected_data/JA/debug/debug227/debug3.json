@@ -1,0 +1,146 @@
+{
+    "response": "わかりました。 青空文庫クイズです。文豪の名作の冒頭から、タイトルと作家名を当てる三択クイズです。それではいきます。\n『○ 春琴、ほんとうの名は 鵙屋琴 、大阪 道修町 の薬種商の生れで 歿年 は明治十九年十月十四日、墓は市内下寺町の 浄土宗 の 某寺 にある ...』 1番 宮沢 賢治の「風の又三郎」 2番 谷崎 潤一郎の「春琴抄」 3番 江戸川 乱歩の「怪人二十面相」 答えは何番でしょうか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。青空文庫クイズです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "文豪の名作の冒頭から、タイトルと作家名を当てる三択クイズです。それではいきます。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "『○\n春琴、ほんとうの名は鵙屋琴（もずやこと）、大阪道修町（どしょうまち）の薬種商の生れで歿年（ぼつねん）は明治十九年十月十四日、墓は市内下寺町の浄土宗（じょうどしゅう）の某寺（ぼうじ）にある。...』"
+                }
+            },
+            {
+                "listSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "NO_1",
+                                "synonymsList": [
+                                    "1番",
+                                    "風の又三郎"
+                                ]
+                            },
+                            "title": "1番",
+                            "description": "風の又三郎\n宮沢 賢治",
+                            "image": {
+                                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Miyazawa_Kenji.jpg/225px-Miyazawa_Kenji.jpg",
+                                "accessibilityText": "宮沢 賢治",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "NO_2",
+                                "synonymsList": [
+                                    "2番",
+                                    "春琴抄"
+                                ]
+                            },
+                            "title": "2番",
+                            "description": "春琴抄\n谷崎 潤一郎",
+                            "image": {
+                                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Junichiro_Tanizaki_01.jpg/224px-Junichiro_Tanizaki_01.jpg",
+                                "accessibilityText": "谷崎 潤一郎",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "NO_3",
+                                "synonymsList": [
+                                    "3番",
+                                    "怪人二十面相"
+                                ]
+                            },
+                            "title": "3番",
+                            "description": "怪人二十面相\n江戸川 乱歩",
+                            "image": {
+                                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rampo_Edogawa_02.jpg/250px-Rampo_Edogawa_02.jpg",
+                                "accessibilityText": "江戸川 乱歩",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1番"
+            },
+            {
+                "title": "2番"
+            },
+            {
+                "title": "3番"
+            },
+            {
+                "title": "分からない"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yPWqDQ66bPnUsCUltoVM5wmj___KEpW3KI7-FY2zqoFygWGSc0pKN_C0g55xQLdcKNw6Cgwxt3JX",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1番",
+                    "2番",
+                    "3番",
+                    "分からない"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "青空文庫クイズ",
+    "servingModelOutdated": false,
+    "request": "青空文庫クイズにつないで"
+}

@@ -1,0 +1,103 @@
+{
+    "response": "正解はオナガです。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "正解はオナガです。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "オナガ",
+                    "subtitle": "",
+                    "formattedText": "本州中部以北から東北地方の平野部から山地の明るい林や農耕地、市街地、河川敷に周年生息する。群れで行動することが多い。ゲーイ、ゲーイ、ゲイゲイゲイなどと騒々しく鳴く。特に似た鳴き声の鳥はいない。",
+                    "image": {
+                        "url": "https://storage.googleapis.com/birds-quiz-2662f.appspot.com/images/onaga3.jpg",
+                        "accessibilityText": "オナガ",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "さえずりナビ by NPO法人バードリサーチ",
+                            "openUrlAction": {
+                                "url": "https://db3.bird-research.jp/saezuri/birdsong/detail/143",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            },
+            {
+                "displayText": {
+                    "content": "3問目です。 ♪鳥の鳴き声を再生中♪ 1番「モズ」、2番「ムクドリ」、3番「シメ」"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1番"
+            },
+            {
+                "title": "2番"
+            },
+            {
+                "title": "3番"
+            },
+            {
+                "title": "不明"
+            },
+            {
+                "title": "ヒント"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/f3sWe4HH8Ym_nh0Ao5dN4BT8d0t8XAIEWt8PdcpkYKA3seoDAIr0ELA1mEUv5gjf8TqIkDViw0Hu",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1番",
+                    "2番",
+                    "3番",
+                    "不明",
+                    "ヒント"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "鳥の鳴き声クイズ",
+    "servingModelOutdated": false,
+    "request": "1番"
+}

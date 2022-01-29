@@ -1,0 +1,79 @@
+{
+    "response": "はい。 鳥の鳴き声クイズです。鳥の鳴き声から名前を当てるクイズです。鳥の名前を聞き流しながら覚えるトレーニングもできます。NPO法人「バードリサーチ」のコンテンツを利用しています。\nクイズにしますか？トレーニングにしますか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。鳥の鳴き声クイズです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "鳥の鳴き声から名前を当てるクイズです。鳥の名前を聞き流しながら覚えるトレーニングもできます。NPO法人「バードリサーチ」のコンテンツを利用しています。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "クイズにしますか？トレーニングにしますか？"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "クイズ"
+            },
+            {
+                "title": "トレーニング"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/f3sWe4HH8Ym_nh0Ao5dN4BT8d0t8XAIEWt8PdcpkYKA3seoDAIr0ELA1mEUv5gjf8TqIkDViw0Hu",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "クイズ",
+                    "トレーニング"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "鳥の鳴き声クイズ",
+    "servingModelOutdated": false,
+    "request": "鳥の鳴き声クイズにつないで"
+}

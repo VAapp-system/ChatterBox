@@ -1,0 +1,67 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErYDS2o5Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "現在地の今日の天気は晴れのち雨、最高気温は28℃、最低気温は18℃の予想です。他にも聞きたいですか？地名や日時を指定すればお答えします。"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "明日の天気は？"
+            },
+            {
+                "title": "週末の天気は？"
+            },
+            {
+                "title": "今の天気は？"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ycDImaf5qPQCw-fQ1P4yhVJppOFPBUCkQDZ5PlkYTMycO5ZtS0Q1GsFBWyyakzAGbHJfESHPoB-y",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "明日の天気は？",
+                    "週末の天気は？",
+                    "今の天気は？"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ウェザーロイド Airi by ウェザーニュース",
+    "servingModelOutdated": false,
+    "request": "最新の天気を教えて"
+}

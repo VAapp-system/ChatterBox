@@ -1,0 +1,103 @@
+{
+    "response": "正解はキビタキです。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "正解はキビタキです。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "キビタキ",
+                    "subtitle": "",
+                    "formattedText": "おもに夏鳥として渡来し，各地の森林で観察される。春や秋には住宅地のちょっとした緑地でも観察できる。さえずりはピーリッという声の後に，ピッピリリ，ピッピリリなどのくり返しの声が入るのが特徴。このくり返しの声はない場合もあるので注意。声の似ている鳥にはオオルリがいる。キビタキと比べて伸びやかな感じで鳴くことと，歌の合間に時々，ジジとかジリリという声を入るのが特徴。",
+                    "image": {
+                        "url": "https://storage.googleapis.com/birds-quiz-2662f.appspot.com/images/kibitaki.jpg",
+                        "accessibilityText": "キビタキ",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "さえずりナビ by NPO法人バードリサーチ",
+                            "openUrlAction": {
+                                "url": "https://db3.bird-research.jp/saezuri/birdsong/detail/104",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            },
+            {
+                "displayText": {
+                    "content": "2問目です。 ♪鳥の鳴き声を再生中♪ 1番「ホンセイインコ」、2番「トビ」、3番「オナガ」"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1番"
+            },
+            {
+                "title": "2番"
+            },
+            {
+                "title": "3番"
+            },
+            {
+                "title": "不明"
+            },
+            {
+                "title": "ヒント"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/f3sWe4HH8Ym_nh0Ao5dN4BT8d0t8XAIEWt8PdcpkYKA3seoDAIr0ELA1mEUv5gjf8TqIkDViw0Hu",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1番",
+                    "2番",
+                    "3番",
+                    "不明",
+                    "ヒント"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "鳥の鳴き声クイズ",
+    "servingModelOutdated": false,
+    "request": "1番"
+}

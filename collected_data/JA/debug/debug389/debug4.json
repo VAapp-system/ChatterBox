@@ -1,0 +1,148 @@
+{
+    "response": "We're sorry, but something went wrong. Please try again.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.gstatic.com/personality-features-immersive-canvas/randomatic/361825321/",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "endBound",
+                                {
+                                    "stringValue": "100"
+                                }
+                            ],
+                            [
+                                "featureType",
+                                {
+                                    "stringValue": "randomatic_number"
+                                }
+                            ],
+                            [
+                                "locale",
+                                {
+                                    "stringValue": "ja-JP"
+                                }
+                            ],
+                            [
+                                "results",
+                                {
+                                    "listValue": {
+                                        "valuesList": [
+                                            {
+                                                "stringValue": "18"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            [
+                                "startBound",
+                                {
+                                    "stringValue": "1"
+                                }
+                            ],
+                            [
+                                "ttsOutput",
+                                {
+                                    "stringValue": "18が出ました。"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "endBound",
+                                    {
+                                        "stringValue": "100"
+                                    }
+                                ],
+                                [
+                                    "featureType",
+                                    {
+                                        "stringValue": "randomatic_number"
+                                    }
+                                ],
+                                [
+                                    "locale",
+                                    {
+                                        "stringValue": "ja-JP"
+                                    }
+                                ],
+                                [
+                                    "results",
+                                    {
+                                        "listValue": {
+                                            "valuesList": [
+                                                {
+                                                    "stringValue": "18"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                [
+                                    "startBound",
+                                    {
+                                        "stringValue": "1"
+                                    }
+                                ],
+                                [
+                                    "ttsOutput",
+                                    {
+                                        "stringValue": "18が出ました。"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": ""
+    },
+    "clientError": 8,
+    "is3pResponse": false,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.gstatic.com/personality-features-immersive-canvas/randomatic/361825321/",
+                "updatedStateJson": "{\"featureType\":\"randomatic_number\",\"results\":[\"18\"],\"startBound\":\"1\",\"endBound\":\"100\",\"ttsOutput\":\"18が出ました。\",\"locale\":\"ja-JP\"}",
+                "ownedByGoogle": true,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "",
+    "servingModelOutdated": false,
+    "request": "数を教えてください"
+}

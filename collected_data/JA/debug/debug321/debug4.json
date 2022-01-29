@@ -1,0 +1,96 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ごきげんよう。『おやすみ』『おはよう』『添い寝』あなたのご希望を全て叶えますよ。さて、今日はどうしましょうか？"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://s3-ap-northeast-1.amazonaws.com/cy-sui-1004sleep-resource/image/4oyasumi_Googlehome4.png",
+                        "accessibilityText": "セバスチャンとおやすみ",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "おやすみ"
+            },
+            {
+                "title": "おはよう"
+            },
+            {
+                "title": "添い寝"
+            },
+            {
+                "title": "さようなら"
+            },
+            {
+                "title": "ヘルプ"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/K7pGFbjLPLYuZzP-TkeEqlu4lnX_2sAy3_rINWGWKgoqVyu5QeqU-gQGw3hbpec-gesVKH9YT1C4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "おやすみ",
+                    "おはよう",
+                    "添い寝",
+                    "さようなら",
+                    "ヘルプ"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "セバスチャンとおやすみ",
+    "servingModelOutdated": false,
+    "request": "セバスチャンとおやすみにつないで"
+}

@@ -1,0 +1,74 @@
+{
+    "response": "わかりました。 ピヨ ログです。ぴよログです。\nぴよログの利用には、ぴよログのアカウントが必要です。 アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。 「はい」か「いいえ」で答えてください。 詳しく知りたい場合は、「詳細を確認」と言ってください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。ぴよログです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "ぴよログです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "ぴよログの利用には、ぴよログのアカウントが必要です。アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。「はい」か「いいえ」で答えてください。詳しく知りたい場合は、「詳細を確認」と言ってください。"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dmbxNaMRiT1lJkIn94W_lh_XL-RUSFXOSg5OTC-yn3KisDSEr3jhhLnSYKO8OaHoAJLgdg3r3Oy6",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "はい",
+                    "いいえ",
+                    "詳細を確認"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ピヨ ログ",
+    "servingModelOutdated": false,
+    "request": "ぴよログにつないで"
+}

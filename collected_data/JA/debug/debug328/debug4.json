@@ -1,0 +1,173 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 3,
+            "markName": "separator",
+            "timeSeconds": 3.8299166666666666
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://triviacrack-alexa-assets.s3.amazonaws.com/resources/canvas-html/index.html",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "chooseModePageData",
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "challengeModeText",
+                                                {
+                                                    "stringValue": "チャレンジ"
+                                                }
+                                            ],
+                                            [
+                                                "classicModeText",
+                                                {
+                                                    "stringValue": "クラシック"
+                                                }
+                                            ],
+                                            [
+                                                "playersNumberText",
+                                                {
+                                                    "stringValue": "プレーヤー一人"
+                                                }
+                                            ],
+                                            [
+                                                "questionText",
+                                                {
+                                                    "stringValue": "それは何になるのでしょう？"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ],
+                            [
+                                "nextPage",
+                                {
+                                    "stringValue": "choose-game-mode-page"
+                                }
+                            ],
+                            [
+                                "numberOfPlayers",
+                                {
+                                    "numberValue": 1
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "chooseModePageData",
+                                    {
+                                        "structValue": {
+                                            "fieldsMap": [
+                                                [
+                                                    "challengeModeText",
+                                                    {
+                                                        "stringValue": "チャレンジ"
+                                                    }
+                                                ],
+                                                [
+                                                    "classicModeText",
+                                                    {
+                                                        "stringValue": "クラシック"
+                                                    }
+                                                ],
+                                                [
+                                                    "playersNumberText",
+                                                    {
+                                                        "stringValue": "プレーヤー一人"
+                                                    }
+                                                ],
+                                                [
+                                                    "questionText",
+                                                    {
+                                                        "stringValue": "それは何になるのでしょう？"
+                                                    }
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                [
+                                    "nextPage",
+                                    {
+                                        "stringValue": "choose-game-mode-page"
+                                    }
+                                ],
+                                [
+                                    "numberOfPlayers",
+                                    {
+                                        "numberValue": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dijT-5Q-g53kr6CfbGVnA0NndMCCcvXbt5Yzpsy4XObjB7CiqxVv3ciq2P9PJYkEYaUYlDQ0jtK7",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#ffffff"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://triviacrack-alexa-assets.s3.amazonaws.com/resources/canvas-html/index.html",
+                "updatedStateJson": "{\"nextPage\":\"choose-game-mode-page\",\"chooseModePageData\":{\"classicModeText\":\"クラシック\",\"playersNumberText\":\"プレーヤー一人\",\"challengeModeText\":\"チャレンジ\",\"questionText\":\"それは何になるのでしょう？\"},\"numberOfPlayers\":1}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"old_storage\":\"assistant-0ef9e021-df87-487f-ab2b-5aa27ce44844\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "トリビアクラック",
+    "servingModelOutdated": false,
+    "request": "1"
+}

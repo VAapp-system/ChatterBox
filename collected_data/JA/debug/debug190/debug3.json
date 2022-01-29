@@ -1,0 +1,210 @@
+{
+    "response": "音声詰将棋のアカウントの設定が完了しました。 後ほど、確認のメールが届きます。これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。 「１手詰め」「３手詰め」「５手詰め」のいずれかを選んでください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "音声詰将棋のアカウントの設定が完了しました。後ほど、確認のメールが届きます。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/tsume_shogi",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "base_url",
+                                {
+                                    "stringValue": "https://www.voice-ui.work"
+                                }
+                            ],
+                            [
+                                "content",
+                                {
+                                    "stringValue": "「１手詰め」「３手詰め」「５手詰め」から選ぶ"
+                                }
+                            ],
+                            [
+                                "locale",
+                                {
+                                    "stringValue": "ja-JP"
+                                }
+                            ],
+                            [
+                                "order",
+                                {
+                                    "numberValue": 0
+                                }
+                            ],
+                            [
+                                "photo",
+                                {
+                                    "stringValue": "https://www.voice-ui.work/images/tsume_shogi1920x1080.png"
+                                }
+                            ],
+                            [
+                                "post_content",
+                                {
+                                    "stringValue": "音声認識の精度を上げるため、解答は「（盤面の場所）（駒の名前）」で答えてください。「12歩兵」「23香車」「34飛車」「45王将」「56と」「67成り香車」「78成り桂馬」「89竜王」（数字の部分は「いちにい」ではなく「じゅうに」と答えると認識率が上がります。音声認識がうまく行かないときは、可能であれば文字入力を試してください。）"
+                                }
+                            ],
+                            [
+                                "pre_content",
+                                {
+                                    "stringValue": "これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。"
+                                }
+                            ],
+                            [
+                                "responses",
+                                {
+                                    "stringValue": "これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。<break time=\"1000ms\"/>\n                        「１手詰め」「３手詰め」「５手詰め」のいずれかを選んでください。<sub alias=\"\">（音声認識の精度を上げるため、解答は次の形式で答えてください。基本は「（盤面の場所）（駒の名前）」で答える（例：「12金」）。成り駒はなった時もそれ以降も「12と」「23成り香」「34成り桂」「45成り銀」「56馬」「67龍」と答える。音声認識がうまく行かないときは、可能であれば文字入力を試してください。）</sub>"
+                                }
+                            ],
+                            [
+                                "results",
+                                {
+                                    "stringValue": ""
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "default"
+                                }
+                            ],
+                            [
+                                "title",
+                                {
+                                    "stringValue": "音声詰将棋"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "base_url",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work"
+                                    }
+                                ],
+                                [
+                                    "content",
+                                    {
+                                        "stringValue": "「１手詰め」「３手詰め」「５手詰め」から選ぶ"
+                                    }
+                                ],
+                                [
+                                    "locale",
+                                    {
+                                        "stringValue": "ja-JP"
+                                    }
+                                ],
+                                [
+                                    "order",
+                                    {
+                                        "numberValue": 0
+                                    }
+                                ],
+                                [
+                                    "photo",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work/images/tsume_shogi1920x1080.png"
+                                    }
+                                ],
+                                [
+                                    "post_content",
+                                    {
+                                        "stringValue": "音声認識の精度を上げるため、解答は「（盤面の場所）（駒の名前）」で答えてください。「12歩兵」「23香車」「34飛車」「45王将」「56と」「67成り香車」「78成り桂馬」「89竜王」（数字の部分は「いちにい」ではなく「じゅうに」と答えると認識率が上がります。音声認識がうまく行かないときは、可能であれば文字入力を試してください。）"
+                                    }
+                                ],
+                                [
+                                    "pre_content",
+                                    {
+                                        "stringValue": "これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。"
+                                    }
+                                ],
+                                [
+                                    "responses",
+                                    {
+                                        "stringValue": "これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。<break time=\"1000ms\"/>\n                        「１手詰め」「３手詰め」「５手詰め」のいずれかを選んでください。<sub alias=\"\">（音声認識の精度を上げるため、解答は次の形式で答えてください。基本は「（盤面の場所）（駒の名前）」で答える（例：「12金」）。成り駒はなった時もそれ以降も「12と」「23成り香」「34成り桂」「45成り銀」「56馬」「67龍」と答える。音声認識がうまく行かないときは、可能であれば文字入力を試してください。）</sub>"
+                                    }
+                                ],
+                                [
+                                    "results",
+                                    {
+                                        "stringValue": ""
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "default"
+                                    }
+                                ],
+                                [
+                                    "title",
+                                    {
+                                        "stringValue": "音声詰将棋"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/6SFJBzGJ-tUxohyy8zux5Rx5FTN9LssWQOCcg4OHqP9AGpP89NM20gjuKiU4qsREU9UCAHK5Jcqr",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/tsume_shogi",
+                "updatedStateJson": "{\"order\":0,\"base_url\":\"https://www.voice-ui.work\",\"responses\":\"これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。\\u003cbreak time=\\\"1000ms\\\"/\\u003e\\n                        「１手詰め」「３手詰め」「５手詰め」のいずれかを選んでください。\\u003csub alias=\\\"\\\"\\u003e（音声認識の精度を上げるため、解答は次の形式で答えてください。基本は「（盤面の場所）（駒の名前）」で答える（例：「12金」）。成り駒はなった時もそれ以降も「12と」「23成り香」「34成り桂」「45成り銀」「56馬」「67龍」と答える。音声認識がうまく行かないときは、可能であれば文字入力を試してください。）\\u003c/sub\\u003e\",\"results\":\"\",\"scene\":\"default\",\"locale\":\"ja-JP\",\"title\":\"音声詰将棋\",\"content\":\"「１手詰め」「３手詰め」「５手詰め」から選ぶ\",\"pre_content\":\"これから「音声詰将棋」を始めます。詰将棋が１０問出題されます。\",\"post_content\":\"音声認識の精度を上げるため、解答は「（盤面の場所）（駒の名前）」で答えてください。「12歩兵」「23香車」「34飛車」「45王将」「56と」「67成り香車」「78成り桂馬」「89竜王」（数字の部分は「いちにい」ではなく「じゅうに」と答えると認識率が上がります。音声認識がうまく行かないときは、可能であれば文字入力を試してください。）\",\"photo\":\"https://www.voice-ui.work/images/tsume_shogi1920x1080.png\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "音声詰将棋",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

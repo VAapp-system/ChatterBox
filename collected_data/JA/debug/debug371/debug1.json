@@ -1,0 +1,86 @@
+{
+    "response": "はい。 インサイト探査機です。データの返送に問題がある可能性がありますので、NASAにアクセスしてレポート全体をご覧ください。サービス向上のため、「インサイト探査機」について、満足度を1から5で教えてください。 1が最低、5が最高です。",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。インサイト探査機です。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "これが最新の天気予報です。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "🔺 データ返却不良",
+                    "subtitle": " \nエラーの考えられる原因：\n • データ取得エラー\n • NASAは観測データを統合しています\n",
+                    "formattedText": "",
+                    "buttonsList": [
+                        {
+                            "title": "NASAに行き、日報を見てください。",
+                            "openUrlAction": {
+                                "url": "https://mars.nasa.gov/insight/weather/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            },
+            {
+                "displayText": {
+                    "content": "サービス向上のため、「インサイト探査機」について、満足度を1から5で教えてください。1が最低、5が最高です。"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/m6AndjL1T-BndHICYTed_LPaF2P3APyFaOL_DxpSlkPORIi6w14xob0V-CbDdtd-I5KNWzsygMw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "インサイト探査機",
+    "servingModelOutdated": false,
+    "request": "インサイト探査機につないで"
+}

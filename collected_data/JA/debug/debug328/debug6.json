@@ -1,0 +1,161 @@
+{
+    "response": "現在対戦相手を探しています. 対戦相手はLoreenです。",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 1,
+            "markName": "separator",
+            "timeSeconds": 2.4937079906463624
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://triviacrack-alexa-assets.s3.amazonaws.com/resources/canvas-html/index.html",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "nextPage",
+                                {
+                                    "stringValue": "searching-versus-opponent-page"
+                                }
+                            ],
+                            [
+                                "searchingVersusOpponentPageData",
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "opponentNameText",
+                                                {
+                                                    "stringValue": "Loreen"
+                                                }
+                                            ],
+                                            [
+                                                "searchingOpponentDelay",
+                                                {
+                                                    "numberValue": 7
+                                                }
+                                            ],
+                                            [
+                                                "searchingOpponentText",
+                                                {
+                                                    "stringValue": "現在対戦相手を探しています."
+                                                }
+                                            ],
+                                            [
+                                                "youText",
+                                                {
+                                                    "stringValue": "君"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "nextPage",
+                                    {
+                                        "stringValue": "searching-versus-opponent-page"
+                                    }
+                                ],
+                                [
+                                    "searchingVersusOpponentPageData",
+                                    {
+                                        "structValue": {
+                                            "fieldsMap": [
+                                                [
+                                                    "opponentNameText",
+                                                    {
+                                                        "stringValue": "Loreen"
+                                                    }
+                                                ],
+                                                [
+                                                    "searchingOpponentDelay",
+                                                    {
+                                                        "numberValue": 7
+                                                    }
+                                                ],
+                                                [
+                                                    "searchingOpponentText",
+                                                    {
+                                                        "stringValue": "現在対戦相手を探しています."
+                                                    }
+                                                ],
+                                                [
+                                                    "youText",
+                                                    {
+                                                        "stringValue": "君"
+                                                    }
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dijT-5Q-g53kr6CfbGVnA0NndMCCcvXbt5Yzpsy4XObjB7CiqxVv3ciq2P9PJYkEYaUYlDQ0jtK7",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#ffffff"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://triviacrack-alexa-assets.s3.amazonaws.com/resources/canvas-html/index.html",
+                "updatedStateJson": "{\"nextPage\":\"searching-versus-opponent-page\",\"searchingVersusOpponentPageData\":{\"searchingOpponentText\":\"現在対戦相手を探しています.\",\"searchingOpponentDelay\":7,\"opponentNameText\":\"Loreen\",\"youText\":\"君\"}}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"old_storage\":\"assistant-0ef9e021-df87-487f-ab2b-5aa27ce44844\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "トリビアクラック",
+    "servingModelOutdated": false,
+    "request": "クラシック"
+}

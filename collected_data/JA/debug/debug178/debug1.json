@@ -1,0 +1,74 @@
+{
+    "response": "はい。 五分間リラックスです。おはようございます。それでは、5分間リラックスしましょう。木曜日のテーマサウンドは、「気持ちのリズム」です。準備が出来たらスタートと言って下さい。",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。五分間リラックスです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "おはようございます。それでは、5分間リラックスしましょう。\n木曜日のテーマサウンドは、「気持ちのリズム」です。\n準備が出来たらスタートと言って下さい。"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "スタート"
+            },
+            {
+                "title": "終わる"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/sDqF5VTzx-EXm37nt-W96a-pebbtevFX7uTwfNcSN6BdfmBBEdYmG6iBsXaQBTxxKQOHbTdc1HGi",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "スタート",
+                    "終わる"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "五分間リラックス",
+    "servingModelOutdated": false,
+    "request": "五分間リラックスにつないで"
+}

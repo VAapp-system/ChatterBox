@@ -1,0 +1,82 @@
+{
+    "response": "ボクはこいぬだよ",
+    "expectUserResponse": true,
+    "conversationToken": "ErMES2w1Uk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ボクはこいぬだよ"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://cinnamon-talk.firebaseapp.com/images/basiccard_cntalk_27.png",
+                        "accessibilityText": "スマートフォンかスマートディスプレイでボクの画像も見れるよ",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "しんちょう いくつ"
+            },
+            {
+                "title": "けっこん して"
+            },
+            {
+                "title": "すきなたべものは？"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/AbHGrJz4g7ocSorLSHeqYarE5O0ia8Rax3XxKO-HH3Fx1C-HHJIHl3x2ynC2Us2VTbIioOQGeA3U",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "しんちょう いくつ",
+                    "けっこん して",
+                    "すきなたべものは？"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "シナモロールトーク",
+    "servingModelOutdated": false,
+    "request": "けっこん して"
+}

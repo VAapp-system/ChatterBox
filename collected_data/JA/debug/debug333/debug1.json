@@ -1,0 +1,78 @@
+{
+    "response": "はい。 九州のサービスエリアレストランです。はい。サービスエリアのレストラン 利用受付サービスです。 こちらは、只今から30分以上後の ご来店に限り 受付しております。 利用受付ですか？ それとも受付キャンセルですか？",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。九州のサービスエリアレストランです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "はい。サービスエリアのレストラン 利用受付サービスです。 こちらは、只今から30分以上後の ご来店に限り 受付しております。 利用受付ですか？ それとも受付キャンセルですか？"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "利用受付"
+            },
+            {
+                "title": "受付キャンセル"
+            },
+            {
+                "title": "やめる"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/mYU1BTY6VNasZkINAjl88qkqwjmxlhpMIChzQr8aXbbRtUYmIF5EALVbAOaELdlxTvRzigMdb5-4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "利用受付",
+                    "受付キャンセル",
+                    "やめる"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "九州のサービスエリアレストラン",
+    "servingModelOutdated": false,
+    "request": "九州のサービスエリアレストランにつないで"
+}

@@ -1,0 +1,79 @@
+{
+    "response": "わかりました。 スケールモードです。スケールモードを起動しました。音名とスケールを話しかけると、そのスケールの構成音やダイアトニックを答えます。スケールとダイアトニックコードのどちらを調べますか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ak...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。スケールモードです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "スケールモードを起動しました。音名とスケールを話しかけると、そのスケールの構成音やダイアトニックを答えます。スケールとダイアトニックコードのどちらを調べますか？"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "スケール"
+            },
+            {
+                "title": "ダイアトニック"
+            },
+            {
+                "title": "使い方"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/iWwGOI1laYJsU8y0S4zLfffQyVCO7Br-XnDBG5MNd7f31UmV_fblMNpvtON5RBIYg55fPB0-niYWGA",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "monospace",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "スケール",
+                    "ダイアトニック",
+                    "使い方"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "スケールモード",
+    "servingModelOutdated": false,
+    "request": "スケールモードにつないで"
+}

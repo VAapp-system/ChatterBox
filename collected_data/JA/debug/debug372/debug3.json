@@ -1,0 +1,75 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "初級の1問目です。 ♪鳥の鳴き声を再生中♪ 1番「トビ」、2番「キビタキ」、3番「セグロセキレイ」"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1番"
+            },
+            {
+                "title": "2番"
+            },
+            {
+                "title": "3番"
+            },
+            {
+                "title": "不明"
+            },
+            {
+                "title": "ヒント"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/f3sWe4HH8Ym_nh0Ao5dN4BT8d0t8XAIEWt8PdcpkYKA3seoDAIr0ELA1mEUv5gjf8TqIkDViw0Hu",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1番",
+                    "2番",
+                    "3番",
+                    "不明",
+                    "ヒント"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "鳥の鳴き声クイズ",
+    "servingModelOutdated": false,
+    "request": "初級"
+}

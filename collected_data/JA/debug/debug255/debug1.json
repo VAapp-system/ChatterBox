@@ -1,0 +1,183 @@
+{
+    "response": "はい。 メモリートラベルです。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。メモリートラベルです。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://kaisou.appspot.com/#/",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "sceneState",
+                                {
+                                    "stringValue": "firstWelcome"
+                                }
+                            ],
+                            [
+                                "speech",
+                                {
+                                    "stringValue": "<speak>\n  <par>\n    <media xml:id=\"speech\">\n      <speak><prosody rate=\"108%\">メモリートラベルへようこそ！<break time=\"500ms\"/>さぁ、さっそくメモリートラベルへ出かけましょう。<break time=\"700ms\"/>トラベルしたいのはいつですか？</prosody></speak>\n    </media>\n    <media end=\"speech.end+1.0s\">\n      <audio\n        src=\"https://kaisou.appspot.com/static/audio/standby.mp3\"/>\n    </media>\n  </par>\n</speak>"
+                                }
+                            ],
+                            [
+                                "suggestions",
+                                {
+                                    "listValue": {
+                                        "valuesList": [
+                                            {
+                                                "stringValue": "1999年10月9日"
+                                            },
+                                            {
+                                                "stringValue": "1967年"
+                                            },
+                                            {
+                                                "stringValue": "48年前"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            [
+                                "text",
+                                {
+                                    "listValue": {
+                                        "valuesList": [
+                                            {
+                                                "stringValue": "メモリートラベルへようこそ！"
+                                            },
+                                            {
+                                                "stringValue": "あなたを過去の旅へご案内します。"
+                                            },
+                                            {
+                                                "stringValue": "トラベルしたいのはいつですか？"
+                                            },
+                                            {
+                                                "stringValue": "1950年〜2018年まで遡ることができます。"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "sceneState",
+                                    {
+                                        "stringValue": "firstWelcome"
+                                    }
+                                ],
+                                [
+                                    "speech",
+                                    {
+                                        "stringValue": "<speak>\n  <par>\n    <media xml:id=\"speech\">\n      <speak><prosody rate=\"108%\">メモリートラベルへようこそ！<break time=\"500ms\"/>さぁ、さっそくメモリートラベルへ出かけましょう。<break time=\"700ms\"/>トラベルしたいのはいつですか？</prosody></speak>\n    </media>\n    <media end=\"speech.end+1.0s\">\n      <audio\n        src=\"https://kaisou.appspot.com/static/audio/standby.mp3\"/>\n    </media>\n  </par>\n</speak>"
+                                    }
+                                ],
+                                [
+                                    "suggestions",
+                                    {
+                                        "listValue": {
+                                            "valuesList": [
+                                                {
+                                                    "stringValue": "1999年10月9日"
+                                                },
+                                                {
+                                                    "stringValue": "1967年"
+                                                },
+                                                {
+                                                    "stringValue": "48年前"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                [
+                                    "text",
+                                    {
+                                        "listValue": {
+                                            "valuesList": [
+                                                {
+                                                    "stringValue": "メモリートラベルへようこそ！"
+                                                },
+                                                {
+                                                    "stringValue": "あなたを過去の旅へご案内します。"
+                                                },
+                                                {
+                                                    "stringValue": "トラベルしたいのはいつですか？"
+                                                },
+                                                {
+                                                    "stringValue": "1950年〜2018年まで遡ることができます。"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/HQVtQAjniPGJ7V0DT38kcJ_MdztlAcleCC5bKgaG-Yz6q-xxV2Ynaq7eNZJYSAn3WayZbDiyGiLakg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://kaisou.appspot.com/#/",
+                "updatedStateJson": "{\"suggestions\":[\"1999年10月9日\",\"1967年\",\"48年前\"],\"sceneState\":\"firstWelcome\",\"speech\":\"\\u003cspeak\\u003e\\n  \\u003cpar\\u003e\\n    \\u003cmedia xml:id=\\\"speech\\\"\\u003e\\n      \\u003cspeak\\u003e\\u003cprosody rate=\\\"108%\\\"\\u003eメモリートラベルへようこそ！\\u003cbreak time=\\\"500ms\\\"/\\u003eさぁ、さっそくメモリートラベルへ出かけましょう。\\u003cbreak time=\\\"700ms\\\"/\\u003eトラベルしたいのはいつですか？\\u003c/prosody\\u003e\\u003c/speak\\u003e\\n    \\u003c/media\\u003e\\n    \\u003cmedia end=\\\"speech.end+1.0s\\\"\\u003e\\n      \\u003caudio\\n        src=\\\"https://kaisou.appspot.com/static/audio/standby.mp3\\\"/\\u003e\\n    \\u003c/media\\u003e\\n  \\u003c/par\\u003e\\n\\u003c/speak\\u003e\",\"text\":[\"メモリートラベルへようこそ！\",\"あなたを過去の旅へご案内します。\",\"トラベルしたいのはいつですか？\",\"1950年〜2018年まで遡ることができます。\"]}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"conf\":{\"date\":\"2021-07-12T06:22:24.195Z\",\"count\":1.0}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "メモリートラベル",
+    "servingModelOutdated": false,
+    "request": "メモリートラベルにつないで"
+}

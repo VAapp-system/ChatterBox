@@ -1,0 +1,188 @@
+{
+    "response": "乗り物の名前のアカウントの設定が完了しました。 後ほど、確認のメールが届きます。これから「乗り物の名前」を始めます。 問題のレベルを「かんたん」「ふつう」「むずかしい」の中から選んでください。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "乗り物の名前のアカウントの設定が完了しました。後ほど、確認のメールが届きます。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 29
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/vehicle_names1920x1080_ja.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 10
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "問題のレベルを「かんたん」「ふつう」「むずかしい」の中から選んでください。"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "これから「乗り物の名前」を始めます。<break time=\"2000ms\"/><br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "default"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8R0nOUospRTjCNmoQbzNKK8ZGghFVOytCwDTsPG_b0JhI2vyebzIDOyMRPDyMc55xdm7UkA-jufn",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                "updatedStateJson": "[{\"imageSilhouetteUrl\":\"\",\"total_score\":0,\"difficulty\":\"\",\"correctAnswer\":\"\",\"app_id\":29,\"preContent\":\"これから「乗り物の名前」を始めます。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e\",\"scene\":\"default\",\"order\":0,\"locale\":\"ja-JP\",\"imageUrl\":\"https://www.voice-ui.work/images/vehicle_names1920x1080_ja.png\",\"hintWord\":\"\",\"results\":\"\",\"chosenRegion\":\"\",\"number_of_questions\":10,\"content\":\"\",\"postContent\":\"問題のレベルを「かんたん」「ふつう」「むずかしい」の中から選んでください。\",\"preImageUrl\":\"\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"iat\":1.626052226E9,\"jti\":\"bd32855124043f50e1e2aafe05becec005e3621f\",\"sub\":\"108142502242634365866\",\"family_name\":\"Dia\",\"aud\":\"764567851094-sof32id1ccsd7vv5edpcf7epvep9aptf.apps.googleusercontent.com\",\"iss\":\"https://accounts.google.com\",\"name\":\"Logue Dia\",\"email_verified\":true,\"email\":\"XXX@example.com\",\"given_name\":\"Logue\",\"exp\":1.626055826E9,\"nbf\":1.626051926E9,\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJxzacCPGu0_jXlFsg3iioRKMv9OgVpc_fU3XD0u=s96-c\"}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "乗り物の名前",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

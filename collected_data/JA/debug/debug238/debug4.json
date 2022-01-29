@@ -1,0 +1,183 @@
+{
+    "response": "あなたは「かんたん」を選択しました。では問題です。 （問題1） この乗り物の名前は何ですか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 29
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": "easy"
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": "ほ●●●●"
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/vehicle_names/sailing_ship.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 10
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "（問題1）<break time=\"500ms\"/><br/>この乗り物の名前は何ですか？"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "あなたは「かんたん」を選択しました。では問題です。<break time=\"2000ms\"/><br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "select"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8R0nOUospRTjCNmoQbzNKK8ZGghFVOytCwDTsPG_b0JhI2vyebzIDOyMRPDyMc55xdm7UkA-jufn",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                "updatedStateJson": "[{\"results\":\"\",\"total_score\":0,\"content\":\"\",\"correctAnswer\":\"\",\"number_of_questions\":10,\"preImageUrl\":\"\",\"preContent\":\"あなたは「かんたん」を選択しました。では問題です。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e\",\"postContent\":\"（問題1）\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003cbr/\\u003eこの乗り物の名前は何ですか？\",\"scene\":\"select\",\"app_id\":29,\"chosenRegion\":\"\",\"imageSilhouetteUrl\":\"\",\"hintWord\":\"ほ●●●●\",\"difficulty\":\"easy\",\"locale\":\"ja-JP\",\"imageUrl\":\"https://www.voice-ui.work/images/vehicle_names/sailing_ship.png\",\"order\":0}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"iat\":1.626052252E9,\"family_name\":\"Dia\",\"name\":\"Logue Dia\",\"iss\":\"https://accounts.google.com\",\"nbf\":1.626051952E9,\"given_name\":\"Logue\",\"aud\":\"764567851094-sof32id1ccsd7vv5edpcf7epvep9aptf.apps.googleusercontent.com\",\"exp\":1.626055852E9,\"email_verified\":true,\"sub\":\"108142502242634365866\",\"jti\":\"77ec8ecd8f4247d2b2da8886259ccb94eca1f216\",\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJxzacCPGu0_jXlFsg3iioRKMv9OgVpc_fU3XD0u=s96-c\",\"email\":\"XXX@example.com\"}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "乗り物の名前",
+    "servingModelOutdated": false,
+    "request": "かんたん"
+}

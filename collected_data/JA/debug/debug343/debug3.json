@@ -1,0 +1,80 @@
+{
+    "response": "ご希望の店舗の番号を教えてください。1、さくだいら てん, 受付時間外。2、すわ てん, 受付時間外。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ご希望の店舗の番号を教えてください。※クーポン配付は終了いたしました。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "近隣店舗が表示されない場合は、スマートフォンの設定で位置情報をONにしてもう一度お試しください。"
+                }
+            },
+            {
+                "listSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "carousel_selected:0,佐久平店",
+                                "synonymsList": [
+                                    "佐久平店"
+                                ]
+                            },
+                            "title": "①佐久平店",
+                            "description": "長野県佐久市佐久平駅東10-1\n受付時間外。"
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "carousel_selected:1,諏訪店",
+                                "synonymsList": [
+                                    "諏訪店"
+                                ]
+                            },
+                            "title": "②諏訪店",
+                            "description": "長野県諏訪市大字四賀赤沼1813\n受付時間外。"
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/7xmV_DkS-1BqqY3b1Z651K3z4reXxkXFdgteO19DUeGRhPdDOZYSu3ePkgGtZUtMiwVKDtFtbr3f",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "スシロー",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

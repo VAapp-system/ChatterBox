@@ -1,0 +1,181 @@
+{
+    "response": "あなたは「22回」を選択しました。次に、問題番号を選びます。何番から開始しますか？ 「1番から」 「11番から」 「21番から」 「31番から」 「41番から」 「51番から」 選択肢の中から選んでください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/qualification_exam",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "base_url",
+                                {
+                                    "stringValue": "https://www.voice-ui.work"
+                                }
+                            ],
+                            [
+                                "name",
+                                {
+                                    "stringValue": "ケアマネ試験"
+                                }
+                            ],
+                            [
+                                "number_of_database_questions",
+                                {
+                                    "numberValue": 60
+                                }
+                            ],
+                            [
+                                "post_question",
+                                {
+                                    "stringValue": ""
+                                }
+                            ],
+                            [
+                                "pre_content",
+                                {
+                                    "stringValue": "あなたは「22回」を選択しました。次に、問題番号を選びます。何番から開始しますか？"
+                                }
+                            ],
+                            [
+                                "pre_question",
+                                {
+                                    "stringValue": ""
+                                }
+                            ],
+                            [
+                                "question",
+                                {
+                                    "stringValue": "「1番から」<break time=\"1000ms\"/>「11番から」<break time=\"1000ms\"/>「21番から」<break time=\"1000ms\"/>「31番から」<break time=\"1000ms\"/>「41番から」<break time=\"1000ms\"/>「51番から」<break time=\"1000ms\"/>\n選択肢の中から選んでください。"
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "select_test"
+                                }
+                            ],
+                            [
+                                "type",
+                                {
+                                    "stringValue": "22回"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "base_url",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work"
+                                    }
+                                ],
+                                [
+                                    "name",
+                                    {
+                                        "stringValue": "ケアマネ試験"
+                                    }
+                                ],
+                                [
+                                    "number_of_database_questions",
+                                    {
+                                        "numberValue": 60
+                                    }
+                                ],
+                                [
+                                    "post_question",
+                                    {
+                                        "stringValue": ""
+                                    }
+                                ],
+                                [
+                                    "pre_content",
+                                    {
+                                        "stringValue": "あなたは「22回」を選択しました。次に、問題番号を選びます。何番から開始しますか？"
+                                    }
+                                ],
+                                [
+                                    "pre_question",
+                                    {
+                                        "stringValue": ""
+                                    }
+                                ],
+                                [
+                                    "question",
+                                    {
+                                        "stringValue": "「1番から」<break time=\"1000ms\"/>「11番から」<break time=\"1000ms\"/>「21番から」<break time=\"1000ms\"/>「31番から」<break time=\"1000ms\"/>「41番から」<break time=\"1000ms\"/>「51番から」<break time=\"1000ms\"/>\n選択肢の中から選んでください。"
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "select_test"
+                                    }
+                                ],
+                                [
+                                    "type",
+                                    {
+                                        "stringValue": "22回"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/kc1FgVldXYvxeMTgCvm9RevSKiGx_HoSS4vYjK9Miposg97oUexp2jYs0jC_1WFQiCqELfe8DHRv",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/qualification_exam",
+                "updatedStateJson": "{\"name\":\"ケアマネ試験\",\"post_question\":\"\",\"pre_content\":\"あなたは「22回」を選択しました。次に、問題番号を選びます。何番から開始しますか？\",\"scene\":\"select_test\",\"pre_question\":\"\",\"type\":\"22回\",\"base_url\":\"https://www.voice-ui.work\",\"number_of_database_questions\":60,\"question\":\"「1番から」\\u003cbreak time=\\\"1000ms\\\"/\\u003e「11番から」\\u003cbreak time=\\\"1000ms\\\"/\\u003e「21番から」\\u003cbreak time=\\\"1000ms\\\"/\\u003e「31番から」\\u003cbreak time=\\\"1000ms\\\"/\\u003e「41番から」\\u003cbreak time=\\\"1000ms\\\"/\\u003e「51番から」\\u003cbreak time=\\\"1000ms\\\"/\\u003e\\n選択肢の中から選んでください。\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ケアマネ試験",
+    "servingModelOutdated": false,
+    "request": "22回"
+}

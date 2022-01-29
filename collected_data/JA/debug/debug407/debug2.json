@@ -1,0 +1,69 @@
+{
+    "response": "日付が7月10日、場所が東京都、キーワードがJavaScriptの条件にマッチする勉強会は、1件予定されています。気になる勉強会をタップしてください。もしくは、他の条件をお話ください。\n他の条件を指定してください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "日付が7月10日、場所が東京都、キーワードがJavaScriptの条件にマッチする勉強会は、1件予定されています。気になる勉強会をタップしてください。もしくは、他の条件をお話ください。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "他の条件を指定してください。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "(オンライン)【初級エンジニア向け】初めてのDocker #2 全2回予定",
+                    "subtitle": "UTAGE",
+                    "formattedText": "場所: 新宿Ｏ・Ｔビル 4F  \n日付:7月10日 15時  \n現在/定員: 2 / 20  \n初心者でもdockerを使用したポートフォリオサイトを作ることができる講座です。",
+                    "buttonsList": [
+                        {
+                            "title": "詳細ページを開く",
+                            "openUrlAction": {
+                                "url": "https://utage.connpass.com/event/217051/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/3LOSPOzg_ozouThDk9oTZNTie4OFOFUGjSZSBIfhaJslMcIYe5a6WEzouiRN1eIumAG-qstx324",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "勉強会検索",
+    "servingModelOutdated": false,
+    "request": "土曜日に東京でJavaScript"
+}

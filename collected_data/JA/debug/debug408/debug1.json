@@ -1,0 +1,83 @@
+{
+    "response": "わかりました。 大安カレンダーです。こんにちは！\n明日は大安か、来月の大安は、などと話しかけて下さい。\nいつを調べますか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。大安カレンダーです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": " "
+                }
+            },
+            {
+                "displayText": {
+                    "content": "こんにちは！\n明日は大安か、来月の大安は、などと話しかけて下さい。\nいつを調べますか？"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "次の大安は"
+            },
+            {
+                "title": "来月の大安は"
+            },
+            {
+                "title": "今日は仏滅なのかな"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/BdlvFdRaPIeywzzIgCsWNrcSzPaO4Egw5DJ0Q4-wTBh_CEbFkxNBp2fPFNE14DEX7X5LVyekI1nO",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "次の大安は",
+                    "来月の大安は",
+                    "今日は仏滅なのかな"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "大安カレンダー",
+    "servingModelOutdated": false,
+    "request": "大安カレンダーにつないで"
+}

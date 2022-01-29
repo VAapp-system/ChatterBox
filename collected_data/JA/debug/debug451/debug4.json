@@ -1,0 +1,98 @@
+{
+    "response": "日本国の「白神山地」 です。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "日本国の「白神山地」 です。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "白神山地",
+                    "subtitle": "",
+                    "formattedText": "白神山地（しらかみさんち）は、青森県の南西部から秋田県北西部にかけて広がっている標高1000m級の山地（山岳地帯）のことをいう。白神山地は、屋久島とならんで1993年（平成5）12月、日本で初めてのユネスコ世界遺産（自然遺産）に登録された。そこには「人の影響をほとんど受けていない原生的なブナ天然林が世界最大級の規模で分布」（世界遺産登録理由）している。白神山地の名称は、昭和29年発行国土地理院地勢図で使われている。また、世界遺産登録以前には弘西山地（こうせいさんち）とも呼ばれていた。",
+                    "image": {
+                        "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sirakami_santi.JPG",
+                        "accessibilityText": "Image alternate text",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "詳しくはこちら",
+                            "openUrlAction": {
+                                "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E7%A5%9E%E5%B1%B1%E5%9C%B0",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "日本"
+            },
+            {
+                "title": "エストニア共和国"
+            },
+            {
+                "title": "バーレーン王国"
+            },
+            {
+                "title": "パレスチナ国"
+            },
+            {
+                "title": "デイリー世界遺産通知の設定をする"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/OYuDIrt-iQvSkJUw-4CBNiy5zwJLukqcN8sriPXpm-4O0MdMo2cq-_mqnINi53iITu1aY2KMUanW",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "日本",
+                    "エストニア共和国",
+                    "バーレーン王国",
+                    "パレスチナ国",
+                    "デイリー世界遺産通知の設定をする"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "世界遺産マスター",
+    "servingModelOutdated": false,
+    "request": "日本"
+}

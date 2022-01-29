@@ -1,0 +1,183 @@
+{
+    "response": "あなたは「すべて 」を選択しました。アメリカの地図を見てください。色の付いた場所があります。 （問題1） この州の名前は何ですか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 27
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": "ALL"
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names/FL.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 50
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "（問題1）<break time=\"500ms\"/><br/>この州の名前は何ですか？"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "あなたは「すべて<sub alias=\"\"> {50州)</sub>」を選択しました。アメリカの地図を見てください。色の付いた場所があります。<break time=\"2000ms\"/><br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names/ALL.png"
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "select"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ne73qU1dMlvP2ndx3PuN7HVQvl5ZFYdYQBpwTxATXafcKHC63Jlvp0Bh6e7A4e_oShUdUjz53tQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                "updatedStateJson": "[{\"difficulty\":\"\",\"app_id\":27,\"locale\":\"ja-JP\",\"correctAnswer\":\"\",\"chosenRegion\":\"ALL\",\"order\":0,\"scene\":\"select\",\"preContent\":\"あなたは「すべて\\u003csub alias=\\\"\\\"\\u003e {50州)\\u003c/sub\\u003e」を選択しました。アメリカの地図を見てください。色の付いた場所があります。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e\",\"postContent\":\"（問題1）\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003cbr/\\u003eこの州の名前は何ですか？\",\"results\":\"\",\"imageUrl\":\"https://www.voice-ui.work/images/state_names/FL.png\",\"imageSilhouetteUrl\":\"\",\"preImageUrl\":\"https://www.voice-ui.work/images/state_names/ALL.png\",\"content\":\"\",\"number_of_questions\":50,\"total_score\":0,\"hintWord\":\"\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"exp\":1.625708873E9,\"iat\":1.625705273E9,\"aud\":\"256611444361-25f0f3h9ened9np3hj6khar5n3igbvo6.apps.googleusercontent.com\",\"jti\":\"c1f6f735f927db91a0a468f86ca348e38f88e996\",\"email\":\"XXX@example.com\",\"nbf\":1.625704973E9,\"family_name\":\"Dia\",\"given_name\":\"Logue\",\"name\":\"Logue Dia\",\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJx7uSKSYKwxuXfL1AarmP5LAIlhnI7cadoVFHas=s96-c\",\"email_verified\":true,\"sub\":\"116039277228415351579\",\"iss\":\"https://accounts.google.com\"}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "アメリカの州の名前",
+    "servingModelOutdated": false,
+    "request": "全州"
+}
