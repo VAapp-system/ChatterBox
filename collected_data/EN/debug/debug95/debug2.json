@@ -1,0 +1,76 @@
+{
+    "response": "Correct! Well done!\nQuestion 2. A painting sold for $450 million in 2019. What was it called? Salvator Mundi, Mona Lisa, Sunflowers or Whistlejacket?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAPcC...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Correct! Well done!"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Question 2. A painting sold for $450 million in 2019. What was it called? Salvator Mundi, Mona Lisa, Sunflowers or Whistlejacket?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Salvator Mundi"
+            },
+            {
+                "title": "Mona Lisa"
+            },
+            {
+                "title": "Sunflowers"
+            },
+            {
+                "title": "Whistlejacket"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Jsv_yLGEP5uQFvBNxD-JqVPhhJoHW4C3KQ2NddgAULv3PkLdjsaMMMf3OAQk7iYrYlflPqtmwCeE",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Salvator Mundi",
+                    "Mona Lisa",
+                    "Sunflowers",
+                    "Whistlejacket"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Fun Art Quiz",
+    "servingModelOutdated": false,
+    "request": "Art Nouveau"
+}

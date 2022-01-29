@@ -1,0 +1,67 @@
+{
+    "20": {
+        "req": "はい",
+        "res": "次の名言です。「困難の中に機会がある。」アインシュタイン　次の名言を聞きますか？",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 20,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "心を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "名言を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 19
+    },
+    "21": {
+        "req": "いいえ",
+        "res": "ありがとうございました。それでは今日もよい1日を。",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 21,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 19
+    }
+}

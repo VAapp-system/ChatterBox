@@ -1,0 +1,39 @@
+{
+    "3": {
+        "req": "check if any script is running",
+        "res": "There are no tests running right now. Do you want me to execute Sanity or Regression for CLR ?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "check if any script is running"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "Sanity",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Regression",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

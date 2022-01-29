@@ -1,0 +1,74 @@
+{
+    "4": {
+        "req": "Random Hack",
+        "res": "To help clear acne before it begins, mix 2 tablespoons of finely chopped fresh mint with two tablespoons each of plain yogurt and oatmeal (use a blender to pulverize the oatmeal to powder). Leave the concoction on your face for 10 minutes, then rinse off with water.\nDo you wish to continue with more beauty hacks?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Random Hack"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Do it yourself",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

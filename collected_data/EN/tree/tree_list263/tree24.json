@@ -1,0 +1,76 @@
+{
+    "24": {
+        "req": "Yes",
+        "res": "Criminal clearances are required as part of the home study process. Required criminal checks may include, Federal (FBI) Criminal History, State Police Criminal History, Child Abuse Clearances, Domestic Violence or Sexual Offense Clearances, and Fingerprints. Usually the family must pay for background checks required by its state. Want to hear more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 24,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        25
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "Child Abuse Clearances",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Domestic Violence",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Sexual Offense Clearances",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know International Adoption Insights.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 23
+    }
+}

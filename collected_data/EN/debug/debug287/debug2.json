@@ -1,0 +1,109 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 3,
+            "markName": "letter-package",
+            "timeSeconds": 0
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "LETTER"
+                                                }
+                                            ],
+                                            [
+                                                "letter",
+                                                {
+                                                    "stringValue": "R"
+                                                }
+                                            ],
+                                            [
+                                                "screen",
+                                                {
+                                                    "stringValue": "LetterPackage"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yo66je8Z1FgGdADZGSJy8-JptCyzJkyRgA56MTywdu09ASNPYEGx1jESXSYmPwlP4DTAw_dlGavWvQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                "updatedStateJson": "[{\"command\":\"LETTER\",\"screen\":\"LetterPackage\",\"letter\":\"R\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening ABCmouse by Age of Learning, Inc.",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": true,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"views\":[\"LetterPackage.Offer\"],\"userId\":\"781b27c2-3680-46d6-98a3-b27b2249ebed\",\"sessionsCount\":1.0,\"sessionId\":\"ABwppHHE2TRhnJdb_LMLErVNjtkL8M4wOLma1RWsq5OEw2-rIbh0xvY_p-S6kYVjVdJ0fGCgWA\",\"newSession\":false,\"MenuOfferPrompt\":true,\"lettersPicked\":[\"R\"],\"lastLetterActivity\":[],\"lastLetter\":\"R\",\"surpriseIntent\":false}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ABCmouse",
+    "servingModelOutdated": false,
+    "request": "I want to know ABCmouse."
+}

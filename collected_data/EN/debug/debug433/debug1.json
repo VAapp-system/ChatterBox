@@ -1,0 +1,89 @@
+{
+    "response": "Alright. Let's get Symphony in E by Beethoven.Listen to Beethoven's \"Symphony in E\" arranged and performed by Penitent.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Symphony in E by Beethoven."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Listen to Beethoven's \"Symphony in E\" arranged and performed by Penitent."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Beethoven's Symphony in E by Penitent",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/fphdusz4qjugt4c/Penitent%20Maestro%20Beethoven.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://www.dropbox.com/s/6w5tink501pna4s/06%20-%20Symphony%20In%20E%20Slow%20Movement.mp3?raw=1"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-3882121101316958410"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ZXRODZ6aKSxel13_tB0XYDcH3F9jwzosRl77WENWe6ifpFzdp7yFgQiE1JDMDD_3i1TREcoJiIws",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Symphony in E by Beethoven",
+    "servingModelOutdated": false,
+    "request": "Talk to Symphony in E by Beethoven"
+}

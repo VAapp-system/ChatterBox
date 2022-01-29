@@ -1,0 +1,41 @@
+{
+    "7": {
+        "req": "repeat",
+        "res": "Right-oh.You will use this while shopping. What is the mandarin word Tài guìle means? Hint, repeat or answer",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "repeat"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "repeat",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "answer",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

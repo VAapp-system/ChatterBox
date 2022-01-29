@@ -1,0 +1,177 @@
+{
+    "42": {
+        "req": "リセット",
+        "res": "はいわかりました。。。自己ベストをリセットいたします。それでは、ゼロからスタート！",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 42,
+        "req_list": [
+            "リセット"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "リセット",
+                    "visit": true,
+                    "child": [
+                        43
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "アプリを教えてください",
+                    "visit": false,
+                    "child": [
+                        44
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ユーザーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "キーワードを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "うんこを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "回数を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "スコアを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "コツを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "ストレスを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "遊びを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "数を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "カウンターを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "点数を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "自己を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "ヒントを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "15": {
+                    "req": "音声を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "16": {
+                    "req": "言葉を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "17": {
+                    "req": "自動を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "18": {
+                    "req": "速度を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 41
+    }
+}

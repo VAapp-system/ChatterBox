@@ -1,0 +1,68 @@
+{
+    "3": {
+        "req": "True or False",
+        "res": "Say that again?",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": true,
+        "id": 3,
+        "req_list": [
+            "True or False"
+        ],
+        "candidates": {
+            "CANVAS": {
+                "1": {
+                    "req": "True or False",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "again ?",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "Think you’re a trivia pro? This is a fun game to test your knowledge about the world by answering true or false questions. The rules are simple, but the answers aren’t. ----------------------------It’s the perfect ice-breaker for parties and gatherings. Play with up to 20 users.-----------------------------------------------We go hunting to bring you awesome new facts around the world every week. Come back every week to sharpen your trivia skills!",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

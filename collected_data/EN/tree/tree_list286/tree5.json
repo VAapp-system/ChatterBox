@@ -1,0 +1,30 @@
+{
+    "5": {
+        "req": "I want to know India.",
+        "res": "The Taj Mahal's white marble exterior is gradually turning yellow due to high levels of air pollution. What else would like to know?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "I want to know India."
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know India.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "2": {
+        "req": "Talk to Liberty Prime",
+        "res": "OK. Here's Liberty Prime.Liberty Prime is Online\nTry asking about communism, democracy or the cold war.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Liberty Prime"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Liberty Prime.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know the Fallout Universe.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "5": {
+        "req": "Talk to Liberty Prime",
+        "res": "Liberty Prime is Online\nTry asking about communism, democracy or the cold war.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Talk to Liberty Prime"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Liberty Prime.",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know the Fallout Universe.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

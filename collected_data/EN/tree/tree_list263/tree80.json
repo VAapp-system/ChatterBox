@@ -1,0 +1,48 @@
+{
+    "81": {
+        "req": "Yes",
+        "res": "Adoption agencies do not expect the entire cost of an adoption to be paid \"up front.\" For example, an agency might divide payment into three portions, with one-third of the total amount to be paid when filing the initial application, one- third at completion of the home study process, and one- third when the child is placed and the post placement supervision period begins. Want to hear more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 81,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        82
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know International Adoption Insights.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 80
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Speak to Whiteboard Labs",
+        "res": "OK. Let's get Whiteboard Labs.Greetings! Myself WhiteBoard Labs, your Career Assistant.\nHow may i help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Speak to Whiteboard Labs"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Whiteboard Labs.",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

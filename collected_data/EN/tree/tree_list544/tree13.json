@@ -1,0 +1,54 @@
+{
+    "13": {
+        "req": "Tell Me Another",
+        "res": "Ok, here's this week's second story. Ad Age reports that Missouri's Attorney General is opening an anti-trust investigation against Google. The AG, who is also running for Senate, is looking into allegations that Google favors its own services in search results, and that Google had instances of crawling Yelp's site after a 2013 agreement not to do so. Only time will tell how much traction the investigation gets, but an EU style ruling could have significant impacts on half of the advertising Duopoly. Thanks for coming to Marketing Shot Chaser for today's most important marketing news. See you tomorrow!",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Tell Me Another"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s a lot of marketing articles that aren",
+                    "visit": false,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "s news is critical, so we even rate each day",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "How important is today's news?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "s news?\" and we",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "2": {
+        "req": "Talk to Know my Jersey",
+        "res": "OK. Let's get Know my Jersey.Good day! What can I do for you today?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Know my Jersey"
+        ],
+        "candidates": {
+            "NE": {
+                "1": {
+                    "req": "January 1st",
+                    "NEType": "日付",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Febrauary 1st",
+                    "NEType": "日付",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "March 1st",
+                    "NEType": "日付",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "April 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "May 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "June 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "July 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "Augest 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "September 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "October 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "November 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "December 1st",
+                    "NEType": "日付",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "6": {
+        "req": "Talk to Know my Jersey",
+        "res": "OK. Getting Know my Jersey.Good day! What can I do for you today?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Talk to Know my Jersey"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "10": {
+        "req": "Talk to Know my Jersey",
+        "res": "Greetings! How can I assist?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Talk to Know my Jersey"
+        ],
+        "candidates": {
+            "NE": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

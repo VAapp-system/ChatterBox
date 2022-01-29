@@ -1,0 +1,308 @@
+{
+    "29": {
+        "req": "ウクライナ",
+        "res": "ウクライナの「キエフの聖ソフィア大聖堂と関連する修道院群及びキエフ・ペチェールシク大修道院」 です。",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 29,
+        "req_list": [
+            "ウクライナ"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "ウクライナ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "トーゴ共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "アイスランド共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "シンガポール共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "デイリー世界遺産通知の設定をする",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "中華人民共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "キューバ共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "スーダン共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "先を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "国を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "世界を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "遺産を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "名前を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "情報を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "ランダムを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "写真を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "元を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 28
+    },
+    "30": {
+        "req": "トーゴ共和国",
+        "res": "トーゴ共和国の「バタマリバ人の土地クタマク」 です。",
+        "QType": "OPTION",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 30,
+        "req_list": [
+            "トーゴ共和国"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "トーゴ",
+                    "visit": true,
+                    "child": [
+                        31
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "フィジー共和国",
+                    "visit": false,
+                    "child": [
+                        32
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "バングラデシュ人民共和国",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "パプアニューギニア",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "デイリー世界遺産通知の設定をする",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "先を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "国を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "世界を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "遺産を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "名前を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "情報を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "ランダムを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "写真を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "元を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 28
+    }
+}

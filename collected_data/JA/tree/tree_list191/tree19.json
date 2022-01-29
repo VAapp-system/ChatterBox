@@ -1,0 +1,124 @@
+{
+    "35": {
+        "req": "はい",
+        "res": "それではいきますよ。最初はグー、じゃんけんぽい。何をだしましたか。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 35,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "声でじゃんけん",
+                    "visit": true,
+                    "child": [
+                        36
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "OK Gooogle、声でじゃんけんを開いて",
+                    "visit": true,
+                    "child": [
+                        37
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "グー",
+                    "visit": false,
+                    "child": [
+                        38
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "チョキ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "パー",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "声を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "アシスタントを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "掛け声を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "自分を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "グーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "チョキを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "パーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 34
+    }
+}

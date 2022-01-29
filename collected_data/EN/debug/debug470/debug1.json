@@ -1,0 +1,74 @@
+{
+    "response": "OK. Here's intense dmv radio.Welcome to Intense Dmv Radio.\nWould you like to play it?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's intense dmv radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Intense Dmv Radio.\nWould you like to play it?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/HYK1U4DViMRaYsyQFywVfsyI7pTLrCxo0zJWZg9_HnR7XfuDvqymPEOeWKSbAsESuihoavsf7w-D",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "intense dmv radio",
+    "servingModelOutdated": false,
+    "request": "Talk to intense dmv radio"
+}

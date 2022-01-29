@@ -1,0 +1,44 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "According to me Hulk may kill Thanos.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "Yes",
+        "res": "According to me Hulk may kill Thanos.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "No",
+        "res": "Thank you for using Thanos Killer. Bye bye!",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 4
+    }
+}

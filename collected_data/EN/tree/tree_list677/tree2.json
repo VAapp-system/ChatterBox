@@ -1,0 +1,31 @@
+{
+    "2": {
+        "req": "Talk to Wash My Clothes",
+        "res": "Alright. Getting Wash My Clothes.Hello! I am Mr. Wash My Clothes. I help you fix your laundry slots. Ask me questions like \"When is my next laundry slot? or \"How much to pay for laundry?\"",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Wash My Clothes"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "questions like \" When is my next laundry slot ?",
+                    "string_ID": 5,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 1
+    }
+}

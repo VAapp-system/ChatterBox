@@ -1,0 +1,71 @@
+{
+    "39": {
+        "req": "money",
+        "res": "Sorry, I don't understand that. Try again.",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 39,
+        "req_list": [
+            "money"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know London.",
+                    "visit": true,
+                    "child": [
+                        40
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know George.",
+                    "visit": false,
+                    "child": [
+                        41
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Camden Town.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Covent Garden.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Greenwich.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know London Bridge.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 38
+    }
+}

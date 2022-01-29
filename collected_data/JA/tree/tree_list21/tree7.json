@@ -1,0 +1,88 @@
+{
+    "7": {
+        "req": "手を教えてください",
+        "res": "基本給を教えてください。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "手を教えてください"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "手を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "取りを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "額を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "8": {
+        "req": "取りを教えてください",
+        "res": "基本給は？",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "取りを教えてください"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "手を教えてください",
+                    "visit": true,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "取りを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "額を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

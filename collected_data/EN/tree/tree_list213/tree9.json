@@ -1,0 +1,40 @@
+{
+    "9": {
+        "req": "no of students?",
+        "res": "As per 2019-20,144 seats for CSE and 108 seats for ECE branch.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "no of students?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "fees of institute?",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

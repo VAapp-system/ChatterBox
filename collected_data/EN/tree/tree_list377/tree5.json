@@ -1,0 +1,30 @@
+{
+    "5": {
+        "req": "tell about yourself?",
+        "res": "Well i like when someone wants to know me.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "tell about yourself?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "what are your hobbies??",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 4
+    }
+}

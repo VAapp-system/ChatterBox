@@ -1,0 +1,98 @@
+{
+    "3": {
+        "req": "スタート",
+        "res": "先にどうぞ。単語を言ったら、「次」または「どうぞ」を言ってください。終了したい場合、「終了」を言ってください。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "スタート"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "次",
+                    "type_ID": [
+                        "20",
+                        "29"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "どうぞ",
+                    "type_ID": [
+                        "20"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "終了",
+                    "type_ID": [
+                        "20"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "しりとり",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "しりとりしましょう",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "音声を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "しりとりを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "26": {
+        "req": "Hygiene",
+        "res": "To get rid of smelly feet soak your feet in salt water for 15 minutes. Add half cup of salt in the feet-soak tray, mix well and soak your feet. Rinse your feet after soaking your feet; you can also rub your feet with pumice stone to get rid of dead skin cells in your feet.\nWhich one would you prefer next, random beauty hack, or Skin care hack?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 26,
+        "req_list": [
+            "Hygiene"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [
+                        27
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Skin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Random",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "hack",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Skin care",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 25
+    }
+}

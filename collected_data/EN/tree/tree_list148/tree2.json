@@ -1,0 +1,39 @@
+{
+    "2": {
+        "req": "Talk to color nweton",
+        "res": "OK. Let's get color nweton.HI buddy welcome to color nweton may i know what is your favourite color ? I tell your lucky number",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to color nweton"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

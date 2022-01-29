@@ -1,0 +1,85 @@
+{
+    "2": {
+        "req": "Talk to Coffee Abacus",
+        "res": "OK. Let's get Coffee Abacus.Welcome to Coffee Abacus. How much coffee would you like?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Coffee Abacus"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "465 Milliliters",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "16 Ounces",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {
+                "1": {
+                    "req": "100 dollars",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "1 dollar",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "10 dollars",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "1000 dollars",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Coffee Abacus.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

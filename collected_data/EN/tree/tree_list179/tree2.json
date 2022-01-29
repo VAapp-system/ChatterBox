@@ -1,0 +1,48 @@
+{
+    "2": {
+        "req": "Talk to Silent Lad",
+        "res": "Alright. Here's Silent Lad.Hi, My name is Silent Lad. What do you want to know about me?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Silent Lad"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "Hi",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Silentlad.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Divyansh Tripathi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

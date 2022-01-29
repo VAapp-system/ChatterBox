@@ -1,0 +1,48 @@
+{
+    "7": {
+        "req": "Which trophies you have?",
+        "res": "I have won the top-flight league 4 times, the National Football League 3 times and the I-League once. I am the most successful team of India in the history of the Federation Cup, having won the championship a record 14 times. I have also won several other trophies, which includes the Durand Cup (16 times), IFA Shield (22 times), and the Calcutta Football League (30 times) till 2018.I have won around 255 trophies which is the highest by any Indian club.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Which trophies you have?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Some great players of you",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the National club of India.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mohunbagan.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

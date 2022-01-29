@@ -1,0 +1,39 @@
+{
+    "7": {
+        "req": "Courses offered?",
+        "res": "B. Tech. Computer Science & Engineering (CSE) B. Tech. Electronics & Communication Engineering (ECE)",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Courses offered?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Mode of admission?",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

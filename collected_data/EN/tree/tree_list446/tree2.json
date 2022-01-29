@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Skoden radio",
+        "res": "Alright. Let's get skoden radio.Welcome to Skoden radio",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Skoden radio"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

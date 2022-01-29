@@ -1,0 +1,70 @@
+{
+    "response": "Alright. Getting UK trip.Hi. If you tell us your keyword, I'll help you travel to the UK.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting UK trip."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi. If you tell us your keyword, I'll help you travel to the UK."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Restaurant"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Jyh23c_jPx3HEYUcKzUq3KFdXdAtKmcvHhK6MjA9j6mILKyGx4FYjhOSBaYL7nq3_2cUjalnVx4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Restaurant"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "UK trip",
+    "servingModelOutdated": false,
+    "request": "Talk to UK trip"
+}

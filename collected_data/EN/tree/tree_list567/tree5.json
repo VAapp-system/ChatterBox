@@ -1,0 +1,30 @@
+{
+    "7": {
+        "req": "a website",
+        "res": "Fantastic! Please provide us with your WhatsApp number to contact you and complete our interesting discussion.",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "a website"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Shetewy-Tech.",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

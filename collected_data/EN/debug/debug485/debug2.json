@@ -1,0 +1,87 @@
+{
+    "response": "",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAASWK...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Maestro Beethoven."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Listen to the album \"Maestro Beethoven\" by Penitent. Beethoven compositions arranged and performed by Penitent."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Penitent \"Maestro Beethoven\"",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/fphdusz4qjugt4c/Penitent%20Maestro%20Beethoven.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://www.dropbox.com/s/v9c0ftdtit4pgup/Penitent%20-%20Maestro%20Beethoven.mp3?raw=1"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "4587621669215550749"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/A05UBf6pzY5ZyTLHnIZoUnfvDB2sMPsW0FnWNLuWZRdXDqiGfov3Y2epOc0oh-_4_nZLg1e0Z9rc",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 9,
+            "mediaControlPayLoad": {
+                "mediaControlType": 3
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Maestro Beethoven",
+    "servingModelOutdated": false,
+    "request": "Stop"
+}

@@ -1,0 +1,117 @@
+{
+    "8": {
+        "req": "Python Track",
+        "res": "I didn't get that. Can you say it again?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "Python Track"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "9": {
+        "req": "Hackathons",
+        "res": "The Summer of code conducts Weekly, Monthly and a Grand Finale hackathon. The Hackathons will have different categories according to the age and ability of the participants. You can participate individually or in teams of maximum 6 people. The team members can be of any age or experience level. In order to be eligible to win prizes, you need to upload the complete personal bios, project description and video. How else can I help you ?",
+        "QType": "OPTION",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "Hackathons"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Rewards",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Eligiblity",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Deadline",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "individually",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "in teams of maximum 6 people",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "any age",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "experience level",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s Summer of Code tells you about the 1 Million Women to Tech - Women",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Summer of Code.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

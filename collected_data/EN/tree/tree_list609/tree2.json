@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to RACQ",
+        "res": "Alright. Let's get RACQ.Hi, welcome to the RACQ voice app!\nI'm Cooper. I can get you the current cheapest fuel prices, road conditions, and answers to many of our most commonly asked questions. Which would you like?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to RACQ"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "response": "OK. Here's Weather History.Thanks for listening! You can exit by telling Google Goodbye, and you can skip to the next story by telling Google Next.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Weather History."
+                }
+            },
+            {
+                "displayText": {
+                    "content": " Thanks for listening! You can exit by telling Google Goodbye, and you can skip to the next story by telling Google Next."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "July 2 - \"It Be Rainin' Gators\"!!",
+                                "description": "On July 2, 1843, a powerful storm brought more than just gusty winds and heavy rainfall to Charleston, South Carolina…..and an alligator, this day in weather history.",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/spokenlayer/image/upload/d_SpokenLayer_Logo_Verticle_fb9a1b.png/t_google_large/cover_art/this-day-in-weather-history.png",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://audio.spokenlayer.com/this-day-in-weather-history/2021/07/f2d18c7f-acdd-4983-a010-3e9987fc45c5/audio-f2d18c7f-acdd-4983-a010-3e9987fc45c5-encodings.mp3?article-id=f2d18c7f-acdd-4983-a010-3e9987fc45c5&distributor-name=branded-google&tap=0"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-2892797160100800360"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "More stories"
+            },
+            {
+                "title": "I'm done"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/6JGgi4wnkfy_Ll63pm36iAmqKtqAl-j5fWlzOh5WrnwzV8xguJ44gd_4du_-4QgMxCEe9N6EOd0",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "More stories",
+                    "I'm done"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Weather History",
+    "servingModelOutdated": false,
+    "request": "Talk to Weather History"
+}

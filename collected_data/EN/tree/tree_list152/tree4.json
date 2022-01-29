@@ -1,0 +1,43 @@
+{
+    "4": {
+        "req": "I want to know Google.",
+        "res": "Sorry, can you say that again?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "I want to know Google."
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "5": {
+        "req": "I want to know Google Home.",
+        "res": "Say that one more time?",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "I want to know Google Home."
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "4": {
+        "req": "はい",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "5": {
+        "req": "いいえ",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "6": {
+        "req": "さようなら",
+        "res": "ありがとうございました。お役に立てましたでしょうか？これからも、機能追加してまいります。\n今後共、新型Cクラスをよろしくお願いいたします。いつかは、頑張って買いましょう。その時はお話聞かせてくださいね。わたしは、あなたの、お話を待ってます。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "さようなら"
+        ],
+        "candidates": {},
+        "parent": 3
+    }
+}

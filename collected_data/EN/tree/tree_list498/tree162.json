@@ -1,0 +1,30 @@
+{
+    "162": {
+        "req": "Yes",
+        "res": "The search for a cheaper way to obtain spices from the East led to the great Age of Exploration and the discovery of the New World. Christopher Columbus went westwards from Europe in 1492 to find a sea route to the lands of spices but found the Americas. In 1497 the Portuguese navigator Vasco da Gama discovered a sea route around the southern tip of Africa, eventually reaching Kozhikode on the southwest coast of India in 1498. Da Gama returned from his voyage with a cargo of nutmegs, cloves, cinnamon, ginger, and peppercorns. Wanna Know More?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 162,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spices Trivia.",
+                    "visit": false,
+                    "child": [
+                        163
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 161
+    }
+}

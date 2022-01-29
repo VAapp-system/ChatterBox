@@ -1,0 +1,32 @@
+{
+    "2": {
+        "req": "Talk to Anime Recommendation",
+        "res": "OK. Here's Anime Recommendation.Good day! I will tell you some animes you might be interested in. You can ask \"Anything interesting?\" or say \"Tell me some animes.\"",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Anime Recommendation"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Anything interesting ?",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "I&SC_CC": {}
+        },
+        "parent": 1
+    }
+}

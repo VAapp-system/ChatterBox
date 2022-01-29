@@ -1,0 +1,70 @@
+{
+    "response": "Alright. Getting Jr.Bio.Hello! How can I help you?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Jr.Bio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello! How can I help you?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Who are you ?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/undsoCVTALw9Y3fn6ZnoVuiKlh7ijm3qibsJQi_yXUKPNLREBTVJmpWRUAqPYzGQaan3eUOK9vgD",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Who are you ?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Jr.Bio",
+    "servingModelOutdated": false,
+    "request": "Talk to Jr.Bio"
+}

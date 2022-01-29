@@ -1,0 +1,68 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "Alright, I just sent you a sign-in link. You can find it in the Google Home app.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What sound does an elephant make?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What was yesterday's animal of the day?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "7": {
+        "req": "Yes",
+        "res": "Alright, I just sent you a sign-in link. You can find it in the Google Home app.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What sound does an elephant make?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What was yesterday's animal of the day?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

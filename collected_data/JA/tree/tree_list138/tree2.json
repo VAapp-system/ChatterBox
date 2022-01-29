@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "パナソニック　スピーカーにつないで",
+        "res": "パナソニック　スピーカー とリンクしていません。Google Home アプリからパナソニック　スピーカー と Google アカウントをリンクできます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "パナソニック　スピーカーにつないで"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

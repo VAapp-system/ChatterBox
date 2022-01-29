@@ -1,0 +1,38 @@
+{
+    "63": {
+        "req": "White Chocolates",
+        "res": "White chocolate is a chocolate confection made from cocoa butter, sugar and milk solids. White chocolate does not contain cocoa solids, which are found in other types of chocolate. It is characterized by a pale ivory color.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 63,
+        "req_list": [
+            "White Chocolates"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Dark Chocolates",
+                    "visit": false,
+                    "child": [
+                        64
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Exit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 62
+    }
+}

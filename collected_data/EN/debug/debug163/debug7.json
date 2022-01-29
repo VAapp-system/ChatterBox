@@ -1,0 +1,133 @@
+{
+    "response": "Voice recognition was not possible. You can put a disc at number [34] or [43] or [56] or [65]. Please answer the next place with a number.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAASSd...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/othello",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "content",
+                                {
+                                    "stringValue": "You can put a disc at number [34]<break time=\"500ms\"/> or [43]<break time=\"500ms\"/> or [56]<break time=\"500ms\"/> or [65]."
+                                }
+                            ],
+                            [
+                                "post_content",
+                                {
+                                    "stringValue": "Please answer the next place with a number."
+                                }
+                            ],
+                            [
+                                "pre_content",
+                                {
+                                    "stringValue": "Voice recognition was not possible."
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "no_change_board"
+                                }
+                            ],
+                            [
+                                "user_has_move",
+                                {
+                                    "boolValue": true
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "content",
+                                    {
+                                        "stringValue": "You can put a disc at number [34]<break time=\"500ms\"/> or [43]<break time=\"500ms\"/> or [56]<break time=\"500ms\"/> or [65]."
+                                    }
+                                ],
+                                [
+                                    "post_content",
+                                    {
+                                        "stringValue": "Please answer the next place with a number."
+                                    }
+                                ],
+                                [
+                                    "pre_content",
+                                    {
+                                        "stringValue": "Voice recognition was not possible."
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "no_change_board"
+                                    }
+                                ],
+                                [
+                                    "user_has_move",
+                                    {
+                                        "boolValue": true
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/QSpXlopNH8EEAou_G2pzBwlTrHL2OZVfhyFjckF05sUdWokcJT_XiM25msVy4u6idNNQG5ouWcK7",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/othello",
+                "updatedStateJson": "{\"pre_content\":\"Voice recognition was not possible.\",\"user_has_move\":true,\"post_content\":\"Please answer the next place with a number.\",\"scene\":\"no_change_board\",\"content\":\"You can put a disc at number [34]\\u003cbreak time=\\\"500ms\\\"/\\u003e or [43]\\u003cbreak time=\\\"500ms\\\"/\\u003e or [56]\\u003cbreak time=\\\"500ms\\\"/\\u003e or [65].\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Voice Othello",
+    "servingModelOutdated": false,
+    "request": "AI"
+}

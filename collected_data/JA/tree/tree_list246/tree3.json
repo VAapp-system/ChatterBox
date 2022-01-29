@@ -1,0 +1,145 @@
+{
+    "3": {
+        "req": "終了",
+        "res": "サービス向上のため、「妖怪 笑い袋」について、満足度を1から5で教えてください。 1が最低、5が最高です。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "終了"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "終了",
+        "res": "",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "終了"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "終了",
+        "res": "",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "終了"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "妖怪を教えてください",
+        "res": "ウッサッサッサッサッサッサッサッサッサッサッサッサッ！他に何か言いたいことはある？",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "妖怪を教えてください"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "終了",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "妖怪を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "笑いを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "袋を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "何を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "悪口を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "愚痴を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "言葉を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "オッケーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "アプリを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "3": {
+        "req": "GCP certification",
+        "res": "Google Cloud's certification program gives Google Cloud users, customers and partners a way to demonstrate their technical skills in a particular job role or technology. Individuals are assessed using a variety of rigorously developed industry standard methods to determine whether they meet Google Cloud's proficiency standards.\nWhat would you like to know more?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "GCP certification"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Why should I get GCP",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "a particular job role",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "technology",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

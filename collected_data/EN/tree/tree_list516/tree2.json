@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Diet planner",
+        "res": "OK. Getting Diet planner.Sorry, Diet planner isn't supported on this device.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Diet planner"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

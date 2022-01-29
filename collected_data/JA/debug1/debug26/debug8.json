@@ -1,0 +1,84 @@
+{
+    "response": "現在のビットコインの価格は、3,587,082円。前日比、-6.44% です",
+    "expectUserResponse": true,
+    "conversationToken": "ErYDS2o5dm...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "現在のビットコインの価格は、3,587,082円 (-6.44%) です"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "ビットコイン価格",
+                    "formattedText": "現在の価格は、3,587,082円 です。  \n**騰落率 (24 時間)：** -6.44%  \n**騰落率 (7 日間)：** -3.26%  \n**高値：** 3,823,861円  \n**安値：** 3,550,000円",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "一覧"
+            },
+            {
+                "title": "ETH"
+            },
+            {
+                "title": "BCH"
+            },
+            {
+                "title": "LTC"
+            },
+            {
+                "title": "XRP"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/GIGXg-Sj8927xgtbRb6AKlSvjH5iJQfIxllypaLDp3LQnPjhdqbbmai8eZNdN6Hvre7uzFv6-ZIf",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "一覧",
+                    "ETH",
+                    "BCH",
+                    "LTC",
+                    "XRP"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "仮想通貨チェック",
+    "servingModelOutdated": false,
+    "request": "BTC"
+}

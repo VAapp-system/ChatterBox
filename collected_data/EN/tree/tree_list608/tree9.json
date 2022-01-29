@@ -1,0 +1,68 @@
+{
+    "16": {
+        "req": "Yes",
+        "res": "Goa!!! I know its the most cliche place anyone recommends but it truly is a wonderful place to go to. North Goa is a place full of crowded beaches, beach shacks, huge franchise restaurants and a great nightlife area. Whereas South Goa is a more peaceful destination with never ending clean beaches , Bird Sanctuaries, Wildlife areas, good restaurants, and highly luxurious hotels and resorts on the beaches as well as the scenic backwaters.Do you want to explore more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Indian.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know India.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 15
+    },
+    "17": {
+        "req": "No",
+        "res": "I hope you enjoy your time there and make some great memories.",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 15
+    }
+}

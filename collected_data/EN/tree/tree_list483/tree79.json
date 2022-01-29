@@ -1,0 +1,29 @@
+{
+    "79": {
+        "req": "January 1st",
+        "res": "I'm sorry, something went wrong please try again.",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 79,
+        "req_list": [
+            "January 1st"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Travelear.",
+                    "visit": false,
+                    "child": [
+                        80
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 78
+    }
+}

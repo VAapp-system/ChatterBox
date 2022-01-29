@@ -1,0 +1,32 @@
+{
+    "2": {
+        "req": "爆笑おじさんと話す",
+        "res": "はい。 爆笑おじさんです。こんにちは！笑ってと言ったら、僕は笑いますよ",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "爆笑おじさんと話す"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "笑って",
+                    "type_ID": [
+                        "13"
+                    ],
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

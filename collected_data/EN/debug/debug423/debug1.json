@@ -1,0 +1,74 @@
+{
+    "response": "OK. Let's get SWR1.Which region would you like? Baden-Württemberg or Rheinland-Pfalz?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get SWR1."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Which region would you like? Baden-Württemberg or Rheinland-Pfalz?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Baden-Württemberg"
+            },
+            {
+                "title": "Rheinland-Pfalz"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/H3HYLyUaNnI7oeDfFXRjTRDs0FaNBDyZWVDuUoBnzN8q73_BwX1kt6658FG7ibp2i7OsH_NZ1MnA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Baden-Württemberg",
+                    "Rheinland-Pfalz"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "SWR1",
+    "servingModelOutdated": false,
+    "request": "Talk to SWR1"
+}

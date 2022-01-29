@@ -1,0 +1,38 @@
+{
+    "2": {
+        "req": "Talk to Healthy Ways Of Drinking Water",
+        "res": "Alright. Here's Healthy Ways Of Drinking Water.Hello there,I can tell you facts and methods of drinking the water correctly for better health.\nDo you want to know ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Healthy Ways Of Drinking Water"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 1
+    }
+}

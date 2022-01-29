@@ -1,0 +1,68 @@
+{
+    "response": "49 is not a leap year\nDo you want to tell me another year?",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Rk...",
+    "audioResponse": "//NExAARgN...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "49 is not a leap year"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Do you want to tell me another year?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/sdRvWQznRxjZvuJX8_SQQkYmJleecqQExca9SHKS1IJqePJZ6-aibziM7T_N-lrfBa3tiP1W2jGz",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Leap Year Finder",
+    "servingModelOutdated": false,
+    "request": "49.0"
+}

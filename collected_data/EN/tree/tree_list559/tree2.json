@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Simple Interest",
+        "res": "Alright. Getting Simple Interest.Hello! Let us calculate the simple interest. Please let me the principle amount.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Simple Interest"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "9": {
+        "req": "Who invented Radio?",
+        "res": "It was invented by Guglielmo Marconi",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "Who invented Radio?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Who invented Steam Engine",
+                    "visit": true,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

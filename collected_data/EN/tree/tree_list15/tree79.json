@@ -1,0 +1,161 @@
+{
+    "86": {
+        "req": "Skin",
+        "res": "Wash your face twice everyday. Using face-wash is optional. In case you have to use one, go for mild, neem-based cleansers. They work for all skin types. Also, don't over-wash your face. Twice to thrice should be enough.\nWould you like to hear next skin care tip? Or, get tricks for a good hygiene?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 86,
+        "req_list": [
+            "Skin"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Skin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Random",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 85
+    },
+    "87": {
+        "req": "Hygiene",
+        "res": "Deodorant starting to lose it's power? Wipe down your pits and add some hand sanitizer to the mix, the antibacterial formula will kill some of the bacteria that's making you smell.\nWhich would you prefer to choose, random hacks, or continue hygiene tips?",
+        "QType": "OPTION",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 87,
+        "req_list": [
+            "Hygiene"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [
+                        88
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Skin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Random",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "choose , random hacks",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "continue hygiene tips",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 85
+    }
+}

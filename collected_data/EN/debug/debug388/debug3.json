@@ -1,0 +1,103 @@
+{
+    "response": "The\nЩетка\nis Brush.\nЩетка\n.Brush\nThe next picture depicts, first\nптица\n, second\nНебо\nand third\nСтадо\nWhat words should I translate?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "The Щетка is Brush. Щетка. Brush"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "**1. птица** | **2. Небо** | **3. Стадо** | **4. вода** | **5. Сиберд** | **6. Миграция птиц** | **7. Водяная птица** | **8. Золото** | **9. Миграция животных** | **10. Море**",
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1514412076816-d228b5c0973c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE1MDAyOX0",
+                        "accessibilityText": "",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 2
+                }
+            },
+            {
+                "displayText": {
+                    "content": "The next picture depicts, first птица, second Небо and third Стадо What words should I translate?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "птица"
+            },
+            {
+                "title": "Небо"
+            },
+            {
+                "title": "Стадо"
+            },
+            {
+                "title": "вода"
+            },
+            {
+                "title": "Сиберд"
+            },
+            {
+                "title": "Миграция птиц"
+            },
+            {
+                "title": "Водяная птица"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/JM5JnQQL_X4kJfJbYM0DRDVr3wLfOa2vjB78-5EOvE4TmdNf6nvf50_7iidscSI4nsV3JgZxhafgnA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "птица",
+                    "Небо",
+                    "Стадо",
+                    "вода",
+                    "Сиберд",
+                    "Миграция птиц",
+                    "Водяная птица"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Russian with Pictures",
+    "servingModelOutdated": false,
+    "request": "Щетка"
+}

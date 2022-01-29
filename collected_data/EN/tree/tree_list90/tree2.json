@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to less name collector",
+        "res": "OK. Getting less name collector.Hello there! Help me with the choice of username you want for Maximo.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to less name collector"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "Great, your new Food Storage account is set up. I'll send you a confirmation email soon.OK. Getting Food Storage.\nHi! How are you doing?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "NE": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

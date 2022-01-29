@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Spices Trivia",
+        "res": "Alright. Here's Spices Trivia.Hi I can tell you facts about Spices\nWanna know ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Spices Trivia"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spices Trivia.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

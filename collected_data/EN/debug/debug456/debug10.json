@@ -1,0 +1,88 @@
+{
+    "response": "Playing Follow the Science from The Hannity Monologues",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Playing Follow the Science from The Hannity Monologues"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Follow the Science",
+                                "description": "Los Angeles County is now saying wearing masks are required indoors whether or not you were vaccinated when the science says otherwise.",
+                                "largeImage": {
+                                    "url": "https://storage.buzzsprout.com/variants/dyvzt5m7g7k6741um3li602br9x7/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.JPG",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://pdcn.co/e/www.buzzsprout.com/1612267/8785279-follow-the-science.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-2692117641288804766"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "older episode"
+            },
+            {
+                "title": "cancel"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/lmn9i2reW2T8-JbiXEp9UpC0jFwjCrYtR7tld2_Ht1yDRWB8GdRqx9U9-lHXCUu-gNQv82p4Taqv",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "older episode",
+                    "cancel"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Hannity",
+    "servingModelOutdated": false,
+    "request": "Talk to Hannity"
+}

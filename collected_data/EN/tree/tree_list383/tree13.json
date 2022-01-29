@@ -1,0 +1,87 @@
+{
+    "13": {
+        "req": "Skills",
+        "res": "I know\nProgramming Languages: C, Java\nDatabases: MySQL, Oracle\nTools: MS-Office, Xcode, VS code, Netbeans\nCloud & Platform Services: Firebase, Dialogflow, Actions on Google\nOperating Systems: Ms-Windows, Mac OS\nAsk me, what do you want to know?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Skills"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Developer",
+                    "visit": false,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Projects",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "About Sahil",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Address",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "Contact Info",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "Certifications",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sahil Kansal.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

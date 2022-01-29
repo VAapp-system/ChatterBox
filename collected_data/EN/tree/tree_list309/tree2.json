@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to random facts about everything",
+        "res": "OK. Here's random facts about everything.Hi I can tell you random facts about everything\nWanna know ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to random facts about everything"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

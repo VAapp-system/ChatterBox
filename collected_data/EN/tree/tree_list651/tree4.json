@@ -1,0 +1,29 @@
+{
+    "4": {
+        "req": "I want to know All About Colors.",
+        "res": "I missed that.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "I want to know All About Colors."
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know All About Colors.",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

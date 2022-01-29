@@ -1,0 +1,66 @@
+{
+    "3": {
+        "req": "alien encounter \"",
+        "res": "21 July 2010.\nBooysens Sighting.\nPretoria, South Africa.\nResidents of Booysens, Pretoria, observed a triangle of bright lights which hung motionless in the sky for two hours. In each instance the object commenced a slow descent towards the horizon at 20:30. Binocular observation revealed nothing more than a blue and emerald light, with a white light which shone straight downwards.\nShould I tell some more cases ?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "alien encounter \""
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Alien Encounters.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

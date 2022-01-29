@@ -1,0 +1,69 @@
+{
+    "response": "Yes, lets go talk to Monsieur LePain, the baker!\nMonsieur LePain says the monster ate all of the pies he left out to cool this morning. And there were over two dozen! He thinks a creature with an appetite that big must be gigantic. Oh, but that's odd. There's a half eaten pie on the ground and the bites look pretty small to me. How interesting...\nNow, let's keep looking for clues. There are a lot of people gathered at the tavern who might know something, but we could also find some information by talking to Farmer Florent.\nWhere should we go next? The tavern or the farm?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Yes, lets go talk to Monsieur LePain, the baker! Monsieur LePain says the monster ate all of the pies he left out to cool this morning. And there were over two dozen! He thinks a creature with an appetite that big must be gigantic. Oh, but that's odd. There's a half eaten pie on the ground and the bites look pretty small to me. How interesting... Now, let's keep looking for clues. There are a lot of people gathered at the tavern who might know something, but we could also find some information by talking to Farmer Florent."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Where should we go next? The tavern or the farm?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "farm"
+            },
+            {
+                "title": "tavern"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/HNbbYhdNrGKtHaG_vr93xjprs4RQtVqvaX2xHkmxGhDrxX2LmpTiTmoU3VhGTzHByzXm1m8L3Y1U1w",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/3KrCYREWgBxduAGRxWRbZPPXwVVwu3YtA1nBjbiwbJs-e98Ql-tXqw31jxzbKZmt4Jn4bLlrLe4N9Q"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "farm",
+                    "tavern"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Disney Princess",
+    "servingModelOutdated": false,
+    "request": "baker"
+}

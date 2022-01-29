@@ -1,0 +1,55 @@
+{
+    "22": {
+        "req": "repeat",
+        "res": "Next up: 'Storm Sounds' by 'Zen Moods' ''.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 22,
+        "req_list": [
+            "repeat"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Storm Sounds.",
+                    "visit": false,
+                    "child": [
+                        23
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Freepik.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OPTION": {
+                "1": {
+                    "req": "Next",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Exit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 21
+    }
+}

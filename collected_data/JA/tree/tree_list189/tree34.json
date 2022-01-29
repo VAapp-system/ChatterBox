@@ -1,0 +1,113 @@
+{
+    "47": {
+        "req": "１",
+        "res": "腹筋を 入れないと50回っていうとエラーになるので 回ですね？\n変更する場合はもう一度言ってください。\nこれで宜しければOKと言ったあと、私が「１」と言いますのであなたも続けて「１」と言ってください。それではどうぞ！",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 47,
+        "req_list": [
+            "１"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "１",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "あなたも続けて",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "腹筋を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "腕を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "スクワットを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "アプリを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "トレーナーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "回数を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "やりがいを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 46
+    },
+    "48": {
+        "req": "あなたも続けて",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "INST",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 48,
+        "req_list": [
+            "あなたも続けて"
+        ],
+        "candidates": {},
+        "parent": 46
+    }
+}

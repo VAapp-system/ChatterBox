@@ -1,0 +1,39 @@
+{
+    "2": {
+        "req": "Talk to Denmark trip",
+        "res": "Alright. Here's Denmark trip.Hi. If you tell us your keyword, I'll help you travel to the Denmark.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Denmark trip"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Restaurant",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Denmark.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

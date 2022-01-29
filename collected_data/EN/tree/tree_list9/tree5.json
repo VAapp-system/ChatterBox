@@ -1,0 +1,37 @@
+{
+    "5": {
+        "req": "Yes",
+        "res": "Never drink water during your meal course because it will dilute the digestive juices which will lead to improper digestion. Do you want to know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

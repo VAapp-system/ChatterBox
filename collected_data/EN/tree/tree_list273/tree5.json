@@ -1,0 +1,29 @@
+{
+    "5": {
+        "req": "Compilation type ?",
+        "res": "Ahead of time",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Compilation type ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Flutter is owned by ?",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "247": {
+        "req": "Schedule Tutorial",
+        "res": "We know all about this year's schedule! Start by asking \"What time is the game?\" or \"Who is pitching today?\"\nYou can also get more advanced by asking \"What time is the game on July 4\" or \"When do the Yankees play the Red Sox next?\"",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 247,
+        "req_list": [
+            "Schedule Tutorial"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Tutorials",
+                    "visit": false,
+                    "child": [
+                        248
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Scores Tutorial",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Standings Tutorial",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "What time is the game ?",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "What time is the game on July 4",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "When do the Yankees play the Red Sox next ?",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the Red Sox.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Boston Red Sox.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 246
+    }
+}

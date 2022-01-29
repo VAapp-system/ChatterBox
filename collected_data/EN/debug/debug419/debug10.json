@@ -1,0 +1,78 @@
+{
+    "response": "You are now listening to Dual.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "You are now listening to Dual."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Dual",
+                                "description": "Powering Your Ears",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1598976451334-dual_512x512.png",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://radio.dual.pw/stream.mp3??homeapp=true"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-906835983665025537"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/nsRDIn922LrPBaCSFgW92LORpqDk7aRS1pIbSkQgSCwDaBtqMx9HFGY6pPcYYgq2AO8gt2mMVNnT",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Dual Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to Dual Radio"
+}

@@ -1,0 +1,44 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "Sorry, I didn't get that. Can you rephrase?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "No",
+        "res": "Can you say that again?",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "gita sayings",
+        "res": "Look to this day,\nFor it is life,\nThe very life of life.\nIn its brief course lie all the truths\nAnd realities of your existence;\nThe bliss of growth\nThe glory of action, and\nThe splendor of beauty;\nFor yesterday is but a dream\nAnd tomorrow is only a vision,\nBut today well lived makes\nEvery yesterday a dream of happiness\nAnd every tomorrow a vision of hope.\nLook well, therefore, to this day.\nSuch is the salvation of the dawn.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "gita sayings"
+        ],
+        "candidates": {},
+        "parent": 2
+    }
+}

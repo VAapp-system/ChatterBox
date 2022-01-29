@@ -1,0 +1,77 @@
+{
+    "45": {
+        "req": "みりん",
+        "res": "Boo!\n残念！はずれ〜。バーカバーカ。　それは調味料でしょ。\nそんなおドジな君には、もう10回みりんを言ってもらうよう",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 45,
+        "req_list": [
+            "みりん"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "もう10回みりん",
+                    "type_ID": [
+                        "20"
+                    ],
+                    "visit": false,
+                    "child": [
+                        46
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "みりん",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "みりんを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "おれを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "とっておきを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "クイズを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 44
+    }
+}

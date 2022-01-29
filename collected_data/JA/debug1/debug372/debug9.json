@@ -1,0 +1,103 @@
+{
+    "response": "正解はムクドリです。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "正解はムクドリです。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "ムクドリ",
+                    "subtitle": "",
+                    "formattedText": "全国の平野部から山地の人家付近や農耕地、河川敷、草原に周年生息するが、積雪地帯に生息するものは冬期に暖地へ移動する。繁殖期の本州中部以北の森林の林縁にはコムクドリが生息するが、コムクドリの囀りは本種より複雑で長い金属性の鳴き声をしていることで区別できる。",
+                    "image": {
+                        "url": "https://storage.googleapis.com/birds-quiz-2662f.appspot.com/images/mukudori.jpg",
+                        "accessibilityText": "ムクドリ",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "さえずりナビ by NPO法人バードリサーチ",
+                            "openUrlAction": {
+                                "url": "https://db3.bird-research.jp/saezuri/birdsong/detail/141",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            },
+            {
+                "displayText": {
+                    "content": "6問目です。 ♪鳥の鳴き声を再生中♪ 1番「ドバト」、2番「シジュウカラ」、3番「キビタキ」"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1番"
+            },
+            {
+                "title": "2番"
+            },
+            {
+                "title": "3番"
+            },
+            {
+                "title": "不明"
+            },
+            {
+                "title": "ヒント"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/f3sWe4HH8Ym_nh0Ao5dN4BT8d0t8XAIEWt8PdcpkYKA3seoDAIr0ELA1mEUv5gjf8TqIkDViw0Hu",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1番",
+                    "2番",
+                    "3番",
+                    "不明",
+                    "ヒント"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "鳥の鳴き声クイズ",
+    "servingModelOutdated": false,
+    "request": "1番"
+}

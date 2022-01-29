@@ -1,0 +1,125 @@
+{
+    "8": {
+        "req": "left",
+        "res": "All right, let's go talk to Madame Dubois!\nWell, Madame Dubois says a wild animal ran through her yard and knocked all of her clean laundry off the wash line. She thinks the creature must be enormous to have made such a big mess. But look! There's a patch of mud by the wash line with a hoofprint in it. That print doesn't look very big to me. Hmmm...\nMaybe we should go to the village square to see if anyone there saw anything. I'm sure Monsieur LePain, the baker, will know something. Or we can find Monsieur Marchand at his fruit cart.\nWho do you think we should talk to next? The baker or the fruit seller?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "left"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "baker",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "fruit seller",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "we",
+                    "string_ID": 11,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "can find Monsieur Marchand at his fruit cart",
+                    "string_ID": 11,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "The baker",
+                    "string_ID": 13,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "the fruit seller",
+                    "string_ID": 13,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Disney.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Cinderella.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Ariel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Belle.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Jasmine.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know Tiana.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

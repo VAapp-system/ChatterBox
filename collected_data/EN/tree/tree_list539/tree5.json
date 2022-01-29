@@ -1,0 +1,30 @@
+{
+    "5": {
+        "req": "at White River Credit Union",
+        "res": "Hello! I'm the White River Credit Union Virtual Assistant. How can I help you?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "at White River Credit Union"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know White River Credit Union.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

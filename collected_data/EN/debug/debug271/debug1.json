@@ -1,0 +1,74 @@
+{
+    "response": "Alright. Let's get my English genie.Hi, I'm Elsa! I'm an conversational Action. I may leave you in an open conversation senario, just ask or talk anything to continue practicing English with me.\nIs this the first time we talk?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get my English genie."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi, I'm Elsa! I'm an conversational Action. I may leave you in an open conversation senario, just ask or talk anything to continue practicing English with me.\n\nIs this the first time we talk?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Zx8XyUpeCrR10EYFW6UttjF0YzNaMZbmj_p5Lpls1rfEst0R88yOl9V0umiRE75UEMp9ZSBh2AKTYg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "my English genie",
+    "servingModelOutdated": false,
+    "request": "Talk to my English genie"
+}

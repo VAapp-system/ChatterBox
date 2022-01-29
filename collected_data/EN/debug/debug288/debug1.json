@@ -1,0 +1,74 @@
+{
+    "response": "OK. Here's Learning Mandarin.Welcome to Learn Mandarin.In this game, I'll ask you some questions about Mandarin.Ready to play?",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Wm...",
+    "audioResponse": "",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Learning Mandarin."
+                }
+            },
+            {
+                "displayText": {
+                    "content": " Welcome to Learn Mandarin. In this game, I'll ask you some questions about Mandarin.  Ready to play?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/W-bEfAVI8XCOEM1VNTIv7j8DJS8eCXA11iwOHZ9WuDQdNL5sdbhTcB57RpMFYeJKhklu1qP9tVmPxQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Learning Mandarin",
+    "servingModelOutdated": false,
+    "request": "Talk to Learning Mandarin"
+}

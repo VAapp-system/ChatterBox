@@ -1,0 +1,436 @@
+{
+    "3": {
+        "req": "終了",
+        "res": "",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "終了"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "終了",
+        "res": "",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "終了"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "聞きたい方言",
+        "res": "すみません。よく分かりませんでした。聞きたい方言を話しかけてください。",
+        "QType": "INST",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "聞きたい方言"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "なにか再生して",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "なにか再生して"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "8": {
+        "req": "福島弁で再生して",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "EXAMPLE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "福島弁で再生して"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "9": {
+        "req": "標準語で再生して",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "EXAMPLE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "標準語で再生して"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "10": {
+        "req": "OKグーグル、ストップ",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "OKグーグル、ストップ"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "11": {
+        "req": "OKグーグル、終了",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "OKグーグル、終了"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "12": {
+        "req": "あなたを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "あなたを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "13": {
+        "req": "未来を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "未来を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "14": {
+        "req": "彼氏を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "彼氏を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "15": {
+        "req": "方言を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "方言を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "16": {
+        "req": "キュンを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "キュンを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "17": {
+        "req": "種類を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 6,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "種類を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "18": {
+        "req": "標準を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 7,
+        "over": false,
+        "canvas": false,
+        "id": 18,
+        "req_list": [
+            "標準を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "19": {
+        "req": "語を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 8,
+        "over": false,
+        "canvas": false,
+        "id": 19,
+        "req_list": [
+            "語を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "20": {
+        "req": "福島を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 9,
+        "over": false,
+        "canvas": false,
+        "id": 20,
+        "req_list": [
+            "福島を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "21": {
+        "req": "弁を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 10,
+        "over": false,
+        "canvas": false,
+        "id": 21,
+        "req_list": [
+            "弁を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "22": {
+        "req": "名古屋を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 11,
+        "over": false,
+        "canvas": false,
+        "id": 22,
+        "req_list": [
+            "名古屋を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "23": {
+        "req": "福岡を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 12,
+        "over": false,
+        "canvas": false,
+        "id": 23,
+        "req_list": [
+            "福岡を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "24": {
+        "req": "関西を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 13,
+        "over": false,
+        "canvas": false,
+        "id": 24,
+        "req_list": [
+            "関西を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "25": {
+        "req": "山口を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 14,
+        "over": false,
+        "canvas": false,
+        "id": 25,
+        "req_list": [
+            "山口を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "26": {
+        "req": "沖縄を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 15,
+        "over": false,
+        "canvas": false,
+        "id": 26,
+        "req_list": [
+            "沖縄を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "27": {
+        "req": "話しを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 16,
+        "over": false,
+        "canvas": false,
+        "id": 27,
+        "req_list": [
+            "話しを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "28": {
+        "req": "例を教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 17,
+        "over": false,
+        "canvas": false,
+        "id": 28,
+        "req_list": [
+            "例を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "29": {
+        "req": "なにを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 18,
+        "over": false,
+        "canvas": false,
+        "id": 29,
+        "req_list": [
+            "なにを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "30": {
+        "req": "ランダムを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 19,
+        "over": false,
+        "canvas": false,
+        "id": 30,
+        "req_list": [
+            "ランダムを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "31": {
+        "req": "グーグルを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 20,
+        "over": false,
+        "canvas": false,
+        "id": 31,
+        "req_list": [
+            "グーグルを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "32": {
+        "req": "アプリを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 21,
+        "over": false,
+        "canvas": false,
+        "id": 32,
+        "req_list": [
+            "アプリを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "33": {
+        "req": "好みを教えてください",
+        "res": "すみません。 方言の彼氏から応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 22,
+        "over": false,
+        "canvas": false,
+        "id": 33,
+        "req_list": [
+            "好みを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "94": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 94,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 4
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "84": {
+        "req": "About Banana",
+        "res": "Banana!! One serving of banana contains 110 calories, 30 grams of carbohydrate and 1 gram of protein. Bananas are naturally free of fat, cholesterol, and sodium. Bananas provide a variety of vitamins and minerals: Vitamin B6 - 0.5 mg.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 84,
+        "req_list": [
+            "About Banana"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Tell me about Eggs",
+                    "visit": false,
+                    "child": [
+                        85
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Foods.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 83
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "2": {
+        "req": "Talk to shree roopnarayan ji mandir",
+        "res": "OK. Here's Shri Roop narayan Ji Mandir.hello nice to see you here , you can find out temple and village related information just say like about village or about temple ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to shree roopnarayan ji mandir"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "about temple?",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "about village?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "contact",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "about village",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "about temple ?",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

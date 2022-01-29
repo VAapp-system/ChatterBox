@@ -1,0 +1,74 @@
+{
+    "response": "Alright. Getting space next flight.Hey! Do you wish to know if there is a flight to space after a certain date?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Space Next Flight."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hey! Do you wish to know if there is a flight to space after a certain date?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/KcFVTzYsb9ZAu28VBKuHqVYHMjI_YYeSrX5bZCFIEaeNWDyQiY7KGSsKKMzy50G2FeI0CcbhiLfX",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "space next flight",
+    "servingModelOutdated": false,
+    "request": "Talk to Space Next Flight"
+}

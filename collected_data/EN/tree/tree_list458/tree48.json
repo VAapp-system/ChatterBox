@@ -1,0 +1,35 @@
+{
+    "65": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 65,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Edifi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Christian.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 64
+    }
+}

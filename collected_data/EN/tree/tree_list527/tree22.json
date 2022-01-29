@@ -1,0 +1,39 @@
+{
+    "22": {
+        "req": "About Pizza",
+        "res": "Calories: 460.\nFat: 26 grams.\nCarbs: 37 grams.\nSugar: 1 gram.\nSodium: 900 mg — 38% of the RDI.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 22,
+        "req_list": [
+            "About Pizza"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "About Burger",
+                    "visit": false,
+                    "child": [
+                        23
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Foods.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 21
+    }
+}

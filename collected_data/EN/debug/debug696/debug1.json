@@ -1,0 +1,79 @@
+{
+    "response": "OK. Here's RNLI Near Me.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's RNLI Near Me."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to RNLI Near Me. Here you can find out about all our Lifeboat Launches and Events. \n\nWhich are you interested in?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Launches"
+            },
+            {
+                "title": "Events"
+            },
+            {
+                "title": "Support the RNLI"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/22odrk2wiRfLUjw77quqUTsu8X8xXJtApbHk47cl1yF6s0_ZVWjVOTehibes5kKGW3PJhTp4KZY",
+        "agentStyle": {
+            "primaryColor": "#000000",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Launches",
+                    "Events",
+                    "Support the RNLI"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "RNLI Near Me",
+    "servingModelOutdated": false,
+    "request": "Talk to RNLI Near Me"
+}

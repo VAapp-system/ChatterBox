@@ -1,0 +1,68 @@
+{
+    "31": {
+        "req": "Continue",
+        "res": "Imagine a two digit number!!! Have you imagined? Say Imagined to continue.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 31,
+        "req_list": [
+            "Continue"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        32
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "Imagined",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s in your mind easily. This is a unique thing, but you might have came across this during your life.Try this wizard and enjoy. Don",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Mind Reading Wizard.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 30
+    }
+}

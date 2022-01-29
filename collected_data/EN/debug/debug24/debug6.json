@@ -1,0 +1,73 @@
+{
+    "response": "Hello there Logue.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hello there Logue."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "check in"
+            },
+            {
+                "title": "disable roll call"
+            },
+            {
+                "title": "news"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/5yMXLIQEWR09fYw8SRNgFzDWsZXDrkGlVPhQX0R3UVtGYSd0AocUEgryumA_FDwUi96hGTbpl4-tkQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "check in",
+                    "disable roll call",
+                    "news"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "eevee now",
+    "servingModelOutdated": false,
+    "request": "Talk to eevi now"
+}

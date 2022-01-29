@@ -1,0 +1,121 @@
+{
+    "29": {
+        "req": "Hygiene",
+        "res": "Oil pulling help lower bacteria in the mouth that causes plaque buildup and cavities.\nSwish 1-2 teaspoons of the preferred oil such as organic Coconut oil or Sesame oil in the mouth for ten to twenty minutes.\nOnce you reach your time limit, spit the oil. and rinse your mouth with warm water and later brush your teeth. This will reduce all the teeth problems.\nWhich one would you prefer next, random beauty hack, or continue with hygiene tricks?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 29,
+        "req_list": [
+            "Hygiene"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [
+                        30
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Skin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Random",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "Swish 1 - 2 teaspoons of the preferred oil such as organic Coconut oil",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Sesame oil in the mouth for ten to twenty minutes",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "prefer next , random beauty hack",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "continue with hygiene tricks",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_SC": {
+                "1": {
+                    "req": "1 -",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "2 teaspoons of the preferred oil such as organic Coconut oil",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 28
+    }
+}

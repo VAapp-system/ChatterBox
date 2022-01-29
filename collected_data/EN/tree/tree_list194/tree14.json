@@ -1,0 +1,57 @@
+{
+    "14": {
+        "req": "address",
+        "res": "Admissions Advisory Department, Ho Chi Minh City University of Technology, 475A Dien Bien Phu, Ward 25, Binh Thanh District, HCMC. Can I help you with something else?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "address"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "buses of zones",
+                    "visit": false,
+                    "child": [
+                        15
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Hutech.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 13
+    }
+}

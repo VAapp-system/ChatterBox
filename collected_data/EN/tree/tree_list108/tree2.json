@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Ask Heal With Laugh about any Joke to rejuvenate your mind",
+        "res": "OK. Getting Heal With Laugh.Q: What kind of institution is Marriage?\nA: One where a man loses his Bachelor's Degree and the woman gets her Masters.\nWant more mood cheer ups?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Ask Heal With Laugh about any Joke to rejuvenate your mind"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know HealWithLaugh.",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

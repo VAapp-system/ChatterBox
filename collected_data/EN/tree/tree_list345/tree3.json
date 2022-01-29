@@ -1,0 +1,46 @@
+{
+    "3": {
+        "req": "\" who are duo sisters?\"",
+        "res": "Duo sisters are edm music band and they are known by a stage name called \"krewella\"",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "\" who are duo sisters?\""
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "duo sisters real  name?",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "how krewella band form?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "how many tracks prod.?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

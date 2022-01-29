@@ -1,0 +1,83 @@
+{
+    "response": "Where do you want to fly to",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAOEH...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Where do you want to fly to"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Hanoi to Ho Chi Minh"
+            },
+            {
+                "title": "Hanoi to Da Nang"
+            },
+            {
+                "title": "Hanoi to Buon Ma Thuot"
+            },
+            {
+                "title": "Hanoi to Can Tho"
+            },
+            {
+                "title": "Hanoi to Chu Lai"
+            },
+            {
+                "title": "Hanoi to Con Dao"
+            },
+            {
+                "title": "Hanoi to Da Lat"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dd3AzLrqjBWhtFvQOwJLiCj-wQUsww6EuTzDFgMfy6QINBVK575UlVW9SeSb4g7AJa-eGC_r2xRFAg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Hanoi to Ho Chi Minh",
+                    "Hanoi to Da Nang",
+                    "Hanoi to Buon Ma Thuot",
+                    "Hanoi to Can Tho",
+                    "Hanoi to Chu Lai",
+                    "Hanoi to Con Dao",
+                    "Hanoi to Da Lat"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Bamboo Airways",
+    "servingModelOutdated": false,
+    "request": "Hanoi"
+}

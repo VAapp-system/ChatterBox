@@ -1,0 +1,37 @@
+{
+    "14": {
+        "req": "Yes",
+        "res": "the Third Battle of Panipat in 1761 is fought here.\nWanna know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Panipat Amaze.",
+                    "visit": false,
+                    "child": [
+                        15
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Panipat.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 13
+    }
+}

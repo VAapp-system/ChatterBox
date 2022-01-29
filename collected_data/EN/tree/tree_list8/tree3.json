@@ -1,0 +1,49 @@
+{
+    "3": {
+        "req": "I want to know Explore Yoga Therapy.",
+        "res": "At Explore, we work together to find solutions that go beyond your yoga mat.\nEveryone is a candidate for yoga therapy. Regardless of age or physical ability, this approach meets you where you are and empowers you with tools to get where you want to go.\nWould you like to learn more about the goals of Yoga Therapy, its benefits, and some of the conditions it can treat?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "I want to know Explore Yoga Therapy."
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "age",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "physical ability",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Explore Yoga Therapy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

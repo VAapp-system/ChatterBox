@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "Tell me history Hutech",
+        "res": "Hutech was born in 1965. How can I help?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Tell me history Hutech"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Hutech.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

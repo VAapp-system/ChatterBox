@@ -1,0 +1,90 @@
+{
+    "9": {
+        "req": "payroll",
+        "res": "If only my brain was bigger. I can't work out what you were asking. Please forgive me. Call 1300 300 820 or ask me in another way now.",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "payroll"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "What is salary sacrificing?",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What are Ordinary Times Earnings?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "How do I reset my password?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Are you a sustainable fund?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "ve created Alice to offer another way to help our members and employers easily sort out their super. If you have any suggestions about how we can improve Alice, don",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Alice.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Ordinary Times Earnings.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Vision Super.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

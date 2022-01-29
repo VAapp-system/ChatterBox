@@ -1,0 +1,82 @@
+{
+    "81": {
+        "req": "Skin",
+        "res": "Quit Smoking! Quitting increases the oxygen and nutrients sent to your skin cells, leaving you with smoother, more supple skin. And while your skin will look younger, you’re not just turning back the clock on your appearance. Quitting smoking before the age of 40 decreases your risk of premature death by 90 percent. This number increases to 97 percent if you quit before the age of 30.\nDo you wish to hear next skin care tip? But I can also tell you home remedies for perfect radiant skin. Which one would you prefer?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 81,
+        "req_list": [
+            "Skin"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Skin",
+                    "visit": false,
+                    "child": [
+                        82
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Random",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 80
+    }
+}

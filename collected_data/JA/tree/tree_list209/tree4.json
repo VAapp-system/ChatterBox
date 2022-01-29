@@ -1,0 +1,107 @@
+{
+    "4": {
+        "req": "ギターを教えてください",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "ギターを教えてください"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "5": {
+        "req": "コードを教えてください",
+        "res": "ギターコードクイズ。 あるコードの音を流します。コードはAからGのマイナーを含めた14種類です。聞こえたコードをアルファベットで答えてね。 クイズを始める場合は「スタート」と言って下さい。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "コードを教えてください"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "スタート",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "聞こえたコードをアルファベット",
+                    "type_ID": [
+                        "23"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "ギターを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "コードを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "クイズを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "音を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "アルファベットを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

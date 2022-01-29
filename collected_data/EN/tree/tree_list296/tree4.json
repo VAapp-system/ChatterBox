@@ -1,0 +1,77 @@
+{
+    "4": {
+        "req": "yes",
+        "res": "It's been reported that monks in the middle ages used glass spheres as magnifying glasses to read.\nWould you like another?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "no",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "Talk to Spectacle Facts",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "5": {
+        "req": "no",
+        "res": "Goodbye!",
+        "QType": "OPTION",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "no"
+        ],
+        "candidates": {},
+        "parent": 3
+    }
+}

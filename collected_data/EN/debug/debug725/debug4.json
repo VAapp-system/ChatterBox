@@ -1,0 +1,78 @@
+{
+    "response": "Here's the latest news from Ra'diojourna'al",
+    "expectUserResponse": false,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Here's the latest news from Radiožurnál"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Zprávy - Radiožurnál, 3. 7. 2021",
+                                "description": "Zprávy - Radiožurnál, 3. 7. 2021 v 20:30",
+                                "icon": {
+                                    "url": "https://data.rozhlas.cz/api/v2/asset/edition/157/128x128.jpg",
+                                    "accessibilityText": "Radiožurnál",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://croaod.cz/download/9f428d05-9f97-4bd1-bd11-dfda42329e8d.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "7625192092249856568"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/olnbUxT-wpru9LI9SgPxPzNZqbZd40xGeTGpUFi5NawE97Nm8IDAVYYzdx2yPF0GMA_zAI4weLEthw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Czech Radio News",
+    "servingModelOutdated": false,
+    "request": "Talk to Czech Radio News"
+}

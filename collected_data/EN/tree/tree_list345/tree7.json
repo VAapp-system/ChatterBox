@@ -1,0 +1,54 @@
+{
+    "7": {
+        "req": "how krewella band form?",
+        "res": "It was formed in 2007 and consisting of two sisters with producer kris trindl.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "how krewella band form?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "duo sisters real  name?",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "kris trindl producer?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "first single by krewella?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "krewella band known for?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 6
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "1": {
+        "req": null,
+        "res": null,
+        "QType": null,
+        "Q_id": null,
+        "over": false,
+        "canvas": false,
+        "id": 1,
+        "req_list": [
+            null
+        ],
+        "candidates": {
+            "START": {
+                "1": {
+                    "req": "英検単語５級につないで",
+                    "visit": false,
+                    "child": [
+                        2,
+                        7,
+                        10,
+                        13,
+                        16,
+                        19
+                    ],
+                    "loop_start": true,
+                    "loop_end": [],
+                    "loop_count": 5
+                }
+            }
+        },
+        "parent": null
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "2": {
+        "req": "日本酒データベースにつないで",
+        "res": "わかりました。 日本酒データベースです。日本酒のことならなんでも質問してください",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "日本酒データベースにつないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "日本を教えてください",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "酒を教えてください",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "クイズを教えてください",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

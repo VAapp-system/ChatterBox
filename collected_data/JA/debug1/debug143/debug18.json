@@ -1,0 +1,135 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201ak...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "正解は、 BTS「 Film out」です。 BTS「 Film out」でした。先週から4ランクダウンの、10位です。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "🎵音楽再生中🎵"
+                }
+            },
+            {
+                "listSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "NO_1",
+                                "synonymsList": [
+                                    "1番",
+                                    "Friends"
+                                ]
+                            },
+                            "title": "1番",
+                            "description": "Friends / BTS",
+                            "image": {
+                                "url": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/7a/35/c9/7a35c99b-3e54-a367-0121-5e94435593db/20UMGIM11867.rgb.jpg/170x170bb.png",
+                                "accessibilityText": "Friends",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "NO_2",
+                                "synonymsList": [
+                                    "2番",
+                                    "IDOL"
+                                ]
+                            },
+                            "title": "2番",
+                            "description": "IDOL / BTS",
+                            "image": {
+                                "url": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/64/e1/17/64e117b2-30c9-c5d0-348f-6f6fe4941a58/00602577013065.rgb.jpg/170x170bb.png",
+                                "accessibilityText": "IDOL",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "NO_3",
+                                "synonymsList": [
+                                    "3番",
+                                    "Kura Kura"
+                                ]
+                            },
+                            "title": "3番",
+                            "description": "Kura Kura / TWICE",
+                            "image": {
+                                "url": "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/95/cc/25/95cc2590-c0be-5b29-f11a-5ed20bf1cbb9/190296710896.jpg/170x170bb.png",
+                                "accessibilityText": "Kura Kura",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1番"
+            },
+            {
+                "title": "2番"
+            },
+            {
+                "title": "3番"
+            },
+            {
+                "title": "分からない"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/RCMrsr64UwRhl4C8Jd5cmtyGrDD0YQiqpE2L0NGIMrwz6AUADvCfSDYJ8gF4vtJnySO_AA0-y7xB",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1番",
+                    "2番",
+                    "3番",
+                    "分からない"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "K POPクイズ",
+    "servingModelOutdated": false,
+    "request": "1番"
+}

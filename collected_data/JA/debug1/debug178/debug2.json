@@ -1,0 +1,82 @@
+{
+    "response": "それでは、一緒にリラックスしていきましょう。",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Wk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "それでは、一緒にリラックスしていきましょう。"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "5分間リラックス:気持ちのリズム",
+                                "description": "ゆっくりリラックスしましょう",
+                                "icon": {
+                                    "url": "https://voice-app-files.s3-ap-northeast-1.amazonaws.com/relax/five-min-relax-108x108.png",
+                                    "accessibilityText": "5分間リラックスアイコン",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://voice-app-files.s3-ap-northeast-1.amazonaws.com/relax/music/The_Sun_is_Scheduled_to_Come_Out_Tomorrow.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "5854128614371140375"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "もう一度"
+            },
+            {
+                "title": "終わる"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/sDqF5VTzx-EXm37nt-W96a-pebbtevFX7uTwfNcSN6BdfmBBEdYmG6iBsXaQBTxxKQOHbTdc1HGi",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "もう一度",
+                    "終わる"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "五分間リラックス",
+    "servingModelOutdated": false,
+    "request": "スタート"
+}

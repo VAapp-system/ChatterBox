@@ -1,0 +1,380 @@
+{
+    "2": {
+        "req": "Talk to Mary's Domain",
+        "res": "OK. Let's get Mary's Domain.Welcome to Mary's Domain! At Sharples Dining Hall Lunch (from 11:30am to 12:30pm) Dinner (from 4:30pm to 5:30pm) At Essie Mae's Essie's open (from 8:00am to 2:00pm) We are here to serve you Breakfast and Lunch . We aslo have a wide variety of snacks and beverages too. Deli Lunch Special: Fried Chicken Cobb Salad- Romaine, Cherry tomato, Avocado, red onion, hard boiled egg, Fried chicken, Chipotle ranch dressing served with a piece of fruit and a choice of drink. We are now offering limited seating in our dining area. The seating that is not available to you is clearly marked. We ask that you adhere to our physical distancing policies in consideration and well being of our community. We ask you to not remain seated longer than 40 minutes so that our other customers have an opportunity to sit down and enjoy their meal. Thankyou for your cooperation. At Science Center coffee bar Science center café open (from 8:00am to 1:00pm) We are open and serving a selection of hot beverages, sandwiches, salads, snacks and cold beverages.. You can ask me for the lunch or dinner menu, or what's on tomorrow or at Essie Mae's.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mary's Domain"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What's for lunch?",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What's for dinner?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "What's at Essie Mae's?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "What's on tomorrow?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "you adhere to our physical distancing policies in consideration",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "well being of our community",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "not remain seated longer than 40 minutes so that our other customers have an opportunity to sit down",
+                    "string_ID": 8,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "enjoy their meal",
+                    "string_ID": 8,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "the lunch",
+                    "string_ID": 11,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "dinner menu",
+                    "string_ID": 11,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "what 's on tomorrow",
+                    "string_ID": 11,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "at Essie Mae 's",
+                    "string_ID": 11,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "talk to Mary's Domain",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "s Domain\" for the latest menus at Sharples dining hall and Essie Mae",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Swarthmore College.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mary's Domain\".",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Sharples.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Essie Mae's.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Mary Kassab.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to Mary's Domain",
+        "res": "Welcome to Mary's Domain! At Sharples Dining Hall Lunch (from 11:30am to 12:30pm) Dinner (from 4:30pm to 5:30pm) At Essie Mae's Essie's open (from 8:00am to 2:00pm) We are here to serve you Breakfast and Lunch . We aslo have a wide variety of snacks and beverages too. Deli Lunch Special: Fried Chicken Cobb Salad- Romaine, Cherry tomato, Avocado, red onion, hard boiled egg, Fried chicken, Chipotle ranch dressing served with a piece of fruit and a choice of drink. We are now offering limited seating in our dining area. The seating that is not available to you is clearly marked. We ask that you adhere to our physical distancing policies in consideration and well being of our community. We ask you to not remain seated longer than 40 minutes so that our other customers have an opportunity to sit down and enjoy their meal. Thankyou for your cooperation. At Science Center coffee bar Science center café open (from 8:00am to 1:00pm) We are open and serving a selection of hot beverages, sandwiches, salads, snacks and cold beverages.. You can ask me for the lunch or dinner menu, or what's on tomorrow or at Essie Mae's.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to Mary's Domain"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What's for lunch?",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What's for dinner?",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "What's at Essie Mae's?",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "What's on tomorrow?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "you adhere to our physical distancing policies in consideration",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "well being of our community",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "not remain seated longer than 40 minutes so that our other customers have an opportunity to sit down",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "enjoy their meal",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "the lunch",
+                    "string_ID": 10,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "dinner menu",
+                    "string_ID": 10,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "what 's on tomorrow",
+                    "string_ID": 10,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "at Essie Mae 's",
+                    "string_ID": 10,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "talk to Mary's Domain",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "s Domain\" for the latest menus at Sharples dining hall and Essie Mae",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Swarthmore College.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mary's Domain\".",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Sharples.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Essie Mae's.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Mary Kassab.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

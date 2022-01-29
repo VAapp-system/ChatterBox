@@ -1,0 +1,72 @@
+{
+    "2": {
+        "req": "ピザピザピザにつないで",
+        "res": "わかりました。 ピザ ピザ ピザです。こんにちは！ピザって10回言って",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "ピザピザピザにつないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "ピザを教えてください",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "6": {
+        "req": "ピザピザピザにつないで",
+        "res": "はい。 ピザ ピザ ピザです。こんにちは！ピザって10回言って",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "ピザピザピザにつないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "ピザを教えてください",
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

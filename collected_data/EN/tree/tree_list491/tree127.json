@@ -1,0 +1,48 @@
+{
+    "127": {
+        "req": "About us",
+        "res": "The world's biggest hits for Malmö, Lund and the whole of southwest Skåne!",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 127,
+        "req_list": [
+            "About us"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Listen Live",
+                    "visit": false,
+                    "child": [
+                        128
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Stop",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Fun Radio.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 126
+    }
+}

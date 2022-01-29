@@ -1,0 +1,44 @@
+{
+    "3": {
+        "req": "調べたい食べ物の名前",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "調べたい食べ物の名前"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "一郎",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "一郎"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "皇帝にして国王陛下",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "皇帝にして国王陛下"
+        ],
+        "candidates": {},
+        "parent": 2
+    }
+}

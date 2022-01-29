@@ -1,0 +1,30 @@
+{
+    "4": {
+        "req": "some tide times",
+        "res": "In Mountain View right now, the tide is coming in, getting towards high tide which will be at 8:50 pm. What else can I help you with?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "some tide times"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Tide Times.",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

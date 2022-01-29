@@ -1,0 +1,29 @@
+{
+    "3": {
+        "req": "questions like \" When is my next laundry slot ?",
+        "res": "Your next slot is at 5pm on Tuesday. Any other question?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "questions like \" When is my next laundry slot ?"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

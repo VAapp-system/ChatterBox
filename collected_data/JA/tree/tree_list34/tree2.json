@@ -1,0 +1,86 @@
+{
+    "2": {
+        "req": "かってちゃんにつないで",
+        "res": "はい。 かってちゃんです。私はカッテラボについての質問を答えることができます。他の質問はグーグルアシスタントに聞いてください。グーグルアシスタントに戻るときはさようならと言ってください。ご用件は何ですか？",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "かってちゃんにつないで"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "さようなら",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "情報を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "かってちゃんにつないで",
+        "res": "私はカッテラボについての質問を答えることができます。他の質問はグーグルアシスタントに聞いてください。グーグルアシスタントに戻るときはさようならと言ってください。ご用件は何ですか？",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "かってちゃんにつないで"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "さようなら",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "情報を教えてください",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

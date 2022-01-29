@@ -1,0 +1,4468 @@
+{
+    "2": {
+        "req": "動物の漢字につないで",
+        "res": "わかりました。 動物の漢字です。こんにちは！動物の名前を言ってください。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "動物の漢字につないで"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "動物の名前",
+                    "type_ID": [
+                        "20"
+                    ],
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {
+                "1": {
+                    "req": "一郎",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "皇帝にして国王陛下",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ミトコンドリア・イブ",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "白鵠",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "くまちゃん (宇多田ヒカルのぬいぐるみ)",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "生食 (ウマ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "柴犬まる",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "ゾロ (ニホンザル)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "オリバー君",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "バブルス",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "グレーフライアーズ・ボビー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "クーちゃん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "どんべえ (エゾヒグマ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "パル (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "15": {
+                    "req": "直司 (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "16": {
+                    "req": "バリー (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "17": {
+                    "req": "マーラ (アジアゾウ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "18": {
+                    "req": "ファラ (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "19": {
+                    "req": "不沈のサム",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "20": {
+                    "req": "カストルとポルックス (象)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "21": {
+                    "req": "ZIPPEI兄弟",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "22": {
+                    "req": "桃浜",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "23": {
+                    "req": "メアリ (象)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "24": {
+                    "req": "シャバーニ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "25": {
+                    "req": "一文字",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "26": {
+                    "req": "ラナン (カマイルカ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "27": {
+                    "req": "ムース (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "28": {
+                    "req": "ジャンボ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "29": {
+                    "req": "悠 (人工鰭のウミガメ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "30": {
+                    "req": "ドリー (羊)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "31": {
+                    "req": "たま (猫の駅長)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "32": {
+                    "req": "平治 (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "33": {
+                    "req": "リンリン (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "34": {
+                    "req": "ウタちゃん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "35": {
+                    "req": "アイ (チンパンジー)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "36": {
+                    "req": "まさお君",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "37": {
+                    "req": "ハンク (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "38": {
+                    "req": "ニッパー (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "39": {
+                    "req": "クマのウィニー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "40": {
+                    "req": "グランピー・キャット",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "41": {
+                    "req": "ピュンピュン",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "42": {
+                    "req": "ファンジとグレー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "43": {
+                    "req": "アルフ・フォン・ムト・ハイム",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "44": {
+                    "req": "マリオン (ゾウガメ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "45": {
+                    "req": "パンくん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "46": {
+                    "req": "ダン (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "47": {
+                    "req": "エルム・ファーム・オーリー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "48": {
+                    "req": "ホグジラ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "49": {
+                    "req": "アドワイチャ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "50": {
+                    "req": "チャンピイ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "51": {
+                    "req": "アリソン (亀)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "52": {
+                    "req": "ナカちゃん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "53": {
+                    "req": "フロッケ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "54": {
+                    "req": "たいよう (キリン)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "55": {
+                    "req": "矢ガモ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "56": {
+                    "req": "ソニア (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "57": {
+                    "req": "ウーロン (ウサギ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "58": {
+                    "req": "ウィンター (バンドウイルカ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "59": {
+                    "req": "温泉アザラシ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "60": {
+                    "req": "カムニャック",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "61": {
+                    "req": "チョロ松",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "62": {
+                    "req": "キン (トキ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "63": {
+                    "req": "チロ (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "64": {
+                    "req": "シンシア (介助犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "65": {
+                    "req": "コトラ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "66": {
+                    "req": "カイくん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "67": {
+                    "req": "ミセス・チッピー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "68": {
+                    "req": "はな子",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "69": {
+                    "req": "オーウェンとムゼー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "70": {
+                    "req": "ゼナ (豚)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "71": {
+                    "req": "コピート・デ・ニエベ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "72": {
+                    "req": "タロとジロ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "73": {
+                    "req": "スナッピー (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "74": {
+                    "req": "リゲル (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "75": {
+                    "req": "テリー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "76": {
+                    "req": "ゴード",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "77": {
+                    "req": "ビンキー",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "78": {
+                    "req": "バディ (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "79": {
+                    "req": "コニー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "80": {
+                    "req": "ラム・チョップ (パペット)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "81": {
+                    "req": "キング・オブ・ローマ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "82": {
+                    "req": "マレンゴ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "83": {
+                    "req": "サーブ (盲導犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "84": {
+                    "req": "オスカー (義足猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "85": {
+                    "req": "ボーイ (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "86": {
+                    "req": "マック (象)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "87": {
+                    "req": "桜浜",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "88": {
+                    "req": "白雪 (御料馬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "89": {
+                    "req": "CC (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "90": {
+                    "req": "ジギー (象)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "91": {
+                    "req": "絶影",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "92": {
+                    "req": "デビー (ホッキョクグマ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "93": {
+                    "req": "モリー (オランウータン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "94": {
+                    "req": "デカ吉チビ助",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "95": {
+                    "req": "ルイス (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "96": {
+                    "req": "フレイヤ (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "97": {
+                    "req": "ラリー (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "98": {
+                    "req": "セシル (ライオン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "99": {
+                    "req": "ロジャー (カンガルー)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "100": {
+                    "req": "ジャック (チャクマヒヒ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "101": {
+                    "req": "モッティ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "102": {
+                    "req": "サッカー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "103": {
+                    "req": "トラビス (チンパンジー)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "104": {
+                    "req": "ボニー (オランウータン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "105": {
+                    "req": "ミルトン (競技馬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "106": {
+                    "req": "リャンコ大王",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "107": {
+                    "req": "グラス・ガヴナン",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "108": {
+                    "req": "ケン・アレン",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "109": {
+                    "req": "フーバー (アザラシ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "110": {
+                    "req": "ボー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "111": {
+                    "req": "スタッブス (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "112": {
+                    "req": "純平 (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "113": {
+                    "req": "賢馬ハンス",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "114": {
+                    "req": "クリスチャン (ライオン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "115": {
+                    "req": "袖犬",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "116": {
+                    "req": "ホアン (サル)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "117": {
+                    "req": "マディソン (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "118": {
+                    "req": "モタラ (象)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "119": {
+                    "req": "インキタトゥス",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "120": {
+                    "req": "ぶん公",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "121": {
+                    "req": "スーダン (サイ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "122": {
+                    "req": "俊介 (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "123": {
+                    "req": "二葉 (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "124": {
+                    "req": "ムエザ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "125": {
+                    "req": "ゴン (ガイド犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "126": {
+                    "req": "わさお",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "127": {
+                    "req": "ロンサム・ジョージ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "128": {
+                    "req": "ニューネッシー",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "129": {
+                    "req": "ドビン",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "130": {
+                    "req": "ハチ (ヒョウ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "131": {
+                    "req": "三大始祖",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "132": {
+                    "req": "ティルピッツ (ブタ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "133": {
+                    "req": "アロマ (盲導犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "134": {
+                    "req": "アユム (チンパンジー)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "135": {
+                    "req": "京子",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "136": {
+                    "req": "くじら (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "137": {
+                    "req": "田中実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "138": {
+                    "req": "佐藤清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "139": {
+                    "req": "佐藤正",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "140": {
+                    "req": "佐藤進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "141": {
+                    "req": "高橋清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "142": {
+                    "req": "鈴木実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "143": {
+                    "req": "佐藤博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "144": {
+                    "req": "田中稔",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "145": {
+                    "req": "鈴木清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "146": {
+                    "req": "佐藤勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "147": {
+                    "req": "鈴木博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "148": {
+                    "req": "佐藤実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "149": {
+                    "req": "小林茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "150": {
+                    "req": "鈴木勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "151": {
+                    "req": "佐藤茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "152": {
+                    "req": "鈴木茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "153": {
+                    "req": "佐藤誠",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "154": {
+                    "req": "佐藤弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "155": {
+                    "req": "高橋勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "156": {
+                    "req": "佐藤隆",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "157": {
+                    "req": "高橋進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "158": {
+                    "req": "鈴木隆",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "159": {
+                    "req": "吉田稔",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "160": {
+                    "req": "渡辺清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "161": {
+                    "req": "田中茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "162": {
+                    "req": "田中勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "163": {
+                    "req": "高橋弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "164": {
+                    "req": "吉田茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "165": {
+                    "req": "高橋博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "166": {
+                    "req": "高橋実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "167": {
+                    "req": "山本茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "168": {
+                    "req": "高橋誠",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "169": {
+                    "req": "鈴木明",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "170": {
+                    "req": "田中清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "171": {
+                    "req": "鈴木昇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "172": {
+                    "req": "鈴木正",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "173": {
+                    "req": "鈴木勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "174": {
+                    "req": "鈴木誠",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "175": {
+                    "req": "鈴木三郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "176": {
+                    "req": "吉田実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "177": {
+                    "req": "佐藤勉",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "178": {
+                    "req": "佐藤勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "179": {
+                    "req": "佐藤三郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "180": {
+                    "req": "鈴木進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "181": {
+                    "req": "斎藤実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "182": {
+                    "req": "佐藤孝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "183": {
+                    "req": "長谷川清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "184": {
+                    "req": "山田実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "185": {
+                    "req": "佐藤武",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "186": {
+                    "req": "渡辺勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "187": {
+                    "req": "佐藤功",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "188": {
+                    "req": "田中勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "189": {
+                    "req": "田中豊",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "190": {
+                    "req": "鈴木武",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "191": {
+                    "req": "田中進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "192": {
+                    "req": "鈴木孝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "193": {
+                    "req": "鈴木敏夫",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "194": {
+                    "req": "小林進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "195": {
+                    "req": "高橋茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "196": {
+                    "req": "佐藤修",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "197": {
+                    "req": "高橋正",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "198": {
+                    "req": "渡辺進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "199": {
+                    "req": "佐藤明",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "200": {
+                    "req": "高橋功",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "201": {
+                    "req": "佐藤昇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "202": {
+                    "req": "中村清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "203": {
+                    "req": "加藤清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "204": {
+                    "req": "佐藤和夫",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "205": {
+                    "req": "佐藤豊",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "206": {
+                    "req": "山本博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "207": {
+                    "req": "山本勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "208": {
+                    "req": "伊藤清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "209": {
+                    "req": "小林勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "210": {
+                    "req": "鈴木豊",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "211": {
+                    "req": "山田稔",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "212": {
+                    "req": "小林清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "213": {
+                    "req": "中村勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "214": {
+                    "req": "渡辺茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "215": {
+                    "req": "鈴木一男",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "216": {
+                    "req": "佐藤守",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "217": {
+                    "req": "佐藤幸雄",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "218": {
+                    "req": "鈴木和夫",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "219": {
+                    "req": "佐藤一男",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "220": {
+                    "req": "佐藤一郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "221": {
+                    "req": "高橋昇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "222": {
+                    "req": "田中弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "223": {
+                    "req": "高橋勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "224": {
+                    "req": "中村博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "225": {
+                    "req": "小林実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "226": {
+                    "req": "伊藤進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "227": {
+                    "req": "佐藤光男",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "228": {
+                    "req": "佐藤健一",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "229": {
+                    "req": "中村弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "230": {
+                    "req": "高橋三郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "231": {
+                    "req": "山本進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "232": {
+                    "req": "山本清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "233": {
+                    "req": "高橋一郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "234": {
+                    "req": "吉田博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "235": {
+                    "req": "吉田弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "236": {
+                    "req": "佐々木茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "大に、熊に、猫と書きます",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "動物を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "漢字を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ジャイアントを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "パンダを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "大を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "熊を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "猫を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "形を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "動物の漢字につないで",
+        "res": "はい。 動物の漢字です。こんにちは！動物の名前を言ってください。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "動物の漢字につないで"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "動物の名前",
+                    "type_ID": [
+                        "20"
+                    ],
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {
+                "1": {
+                    "req": "一郎",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "皇帝にして国王陛下",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ミトコンドリア・イブ",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "白鵠",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "くまちゃん (宇多田ヒカルのぬいぐるみ)",
+                    "NEType": "名前＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "生食 (ウマ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "柴犬まる",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "ゾロ (ニホンザル)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "オリバー君",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "バブルス",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "グレーフライアーズ・ボビー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "クーちゃん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "どんべえ (エゾヒグマ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "パル (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "15": {
+                    "req": "直司 (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "16": {
+                    "req": "バリー (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "17": {
+                    "req": "マーラ (アジアゾウ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "18": {
+                    "req": "ファラ (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "19": {
+                    "req": "不沈のサム",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "20": {
+                    "req": "カストルとポルックス (象)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "21": {
+                    "req": "ZIPPEI兄弟",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "22": {
+                    "req": "桃浜",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "23": {
+                    "req": "メアリ (象)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "24": {
+                    "req": "シャバーニ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "25": {
+                    "req": "一文字",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "26": {
+                    "req": "ラナン (カマイルカ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "27": {
+                    "req": "ムース (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "28": {
+                    "req": "ジャンボ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "29": {
+                    "req": "悠 (人工鰭のウミガメ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "30": {
+                    "req": "ドリー (羊)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "31": {
+                    "req": "たま (猫の駅長)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "32": {
+                    "req": "平治 (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "33": {
+                    "req": "リンリン (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "34": {
+                    "req": "ウタちゃん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "35": {
+                    "req": "アイ (チンパンジー)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "36": {
+                    "req": "まさお君",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "37": {
+                    "req": "ハンク (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "38": {
+                    "req": "ニッパー (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "39": {
+                    "req": "クマのウィニー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "40": {
+                    "req": "グランピー・キャット",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "41": {
+                    "req": "ピュンピュン",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "42": {
+                    "req": "ファンジとグレー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "43": {
+                    "req": "アルフ・フォン・ムト・ハイム",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "44": {
+                    "req": "マリオン (ゾウガメ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "45": {
+                    "req": "パンくん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "46": {
+                    "req": "ダン (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "47": {
+                    "req": "エルム・ファーム・オーリー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "48": {
+                    "req": "ホグジラ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "49": {
+                    "req": "アドワイチャ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "50": {
+                    "req": "チャンピイ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "51": {
+                    "req": "アリソン (亀)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "52": {
+                    "req": "ナカちゃん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "53": {
+                    "req": "フロッケ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "54": {
+                    "req": "たいよう (キリン)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "55": {
+                    "req": "矢ガモ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "56": {
+                    "req": "ソニア (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "57": {
+                    "req": "ウーロン (ウサギ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "58": {
+                    "req": "ウィンター (バンドウイルカ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "59": {
+                    "req": "温泉アザラシ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "60": {
+                    "req": "カムニャック",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "61": {
+                    "req": "チョロ松",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "62": {
+                    "req": "キン (トキ)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "63": {
+                    "req": "チロ (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "64": {
+                    "req": "シンシア (介助犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "65": {
+                    "req": "コトラ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "66": {
+                    "req": "カイくん",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "67": {
+                    "req": "ミセス・チッピー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "68": {
+                    "req": "はな子",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "69": {
+                    "req": "オーウェンとムゼー",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "70": {
+                    "req": "ゼナ (豚)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "71": {
+                    "req": "コピート・デ・ニエベ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "72": {
+                    "req": "タロとジロ",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "73": {
+                    "req": "スナッピー (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "74": {
+                    "req": "リゲル (犬)",
+                    "NEType": "動物呼称名",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "75": {
+                    "req": "テリー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "76": {
+                    "req": "ゴード",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "77": {
+                    "req": "ビンキー",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "78": {
+                    "req": "バディ (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "79": {
+                    "req": "コニー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "80": {
+                    "req": "ラム・チョップ (パペット)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "81": {
+                    "req": "キング・オブ・ローマ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "82": {
+                    "req": "マレンゴ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "83": {
+                    "req": "サーブ (盲導犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "84": {
+                    "req": "オスカー (義足猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "85": {
+                    "req": "ボーイ (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "86": {
+                    "req": "マック (象)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "87": {
+                    "req": "桜浜",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "88": {
+                    "req": "白雪 (御料馬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "89": {
+                    "req": "CC (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "90": {
+                    "req": "ジギー (象)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "91": {
+                    "req": "絶影",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "92": {
+                    "req": "デビー (ホッキョクグマ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "93": {
+                    "req": "モリー (オランウータン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "94": {
+                    "req": "デカ吉チビ助",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "95": {
+                    "req": "ルイス (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "96": {
+                    "req": "フレイヤ (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "97": {
+                    "req": "ラリー (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "98": {
+                    "req": "セシル (ライオン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "99": {
+                    "req": "ロジャー (カンガルー)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "100": {
+                    "req": "ジャック (チャクマヒヒ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "101": {
+                    "req": "モッティ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "102": {
+                    "req": "サッカー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "103": {
+                    "req": "トラビス (チンパンジー)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "104": {
+                    "req": "ボニー (オランウータン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "105": {
+                    "req": "ミルトン (競技馬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "106": {
+                    "req": "リャンコ大王",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "107": {
+                    "req": "グラス・ガヴナン",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "108": {
+                    "req": "ケン・アレン",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "109": {
+                    "req": "フーバー (アザラシ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "110": {
+                    "req": "ボー (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "111": {
+                    "req": "スタッブス (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "112": {
+                    "req": "純平 (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "113": {
+                    "req": "賢馬ハンス",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "114": {
+                    "req": "クリスチャン (ライオン)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "115": {
+                    "req": "袖犬",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "116": {
+                    "req": "ホアン (サル)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "117": {
+                    "req": "マディソン (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "118": {
+                    "req": "モタラ (象)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "119": {
+                    "req": "インキタトゥス",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "120": {
+                    "req": "ぶん公",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "121": {
+                    "req": "スーダン (サイ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "122": {
+                    "req": "俊介 (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "123": {
+                    "req": "二葉 (犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "124": {
+                    "req": "ムエザ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "125": {
+                    "req": "ゴン (ガイド犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "126": {
+                    "req": "わさお",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "127": {
+                    "req": "ロンサム・ジョージ",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "128": {
+                    "req": "ニューネッシー",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "129": {
+                    "req": "ドビン",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "130": {
+                    "req": "ハチ (ヒョウ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "131": {
+                    "req": "三大始祖",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "132": {
+                    "req": "ティルピッツ (ブタ)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "133": {
+                    "req": "アロマ (盲導犬)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "134": {
+                    "req": "アユム (チンパンジー)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "135": {
+                    "req": "京子",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "136": {
+                    "req": "くじら (猫)",
+                    "NEType": "動物呼称名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "137": {
+                    "req": "田中実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "138": {
+                    "req": "佐藤清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "139": {
+                    "req": "佐藤正",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "140": {
+                    "req": "佐藤進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "141": {
+                    "req": "高橋清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "142": {
+                    "req": "鈴木実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "143": {
+                    "req": "佐藤博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "144": {
+                    "req": "田中稔",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "145": {
+                    "req": "鈴木清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "146": {
+                    "req": "佐藤勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "147": {
+                    "req": "鈴木博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "148": {
+                    "req": "佐藤実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "149": {
+                    "req": "小林茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "150": {
+                    "req": "鈴木勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "151": {
+                    "req": "佐藤茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "152": {
+                    "req": "鈴木茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "153": {
+                    "req": "佐藤誠",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "154": {
+                    "req": "佐藤弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "155": {
+                    "req": "高橋勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "156": {
+                    "req": "佐藤隆",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "157": {
+                    "req": "高橋進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "158": {
+                    "req": "鈴木隆",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "159": {
+                    "req": "吉田稔",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "160": {
+                    "req": "渡辺清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "161": {
+                    "req": "田中茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "162": {
+                    "req": "田中勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "163": {
+                    "req": "高橋弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "164": {
+                    "req": "吉田茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "165": {
+                    "req": "高橋博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "166": {
+                    "req": "高橋実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "167": {
+                    "req": "山本茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "168": {
+                    "req": "高橋誠",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "169": {
+                    "req": "鈴木明",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "170": {
+                    "req": "田中清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "171": {
+                    "req": "鈴木昇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "172": {
+                    "req": "鈴木正",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "173": {
+                    "req": "鈴木勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "174": {
+                    "req": "鈴木誠",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "175": {
+                    "req": "鈴木三郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "176": {
+                    "req": "吉田実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "177": {
+                    "req": "佐藤勉",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "178": {
+                    "req": "佐藤勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "179": {
+                    "req": "佐藤三郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "180": {
+                    "req": "鈴木進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "181": {
+                    "req": "斎藤実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "182": {
+                    "req": "佐藤孝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "183": {
+                    "req": "長谷川清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "184": {
+                    "req": "山田実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "185": {
+                    "req": "佐藤武",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "186": {
+                    "req": "渡辺勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "187": {
+                    "req": "佐藤功",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "188": {
+                    "req": "田中勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "189": {
+                    "req": "田中豊",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "190": {
+                    "req": "鈴木武",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "191": {
+                    "req": "田中進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "192": {
+                    "req": "鈴木孝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "193": {
+                    "req": "鈴木敏夫",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "194": {
+                    "req": "小林進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "195": {
+                    "req": "高橋茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "196": {
+                    "req": "佐藤修",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "197": {
+                    "req": "高橋正",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "198": {
+                    "req": "渡辺進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "199": {
+                    "req": "佐藤明",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "200": {
+                    "req": "高橋功",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "201": {
+                    "req": "佐藤昇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "202": {
+                    "req": "中村清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "203": {
+                    "req": "加藤清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "204": {
+                    "req": "佐藤和夫",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "205": {
+                    "req": "佐藤豊",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "206": {
+                    "req": "山本博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "207": {
+                    "req": "山本勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "208": {
+                    "req": "伊藤清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "209": {
+                    "req": "小林勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "210": {
+                    "req": "鈴木豊",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "211": {
+                    "req": "山田稔",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "212": {
+                    "req": "小林清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "213": {
+                    "req": "中村勇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "214": {
+                    "req": "渡辺茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "215": {
+                    "req": "鈴木一男",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "216": {
+                    "req": "佐藤守",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "217": {
+                    "req": "佐藤幸雄",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "218": {
+                    "req": "鈴木和夫",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "219": {
+                    "req": "佐藤一男",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "220": {
+                    "req": "佐藤一郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "221": {
+                    "req": "高橋昇",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "222": {
+                    "req": "田中弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "223": {
+                    "req": "高橋勝",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "224": {
+                    "req": "中村博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "225": {
+                    "req": "小林実",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "226": {
+                    "req": "伊藤進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "227": {
+                    "req": "佐藤光男",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "228": {
+                    "req": "佐藤健一",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "229": {
+                    "req": "中村弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "230": {
+                    "req": "高橋三郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "231": {
+                    "req": "山本進",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "232": {
+                    "req": "山本清",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "233": {
+                    "req": "高橋一郎",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "234": {
+                    "req": "吉田博",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "235": {
+                    "req": "吉田弘",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "236": {
+                    "req": "佐々木茂",
+                    "NEType": "名前",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "大に、熊に、猫と書きます",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "動物を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "漢字を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ジャイアントを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "パンダを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "大を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "熊を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "猫を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "形を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

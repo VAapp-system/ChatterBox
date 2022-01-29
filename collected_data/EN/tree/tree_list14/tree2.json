@@ -1,0 +1,32 @@
+{
+    "2": {
+        "req": "Talk to 5 minute plank",
+        "res": "Alright. Here's five minute plank.Welcome to 5-minute plank workout. Take a push up position and say \"ready\" to start.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to 5 minute plank"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

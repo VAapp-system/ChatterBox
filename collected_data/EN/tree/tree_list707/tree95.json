@@ -1,0 +1,137 @@
+{
+    "95": {
+        "req": "Liverpool",
+        "res": "Liverpool's stadium is called Anfield and is located in Liverpool.\nNotable statistics: ranks 1st in wins with 32 of them, ranks 2nd in passes with 23,872 of them, and ranks 2nd in goals with 85 of them this season (2019-20).\nNotable players: Virgil van Dijk ranks 4th in clean sheets with 15 of them, and ranks 1st in most passes with 3,259 of them; Mohamed Salah ranks 5th in goals with 19 of them, ranks 4th in most assists with 10 of them, and ranks 1st in shots with 132 of them; Trent Alexander-Arnold ranks 2nd in most assists with 13 of them, and ranks 1st in crosses with 382 of them.\nFor information about the team, go to the website below.\nTo explore related topics, just say \"Passes\", \"Standings\", \"Newcastle United\", \"Manchester United\", \"Manchester City\" or \"Done\" to exit.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 95,
+        "req_list": [
+            "Liverpool"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Passes",
+                    "visit": false,
+                    "child": [
+                        96
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Standings",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Newcastle United",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Manchester United",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "Manchester City",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "Done",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Passes",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Standings",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Newcastle United",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Manchester United",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "Manchester City",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "Done",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know English Football Stats.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 94
+    }
+}

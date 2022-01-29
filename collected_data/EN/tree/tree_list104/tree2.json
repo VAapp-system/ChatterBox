@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Rollie Roll",
+        "res": "OK. Here's Rollie Roll.Hi! I am here to roll a dice for you. Please say 'Yes' to get started.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Rollie Roll"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Yes",
+                    "string_ID": 4,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

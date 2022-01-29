@@ -1,0 +1,87 @@
+{
+    "response": "🔊\nI might get in trouble for this, but, you're not that great at this stuff. Sid Abel would have given you the score. This next question should be a breeze.\nWhich 'Original Six' team has waited the longest to win the Stanley Cup since the NHL Expansion of 1968?\n🔊",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "🔊 I might get in trouble for this, but, you're not that great at this stuff. Sid Abel would have given you the score. This next question should be a breeze."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Which 'Original Six' team has waited the longest to win the Stanley Cup since the NHL Expansion of 1968? 🔊"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://drop-the-puck.firebaseapp.com/image/gif/incorrect.gif?t=1625264852786",
+                        "accessibilityText": "Wrong",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Toronto Maple Leafs"
+            },
+            {
+                "title": "Montreal Canadiens"
+            },
+            {
+                "title": "Boston Bruins"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/k-ueL51vbx_qVRpoAqnCb0kMqpKfJkRAt5mNn2vfRz8GRZ8lQWotLk1GGtA0c1wGg0h0XNbCKt6hOQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Toronto Maple Leafs",
+                    "Montreal Canadiens",
+                    "Boston Bruins"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Drop the Puck",
+    "servingModelOutdated": false,
+    "request": "Gordie Howe"
+}

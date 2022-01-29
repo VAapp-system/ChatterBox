@@ -1,0 +1,58 @@
+{
+    "2": {
+        "req": "Talk to lucky thing tsec",
+        "res": "OK. Getting lucky thing tsec.Hey there ! welcome to lucky thing tsec. This action will give you your lucky number by asking your favorite color . so, What is your favorite color ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to lucky thing tsec"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favorite color",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "5": {
+        "req": "Talk to lucky thing tsec",
+        "res": "Hey there ! welcome to lucky thing tsec. This action will give you your lucky number by asking your favorite color . so, What is your favorite color ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Talk to lucky thing tsec"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favorite color",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

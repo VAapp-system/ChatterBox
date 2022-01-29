@@ -1,0 +1,131 @@
+{
+    "response": "The\nбензопила\nis Chainsaw.\nбензопила\n.ChainsawHere is what you have learned so far!\nThe first word, Brush, is\nЩетка.\nThe Chainsaw is\nбензопила.\nThe Shelf is\nполка.\nLast one, Bird, means\nптица.\nAre you ready for the next round?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "The бензопила is Chainsaw. бензопила. Chainsaw Here is what you have learned so far!"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "Learned words",
+                    "subtitle": "4 words learned in this round!",
+                    "columnPropertiesList": [
+                        {
+                            "header": "Word",
+                            "horizontalAlignment": 0
+                        },
+                        {
+                            "header": "Translation",
+                            "horizontalAlignment": 0
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Brush"
+                                },
+                                {
+                                    "text": "Щетка"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Chainsaw"
+                                },
+                                {
+                                    "text": "бензопила"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Shelf"
+                                },
+                                {
+                                    "text": "полка"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Bird"
+                                },
+                                {
+                                    "text": "птица"
+                                }
+                            ],
+                            "dividerAfter": false
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Brush = Щетка, Chainsaw = бензопила, Shelf = полка, Bird = птица. Are you ready for the next round?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes, continue"
+            },
+            {
+                "title": "No, end"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/JM5JnQQL_X4kJfJbYM0DRDVr3wLfOa2vjB78-5EOvE4TmdNf6nvf50_7iidscSI4nsV3JgZxhafgnA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes, continue",
+                    "No, end"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Russian with Pictures",
+    "servingModelOutdated": false,
+    "request": "бензопила"
+}

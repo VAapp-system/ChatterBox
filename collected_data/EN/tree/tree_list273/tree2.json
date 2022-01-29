@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to flutter questions",
+        "res": "Alright. Let's get flutter questions.Greetings! How can I assist?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to flutter questions"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "FLutter mobile Platform ?",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 1
+    }
+}

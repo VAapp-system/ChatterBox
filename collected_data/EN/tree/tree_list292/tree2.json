@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Little Angels",
+        "res": "Alright. Getting little angels.Hi! Welcome to Little Angels, the Parenting App. I can share some reasons for baby crying, tips on baby soothing, suggestions on baby's food and tips regarding the vaccine for babies. Please tell me what do you want to know?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Little Angels"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s food and information about baby",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

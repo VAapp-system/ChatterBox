@@ -1,0 +1,86 @@
+{
+    "response": "はい。 西山宏太朗のタイマーです。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1dm...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。西山宏太朗のタイマーです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "タイマーを設定するんだね。何分後にお知らせする？"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "3分"
+            },
+            {
+                "title": "10秒"
+            },
+            {
+                "title": "2時間"
+            },
+            {
+                "title": "使い方"
+            },
+            {
+                "title": "キャンセル"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/GVayuRYDSL6zsPmbxx7aZ0u7Strlvek0SKzF9s7qk4qIjtlb9lg5awW1o0_S-czUBcoZrncgLPsd",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "3分",
+                    "10秒",
+                    "2時間",
+                    "使い方",
+                    "キャンセル"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "西山宏太朗のタイマー",
+    "servingModelOutdated": false,
+    "request": "西山宏太朗のタイマーにつないで"
+}

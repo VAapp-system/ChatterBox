@@ -1,0 +1,100 @@
+{
+    "180": {
+        "req": "ヤマト",
+        "res": "北海道 からの発送ですね。何県まで送りますか？",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 180,
+        "req_list": [
+            "ヤマト"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "ヤマト",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "佐川",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ゆうパック",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "料金を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "荷物を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ヤマトを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "佐川を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "ゆうパックを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 179
+    },
+    "181": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 181,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 179
+    }
+}

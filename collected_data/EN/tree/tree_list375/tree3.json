@@ -1,0 +1,58 @@
+{
+    "3": {
+        "req": "club",
+        "res": "I didn't get that. Can you repeat?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "club"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "department",
+        "res": "One more time?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "department"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "I want to know Mac.",
+        "res": "Induction Location is LT-3 on 31st August and LT-1 on 1st September. Which other club/department you want to look for ?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "I want to know Mac."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Mac.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

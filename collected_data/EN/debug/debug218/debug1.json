@@ -1,0 +1,82 @@
+{
+    "response": "OK. Here's Pardeep's intro.Hi! How are you doing?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Pardeep's intro."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi! How are you doing?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About"
+            },
+            {
+                "title": "project"
+            },
+            {
+                "title": "college"
+            },
+            {
+                "title": "Exit"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/mjdLXc6_mpKjHMJ9INjC6ju5FgRW3-1kS0zAJrKHZ0TWooa9Iq5ccNbfE5kX21Y8IPKQgIKRLI28",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About",
+                    "project",
+                    "college",
+                    "Exit"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Pardeep's intro",
+    "servingModelOutdated": false,
+    "request": "Talk to Pardeep's intro"
+}

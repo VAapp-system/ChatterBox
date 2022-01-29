@@ -1,0 +1,68 @@
+{
+    "response": "I didn’t find any launches in that area. Ask me to search for launches in a different location, or find out about RNLI events nearby.",
+    "expectUserResponse": true,
+    "conversationToken": "Et8ES241ek...",
+    "audioResponse": "//NExAAREA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "I didn’t find any launches in that area. Ask me to search for launches in a different location, or find out about RNLI events nearby."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Support the RNLI"
+            },
+            {
+                "title": "Events"
+            },
+            {
+                "title": "Launches"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/22odrk2wiRfLUjw77quqUTsu8X8xXJtApbHk47cl1yF6s0_ZVWjVOTehibes5kKGW3PJhTp4KZY",
+        "agentStyle": {
+            "primaryColor": "#000000",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Support the RNLI",
+                    "Events",
+                    "Launches"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "RNLI Near Me",
+    "servingModelOutdated": false,
+    "request": "Near me"
+}

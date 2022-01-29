@@ -1,0 +1,86 @@
+{
+    "11": {
+        "req": "PCP",
+        "res": "Primary Care Physician, a doctor you choose to manage and coordinate your care. In a health maintenance organization (HMO) plan, your PCP authorizes referrals to specialists and hospitals. You can ask me to explain another term like Deductible. or you can start one of our interactive journeys. undefined",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "PCP"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Deductible",
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "HSA",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Medicaid",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "explain another term like Deductible",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "you",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "can start one of our interactive journeys",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know My Cap BlueCross.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

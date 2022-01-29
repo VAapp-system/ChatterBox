@@ -1,0 +1,51 @@
+{
+    "13": {
+        "req": "Attractions",
+        "res": "Nordurslod - Into the Arctic. Into the Arctic is a collection of eleven exhibitions that explore the history of the North in matters and pictures. The exhibitions lead the visitor through various periods in the history of the North and take on many interesting subjects, such as... Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Akureyri.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

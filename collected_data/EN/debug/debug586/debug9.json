@@ -1,0 +1,67 @@
+{
+    "response": "Hello and welcome. To find a used car shop closest to you, please tell us your 5-digit postal code in the US. To have information about the service say information service.",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Uk...",
+    "audioResponse": "//NExAAQ+Z...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hello and welcome. To find a used car shop closest to you, please tell us your 5-digit postal code in the US. To have information about the service say information service."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Back Home"
+            },
+            {
+                "title": "service information"
+            },
+            {
+                "title": "Leave Us"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/83iC8bqy8x5CBUZKMOEVEHa2N-ppyC48splF2eUDutsrIaoW0GniO8Y_jIhQQ-r8j9zLhw859l1WPw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Back Home",
+                    "service information",
+                    "Leave Us"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Sell your car",
+    "servingModelOutdated": false,
+    "request": "Back Home"
+}

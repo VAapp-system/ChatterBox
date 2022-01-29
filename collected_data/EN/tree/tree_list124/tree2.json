@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Mr guitarist",
+        "res": "OK. Let's get Mr guitarist.Hey hi doctor here. I can roll a dice for you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mr guitarist"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to ai pro",
+        "res": "OK. Let's get ai pro.Hi! How are you doing?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to ai pro"
+        ],
+        "candidates": {
+            "NE": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

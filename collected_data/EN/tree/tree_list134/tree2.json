@@ -1,0 +1,98 @@
+{
+    "2": {
+        "req": "Talk to Probability Dicer",
+        "res": "OK. Here's Probability Dicer.Welcome to Probability Dicer! I can role a dice for you, Say roll a dice to get dice number.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Probability Dicer"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "roll a dice",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Dicer.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Google Action.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to Probability Dicer",
+        "res": "Welcome to Probability Dicer! I can role a dice for you, Say roll a dice to get dice number.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to Probability Dicer"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "roll a dice",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Dicer.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Google Action.",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Cricket Alert",
+        "res": "Alright. Let's get Cricket Alert.Hey! Welcome to Cricket Alert. What would you like to know?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Cricket Alert"
+        ],
+        "candidates": {
+            "NE": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

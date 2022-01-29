@@ -1,0 +1,39 @@
+{
+    "11": {
+        "req": "connectivity?",
+        "res": "Nearest Airport: Dr. Babasaheb Ambedkar International Airport, Nagpur\nDistance from Airport: 12.5km",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "connectivity?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "email id?",
+                    "visit": true,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "38": {
+        "req": "I want to know Spanish Schoolhouse Tomball.",
+        "res": "Spanish Schoolhouse voice application does not know the answer to that question. Please visit https://spanishschoolhouse.com/tomball/ or give us a call at 2813512808 and we will gladly answer your question. How else can I help you? You can ask about business hours, our services, contact info and more.?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 38,
+        "req_list": [
+            "I want to know Spanish Schoolhouse Tomball."
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What are your hours?",
+                    "visit": false,
+                    "child": [
+                        39
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "business hours",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "our services",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "contact info",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "more",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spanish Schoolhouse Tomball.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Tomball TX.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 37
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "コープデリにつないで",
+        "res": "コープデリ とリンクしていません。Google Home アプリからコープデリ と Google アカウントをリンクできます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "コープデリにつないで"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

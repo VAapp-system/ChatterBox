@@ -1,0 +1,39 @@
+{
+    "43": {
+        "req": "About Burger",
+        "res": "The Burger Contains:\nCalories 240\nTotal fat 14 grams\nCarbs 9 grams\nProtein 19 grams",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 43,
+        "req_list": [
+            "About Burger"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "About Banana",
+                    "visit": false,
+                    "child": [
+                        44
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Foods.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 42
+    }
+}

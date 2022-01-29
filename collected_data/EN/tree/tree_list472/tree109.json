@@ -1,0 +1,48 @@
+{
+    "109": {
+        "req": "About us",
+        "res": "Italo Sound is the only italodance radio on the net with requests and a strong team that keeps the radio up to date with all the newest in the genre. Now with more than 4500 tracks in the playlist! Including related genres such as Hard Dance Style, Lento Violento, Slow Style, 2000-style and more! - and all this playing 24/7",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 109,
+        "req_list": [
+            "About us"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Play radio",
+                    "visit": false,
+                    "child": [
+                        110
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Stop",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Italo Sound Radio.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 108
+    }
+}

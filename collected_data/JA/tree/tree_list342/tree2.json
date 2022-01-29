@@ -1,0 +1,51 @@
+{
+    "2": {
+        "req": "今日のビールにつないで",
+        "res": "わかりました。 今日のビールです。こんにちは。今日のビールはです。ご利用ありがとうございます。二十歳以上であれば今日のビールは？と話しかけてみてください。二十歳未満の場合は終了とお声がけください。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "今日のビールにつないで"
+        ],
+        "candidates": {
+            "LINK": {
+                "1": {
+                    "req": "二十歳以上であれば今日のビールは",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "ビールを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "天賦を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

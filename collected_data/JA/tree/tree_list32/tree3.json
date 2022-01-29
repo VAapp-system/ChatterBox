@@ -1,0 +1,58 @@
+{
+    "3": {
+        "req": "始めるには借入金額から",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "LINK",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "始めるには借入金額から"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "ローンを教えてください",
+        "res": "すみません。 ローンヘルパーから応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "ローンを教えてください"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "6": {
+        "req": "始めるには借入金額から",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "LINK",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "始めるには借入金額から"
+        ],
+        "candidates": {},
+        "parent": 5
+    },
+    "7": {
+        "req": "ローンを教えてください",
+        "res": "すみません。 ローンヘルパーから応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "ローンを教えてください"
+        ],
+        "candidates": {},
+        "parent": 5
+    }
+}

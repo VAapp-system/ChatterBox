@@ -1,0 +1,162 @@
+{
+    "4": {
+        "req": "I want to know Smalt.",
+        "res": "Started with the vision of evolving personalization in the world of emerging automation and\ntechnology; S&B\n, in association with Skill council for Green Jobs (Skill India) ,\nis serving the\nworld in a way that not only\nprovides a personalized user experience, but also believes in\nworking to build relations everlasting. what else do you want to now?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "I want to know Smalt."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smalt.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Beryl Company.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "5": {
+        "req": "I want to know Beryl Company.",
+        "res": "Started with the vision of evolving personalization in the world of emerging automation and\ntechnology; S&B\n, in association with Skill council for Green Jobs (Skill India) ,\nis serving the\nworld in a way that not only\nprovides a personalized user experience, but also believes in\nworking to build relations everlasting. what else do you want to now?",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "I want to know Beryl Company."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smalt.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Beryl Company.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "9": {
+        "req": "I want to know Smalt.",
+        "res": "Started with the vision of evolving personalization in the world of emerging automation and\ntechnology; S&B\n, in association with Skill council for Green Jobs (Skill India) ,\nis serving the\nworld in a way that not only\nprovides a personalized user experience, but also believes in\nworking to build relations everlasting. what else do you want to now?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "I want to know Smalt."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smalt.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Beryl Company.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    },
+    "10": {
+        "req": "I want to know Beryl Company.",
+        "res": "Started with the vision of evolving personalization in the world of emerging automation and\ntechnology; S&B\n, in association with Skill council for Green Jobs (Skill India) ,\nis serving the\nworld in a way that not only\nprovides a personalized user experience, but also believes in\nworking to build relations everlasting. what else do you want to now?",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "I want to know Beryl Company."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smalt.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Beryl Company.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

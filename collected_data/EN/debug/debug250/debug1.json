@@ -1,0 +1,70 @@
+{
+    "response": "OK. Here's God x.Good day! What can I do for you today?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's God x."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Good day! What can I do for you today?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Who are you?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/4wwPY6cUuckNwsIiUn8L_ScIiGz8qTzdr_l4vu-42r0aNayNdB8aRS7Eiq28dICKLJoQflFD4ZE",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Who are you?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "God x",
+    "servingModelOutdated": false,
+    "request": "Talk to God x"
+}

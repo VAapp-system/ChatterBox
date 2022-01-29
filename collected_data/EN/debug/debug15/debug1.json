@@ -1,0 +1,74 @@
+{
+    "response": "Alright. Here's Beauty Companion.Welcome to Beauty Companion! Which one would you prefer to choose, hair hacks for Male or Female?",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201bk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Beauty Companion."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Beauty Companion! Which one would you prefer to choose, hair hacks for Male or Female?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Male"
+            },
+            {
+                "title": "Female"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/P3dX7ch05OIVlxm8YgHP3rc-H3qBasVMntDNI3gppxzoah8W9LomJESE5SuBiKXuJf1ZJCXfc62a",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Male",
+                    "Female"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Beauty Companion",
+    "servingModelOutdated": false,
+    "request": "Talk to Beauty Companion"
+}

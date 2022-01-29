@@ -1,0 +1,29 @@
+{
+    "13": {
+        "req": "Correct Answer",
+        "res": "The correct answer is: minivan\nYour next sentence is: Lequel est à toi?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Correct Answer"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know French.",
+                    "visit": true,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

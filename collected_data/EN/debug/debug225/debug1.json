@@ -1,0 +1,74 @@
+{
+    "response": "Alright. Let's get Mr.Information.Good day! What can I do for you today?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Mr.Information."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Good day! What can I do for you today?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Who are you?"
+            },
+            {
+                "title": "What are you?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/x75lx60efwvjHQ9bV9zEJTx4UnT__vPPm90L2KvrMQQ96TrbXmka7EG-QsmhyFT4y4ri3_HN9HT7yw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Who are you?",
+                    "What are you?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Mr.Information",
+    "servingModelOutdated": false,
+    "request": "Talk to Mr.Information"
+}

@@ -1,0 +1,83 @@
+{
+    "response": "OK. Getting Blues Music Fan.You are now listening to Blues Music Fan.",
+    "expectUserResponse": false,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Blues Music Fan."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "You are now listening to Blues Music Fan."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Blues Music Fan",
+                                "description": "The home of World Class Blues",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1592433824702-bmfr_logo-500sq.png",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://ais-sa2.cdnstream1.com/1992_128.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-2111188100476986669"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/NjVZesY6-EREZX7df8RumkLvYS6Q9MkuCDAc39MpQ9BungBvZtgEWy3dF5QdtM4F-gYdgTEIL58",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Blues Music Fan",
+    "servingModelOutdated": false,
+    "request": "Ask Blues Music Fan to Play"
+}

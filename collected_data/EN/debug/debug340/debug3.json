@@ -1,0 +1,107 @@
+{
+    "response": "Times and Trends Academy in association with IDL, an E-Learning platform offers below one year course.\nWe offer three courses.\nFashion Designing\nInterior Designing\nEvent Management\nWhich course do you prefer?",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Wm...",
+    "audioResponse": "//NExAASOd...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Times and Trends Academy in association with IDL, an E-Learning platform offers below one year course. Which course do you prefer?"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "E learning courses",
+                    "subtitle": "",
+                    "columnPropertiesList": [
+                        {
+                            "header": "",
+                            "horizontalAlignment": 0
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Fashion Designing course"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Interior Designing Course"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "Event Management Course"
+                                }
+                            ],
+                            "dividerAfter": false
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Fashion Designing Course"
+            },
+            {
+                "title": "Interior Designing Course"
+            },
+            {
+                "title": "Event Management Course"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/CRz2G6SyOXzv0qD-H_fVBbQKRkBIK6lqxRDOhhRtm4_EI3BqahRo3ye7pFi9LN331zD0nSuaejU",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Fashion Designing Course",
+                    "Interior Designing Course",
+                    "Event Management Course"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Times and Trends Academy Agent",
+    "servingModelOutdated": false,
+    "request": "E learning"
+}

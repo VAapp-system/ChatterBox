@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Auto Rookie",
+        "res": "Alright. Let's get Auto Rookie.Greetings! I am Rookie. Which car's review would you like to know?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Auto Rookie"
+        ],
+        "candidates": {
+            "NE": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

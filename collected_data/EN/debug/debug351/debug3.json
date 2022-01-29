@@ -1,0 +1,72 @@
+{
+    "response": "Playing",
+    "expectUserResponse": false,
+    "conversationToken": "Et4DS2w1Wm...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Playing"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Word of Promise",
+                                "description": "John",
+                                "contentUrl": "https://vc.futuresoft.com/voice/audio/wop//43000.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-8978937275072130911"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/IZuIzPPTkqdDTsVgupBALR_rSdtZwcP0EYUPRwqwa7AYSK0Foo4E45tXPlblJIwxZ34pAjXes7ay",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Word of Promise",
+    "servingModelOutdated": false,
+    "request": "Ask Word of Promise to read John"
+}

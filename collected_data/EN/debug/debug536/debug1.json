@@ -1,0 +1,86 @@
+{
+    "response": "OK. Getting Finance Expert.Hi, How can I guide you regarding finance",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Finance Expert."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi, How can I guide you regarding finance"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Income tax"
+            },
+            {
+                "title": "Investment"
+            },
+            {
+                "title": "Insurance"
+            },
+            {
+                "title": "Mutual Funds"
+            },
+            {
+                "title": "Stock Market"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8n57EqEBMTIl0B51HucpmklZkOHoO0OySi929ofztRxdPr9yEdfKjnlHBY_wzYarLfJDjPsj2L6E2w",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Income tax",
+                    "Investment",
+                    "Insurance",
+                    "Mutual Funds",
+                    "Stock Market"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Finance Expert",
+    "servingModelOutdated": false,
+    "request": "Talk to Finance Expert"
+}

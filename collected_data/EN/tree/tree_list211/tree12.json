@@ -1,0 +1,38 @@
+{
+    "12": {
+        "req": "Yes",
+        "res": "Panipat is famous as 'The Town of Weavers' because of its fine carpet-weaving and textile industries.\nWanna know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Panipat Amaze.",
+                    "visit": false,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Panipat.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 11
+    }
+}

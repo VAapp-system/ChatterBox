@@ -1,0 +1,40 @@
+{
+    "164": {
+        "req": "Attractions ' If you want more attractions",
+        "res": "Hi. I can tell you attractions in Egilsstadir, If you say 'Attractions'",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 164,
+        "req_list": [
+            "Attractions ' If you want more attractions"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Attractions",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        165
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Egilsstadir.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 163
+    }
+}

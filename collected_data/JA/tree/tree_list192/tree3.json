@@ -1,0 +1,82 @@
+{
+    "4": {
+        "req": "グー",
+        "res": "はい、私も何を出すか決めました。 では、じゃんけんぽん！ あなたは、グーを出しました。 私は、パーを出しました。 あなたの負けです。 もう一度遊びますか？",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": true,
+        "id": 4,
+        "req_list": [
+            "グー"
+        ],
+        "candidates": {
+            "CANVAS": {
+                "1": {
+                    "req": "あなたの負けです。",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "アクションを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ディスプレイを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "画面を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

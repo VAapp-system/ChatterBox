@@ -1,0 +1,58 @@
+{
+    "33": {
+        "req": "Yes",
+        "res": "Would you like to learn more about goals of yoga therapy, the benefits it provides, or the conditions it can treat?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 33,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "yoga therapy",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [
+                        34
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "the benefits it provides",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "the conditions it can treat",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Explore Yoga Therapy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 32
+    }
+}

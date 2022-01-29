@@ -1,0 +1,57 @@
+{
+    "4": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "7": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "9": {
+        "req": "cancel",
+        "res": "",
+        "QType": "NOT_END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

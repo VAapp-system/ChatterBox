@@ -1,0 +1,323 @@
+{
+    "3": {
+        "req": "はい",
+        "res": "わかりました。 利用規約とプライバシー ポリシーは、弊社のウェブサイトでいつでも確認できます。 アカウントを作成してよろしいですか。",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "数字",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "昇級試験（またはテスト）",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "英検を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "単語を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "音声を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "問題を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "問を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "選択肢を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "数字を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "アプリを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "画面を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "テストを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "正解を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "アカウントを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "結果を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "サイトを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    },
+    "8": {
+        "req": "問題",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "問題"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "9": {
+        "req": "1 - 10",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "CANVAS",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "1 - 10"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "11": {
+        "req": "問題",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "問題"
+        ],
+        "candidates": {},
+        "parent": 10
+    },
+    "12": {
+        "req": "1 - 10",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "CANVAS",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "1 - 10"
+        ],
+        "candidates": {},
+        "parent": 10
+    },
+    "14": {
+        "req": "問題",
+        "res": "少し言い換えていただけませんか。",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "問題"
+        ],
+        "candidates": {},
+        "parent": 13
+    },
+    "15": {
+        "req": "1 - 10",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "CANVAS",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "1 - 10"
+        ],
+        "candidates": {},
+        "parent": 13
+    },
+    "17": {
+        "req": "問題",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "問題"
+        ],
+        "candidates": {},
+        "parent": 16
+    },
+    "18": {
+        "req": "1 - 10",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "CANVAS",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 18,
+        "req_list": [
+            "1 - 10"
+        ],
+        "candidates": {},
+        "parent": 16
+    },
+    "20": {
+        "req": "Question",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 20,
+        "req_list": [
+            "Question"
+        ],
+        "candidates": {},
+        "parent": 19
+    },
+    "21": {
+        "req": "Answer1",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "CANVAS",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 21,
+        "req_list": [
+            "Answer1"
+        ],
+        "candidates": {},
+        "parent": 19
+    },
+    "22": {
+        "req": "Answer2",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "CANVAS",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 22,
+        "req_list": [
+            "Answer2"
+        ],
+        "candidates": {},
+        "parent": 19
+    }
+}

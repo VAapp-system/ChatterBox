@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Ruby Kraft",
+        "res": "OK. Let's get Ruby Kraft.Hello! Welcome to RubyKraft. We are a digital agency focusing on smarter web development and mobile application development. How can we help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Ruby Kraft"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Rubykraft.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

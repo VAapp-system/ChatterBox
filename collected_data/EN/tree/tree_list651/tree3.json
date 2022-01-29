@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "Great ! What is the R value ?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know All About Colors.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

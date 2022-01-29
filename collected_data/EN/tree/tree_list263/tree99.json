@@ -1,0 +1,50 @@
+{
+    "101": {
+        "req": "Yes",
+        "res": "Completing an international adoption requires that the adoptive parents comply with three different sets of laws, The laws of the country where the child lives, the federal laws of the United States, and the laws of the state where the adoptive parents live. Before pursuing an international adoption, the prospective adoptive parents should check each set of laws to be sure that they will be able to complete the adoption as planned and consult with an attorney. Want to hear more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 101,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": true,
+                    "child": [
+                        102
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [
+                        103
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know International Adoption Insights.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 100
+    }
+}

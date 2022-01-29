@@ -1,0 +1,57 @@
+{
+    "3": {
+        "req": "今日のタスク",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "今日のタスク"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "cancel",
+        "res": "わかりました。今日のタスクです。すみません。今日のタスクは、この地域ではサポートされていません。",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "ストップ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "閉じて",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "消して",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

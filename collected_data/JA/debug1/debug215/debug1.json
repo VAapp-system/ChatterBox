@@ -1,0 +1,63 @@
+{
+    "response": "わかりました。 読解力テストです。テスト結果を保存するため、読解力テストのアカウントが必要です。 アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。 「はい」か「いいえ」で答えてください。 詳しく知りたい場合は、「詳細を確認」と言ってください。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。読解力テストです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "テスト結果を保存するため、読解力テストのアカウントが必要です。アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。「はい」か「いいえ」で答えてください。詳しく知りたい場合は、「詳細を確認」と言ってください。"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/WC_RLzQiJ_rLnmBTv2UzK2UEEHNxsmwwPDyOURNN1-3WTYoZu_N4lxIDsFoheoViBDnNd6KiDPE"
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "はい",
+                    "いいえ",
+                    "詳細を確認"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "読解力テスト",
+    "servingModelOutdated": false,
+    "request": "読解力テストにつないで"
+}

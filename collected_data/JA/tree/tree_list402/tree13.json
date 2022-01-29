@@ -1,0 +1,70 @@
+{
+    "13": {
+        "req": "祈りを教えてください",
+        "res": "祈りの時間ではカトリックキリスト教の祈りができます。「使徒信条」とためしに言ってみてください。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "祈りを教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "祈りを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "キリスト教を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    },
+    "14": {
+        "req": "キリスト教を教えてください",
+        "res": "祈りの一覧をご紹介します。アヴェ・マリアの祈り ニケア・コンスタンチノープル信条\n主の祈り\n使徒信条\n食卓の祈り　こういったものがあります。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "キリスト教を教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "祈りを教えてください",
+                    "visit": false,
+                    "child": [
+                        15
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "キリスト教を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "9": {
+        "req": "I want to know Cleveland Clinic.",
+        "res": "To find your closest Cleveland Clinic including address, directions, hours of operation and contact information please visit levelandclinic dot org slash locations.\nNow\nyou can hear a daily health tip,\nlearn more about medical conditions,\nor find a Cleveland Clinic location near you.\nWhat would you like to talk about?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "I want to know Cleveland Clinic."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Cleveland Clinic.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know U.S. News & World Report.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    },
+    "10": {
+        "req": "I want to know U.S. News & World Report.",
+        "res": "Sorry,\nI can provide you with daily health tips,\ninformation about medical conditions,\nand Cleveland Clinic locations.\nWhat would you like to talk about?",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "I want to know U.S. News & World Report."
+        ],
+        "candidates": {
+            "NE": {
+                "1": {
+                    "req": "English",
+                    "NEType": "言語",
+                    "visit": true,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Japanese",
+                    "NEType": "言語",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Chinese",
+                    "NEType": "言語",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "French",
+                    "NEType": "言語",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "Italian",
+                    "NEType": "言語",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "German",
+                    "NEType": "言語",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Cleveland Clinic.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know U.S. News & World Report.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

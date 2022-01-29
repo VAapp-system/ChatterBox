@@ -1,0 +1,58 @@
+{
+    "2": {
+        "req": "Talk to Lucky Colour Harsh",
+        "res": "OK. Getting Lucky Colour Harsh.Hello user! Welcome to Lucky Colour! This action will give you your lucky number by just asking for your favourite colour. So, what is your favourite colour?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Lucky Colour Harsh"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favourite colour",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "5": {
+        "req": "Talk to Lucky Colour Harsh",
+        "res": "Hello user! Welcome to Lucky Colour! This action will give you your lucky number by just asking for your favourite colour. So, what is your favourite colour?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Talk to Lucky Colour Harsh"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favourite colour",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "response": "Well done! Now that you’ve pressed ‘menu’, you should see some options like: ‘Picture’, ‘Audio’, ‘Setup’ or ‘Help’. Find and click on ‘Setup’. Were you able to do that?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAARAQ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Well done! Now that you’ve pressed ‘menu’, you should see some options like: ‘Picture’, ‘Audio’, ‘Setup’ or ‘Help’.   Find and click on ‘Setup’.   Were you able to do that?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/aK2K-fP1xy3h4kgB71--1r_OvqOuizMXus5h8lJORLi1ZSSovRdA0KjjjJctFVOVMzd6D4ZOeTSMQA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Rescan My TV",
+    "servingModelOutdated": false,
+    "request": "Yes"
+}

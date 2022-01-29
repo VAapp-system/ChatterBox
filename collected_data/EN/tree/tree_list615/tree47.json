@@ -1,0 +1,51 @@
+{
+    "47": {
+        "req": "Attractions",
+        "res": "Aunt Nellie's Sweet Shop. We hope we will take you on an adventure of past and new memories of your favourite sweets and chocolates. Bullseyes, Clove Rock, Bon Bons, Fudge, Jellies, Sugar Free, Gobstoppers, Nougat, and Liquorice, yes, the list is endless but that is the way... Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 47,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        48
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Greystones.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 46
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "16": {
+        "req": "Yes",
+        "res": "Next came the chimney. According to the book I found, the smokestack needed to be swept clean. But that meant climbing on the roof. Lumiere called to me to be careful, but I told him not to worry, as I was doing everything by the book. I used a brush to sweep the chimney until I had removed every bit of soot. Once the chimney was clean, I went to fix the leaky faucet. I opened the repair book to the chapter on plumbing, which said to tighten the pipe with a wrench. I twisted the wrench as hard as I could, but the joint wouldn't budge. Then I heard a cough behind me. It was the Beast. He offered to give it a try. I smiled gratefully and handed him the wrench. With one mighty twist, the Beast fixed the leak. Mrs. Potts was very grateful that we'd stopped the drip. She made some tea to celebrate. I blushed as Lumiere thanked me for my hard work, and Chip added that we should thank the books, too.\nI hope you've enjoyed the story so far. Would you like to hear the next part?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Yes",
+                    "visit": true,
+                    "child": [
+                        17
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Disney.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Cinderella.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Ariel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Belle.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Jasmine.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know Tiana.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 15
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "6": {
+        "req": "what are your hobbies??",
+        "res": "cricket, football and my fav i.e., music..",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "what are your hobbies??"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "your favorite places??",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 5
+    }
+}

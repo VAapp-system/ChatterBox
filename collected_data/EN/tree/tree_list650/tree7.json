@@ -1,0 +1,54 @@
+{
+    "7": {
+        "req": "Wonder, who made it?",
+        "res": "Mr. Zahoor Ali Rangrez has been working as an individual, government recognised Artist cum Craftsman in Jodhpur. To help our purpose of creating awareness towards lack of encouragement for local artist, he made this handmade spectacle and brought lime light towards addressing the issue. You can visit the site here: https://zahoorali.business.site",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Wonder, who made it?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Record Breaking things",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "How did you made it?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "What's its size ?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "ok, talk to you again",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 6
+    }
+}

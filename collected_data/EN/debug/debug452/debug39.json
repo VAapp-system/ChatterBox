@@ -1,0 +1,84 @@
+{
+    "response": "Welcome back. Ready for an hour of Creepy Doll Music?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Welcome back. Ready for an hour of Creepy Doll Music?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Creepy Doll Melody",
+                    "subtitle": "",
+                    "formattedText": "By Derek & Brandon Fiechter",
+                    "image": {
+                        "url": "https://d9312taoxf5sz.cloudfront.net/background.jpg",
+                        "accessibilityText": "Creepy Doll Melody",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "yes"
+            },
+            {
+                "title": "no"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/KJCdyg52QCRD3AyRLrFewu7-TbCQh5NdqUmHW-zwTz0yHY0TNdYbzESATYxhG6fbWngg4ee9gZ8",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "yes",
+                    "no"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Creepy Doll",
+    "servingModelOutdated": false,
+    "request": "Talk to Creepy Doll"
+}

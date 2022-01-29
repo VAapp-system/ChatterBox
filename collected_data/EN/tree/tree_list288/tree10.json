@@ -1,0 +1,50 @@
+{
+    "12": {
+        "req": "What time does it leave",
+        "res": "Goooood.This help you when you are in transitTry this one.This help you when you are shopping. What is the mandarin sentense Nǐ jǐ diǎn kāimén means? You can say Hint, repeat or answer",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "What time does it leave"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Hint",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "repeat",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "answer",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 11
+    }
+}

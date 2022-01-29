@@ -1,0 +1,59 @@
+{
+    "response": "The Burger Contains:\nCalories 240\nTotal fat 14 grams\nCarbs 9 grams\nProtein 19 grams",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAQSD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "The Burger  Contains:\nCalories\t 240\t\nTotal fat\t 14 grams\nCarbs\t 9 grams\nProtein\t 19 grams"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About Banana"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/mlgyJ6b5Rrr-NU3c6GmhA0QaK6ED96sVCElANKFlBFVkpKm8ykjIv3fcwDl4wPrwfXr-izxpcJk",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About Banana"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Food intructor",
+    "servingModelOutdated": false,
+    "request": "About Burger"
+}

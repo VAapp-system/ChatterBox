@@ -1,0 +1,39 @@
+{
+    "117": {
+        "req": "Yes",
+        "res": "The next launch to space is at July 15 for Proton • Nauka launch time is set to 1:16 p.m. EDT from Baikonur Cosmodrome, Kazakhstan. On that flight A Russian government Proton rocket will launch the Nauka laboratory module to the International Space Station. The Nauka module, or the Multipurpose Laboratory Module, will also carry the European Robotic Arm to the space station. . What other date do you wish to check?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 117,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "The Nauka module",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        118
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "the Multipurpose Laboratory Module",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 116
+    }
+}

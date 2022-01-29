@@ -1,0 +1,48 @@
+{
+    "2": {
+        "req": "Talk to Smaran's Harry Potter Facts",
+        "res": "Alright. Let's get Smaran's Harry Potter Facts.Hello! How can I help you?\nPlease ask for a Harry Potter fact!",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Smaran's Harry Potter Facts"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "a Harry Potter fact !",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smaran.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Harry Potter.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

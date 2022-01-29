@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to AstroSage Horoscope",
+        "res": "OK. Let's get AstroSage Horoscope.Welcome to AstroSage Horoscope\nWhat is your Zodiac Sign?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to AstroSage Horoscope"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

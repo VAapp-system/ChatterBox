@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to TimeTree",
+        "res": "It looks like your TimeTree account is not linked yet. You can link TimeTree to your Google Account from the Google Home app.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to TimeTree"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

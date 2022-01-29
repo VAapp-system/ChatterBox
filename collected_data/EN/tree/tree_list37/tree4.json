@@ -1,0 +1,82 @@
+{
+    "4": {
+        "req": "another",
+        "res": "What was that?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "another"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "5": {
+        "req": "fact",
+        "res": "Daniel Radcliffe and Rupert Grint both admit to having a crush on Emma Watson in earlier films.\nDo you want to listen to another fact or exit ?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "fact"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "another",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "fact",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "exit",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smaran.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Harry Potter.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

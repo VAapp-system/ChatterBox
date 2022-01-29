@@ -1,0 +1,82 @@
+{
+    "response": "Next, from The Morning Call",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAQ4G...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Next, from The Morning Call"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "",
+                                "description": "The latest from The Morning Call",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/spokenlayer/image/upload/d_SpokenLayer_Logo_Verticle_fb9a1b.png/t_google_large/cover_art/the-morning-call.png",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://s3.amazonaws.com/audio.spokenlayer.com/the-morning-call/2021/06/50d62bae-2f7b-45ca-98b8-51094ff935f2/audio-50d62bae-2f7b-45ca-98b8-51094ff935f2-encodings.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-7034952011535718231"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "More stories"
+            },
+            {
+                "title": "I'm done"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/996CgOFmLOmMLztxk6b3WszciPK1Sq49FFXsq6XiOVZVqrhWY-9UlNIokQmnp8m8a9KrJBI1oMw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "More stories",
+                    "I'm done"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "The Morning Call",
+    "servingModelOutdated": false,
+    "request": "More stories"
+}

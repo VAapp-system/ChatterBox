@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "メールメモにつないで",
+        "res": "メールメモ とリンクしていません。Google Home アプリからメールメモ と Google アカウントをリンクできます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "メールメモにつないで"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

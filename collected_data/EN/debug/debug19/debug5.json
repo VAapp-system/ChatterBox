@@ -1,0 +1,81 @@
+{
+    "response": "Hi! Welcome to Health Calculator ! How can I Help you Today ?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hi! Welcome to Health Calculator ! How can I Help you Today ?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "BMI Calculator"
+            },
+            {
+                "title": "BMR Calculator"
+            },
+            {
+                "title": "Pregnancy Calculator"
+            },
+            {
+                "title": "Ideal Weight Calculator"
+            },
+            {
+                "title": "Ovulation Date Calculator"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/-Zo8KwaV-2EHHCT8VD3mX566hvyt1qLMMjW9PZC4PegfLI2KrhRmVnbRLX-oODT2UXJ_CtwyrVzv9Q",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "BMI Calculator",
+                    "BMR Calculator",
+                    "Pregnancy Calculator",
+                    "Ideal Weight Calculator",
+                    "Ovulation Date Calculator"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Health Calculator",
+    "servingModelOutdated": false,
+    "request": "Talk to Health Calculator"
+}

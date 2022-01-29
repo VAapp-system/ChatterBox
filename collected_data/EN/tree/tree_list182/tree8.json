@@ -1,0 +1,40 @@
+{
+    "11": {
+        "req": "Assault , Bullying , Burglary , Fraud , Robbery , Stolen Property , Vehicle Theft , Weapons Violation , etc.",
+        "res": "Please provide a time when the incident occurred",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "Assault , Bullying , Burglary , Fraud , Robbery , Stolen Property , Vehicle Theft , Weapons Violation , etc."
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know San Francisco.",
+                    "visit": true,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know San.",
+                    "visit": true,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

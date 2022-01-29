@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Random Aspiration",
+        "res": "Alright. Let's get Random Aspiration.Hi welcome to Random Aspiration! I will randomly choose an aspiration for you.\nTo get started... let me know which generation you would like. A child? Teen? Adult?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Random Aspiration"
+        ],
+        "candidates": {
+            "NE": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

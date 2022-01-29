@@ -1,0 +1,39 @@
+{
+    "11": {
+        "req": "Hint",
+        "res": "Sure.Here is your hint: it means either What time does it leave or What time does it arrive. Tā shénme shíjiān líkāiNow what's your answer?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "Hint"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "What time does it leave",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What time does it arrive",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

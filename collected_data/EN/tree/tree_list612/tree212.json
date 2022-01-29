@@ -1,0 +1,40 @@
+{
+    "212": {
+        "req": "Attractions ' If you want more attractions",
+        "res": "Hi. I can tell you attractions in Thurles, If you say 'Attractions'",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 212,
+        "req_list": [
+            "Attractions ' If you want more attractions"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Attractions",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        213
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Thurles.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 211
+    }
+}

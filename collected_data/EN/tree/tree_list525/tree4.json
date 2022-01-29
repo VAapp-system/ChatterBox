@@ -1,0 +1,56 @@
+{
+    "9": {
+        "req": "January 1st",
+        "res": "Which meal do you want to know about?",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "January 1st"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s being served in the mess through your voice, thanks to the power of Google Assistant. You can ask your assistant about any meal serving on any day of the week (or month).Here",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Google.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know iOS.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know NIIT University Mess.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

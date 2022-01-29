@@ -1,0 +1,59 @@
+{
+    "response": "hi. i'm 21 year old.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAASiQ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "hi. i'm 21 year old."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "where do you live?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/LwERwoswIbZNxN0NP11dX_Ft3OwZcqIeAlpl8RZyV4-jot0_cFGFhUu0fNWF-87OELco_Gg-Lts",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "where do you live?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Mr. Informer",
+    "servingModelOutdated": false,
+    "request": "what is your age?"
+}

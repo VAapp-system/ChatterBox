@@ -1,0 +1,76 @@
+{
+    "response": "Health Maintenance Organization, a health plan in which your care must be coordinated by your primary care physician (PCP). You can ask me to explain another term like Medicaid. or you can start one of our interactive journeys. undefined",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1bk...",
+    "audioResponse": "//NExAARsD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Here's what it means"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "HMO",
+                    "subtitle": "",
+                    "formattedText": "Health Maintenance Organization, a health plan in which your care must be coordinated by your primary care physician (PCP).\n \n    \nYou can also ask about:    \n   Medicaid    \n   Special Enrollment Period    \n   PCP    \n  \nWould you like a journey to Manage your Health, Manage your Money, or a journey for those New to Insurance ",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Medicaid"
+            },
+            {
+                "title": "Special Enrollment Period"
+            },
+            {
+                "title": "PCP"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/vYYr7sG5Eo5fuVRe1gvWJuPmw72OtqRRaI_bT0Eqa7f45YC-0jjB5kOaudWRJMCeSm8oUBNtLYNz",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Medicaid",
+                    "Special Enrollment Period",
+                    "PCP"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My Cap BlueCross",
+    "servingModelOutdated": false,
+    "request": "HMO"
+}

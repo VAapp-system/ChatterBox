@@ -1,0 +1,58 @@
+{
+    "9": {
+        "req": "Yes",
+        "res": "BHEL PURI :- firstly, in a large mixing bowl take 2 cups murmura/cornflakes. dry roast murmura if they are not crisp.\nadd ½ onion, ½ potato, 3 crushed papdi, 3 tbsp mixture and 2 tbsp fried peanuts.\nalso add 2 tbsp tomato, ½ tsp chaat masala, ¼ tsp chilli powder and ¼ tsp salt.\nmix well making sure the spices are combined well.\nfurther add 3 tbsp tamarind chutney, 2 tbsp green chutney and 1 tsp lemon juice.\nmix well without turning murmura soggy.\nadd 2 tbsp sev/namkeen and give a mix.\nfinally, enjoy bhel puri topped with few crushed papdi and garnished with onion, coriander. Would you like to see more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "Quick Food Recipes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Quick Food Recipes.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

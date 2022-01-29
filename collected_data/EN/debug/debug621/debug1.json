@@ -1,0 +1,83 @@
+{
+    "response": "OK. Here's Bamboo Airways.Hello! How can I help you?\nWhere are you flying from",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Bamboo Airways."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello! How can I help you?"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Where are you flying from"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Hanoi"
+            },
+            {
+                "title": "Ho Chi Minh"
+            },
+            {
+                "title": "Da Nang"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dd3AzLrqjBWhtFvQOwJLiCj-wQUsww6EuTzDFgMfy6QINBVK575UlVW9SeSb4g7AJa-eGC_r2xRFAg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Hanoi",
+                    "Ho Chi Minh",
+                    "Da Nang"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Bamboo Airways",
+    "servingModelOutdated": false,
+    "request": "Talk to Bamboo Airways"
+}

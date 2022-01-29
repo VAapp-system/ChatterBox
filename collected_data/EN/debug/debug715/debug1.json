@@ -1,0 +1,74 @@
+{
+    "response": "Alright. Let's get Rescan My TV.Hello and welcome to ‘Rescan my TV’, by the National Association of Broadcasters. By law, television programs are being forced to change frequencies, and thus require you to re-scan your TV, in order to watch that channel again. Would you like to learn how to re-scan your TV?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Rescan My TV."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello and welcome to ‘Rescan my TV’, by the National Association of Broadcasters.  By law, television programs are being forced to change frequencies and thus require you to rescan your TV in order to watch that channel again. Would you like to learn how to rescan your TV?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/aK2K-fP1xy3h4kgB71--1r_OvqOuizMXus5h8lJORLi1ZSSovRdA0KjjjJctFVOVMzd6D4ZOeTSMQA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Rescan My TV",
+    "servingModelOutdated": false,
+    "request": "Talk to Rescan My TV"
+}

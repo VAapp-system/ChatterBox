@@ -1,0 +1,47 @@
+{
+    "16": {
+        "req": "Jackson",
+        "res": "Tell me the Name of the Pokemon.",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "Jackson"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "What is super effective to fighting and grass.",
+                    "visit": false,
+                    "child": [
+                        17
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What is super effective to Charizard",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Pokemon.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 15
+    }
+}

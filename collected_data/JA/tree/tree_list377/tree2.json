@@ -1,0 +1,53 @@
+{
+    "2": {
+        "req": "宇宙おじさんと話したい",
+        "res": "わかりました。 うちゅうおじさんです。じゃじゃーん、うちゅー。おじさん。登場なのじゃー！。。今日も、宇宙の話をしてもよいかな？。。。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "宇宙おじさんと話したい"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "宇宙を教えてください",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "例えを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "おじさんを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "声変わりを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

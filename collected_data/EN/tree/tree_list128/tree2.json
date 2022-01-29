@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to smart lucky number",
+        "res": "OK. Getting smart lucky number.Hey User! Welcome to smart lucky number!!! To get your lucky number just tell your favorite colour..",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to smart lucky number"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

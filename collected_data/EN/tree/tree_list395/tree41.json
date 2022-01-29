@@ -1,0 +1,78 @@
+{
+    "77": {
+        "req": "more questions about the business to learn more",
+        "res": "Our phone number is (844) 648-0693 You can ask more questions about the business to learn more.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 77,
+        "req_list": [
+            "more questions about the business to learn more"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "more questions about the business to learn more",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s College of Cosmetology Muncie to ask questions about the business and get verified answers. PJ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "s is your phone number, What",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know PJ's College of Cosmetology Muncie.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Muncie IN.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 76
+    },
+    "78": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 78,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 76
+    }
+}

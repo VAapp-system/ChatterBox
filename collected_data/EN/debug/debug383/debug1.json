@@ -1,0 +1,91 @@
+{
+    "response": "Alright. Getting Sahil's Resume.Greeting!,\nI'm Sahil's Resume.\nWhat else do you want to know?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Sahil's Resume."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Greeting!,\nI'm Sahil's Resume.\n\nWhat else do you want to know?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Skills"
+            },
+            {
+                "title": "Projects"
+            },
+            {
+                "title": "Developer"
+            },
+            {
+                "title": "About"
+            },
+            {
+                "title": "Address"
+            },
+            {
+                "title": "Contact Info"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/kll_5QnO-73umgrHwVPw7EyAF0n6WcsTHATMUU2pJmXrSqbiakigzT_QhYyT9g3CVjLt2hfRtntv",
+        "agentStyle": {
+            "primaryColor": "#4a148c",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundColor": "#ffffff"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Skills",
+                    "Projects",
+                    "Developer",
+                    "About",
+                    "Address",
+                    "Contact Info"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Sahil's Resume",
+    "servingModelOutdated": false,
+    "request": "Talk to Sahil's Resume"
+}

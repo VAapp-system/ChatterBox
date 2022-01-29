@@ -1,0 +1,86 @@
+{
+    "response": "OK. Getting York Mix Radio.You are now listening to YorkMix Radio.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting York Mix Radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "You are now listening to YorkMix Radio."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "YorkMix Radio",
+                                "description": "www.yorkmix.com/radio",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1606029923049-yorkmix_512x512.png",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://sslproxy.hippynet.co.uk/yorkmix/stream"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [
+                            3,
+                            4
+                        ],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "2813488980097429082"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/AC_xHdS1d35rnDI5hxCAjP-olwHUV2n9TZTBKczy3l32cG6UeBk0qmAeBjnJsaZ0XssgdlPxzA1m",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "York Mix Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to York Mix Radio"
+}

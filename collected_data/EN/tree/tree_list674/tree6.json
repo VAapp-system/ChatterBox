@@ -1,0 +1,37 @@
+{
+    "6": {
+        "req": "Yes",
+        "res": "Great, your new Media Okra account is set up. You'll get a confirmation email soon.I got your account details, Logue\nYour Media Okra code is being generated, to retrieve your code say: my code",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know MediaOkra.",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Udemy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

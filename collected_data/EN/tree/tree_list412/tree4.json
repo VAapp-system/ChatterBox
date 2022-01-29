@@ -1,0 +1,52 @@
+{
+    "4": {
+        "req": "I want to know Tri State Disposal.",
+        "res": "Our phone number is (385) 206-2014 You can ask more questions about the business to learn more.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "I want to know Tri State Disposal."
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "more questions about the business to learn more",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Tri State Disposal.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Riverdale IL.",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

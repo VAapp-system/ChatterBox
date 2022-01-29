@@ -1,0 +1,57 @@
+{
+    "9": {
+        "req": "buses of zones",
+        "res": "Buses are: [Khu A,B: 6,14,19,43,44,45,52,55,104,150,60-3,60-4,72-1]- [Khu D: 45,93,150]- [Khu U: 5,8,14,19,24,44,45,91,93,146]- [Khu R,E: 6,8,10,30,52,150]. Can I help you with something else?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "buses of zones"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "address",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Hutech.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

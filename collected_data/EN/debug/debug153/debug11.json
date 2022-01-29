@@ -1,0 +1,102 @@
+{
+    "response": "OK... To start, say what and where you want to place.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAAQ8D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK... To start, say what and where you want to place."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://s3.amazonaws.com/wild-tic-tac-toe/board/012345678.png",
+                        "accessibilityText": "game field",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "X middle center"
+            },
+            {
+                "title": "X top right"
+            },
+            {
+                "title": "O middle left"
+            },
+            {
+                "title": "X top left"
+            },
+            {
+                "title": "O bottom right"
+            },
+            {
+                "title": "X bottom left"
+            },
+            {
+                "title": "O middle center"
+            },
+            {
+                "title": "X bottom center"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/U1J8mPrsgaxrxXVYWIGlApf3l7KdH5JRd9LddmbkAU7uI0EYdpSoRmfOEyIxip6uPU7y5t0z0--GHg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "X middle center",
+                    "X top right",
+                    "O middle left",
+                    "X top left",
+                    "O bottom right",
+                    "X bottom left",
+                    "O middle center",
+                    "X bottom center"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "wild tic tac toe",
+    "servingModelOutdated": false,
+    "request": "I start"
+}

@@ -1,0 +1,86 @@
+{
+    "response": "Alright. Here's Symphony Radio.You are now listening to Symphony Radio.",
+    "expectUserResponse": false,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Symphony Radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "You are now listening to Symphony Radio."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Symphony Radio",
+                                "description": "Ireland's Classical Music Station",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1618852995354-symphony.png",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://christmasfm.cdnstream1.com/2551_128.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [
+                            3,
+                            4
+                        ],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "5266753327594371099"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/1OhV4artpL6AX2eEd8oc18MU0yHlOV62PPm-Wf1v7i0LvVlgTVHI1wpvq8pJJ_6MnAoCR03XZ7QA2g",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Symphony Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to Symphony Radio"
+}

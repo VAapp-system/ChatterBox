@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to My Dice roller",
+        "res": "Alright. Here's My Dice roller.Hey! I'm Your Dice roller. I can roll a dice for you.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to My Dice roller"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "Roll a dice foe me",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

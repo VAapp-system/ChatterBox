@@ -1,0 +1,93 @@
+{
+    "response": "Alright. Here's The Morning Call.Thanks for listening! You can exit by telling Google Goodbye, and you can skip to the next story by telling Google Next.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's The Morning Call."
+                }
+            },
+            {
+                "displayText": {
+                    "content": " Thanks for listening! You can exit by telling Google Goodbye, and you can skip to the next story by telling Google Next."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "",
+                                "description": "The latest from The Morning Call",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/spokenlayer/image/upload/d_SpokenLayer_Logo_Verticle_fb9a1b.png/t_google_large/cover_art/the-morning-call.png",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://s3.amazonaws.com/audio.spokenlayer.com/the-morning-call/2021/07/7d620f39-2c1b-4596-a650-9137beb75cec/audio-7d620f39-2c1b-4596-a650-9137beb75cec-encodings.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-1658806472958144468"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "More stories"
+            },
+            {
+                "title": "I'm done"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/996CgOFmLOmMLztxk6b3WszciPK1Sq49FFXsq6XiOVZVqrhWY-9UlNIokQmnp8m8a9KrJBI1oMw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "More stories",
+                    "I'm done"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "The Morning Call",
+    "servingModelOutdated": false,
+    "request": "Talk to The Morning Call"
+}

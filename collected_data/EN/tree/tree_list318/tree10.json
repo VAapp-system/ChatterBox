@@ -1,0 +1,56 @@
+{
+    "11": {
+        "req": "Deadline",
+        "res": "The preregistration for the event closes by July 1, 2018: 12:00 PM noon BST. You can still register for the event from July 7, 2018, but donations would be required. The program will begin by July 14, 2018. What else would you like to know?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "Deadline"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Eligibility",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Reward",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s Summer of Code tells you about the 1 Million Women to Tech - Women",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Summer of Code.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

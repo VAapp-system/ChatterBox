@@ -1,0 +1,78 @@
+{
+    "response": "You are now listening to RJA Radio.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "You are now listening to RJA Radio."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "RJA RADIO",
+                                "description": "HIT MUSIC 24/7",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1594064076611-1024x1024-station-logo-with-background-for-app.png",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://19303.live.streamtheworld.com/RJA_RADIO_S01.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-3563433742985152846"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/sLGO-uLVzMVRYsPy9I79aqfJHiNIhZEOZE-xyZvyjnkeAW62x9KzyWWQcdTgbp1JWbj9VzvA6OmS",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "RJA RADIO",
+    "servingModelOutdated": false,
+    "request": "Talk to RJA RADIO"
+}

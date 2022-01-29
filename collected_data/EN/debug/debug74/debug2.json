@@ -1,0 +1,86 @@
+{
+    "response": "Sorry, I didn't get that.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAASII...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "screenType",
+                                {
+                                    "stringValue": "fallback"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "screenType",
+                                    {
+                                        "stringValue": "fallback"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/nQNNGsM4dxwwpS08Rkf6ni-IA3hlXKZ3_18L4UW5ag42hDX7g8yOfaVFvc_W57xg3ouSrklJeWrS",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "updatedStateJson": "{\"screenType\":\"fallback\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"history\":{\"history\":[],\"lastUse\":1.6252638444E12,\"config\":{\"allowStorage\":true},\"misc\":{}}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Word Quiz for Rising Star",
+    "servingModelOutdated": false,
+    "request": "I want to know Word Quiz for Rising Star."
+}

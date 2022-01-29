@@ -1,0 +1,29 @@
+{
+    "6": {
+        "req": "What are your hobbie?",
+        "res": "I like to play football.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "What are your hobbie?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Favourite actor?",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

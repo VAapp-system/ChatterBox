@@ -1,0 +1,135 @@
+{
+    "response": "Alright. Getting ABCmouse.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 3,
+            "markName": "welcome",
+            "timeSeconds": 0
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting ABCmouse."
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "audioFiles",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "stringValue": "https://static-abcm-ga.aofk.net/assets/audio/XCON-511_Google_Asst_INTRO.mp3"
+                                                            },
+                                                            {
+                                                                "stringValue": "https://static-abcm-ga.aofk.net/assets/audio/WelcomeFirstTimeBPath.mp3"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "WELCOME"
+                                                }
+                                            ],
+                                            [
+                                                "letter",
+                                                {
+                                                    "nullValue": 0
+                                                }
+                                            ],
+                                            [
+                                                "screen",
+                                                {
+                                                    "stringValue": "Welcome"
+                                                }
+                                            ],
+                                            [
+                                                "suppressMic",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yo66je8Z1FgGdADZGSJy8-JptCyzJkyRgA56MTywdu09ASNPYEGx1jESXSYmPwlP4DTAw_dlGavWvQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                "updatedStateJson": "[{\"suppressMic\":true,\"letter\":null,\"command\":\"WELCOME\",\"audioFiles\":[\"https://static-abcm-ga.aofk.net/assets/audio/XCON-511_Google_Asst_INTRO.mp3\",\"https://static-abcm-ga.aofk.net/assets/audio/WelcomeFirstTimeBPath.mp3\"],\"screen\":\"Welcome\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening ABCmouse by Age of Learning, Inc.",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": true,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"sessionsCount\":1.0,\"surpriseIntent\":false,\"newSession\":true,\"userId\":\"781b27c2-3680-46d6-98a3-b27b2249ebed\",\"sessionId\":\"ABwppHHE2TRhnJdb_LMLErVNjtkL8M4wOLma1RWsq5OEw2-rIbh0xvY_p-S6kYVjVdJ0fGCgWA\",\"views\":[\"SFX.WelcomeSound\",\"Welcome.FirstTimeBPath\"]}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ABCmouse",
+    "servingModelOutdated": false,
+    "request": "Talk to ABCmouse"
+}

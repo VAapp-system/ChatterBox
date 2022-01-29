@@ -1,0 +1,41 @@
+{
+    "7": {
+        "req": "I want to know Sean Hannity Monologues.",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "I want to know Sean Hannity Monologues."
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "10": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sean Hannity Monologues.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

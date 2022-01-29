@@ -1,0 +1,110 @@
+{
+    "response": "OK. Here's My Cap BlueCross.Welcome to My Capital BlueCross! Do you wish to learn more about healthcare with our interactive journeys or use Document Assistant?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's My Cap BlueCross."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to My Capital BlueCross! Do you wish to learn more about healthcare with our interactive journeys or use Document Assistant?"
+                }
+            },
+            {
+                "listSelect": {
+                    "title": "Main Menu",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "{\"intentName\":\"SelectTopicIntent\"}",
+                                "synonymsList": []
+                            },
+                            "title": "Interactive Journeys",
+                            "description": "Learn about healthcare with our interactive journeys",
+                            "image": {
+                                "url": "https://myvoiceassistant.s3.amazonaws.com/images/journey.png",
+                                "accessibilityText": "accessibilityText",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "{\"intentName\":\"DocumentAssistantIntent\"}",
+                                "synonymsList": []
+                            },
+                            "title": "Document Assistant",
+                            "description": "Ask questions about a document you received from us",
+                            "image": {
+                                "url": "https://myvoiceassistant.s3.amazonaws.com/images/docassist.png",
+                                "accessibilityText": "accessibilityText",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Interactive Journeys"
+            },
+            {
+                "title": "Document Assistant"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/vYYr7sG5Eo5fuVRe1gvWJuPmw72OtqRRaI_bT0Eqa7f45YC-0jjB5kOaudWRJMCeSm8oUBNtLYNz",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Interactive Journeys",
+                    "Document Assistant"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My Cap BlueCross",
+    "servingModelOutdated": false,
+    "request": "Talk to My Cap BlueCross"
+}

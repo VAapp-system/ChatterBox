@@ -1,0 +1,89 @@
+{
+    "response": "Alright. Getting Ode to Joy by Beethoven.Listen to Beethoven's \"Ode to Joy\" arranged and performed by Penitent.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Ode to Joy by Beethoven."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Listen to Beethoven's \"Ode to Joy\" arranged and performed by Penitent."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Beethoven's Ode to Joy by Penitent",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/fphdusz4qjugt4c/Penitent%20Maestro%20Beethoven.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://www.dropbox.com/s/osagffekw17tfjc/04%20-%20Ode%20To%20Joy.mp3?raw=1"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "1661872997946475193"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/4lRWnAZD686rl4ONldOYSsDOQwdTkuLn71Me9DgzQlnoE02pU7MLFynB7iQBwPGZuEmaYbIF5MNxrw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Ode to Joy by Beethoven",
+    "servingModelOutdated": false,
+    "request": "Talk to Ode to Joy by Beethoven"
+}

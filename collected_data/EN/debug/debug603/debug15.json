@@ -1,0 +1,82 @@
+{
+    "response": "Alright. Getting Pattaya tour.Choose a subject what you want to find.",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2w1Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Pattaya tour."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Choose a subject what you want to find."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Hotels"
+            },
+            {
+                "title": "Shopping"
+            },
+            {
+                "title": "Attractions"
+            },
+            {
+                "title": "Restaurants"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/mgKIUeiqNcvX7AV6prh3JSNMAtykB0VsHhit0lvq6vW0rDhzTAkiZ5IegS-WEkkZPA3neb65osRa",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Hotels",
+                    "Shopping",
+                    "Attractions",
+                    "Restaurants"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Pattaya tour",
+    "servingModelOutdated": false,
+    "request": "Talk to Pattaya tour"
+}

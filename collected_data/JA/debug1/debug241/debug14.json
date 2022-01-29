@@ -1,0 +1,225 @@
+{
+    "response": "どちらを選びますか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 3,
+            "markName": "RemoveCategories",
+            "timeSeconds": 0
+        },
+        {
+            "timepointType": 3,
+            "markName": "ShowCategories",
+            "timeSeconds": 0.768
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "categories",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "locales",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "en-GB"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "en-US"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "ja-JP"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "musicPack",
+                                                                            {
+                                                                                "stringValue": "TODAYS_TOP_HITS"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "name",
+                                                                            {
+                                                                                "stringValue": "最新ヒット曲"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "synonyms",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "current hits"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "locales",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "en-GB"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "en-US"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "ja-JP"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "musicPack",
+                                                                            {
+                                                                                "stringValue": "DANCE"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "name",
+                                                                            {
+                                                                                "stringValue": "クラブ"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "locales",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "en-GB"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "en-US"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "ja-JP"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "musicPack",
+                                                                            {
+                                                                                "stringValue": "UK_NUMBER_ONES"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "name",
+                                                                            {
+                                                                                "stringValue": "UKチャート1位"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "STORE_CATEGORIES"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/9EqibKQGAi_mYyKdpewV006IXTjivw9oPbHGK6VnmVHcth-SWHnuW-2AQ-LIUnN9QfetN6L9szF7",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "updatedStateJson": "[{\"categories\":[{\"name\":\"最新ヒット曲\",\"locales\":[\"en-GB\",\"en-US\",\"ja-JP\"],\"synonyms\":[\"current hits\"],\"musicPack\":\"TODAYS_TOP_HITS\"},{\"locales\":[\"en-GB\",\"en-US\",\"ja-JP\"],\"name\":\"クラブ\",\"musicPack\":\"DANCE\"},{\"musicPack\":\"UK_NUMBER_ONES\",\"locales\":[\"en-GB\",\"en-US\",\"ja-JP\"],\"name\":\"UKチャート1位\"}],\"command\":\"STORE_CATEGORIES\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"totalScore\":0.0,\"userId\":\"173091b2-5315-4712-85ff-c5b32ce73865\",\"nickName\":\"パーフェクトで 役に立つ ラビット\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Beat The Intro",
+    "servingModelOutdated": false,
+    "request": "皆さんを教えてください"
+}

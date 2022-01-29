@@ -1,0 +1,85 @@
+{
+    "response": "Please tell me the name of Artist whose art you would like to loan against",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAASYA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Please tell me the name of Artist whose art you would like to loan against"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Pawn Art",
+                    "subtitle": "",
+                    "formattedText": ".",
+                    "buttonsList": [
+                        {
+                            "title": "Visit Website",
+                            "openUrlAction": {
+                                "url": "https://www.newbondstreetpawnbrokers.com/loans/loans-against-fine-art/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Call us"
+            },
+            {
+                "title": "Send Message"
+            },
+            {
+                "title": "How it works"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/frXvztv99MtfRvdLl_cwUnCPEmC3TmkDOsg55ysrBVHTBOid6Di891D7tO0gFz5OQXzKg-vwUklSWQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/6vTuqckc2OWF-4Tj6IWXPlOB16_XELH0E5xxQFfLyHiIpW0Y8oHBR0KHQJqlpv66zFCxBq9t1ixy"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Call us",
+                    "Send Message",
+                    "How it works"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "New Bond Street Pawnbrokers",
+    "servingModelOutdated": false,
+    "request": "Art"
+}

@@ -1,0 +1,168 @@
+{
+    "response": "個別に知りたい仮想通貨がありましたら教えて下さい。",
+    "expectUserResponse": true,
+    "conversationToken": "ErYDS2o5dm...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "個別に知りたい仮想通貨がありましたら教えて下さい。"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "columnPropertiesList": [
+                        {
+                            "header": "通貨",
+                            "horizontalAlignment": 0
+                        },
+                        {
+                            "header": "価格",
+                            "horizontalAlignment": 2
+                        },
+                        {
+                            "header": "前日比",
+                            "horizontalAlignment": 2
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "BTC"
+                                },
+                                {
+                                    "text": "3,585,840"
+                                },
+                                {
+                                    "text": "-6.47%"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "ETH"
+                                },
+                                {
+                                    "text": "239,005"
+                                },
+                                {
+                                    "text": "-9.13%"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "BCH"
+                                },
+                                {
+                                    "text": "53,625"
+                                },
+                                {
+                                    "text": "-7.82%"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "LTC"
+                                },
+                                {
+                                    "text": "14,372"
+                                },
+                                {
+                                    "text": "-7.72%"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "XRP"
+                                },
+                                {
+                                    "text": "68.4"
+                                },
+                                {
+                                    "text": "-7.54%"
+                                }
+                            ],
+                            "dividerAfter": false
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "BTC"
+            },
+            {
+                "title": "ETH"
+            },
+            {
+                "title": "BCH"
+            },
+            {
+                "title": "LTC"
+            },
+            {
+                "title": "XRP"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/GIGXg-Sj8927xgtbRb6AKlSvjH5iJQfIxllypaLDp3LQnPjhdqbbmai8eZNdN6Hvre7uzFv6-ZIf",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "BTC",
+                    "ETH",
+                    "BCH",
+                    "LTC",
+                    "XRP"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "仮想通貨チェック",
+    "servingModelOutdated": false,
+    "request": "一覧"
+}

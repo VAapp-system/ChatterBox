@@ -1,0 +1,58 @@
+{
+    "4": {
+        "req": "what is deep learning ?",
+        "res": "Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans. It is subset of machine learning which in turn is the subset of artificial intelligence. Deep learning focuses on just a single model called neural networks. to learn more ask me about neural networks by saying what are neural networks.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "what is deep learning ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "what is a neural network?",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "neural networks by saying what are neural networks",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know CNNs.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Convolutional Neural Networks.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

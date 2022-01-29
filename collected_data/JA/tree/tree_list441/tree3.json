@@ -1,0 +1,183 @@
+{
+    "3": {
+        "req": "今日",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "今日"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "明日",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "EXAMPLE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "明日"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "２０１９年１２月２４日",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "EXAMPLE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "２０１９年１２月２４日"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "7": {
+        "req": "今日",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "今日"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "8": {
+        "req": "明日",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "EXAMPLE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "明日"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "9": {
+        "req": "２０１９年１２月２４日",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "EXAMPLE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "２０１９年１２月２４日"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "10": {
+        "req": "鹿角を教えてください",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "鹿角を教えてください"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "11": {
+        "req": "プラザを教えてください",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "プラザを教えてください"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "12": {
+        "req": "状況を教えてください",
+        "res": "少し言い換えていただけませんか。",
+        "QType": "OTHER",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "状況を教えてください"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "13": {
+        "req": "事を教えてください",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "OTHER",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "事を教えてください"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "101": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 101,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "103": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 103,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 102
+    }
+}

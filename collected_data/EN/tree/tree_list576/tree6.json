@@ -1,0 +1,29 @@
+{
+    "6": {
+        "req": "Where are your office add",
+        "res": "office stay in vadodara",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Where are your office add"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "which type of software yo",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

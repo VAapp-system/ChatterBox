@@ -1,0 +1,139 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://canvas.earplay.com/",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "CHOICE_SINGLE"
+                                                }
+                                            ],
+                                            [
+                                                "options",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "Apollo training"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "mission control"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the recovery team"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "url",
+                                                {
+                                                    "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/apollo_11/04-01-03p_ap11_11.jpg"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/mcZouFkgv_vy8w6lmRMPrmTM6KyQa_Xgcn8prC6nS-n6N4dJaEPEH4FIvmKIk9_GvkGEmystFbZP",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://canvas.earplay.com/",
+                "updatedStateJson": "[{\"options\":[{\"query\":\"Apollo training\"},{\"query\":\"mission control\"},{\"query\":\"the recovery team\"}],\"command\":\"CHOICE_SINGLE\",\"url\":\"https://earplay-images.s3.amazonaws.com/capstone/apollo_11/04-01-03p_ap11_11.jpg\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening You Choose Apollo 11 Story by Capstone",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{\"earplay_user_id\":\"HS_USER_ID_d471fdd3-fb80-4115-9e7a-a4061818c28c\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "You Choose Apollo Eleven Story",
+    "servingModelOutdated": false,
+    "request": "I want to know John F. Kennedy."
+}

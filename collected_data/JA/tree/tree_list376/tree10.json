@@ -1,0 +1,61 @@
+{
+    "11": {
+        "req": "もっと言って",
+        "res": "金を稼ぐよりも時間を稼げ。ホンダ創業者、本田宗一郎より。もっと聞く場合は「もっと言って」と、終了する場合は「終了」と言ってください。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "もっと言って"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "もっと言って",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "終了",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "名言を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ビジネスを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

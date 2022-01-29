@@ -1,0 +1,303 @@
+{
+    "3": {
+        "req": "はい",
+        "res": "19歳から65歳までは3000ウォン、7歳から18歳までは1500ウォンです。10人以上のグループには20％の割引が可能です。6歳以下、65歳以上は無料入場可能です。ご利用、ありがとうございました。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "はい",
+        "res": "19歳から65歳までは3000ウォン、7歳から18歳までは1500ウォンです。10人以上のグループには20％の割引が可能です。6歳以下、65歳以上は無料入場可能です。ご利用、ありがとうございました。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "いいえ",
+        "res": "ご利用、ありがとうございました。",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "韓国を教えてください",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "韓国を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "8": {
+        "req": "ソウルを教えてください",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "ソウルを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "9": {
+        "req": "城を教えてください",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "OTHER",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "城を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "10": {
+        "req": "景福宮を教えてください",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "OTHER",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "景福宮を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "11": {
+        "req": "キョンを教えてください",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "OTHER",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "キョンを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "12": {
+        "req": "ボックンを教えてください",
+        "res": "最後の一文を言い換えていただけませんか。",
+        "QType": "OTHER",
+        "Q_id": 6,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "ボックンを教えてください"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": true,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "韓国を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ソウルを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "城を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "景福宮を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "キョンを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "ボックンを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "料を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "情報を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "公式を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "ウェブを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "サイトを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "日本を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "語を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "版を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "15": {
+                    "req": "参考を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "16": {
+                    "req": "バナーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "17": {
+                    "req": "アイコンを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "18": {
+                    "req": "私を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "19": {
+                    "req": "写真を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

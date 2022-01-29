@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Track my weight",
+        "res": "OK. Let's get Track my weight.Smart Weight Tracker uses your first name to keep track of users, so please share your first name if you wish to proceed",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Track my weight"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

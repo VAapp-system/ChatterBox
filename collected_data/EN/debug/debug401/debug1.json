@@ -1,0 +1,98 @@
+{
+    "response": "Alright. Getting Energy Update.How can I help you?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Energy Update."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "How can I help you?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "current demand"
+            },
+            {
+                "title": "wind"
+            },
+            {
+                "title": "photovoltaics"
+            },
+            {
+                "title": "max wind yesterday"
+            },
+            {
+                "title": "min photovoltaics today"
+            },
+            {
+                "title": "sum demand today"
+            },
+            {
+                "title": "wind previous week"
+            },
+            {
+                "title": "res"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/xYBXa3atQUqAc_RlxrE7bDGN1JI2G27By74KoA7aL3TlXK51DMzv027qkjdO3u9b8R8iMyTwe0hF",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "current demand",
+                    "wind",
+                    "photovoltaics",
+                    "max wind yesterday",
+                    "min photovoltaics today",
+                    "sum demand today",
+                    "wind previous week",
+                    "res"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Energy Update",
+    "servingModelOutdated": false,
+    "request": "Talk to Energy Update"
+}

@@ -1,0 +1,136 @@
+{
+    "48": {
+        "req": "what is DC Universe",
+        "res": "The DC Universe (DCU) is the fictional shared universe where most stories in American comic book titles published by DC Comics take place. DC superheroes such as Superman, Batman and Wonder Woman are from this universe, and it also contains well known supervillains such as Lex Luthor, the Joker and Darkseid. In context, the term \"DC Universe\" usually refers to the main DC continuity.\nThe term \"DC Multiverse\" refers to the collection of all continuities within DC Comics publications. Within the Multiverse, the main DC Universe has gone by many names, but in recent years has been referred to by \"Prime Earth\" (not to be confused with \"Earth Prime\") or \"Earth 0\".\nThe main DC Universe, as well as the alternate realities related to it, began as the first shared universe in comic books and were quickly adapted to other media such as film serials or radio dramas. In subsequent decades, the continuity between all of these media became increasingly complex with certain storylines and events designed to simplify or streamline the more confusing aspects of characters' histories. , Anything else?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 48,
+        "req_list": [
+            "what is DC Universe"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What is MCU",
+                    "visit": false,
+                    "child": [
+                        49
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What is Marvel versus DC",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "who created DC",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "has been referred to by \" Prime Earth \" (not to be confused with \" Earth Prime \")",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Earth 0",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "film serials",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "radio dramas",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "simplify",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "streamline",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "the more confusing aspects of characters ' histories",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Superhero.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Marvel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know DC.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 47
+    }
+}

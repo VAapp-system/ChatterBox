@@ -1,0 +1,103 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "現在時間を伝えるのがメインですが、私の歌った歌の一覧を出したり、応援することもできます。歌が聴きたいとか、ほめてと言ってみてください。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://dl.dropboxusercontent.com/s/frgaxjy3qgn18wk/shizukuSmile.png",
+                        "accessibilityText": "しずく",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 1
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "ヘルプ"
+            },
+            {
+                "title": "時間"
+            },
+            {
+                "title": "趣味は"
+            },
+            {
+                "title": "応援して"
+            },
+            {
+                "title": "いってきます"
+            },
+            {
+                "title": "ただいま"
+            },
+            {
+                "title": "歌が聴きたい"
+            },
+            {
+                "title": "おわり"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/lMuvNapLfolZ-NaRE7SI6VqbgQkxTUSgJ1z6e8B5FhnOy6RsZ7o-zbw3smpb6PbYGOXK9_FUUeg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "monospace",
+            "borderRadius": 0,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/yOzdk7S6xt3uepnyaxrCShRilbzPLFKmN4Piv1M88t2lTyKJGE6e-SApPNkJzSxh24CHLfTRMXdW"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "ヘルプ",
+                    "時間",
+                    "趣味は",
+                    "応援して",
+                    "いってきます",
+                    "ただいま",
+                    "歌が聴きたい",
+                    "おわり"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "しずくクロック",
+    "servingModelOutdated": false,
+    "request": "ヘルプ"
+}

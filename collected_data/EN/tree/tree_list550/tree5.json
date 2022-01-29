@@ -1,0 +1,59 @@
+{
+    "5": {
+        "req": "Business Opportunity",
+        "res": "Voice is a great way to reach and engage users in a natural and fast manner. A report by Global Web Index suggests that 27% of the online population around the world uses voice search on mobile. For your business to engage voice users in meaningful ways is a big opportunity.\nTo explore related topics, just say \"Business Applications\" or \"Done\" to exit.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Business Opportunity"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Business Applications",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Business Applications",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

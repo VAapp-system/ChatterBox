@@ -1,0 +1,59 @@
+{
+    "37": {
+        "req": "read news",
+        "res": "Part 3. by the middle of the week, and afternoon rain chances will return Wednesday through Friday.    We are also tracking Hurricane Elsa through the Caribbean this weekend. Impacts could begin in the Florida Peninsula as early as Monday evening. The Tennessee Valley could receive rain from Hurricane Elsa by the middle of the week depending on the storm track. Be sure to . Say \"read news\" to continue reading. For weather say \"play weather\". For headlines say \"play headlines\".",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 37,
+        "req_list": [
+            "read news"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "read news",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [
+                        38
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "play weather \"",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "play headlines \"",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the Tennessee Valley.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 36
+    }
+}

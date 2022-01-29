@@ -1,0 +1,82 @@
+{
+    "response": "Listen to Pe Seven",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Vk...",
+    "audioResponse": "//NExAARiQ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Listen to Pe Seven"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Pe Seven",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/qihkmn66hgg0m0l/P7%20logo.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "http://p7.no:8007/kri.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-5637002702459397269"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About Pe Seven"
+            },
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Weow-rnB-81eqHTM9Jx03_ZjYOHflYPLa2kfGI2_dWuGYCdJuBCS5UA9LycuhaRx-nEnEMkwaN4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About Pe Seven",
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Pe Seven",
+    "servingModelOutdated": false,
+    "request": "Listen Live"
+}

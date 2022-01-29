@@ -1,0 +1,61 @@
+{
+    "42": {
+        "req": "Yes",
+        "res": "That's the power of this mind reading wizard. Hope you liked it. Leave us a 5 Star rating if you liked it. Or you can say Continue to try this once more or say Quit to leave the Mind Reading Wizard",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 42,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Continue",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        43
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Quit",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s in your mind easily. This is a unique thing, but you might have came across this during your life.Try this wizard and enjoy. Don",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Mind Reading Wizard.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 41
+    }
+}

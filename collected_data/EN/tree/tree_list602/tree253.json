@@ -1,0 +1,51 @@
+{
+    "253": {
+        "req": "Attractions",
+        "res": "East Iceland Heritage Museum (Minjasafn Austurlands). The East Iceland Heritage Museum was founded in 1943 and since then its aims has been to preserve the history of East Iceland by collecting and preserving things that reflect the society, culture and everyday life of people in the area. The museum... Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 253,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        254
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Egilsstadir.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 252
+    }
+}

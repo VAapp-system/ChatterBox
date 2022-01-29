@@ -1,0 +1,70 @@
+{
+    "25": {
+        "req": "あなたを教えてください",
+        "res": "ふむふむ。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 25,
+        "req_list": [
+            "あなたを教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "悩みを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 24
+    },
+    "26": {
+        "req": "悩みを教えてください",
+        "res": "へー、そうなんですね。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 26,
+        "req_list": [
+            "悩みを教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "あなたを教えてください",
+                    "visit": true,
+                    "child": [
+                        27
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "悩みを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 24
+    }
+}

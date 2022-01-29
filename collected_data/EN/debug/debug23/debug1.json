@@ -1,0 +1,78 @@
+{
+    "response": "Alright. Getting Pregnancy Weeks.Hi. I can tell you the size of your baby at the different weeks of pregnancy. Just say a week from 5 to 40.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Pregnancy Weeks."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi. I can tell you the size of your baby at the different weeks of pregnancy. Just say a week from 5 to 40."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "8 weeks"
+            },
+            {
+                "title": "15 weeks"
+            },
+            {
+                "title": "21 weeks"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/iyf-d5AuSlZTJ6MStauQVrotdTFZZ6aU-ABr9ybgLRv2ZjUrrg0fFU5VZGfBwUefsfaQHtOYWUfw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "8 weeks",
+                    "15 weeks",
+                    "21 weeks"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Pregnancy Weeks",
+    "servingModelOutdated": false,
+    "request": "Talk to Pregnancy Weeks"
+}

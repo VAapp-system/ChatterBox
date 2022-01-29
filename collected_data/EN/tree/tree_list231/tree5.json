@@ -1,0 +1,75 @@
+{
+    "5": {
+        "req": "Play part 1",
+        "res": "Jodhpur is one of the largest city in Rajasthan which is largest state of India. Jodhpur was founded by a Rajput chief of the Rathode clan, Rao Jodha, in 1459 who conquered the surrounding territories.\nThe city became an internal part of the state of Marwar. The inhabitants were called Marwaris, who are still known as a business-based community.\nAccording to Gazetteers of Jodhpur and the Hindu epic ‘Ramayana’, the Abhiras or the Abhirs were the original inhabitants of Jodhpur.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Play part 1"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Play part 2",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I need to leave",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Start from begin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "the Abhiras",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "the Abhirs",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Jodhpur city.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

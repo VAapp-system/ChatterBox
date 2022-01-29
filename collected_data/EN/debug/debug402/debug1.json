@@ -1,0 +1,70 @@
+{
+    "response": "Alright. Let's get Key Lime Pie Bakery.{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Key Lime Pie Bakery."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What are your hours?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ufSjk4194HY-xIytzny0OWrbM-j5pP0K6xvGgCZy6UpwMW_LdG_HuBwa16dUVs6DUuSlh2sQMmld",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What are your hours?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Key Lime Pie Bakery",
+    "servingModelOutdated": false,
+    "request": "Talk to Key Lime Pie Bakery"
+}

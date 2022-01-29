@@ -1,0 +1,102 @@
+{
+    "response": "Current energy demand is 19964 MW. Anything else?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ2k...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Current energy demand is 19964 MW. Anything else?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://quickchart.io/chart?c=%7Btype%3A%27bar%27%2Cdata%3A%7Blabels%3A%5B%27Current+value%27%2C%27Value+from+yesterday%27%2C%27Average+over+the+last+7+days%27%2C%27Average+over+the+last+30+days%27%2C%27Average+over+the+last+12+months%27%5D%2Cdatasets%3A%5B%7Bdata%3A%5B19964%2C20113%2C19644%2C19223.26%2C18971.68%5D%2CbackgroundColor%3A%5B%27%23ff9999%27%2C%27%23ff8080%27%2C%27%23ff6666%27%2C%27%23ff4d4d%27%2C%27%23ff3333%27%5D%2CborderColor%3A%27black%27%2CborderWidth%3A1%7D%5D%7D%2Coptions%3A%7Btitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Energy+demand+at+23%3A00%27%2CfontSize%3A20%7D%2Clegend%3A%7Bdisplay%3Afalse%7D%2Cscales%3A%7ByAxes%3A%5B%7Bticks%3A%7Bmin%3A15000%2CfontSize%3A15%7D%7D%5D%2CxAxes%3A%5B%7Bticks%3A%7BfontSize%3A15%7D%7D%5D%7D%2Cplugins%3A%7Bdatalabels%3A%7Banchor%3A%27end%27%2Calign%3A%27bottom%27%2Ccolor%3A%27black%27%2CbackgroundColor%3A%27%23b3b3ff%27%2CborderColor%3A%27%23000080%27%2CborderWidth%3A1%2CborderRadius%3A5%2Cfont%3A%7Bsize%3A14%7D%7D%7D%7D%7D&w=800&h=400&bkg=%23ffffff&f=png",
+                        "accessibilityText": "accessibility text",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "max wind yesterday"
+            },
+            {
+                "title": "previous week res"
+            },
+            {
+                "title": "current demand"
+            },
+            {
+                "title": "wind"
+            },
+            {
+                "title": "sum res July"
+            },
+            {
+                "title": "June demand"
+            },
+            {
+                "title": "photovoltaics today"
+            },
+            {
+                "title": "non-renewable"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/xYBXa3atQUqAc_RlxrE7bDGN1JI2G27By74KoA7aL3TlXK51DMzv027qkjdO3u9b8R8iMyTwe0hF",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "max wind yesterday",
+                    "previous week res",
+                    "current demand",
+                    "wind",
+                    "sum res July",
+                    "June demand",
+                    "photovoltaics today",
+                    "non-renewable"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Energy Update",
+    "servingModelOutdated": false,
+    "request": "current demand"
+}

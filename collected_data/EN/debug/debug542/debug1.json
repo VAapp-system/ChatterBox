@@ -1,0 +1,121 @@
+{
+    "response": "OK. Here's New Bond Street Pawnbrokers.Hello and Welcome to New Bond Street Pawnbrokers.\nWe provide loans against jewellery, watches, diamonds, art, wine, luxury cars, antiques, and other fine personal assets. How can I help you? You can say things like, Pawn my watch or How to contact you.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's New Bond Street Pawnbrokers."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello and Welcome to New Bond Street Pawnbrokers."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "We provide loans against jewellery, watches, diamonds, art, wine, luxury cars, antiques, and other fine personal assets. How can I help you? You can say things like, Pawn my watch or How to contact you."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "New Bond Street Pawn Brokers",
+                    "subtitle": "",
+                    "formattedText": "Please choose one of the following options",
+                    "buttonsList": [
+                        {
+                            "title": "Visit website",
+                            "openUrlAction": {
+                                "url": "https://www.newbondstreetpawnbrokers.com/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Art"
+            },
+            {
+                "title": "Antiques"
+            },
+            {
+                "title": "Cars"
+            },
+            {
+                "title": "Books"
+            },
+            {
+                "title": "Diamonds"
+            },
+            {
+                "title": "Watches"
+            },
+            {
+                "title": "Wine"
+            },
+            {
+                "title": "Jewellery"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/frXvztv99MtfRvdLl_cwUnCPEmC3TmkDOsg55ysrBVHTBOid6Di891D7tO0gFz5OQXzKg-vwUklSWQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/6vTuqckc2OWF-4Tj6IWXPlOB16_XELH0E5xxQFfLyHiIpW0Y8oHBR0KHQJqlpv66zFCxBq9t1ixy"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Art",
+                    "Antiques",
+                    "Cars",
+                    "Books",
+                    "Diamonds",
+                    "Watches",
+                    "Wine",
+                    "Jewellery"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "New Bond Street Pawnbrokers",
+    "servingModelOutdated": false,
+    "request": "Talk to New Bond Street Pawnbrokers"
+}

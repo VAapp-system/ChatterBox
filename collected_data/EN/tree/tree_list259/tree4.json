@@ -1,0 +1,29 @@
+{
+    "4": {
+        "req": "Who invented AirPlane ?",
+        "res": "It was invented by two brothers known as Wright Brothers",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Who invented AirPlane ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Who invented BasketBall ?",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "response": "Alright. Here's Conquest Hospital Radio.You are now listening to Conquest Hospital Radio.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Conquest Hospital Radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "You are now listening to Conquest Hospital Radio."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Conquest Hospital Radio",
+                                "description": "across the wards and around the world",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1595060434948-attachment_1594911077.png",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://everestcast.shoutcastservices.com:1395/stream"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-7628968858174554300"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/SDQIjocBlc7VpViHB6C9Y7tgYRO7B5tt5tinhHf2Xgi5LweXFcfvuxYeHnMdg48qRkQ1nu93III",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Conquest Hospital Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to Conquest Hospital Radio"
+}

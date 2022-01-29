@@ -1,0 +1,102 @@
+{
+    "response": "I put O in top left square.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAAPKH...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "I put O in top left square."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://s3.amazonaws.com/wild-tic-tac-toe/board/o12345x78.png",
+                        "accessibilityText": "game field",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "X bottom center"
+            },
+            {
+                "title": "O bottom center"
+            },
+            {
+                "title": "O top right"
+            },
+            {
+                "title": "X top center"
+            },
+            {
+                "title": "O middle center"
+            },
+            {
+                "title": "O top center"
+            },
+            {
+                "title": "O bottom right"
+            },
+            {
+                "title": "X bottom right"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/U1J8mPrsgaxrxXVYWIGlApf3l7KdH5JRd9LddmbkAU7uI0EYdpSoRmfOEyIxip6uPU7y5t0z0--GHg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "X bottom center",
+                    "O bottom center",
+                    "O top right",
+                    "X top center",
+                    "O middle center",
+                    "O top center",
+                    "O bottom right",
+                    "X bottom right"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "wild tic tac toe",
+    "servingModelOutdated": false,
+    "request": "X bottom left"
+}

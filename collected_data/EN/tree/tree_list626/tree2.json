@@ -1,0 +1,80 @@
+{
+    "2": {
+        "req": "Talk to Fun Cincinnati",
+        "res": "Alright. Getting Fun Cincinnati.Welcome to Fun Cincinnati! Here you can learn about all the fun attractions, great food, and exciting events Cincinnati has to offer.\nHungry? Let me know what you're craving, or play Restaurant Roulette if you aren't sure. To learn about our attractions, say \"attractions\". Finally, if you're here on a layover, tell me how long your layover is and I'll give you some fun things to do in our city while you wait!",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Fun Cincinnati"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Attractions",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Restaurant Roulette",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "attractions \"",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "know what you 're craving",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "play Restaurant Roulette if you are n't sure",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Cincinnati.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "response": "ご飯をきめますか？ そうですね・・・ 洋食と、和食と、中華なら どれがいいですか？ 料理トップファイブも紹介できますよ？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ご飯をきめますか？ そうですね・・・ 洋食と、和食と、中華なら どれがいいですか？ 料理トップファイブも紹介できますよ？"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/example-9fd79.appspot.com/o/restaurant-449952_640.jpg?alt=media&token=b3b8b64c-f7a9-47a8-aa56-44e43b96a25b",
+                        "accessibilityText": "ご飯をきめましょう",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "和食"
+            },
+            {
+                "title": "洋食"
+            },
+            {
+                "title": "中華"
+            },
+            {
+                "title": "TOP5"
+            },
+            {
+                "title": "やっぱやめる"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/AmizovCo0B6yitcVWj9fOXAj4swQJ4h8i1rJrtIBpEBFqV8e5lrbb36Izkno3__kSUoc6mD_ciYX",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "和食",
+                    "洋食",
+                    "中華",
+                    "TOP5",
+                    "やっぱやめる"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "トークロイドレミコ",
+    "servingModelOutdated": false,
+    "request": "今日のご飯"
+}

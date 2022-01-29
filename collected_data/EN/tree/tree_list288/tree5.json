@@ -1,0 +1,74 @@
+{
+    "5": {
+        "req": "repeat",
+        "res": "OK.When you are travelling you do not want this to happen. What is the mandarin sentense Wǒ de qiánbāo bùjiànle means? Hint, repeat or answer",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "repeat"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "repeat",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "answer",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    },
+    "6": {
+        "req": "answer",
+        "res": "OK.The answer is, I lost my wallet.Try this one.You will use this while shopping. What is the mandarin word Tài guìle means? Hint, repeat or answer",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "answer"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "repeat",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "answer",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "3": {
+        "req": "January 1st",
+        "res": "I'm not sure, can you please say that again?",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "January 1st"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "again ?",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

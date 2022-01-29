@@ -1,0 +1,100 @@
+{
+    "response": "Ah, I see you'd like to say hello to your connected and abundant future. Can I get your phone number so that I can give you more information?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAASID...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Ah, I see you'd like to say hello to your connected and abundant future. Can I get your phone number so that I can give you more information?"
+                }
+            },
+            {
+                "carouselSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "video",
+                                "synonymsList": []
+                            },
+                            "title": "Play Videos",
+                            "description": "Attention Live Promotional Videos",
+                            "image": {
+                                "url": "https://attnlivevideos.s3.amazonaws.com/Logo+Google+192x192.png",
+                                "accessibilityText": "attention live logo",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "contact",
+                                "synonymsList": []
+                            },
+                            "title": "Contact",
+                            "description": "Contact Attention Live",
+                            "image": {
+                                "url": "https://attnlivevideos.s3.amazonaws.com/Logo+Google+192x192.png",
+                                "accessibilityText": "attention live logo",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Play Videos"
+            },
+            {
+                "title": "Contact"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/3Cyu_GtnOlHjVY9UdqC9dXNz4kMcPQYfU50h_CsOi9HimPqUN6uUeVlGxKP5wGUApbVQwjcStv0Q",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Play Videos",
+                    "Contact"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "attention live labs",
+    "servingModelOutdated": false,
+    "request": "Contact"
+}

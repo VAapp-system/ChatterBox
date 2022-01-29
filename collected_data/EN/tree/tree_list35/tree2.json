@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Magical Dice",
+        "res": "Alright. Here's Magical Dice.Long time no see, Welcome to Magical Dice! I can role a dice for you, Say roll a dice to get dice number.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Magical Dice"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "roll a dice",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

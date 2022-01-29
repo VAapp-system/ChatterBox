@@ -1,0 +1,78 @@
+{
+    "response": "OK. Here's Bawarchi Recipes.Hello there! I can guide you through some fantastic cooking recipes.\nWhere would you like to start?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Bawarchi Recipes."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello there! I can guide you through some fantastic cooking recipes.\nWhere would you like to start?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "looking specific recipe"
+            },
+            {
+                "title": "most popular recipes"
+            },
+            {
+                "title": "different cuisine"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/-Qnbh-d5xrnY/WhKp4nGAdHI/AAAAAAAAAKg/aVQ5se7Uongrq8_XXQCjKZw1IACDyzOLQCMYCGAYYCw/h192-w192/sify-logo.jpg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "looking specific recipe",
+                    "most popular recipes",
+                    "different cuisine"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Bawarchi Recipes",
+    "servingModelOutdated": false,
+    "request": "Talk to Bawarchi Recipes"
+}

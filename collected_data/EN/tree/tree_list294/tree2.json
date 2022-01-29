@@ -1,0 +1,114 @@
+{
+    "2": {
+        "req": "Talk to mark XIME",
+        "res": "Alright. Let's get mark XIME.Hi, I am the MARKXIME bot. This application will help you know the events that will be conducted by the Marketing Club of XIME Kochi. You can ask me questions like What is XSL? What is the upcoming event?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to mark XIME"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "questions like What is XSL ?",
+                    "string_ID": 4,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Marketing.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know XIME.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Kochi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "5": {
+        "req": "Talk to mark XIME",
+        "res": "Hi, I am the MARKXIME bot. This application will help you know the events that will be conducted by the Marketing Club of XIME Kochi. You can ask me questions like What is XSL? What is the upcoming event?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Talk to mark XIME"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "questions like What is XSL ?",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Marketing.",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know XIME.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Kochi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

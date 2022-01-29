@@ -1,0 +1,74 @@
+{
+    "response": "OK. Here's Chat Hutech.Hi! How are you doing?",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201Wm...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Chat Hutech."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi! How are you doing?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Tell me history Hutech"
+            },
+            {
+                "title": "Tell me address Hutech"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/DaLxpCO204uOlOiV6p_XjRbPqM99rbji0Fs_-dzVeh5Pj-hKHUgOkyDehVxWQXrlD60iREfRTV6T",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Tell me history Hutech",
+                    "Tell me address Hutech"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Chat Hutech",
+    "servingModelOutdated": false,
+    "request": "Talk to Chat Hutech"
+}

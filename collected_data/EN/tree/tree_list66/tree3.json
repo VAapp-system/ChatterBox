@@ -1,0 +1,57 @@
+{
+    "3": {
+        "req": "your favorite color",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "your favorite color"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "your favorite color",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "your favorite color"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "I want to know Fortune Colour.",
+        "res": "Say that one more time?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "I want to know Fortune Colour."
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

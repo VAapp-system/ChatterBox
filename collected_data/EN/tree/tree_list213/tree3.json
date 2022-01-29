@@ -1,0 +1,39 @@
+{
+    "3": {
+        "req": "IIITN?",
+        "res": "Stands for Indian Institute of Information Technology,Nagpur",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "IIITN?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "starting year?",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

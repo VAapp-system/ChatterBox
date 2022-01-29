@@ -1,0 +1,29 @@
+{
+    "3": {
+        "req": "Who are you ?",
+        "res": "Hi this side Chinmay",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Who are you ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What is your age ?",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

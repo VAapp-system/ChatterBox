@@ -1,0 +1,83 @@
+{
+    "88": {
+        "req": "Hygiene",
+        "res": "Having cracked heels is the indication that we take less care of our body. Soak your feet in a bucket of water and pour 1 cup of olive oil. After soaking your feet, scrub your feet using pumice stone and rinse off. Olive oil soak will help your feet become soft and pumice stone will remove any dead skin cells around your feet.\nWhich one would you prefer next, random beauty hack, or Skin care hack?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 88,
+        "req_list": [
+            "Hygiene"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Hygiene",
+                    "visit": false,
+                    "child": [
+                        89
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Skin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Random",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Quit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "hack",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Skin care",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Beauty Companion.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 87
+    }
+}

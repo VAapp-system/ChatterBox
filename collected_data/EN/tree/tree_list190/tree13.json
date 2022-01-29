@@ -1,0 +1,32 @@
+{
+    "13": {
+        "req": "Yes",
+        "res": "OK, it has been posted. Please say create to make a new post or listen to hear other posts",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sounding Board.",
+                    "visit": false,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

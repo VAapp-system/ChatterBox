@@ -1,0 +1,90 @@
+{
+    "response": "Just a second - I will start the stream",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Just a second - I will start the stream"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "SWR1 Baden-Württemberg",
+                                "description": "Eins gehört gehört. SWR1.",
+                                "icon": {
+                                    "url": "https://api.lab.swr.de/images/v1/get/swr1bw-icon/img?width=1024&d=google-action-swr1",
+                                    "accessibilityText": "SWR1 Baden-Württemberg",
+                                    "height": 1024,
+                                    "width": 1024
+                                },
+                                "contentUrl": "https://swr-swr1-bw.sslcast.addradio.de/swr/swr1/bw/mp3/128/stream.mp3?ar-distributor=ffa4"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "104495718628615242"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Play News"
+            },
+            {
+                "title": "Play a Podcast"
+            },
+            {
+                "title": "Check traffic"
+            },
+            {
+                "title": "Check weather"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/H3HYLyUaNnI7oeDfFXRjTRDs0FaNBDyZWVDuUoBnzN8q73_BwX1kt6658FG7ibp2i7OsH_NZ1MnA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Play News",
+                    "Play a Podcast",
+                    "Check traffic",
+                    "Check weather"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "SWR1",
+    "servingModelOutdated": false,
+    "request": "Baden-Württemberg"
+}

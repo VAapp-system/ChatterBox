@@ -1,0 +1,102 @@
+{
+    "response": "施設情報、サービス、貸出品、交通手段に関する情報をお尋ねください",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ak...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "施設情報、サービス、貸出品、交通手段に関する情報をお尋ねください"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://storage.googleapis.com/marubeni-inbound-dev_alexa_images/q.jpg",
+                        "accessibilityText": "image",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "カテゴリから調べたい"
+            },
+            {
+                "title": "WiFi"
+            },
+            {
+                "title": "ディズニーランドの行き方"
+            },
+            {
+                "title": "モーニングコール"
+            },
+            {
+                "title": "喫煙所"
+            },
+            {
+                "title": "荷物を預けたい"
+            },
+            {
+                "title": "ATM"
+            },
+            {
+                "title": "お食事"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/JVtXAEdC1OopDcLQwB7J6Ph48w5tUGkh7kYc0ayXitcnw2b9krIFVvDP-v92A3oMSLx7ipsqfQM8",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "カテゴリから調べたい",
+                    "WiFi",
+                    "ディズニーランドの行き方",
+                    "モーニングコール",
+                    "喫煙所",
+                    "荷物を預けたい",
+                    "ATM",
+                    "お食事"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ステイプラス",
+    "servingModelOutdated": false,
+    "request": "成田ゲートウェイ"
+}

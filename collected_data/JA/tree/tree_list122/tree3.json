@@ -1,0 +1,184 @@
+{
+    "3": {
+        "req": "音流して",
+        "res": "How is it going?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "音流して"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "音流して",
+        "res": "調子はどうだい？",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "音流して"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "音流して",
+        "res": "Welcome to Google Home",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "音流して"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "音流を教えてください",
+        "res": "調子はどうだい？",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "音流を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "8": {
+        "req": "赤ちゃんを教えてください",
+        "res": "こんにちは世界！",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "赤ちゃんを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "9": {
+        "req": "母親を教えてください",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "OTHER",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "母親を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "10": {
+        "req": "胎内を教えてください",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "OTHER",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "胎内を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "11": {
+        "req": "音を教えてください",
+        "res": "How is it going?",
+        "QType": "OTHER",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "音を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "12": {
+        "req": "質を教えてください",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "OTHER",
+        "Q_id": 6,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "質を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "13": {
+        "req": "ストレスを教えてください",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "OTHER",
+        "Q_id": 7,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "ストレスを教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "14": {
+        "req": "方々を教えてください",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "OTHER",
+        "Q_id": 8,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "方々を教えてください"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "106": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 106,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "108": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 108,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 107
+    }
+}

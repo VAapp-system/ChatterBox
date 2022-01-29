@@ -1,0 +1,64 @@
+{
+    "4": {
+        "req": "s cave from J.R.R. Tolkien",
+        "res": "Sorry this is not correct. Please try again. Here is the Riddle. What has roots as nobody sees, Is taller than trees, Up, up it goes, And yet never grows?",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "s cave from J.R.R. Tolkien"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s cave from J.R.R. Tolkien",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Bilbo.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Gollum.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know J.R.R. Tolkien's.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Hobbit.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

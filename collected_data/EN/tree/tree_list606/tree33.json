@@ -1,0 +1,51 @@
+{
+    "33": {
+        "req": "Attractions",
+        "res": "Athlone Castle Visitor Centre. Athlone Castle Visitor Centre is situated in the heart of the Midlands, on the west bank of the river Shannon adjacent to St Peter and Pauls Church and the Luan Gallery. It was reopened in November 2012 following extensive renovations. The 13th... Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 33,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [
+                        34
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Athlone.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 32
+    }
+}

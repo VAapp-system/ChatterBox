@@ -1,0 +1,82 @@
+{
+    "response": "OK. Let's get Shanghai tour.Choose a subject what you want to find.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get Shanghai tour."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Choose a subject what you want to find."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Hotels"
+            },
+            {
+                "title": "Shopping"
+            },
+            {
+                "title": "Attractions"
+            },
+            {
+                "title": "Restaurants"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/xq2ZgAI5P-6YuN86SeJkVY7JL-9IExvnqn0H7_LnOFUu1ijAij0O1wq5r6VyHWrBzYK1wlMyyZK5GQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Hotels",
+                    "Shopping",
+                    "Attractions",
+                    "Restaurants"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Shanghai tour",
+    "servingModelOutdated": false,
+    "request": "Talk to Shanghai tour"
+}

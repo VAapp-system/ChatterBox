@@ -1,0 +1,95 @@
+{
+    "3": {
+        "req": "励まして",
+        "res": "Don't worry, Be happy",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "励まして"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "励まして",
+        "res": "諦めない諦めないひと休みひと休み！大丈夫かならずわかってくれる人はいる！愛って何かって悩むよね。でも気にしない！そうだ諦めるなよ！諦めるなよ！何事も基本が大事です！そうだ！もっと大きな声で！！明日からお前はお前なんだ！だからこそ日本一目指してみろよ！！失敗なんてへっちゃらだ！！",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "励まして"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "キングを教えてください",
+        "res": "最後の一文を言い換えていただけませんか。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "キングを教えてください"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "励まして",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "キングを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "言葉を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

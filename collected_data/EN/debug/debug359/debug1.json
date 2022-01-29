@@ -1,0 +1,75 @@
+{
+    "response": "Alright. Getting Simple Maths.Addition or Subtraction of two number can be calculated. So Which one you want me to do?",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2w1Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Simple Maths."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Addition or Subtraction of two number can be calculated. So Which one you want me to do?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Add"
+            },
+            {
+                "title": "Subtract"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/BF-St0Zhznvw9FdPBd6zA2ub2jiZv6yolx0vC16eDjEGjTzx0CWoY5iYXMqVsZwxz2YiTMCnHuBD",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/g_JBRBaFNxOSX2RQpgFLBDi-9hBlW2X59Z5_Zk4-68ViFH8t1iNN4tOnmzGhgKbKurzeZMeNOjAk"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Add",
+                    "Subtract"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Simple Maths",
+    "servingModelOutdated": false,
+    "request": "Talk to Simple Maths"
+}

@@ -1,0 +1,58 @@
+{
+    "3": {
+        "req": "questions like What is XSL ?",
+        "res": "I missed what you said. What was that?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "questions like What is XSL ?"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "I want to know Marketing.",
+        "res": "Yes, there is a digital marketing event which is going to be conducted during the 4th week of September. For more details, contact the club office bearers of MARKXIME.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "I want to know Marketing."
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "6": {
+        "req": "questions like What is XSL ?",
+        "res": "I didn't get that. Can you repeat?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "questions like What is XSL ?"
+        ],
+        "candidates": {},
+        "parent": 5
+    },
+    "7": {
+        "req": "I want to know Marketing.",
+        "res": "Yes, there is a digital marketing event which is going to be conducted during the 4th week of September. For more details, contact the club office bearers of MARKXIME.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "I want to know Marketing."
+        ],
+        "candidates": {},
+        "parent": 5
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "74": {
+        "req": "お気に召さなかった",
+        "res": "今のは少しわかりにくかったかな。もう一度言ってもらっても良いかい？",
+        "QType": "LINK",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 74,
+        "req_list": [
+            "お気に召さなかった"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "ビールを教えてください",
+                    "visit": false,
+                    "child": [
+                        75
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "天賦を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 73
+    }
+}

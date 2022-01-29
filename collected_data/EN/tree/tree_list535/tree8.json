@@ -1,0 +1,45 @@
+{
+    "8": {
+        "req": "Start",
+        "res": "Hi My name is May, Mortgage Consultant. I can assist you to find lowest rate in Canada. Please select the following options.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "Start"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Maximum Loan",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Lowest Rate",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Approval Today",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

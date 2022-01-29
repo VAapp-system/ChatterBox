@@ -1,0 +1,41 @@
+{
+    "4": {
+        "req": "repeat",
+        "res": "OK.When you are travelling you do not want this to happen. What is the mandarin sentense Wǒ de qiánbāo bùjiànle means? Hint, repeat or answer",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "repeat"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "repeat",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "answer",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

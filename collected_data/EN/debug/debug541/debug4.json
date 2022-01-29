@@ -1,0 +1,102 @@
+{
+    "response": "OK. Let's get Bufo Business.Hi, Welcome to Bufo Business assistant app. I can help you to monitor your factory operations at your finger tips.\nIf you already have a Bufo Business subscription, say 'Login'",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get Bufo Business."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi, Welcome to Bufo Business assistant app. I can help you to monitor your factory operations at your finger tips."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "How Bufo Business subscription can help your business to grow",
+                    "subtitle": "Monitor your factory operations at your finger tips",
+                    "formattedText": "Get all business critical informations on mobile and web. Make better decisions with interactive dashboards and reports. Measure KPIs and OEEs and share them securely with your colleagues. A single subsciption for your entire organization! ",
+                    "image": {
+                        "url": "https://im.ezgif.com/tmp/ezgif-1-86d56292dde6.gif",
+                        "accessibilityText": "How it works",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Learn More",
+                            "openUrlAction": {
+                                "url": "https://bufoinnovations.com",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            },
+            {
+                "displayText": {
+                    "content": "If you already have a Bufo Business subscription, say 'Login'"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Login"
+            },
+            {
+                "title": "Talk to Customer Support"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ckpOnOG8BeIJQHBcYzRSpZCChSySToFtOYH5O9XdvMdvUauICnDA_BzO8Wy2DCr0Fxs0F6us-UdP",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Login",
+                    "Talk to Customer Support"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Bufo Business",
+    "servingModelOutdated": false,
+    "request": "Talk to Bufo Business"
+}

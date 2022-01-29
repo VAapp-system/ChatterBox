@@ -1,0 +1,72 @@
+{
+    "response": "ヒントが欲しいときは、ヒント、途中でギブアップするときは、降参、などといってください。\nでは、東京駅から外回りで、隣の駅の名前をどうぞ！",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ヒントが欲しいときは、ヒント、途中でギブアップするときは、降参、などといってください。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "では、東京駅から外回りで、隣の駅の名前をどうぞ！"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "ヒント"
+            },
+            {
+                "title": "降参"
+            },
+            {
+                "title": "終わり"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/NRfO6O7XYeLAwgIPjC83ewYCho1eEzmZ4-tMfL6fxSF0ta-XQ8Z9b9_oUByboit8_DELsz7lUYU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "ヒント",
+                    "降参",
+                    "終わり"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "山手線一周",
+    "servingModelOutdated": false,
+    "request": "出発進行"
+}

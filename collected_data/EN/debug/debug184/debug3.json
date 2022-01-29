@@ -1,0 +1,83 @@
+{
+    "response": "Great, your new Community Hub account is set up. You'll get a confirmation email soon.Do you want to get the notifications from Community Hub?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAAQOd...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Great, your new Community Hub account is set up. You'll get a confirmation email soon."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Do you want to get the notifications from Community Hub?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Community Hub - AARP",
+                    "subtitle": "",
+                    "formattedText": "Do you want to get the notifications from Community Hub?",
+                    "image": {
+                        "url": "https://roqoscore.s3.amazonaws.com/images/APP_ICON_LARGE.png",
+                        "accessibilityText": "Community Hub - AARP",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 1
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "yes"
+            },
+            {
+                "title": "no"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/k1927yjXrTKugfQYyW5ikO2zOPVyj3qcCVt7HmL6vuY9Vu165zu6pD3y3I4fgNEre28pHcqHJMsGfA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "yes",
+                    "no"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Community Hub",
+    "servingModelOutdated": false,
+    "request": "Yes"
+}

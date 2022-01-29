@@ -1,0 +1,40 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "Great, thanks! It looks like your timezone is America/Los_Angeles, so that is what I will use when giving you tide times. Now, try asking me for some tide times.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "some tide times",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Tide Times.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

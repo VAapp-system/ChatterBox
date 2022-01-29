@@ -1,0 +1,29 @@
+{
+    "9": {
+        "req": "Correct Answer",
+        "res": "The correct answer is: We have been living together for 2 months\nYour next sentence is: Que ferez-vous la semaine prochaine?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "Correct Answer"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know French.",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

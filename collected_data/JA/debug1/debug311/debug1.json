@@ -1,0 +1,99 @@
+{
+    "response": "わかりました。 数字エルフです。ようこそ数字エルフをプレイする このサービスは古典的な数字推測ゲームです 初め前で、私は先にあなたの選ぶ数字の上限をすこし聞きたいです 例を挙げます；もしもあなたの指定した上限は50で、それではゲームの推測する数字は0～50間であるでしょう それでは、あなたの選ぶ上限はいくらですか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。数字エルフです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "ようこそ数字エルフをプレイする！"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "数字の上限を選んでください",
+                    "subtitle": "0から、あなたの指定した数字が区間としてまで(に)",
+                    "formattedText": "_[!]任意の数字を入力することができます_",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "50"
+            },
+            {
+                "title": "100"
+            },
+            {
+                "title": "250"
+            },
+            {
+                "title": "500"
+            },
+            {
+                "title": "1000"
+            },
+            {
+                "title": "🎲 お任せします"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/98fcN9pEn4mfaJJxil5jvKD6PADUa7d2LfMexZriVgMxXw47y8_If3bxuhibtClnscx4TvE0d7cP",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "50",
+                    "100",
+                    "250",
+                    "500",
+                    "1000",
+                    "🎲 お任せします"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "数字エルフ",
+    "servingModelOutdated": false,
+    "request": "数字エルフに開始ゲームを頼む"
+}

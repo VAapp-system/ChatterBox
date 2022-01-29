@@ -1,0 +1,96 @@
+{
+    "4": {
+        "req": "ピザを教えてください",
+        "res": "10回言ってないよ！サボらないで！もう10回ピザって言って",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "ピザを教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "ピザを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "5": {
+        "req": "あなたを教えてください",
+        "res": "すみません。 ピザ ピザ ピザから応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "あなたを教えてください"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "8": {
+        "req": "ピザを教えてください",
+        "res": "10回言ってないよ！サボらないで！もう10回ピザって言って",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "ピザを教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "ピザを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    },
+    "9": {
+        "req": "あなたを教えてください",
+        "res": "すみません。 ピザ ピザ ピザから応答がありません。 後ほどもう一度試してください。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "あなたを教えてください"
+        ],
+        "candidates": {},
+        "parent": 7
+    }
+}

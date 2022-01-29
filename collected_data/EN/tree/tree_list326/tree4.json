@@ -1,0 +1,29 @@
+{
+    "4": {
+        "req": "what is your age?",
+        "res": "you are 19 years old.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "what is your age?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "your hobbies?",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

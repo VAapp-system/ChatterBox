@@ -1,0 +1,55 @@
+{
+    "5": {
+        "req": "More facts",
+        "res": "In 1804, trainee doctor Stubbins Firth tried to prove that yellow fever is not an infectious disease by drinking his patients’ vomit! Although he did not get yellow fever, he was wrong. It is very contagious but must enter directly through the bloodstream.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "More facts"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "More facts",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Amazing",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Not Cool",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Shocking Science Facts.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

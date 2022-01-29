@@ -1,0 +1,70 @@
+{
+    "response": "OK. Here's Finger Likin.Hi! How are you doing?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Finger Likin."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi! How are you doing?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "how are you feeling today"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ae0wCAsVjZzm4We6ofK49Zfx407wG2BJszmsuvz70p4EQU_UQvcrAWVXMKjOzIZC5vobAF-AYU-e",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "how are you feeling today"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Finger Likin",
+    "servingModelOutdated": false,
+    "request": "Talk to Finger Likin"
+}

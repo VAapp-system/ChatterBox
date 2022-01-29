@@ -1,0 +1,82 @@
+{
+    "response": "Alright. Here's Fun Art Quiz.HI and welcome to Fabulous Masterpieces's art quiz. I hope you're ready to put your art knowledge to the test. Here is your first question. Roy Lichtenstein was a leader of which artistic style? Was it Art Nouveau, American Pop Art, Abstract Art or Impressionism?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Fun Art Quiz."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "HI and welcome to Fabulous Masterpieces's art quiz. I hope you're ready to put your art knowledge to the test. Here is your first question. Roy Lichtenstein was a leader of which artistic style? Was it Art Nouveau, American Pop Art, Abstract Art or Impressionism?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Art Nouveau"
+            },
+            {
+                "title": "American Pop Art"
+            },
+            {
+                "title": "Abstract Art"
+            },
+            {
+                "title": "Impressionism"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Jsv_yLGEP5uQFvBNxD-JqVPhhJoHW4C3KQ2NddgAULv3PkLdjsaMMMf3OAQk7iYrYlflPqtmwCeE",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Art Nouveau",
+                    "American Pop Art",
+                    "Abstract Art",
+                    "Impressionism"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Fun Art Quiz",
+    "servingModelOutdated": false,
+    "request": "Talk to Fun Art Quiz"
+}

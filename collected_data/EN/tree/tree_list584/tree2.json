@@ -1,0 +1,138 @@
+{
+    "2": {
+        "req": "Talk to Sporty's Preferred Living Product Spotlight",
+        "res": "OK. Getting Sporty's Preferred Living Product Spotlight.Our motorized pool floats put you in the driver’s seat—moving you forward, back, left or right, to put you in the perfect spot in the pool. Both feature fully enclosed propellers behind a protective safety grill that is safe for all ages. They assemble in minutes with no tools required. To hear more about these products, say Tube Runner or say Splash Runner Lounger.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Sporty's Preferred Living Product Spotlight"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {
+                "1": {
+                    "req": "left",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "right",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "I&SC_CC": {
+                "1": {
+                    "req": "Tube Runner",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Splash Runner Lounger",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sporty's Preferred Living.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to Sporty's Preferred Living Product Spotlight",
+        "res": "Our motorized pool floats put you in the driver’s seat—moving you forward, back, left or right, to put you in the perfect spot in the pool. Both feature fully enclosed propellers behind a protective safety grill that is safe for all ages. They assemble in minutes with no tools required. To hear more about these products, say Tube Runner or say Splash Runner Lounger.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to Sporty's Preferred Living Product Spotlight"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {
+                "1": {
+                    "req": "left",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "right",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "I&SC_CC": {
+                "1": {
+                    "req": "Tube Runner",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Splash Runner Lounger",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sporty's Preferred Living.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

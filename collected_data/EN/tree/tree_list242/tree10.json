@@ -1,0 +1,29 @@
+{
+    "10": {
+        "req": "Favourite actor?",
+        "res": "Leonardo DiCaprio",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Favourite actor?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Favourite actress?",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

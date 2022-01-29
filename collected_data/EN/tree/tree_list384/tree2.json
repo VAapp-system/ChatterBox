@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Jr.Bio",
+        "res": "Alright. Getting Jr.Bio.Hello! How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Jr.Bio"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Who are you ?",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 1
+    }
+}

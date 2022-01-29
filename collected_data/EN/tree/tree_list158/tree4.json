@@ -1,0 +1,30 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "I didn't get that. Can you say it again?\nYou can ask \"Anything interesting?\" or say \"Tell me some animes.\"",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "5": {
+        "req": "No",
+        "res": "Bye!",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 3
+    }
+}

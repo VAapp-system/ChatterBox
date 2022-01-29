@@ -1,0 +1,87 @@
+{
+    "response": "Welcome to Zen Moods: Storm Sounds.\nYou can ask me to repeat, to pause or to help. Now relax and enjoy the audio stream",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Vk...",
+    "audioResponse": "//NExAAQKH...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Welcome to Zen Moods: Storm Sounds."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "You can ask me to repeat, to pause or to help. Now relax and enjoy the audio stream"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Storm Sounds",
+                                "description": "Zen Moods",
+                                "icon": {
+                                    "url": "https://zenmoodsstormsounds.s3.amazonaws.com/thunderstorm.png",
+                                    "accessibilityText": "Media icon",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://zenmoodsstormsounds.s3.amazonaws.com/Storm-sound-2hours.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-5143721035431793356"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Next"
+            },
+            {
+                "title": "Exit"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/fzpzGPsxg79_lS-JHaWXOAjk8l3eyjUYfYOqK05pQwSmiBhjuLBSjABbi-4wDRn-jn1tKvC3-K5O",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Next",
+                    "Exit"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Storm Sounds",
+    "servingModelOutdated": false,
+    "request": "I want to know Storm Sounds."
+}

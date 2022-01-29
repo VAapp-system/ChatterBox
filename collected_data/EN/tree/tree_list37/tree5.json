@@ -1,0 +1,52 @@
+{
+    "6": {
+        "req": "another",
+        "res": "I didn't get that. Can you say it again?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "another"
+        ],
+        "candidates": {},
+        "parent": 5
+    },
+    "7": {
+        "req": "fact",
+        "res": "In Deathly Hallows, Harry notes that Ron and Hermione had fallen asleep holding hands. Hermione’s Patronus is an otter, which sleep holding hands with other otters. Incidentally, Ron’s Patronus is a Jack Russell Terrier, known for chasing otters…\nDo you want to listen to another fact or exit ?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "fact"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smaran.",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Harry Potter.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

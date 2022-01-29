@@ -1,0 +1,29 @@
+{
+    "6": {
+        "req": "can  I date you?",
+        "res": "no, i like you as a friend",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "can  I date you?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "are you graduate?",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "25": {
+        "req": "Flutter is Open Source?",
+        "res": "Yes",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 25,
+        "req_list": [
+            "Flutter is Open Source?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Pixel Widgets Type ?",
+                    "visit": false,
+                    "child": [
+                        26
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Detect Gesture Widget ?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 24
+    }
+}

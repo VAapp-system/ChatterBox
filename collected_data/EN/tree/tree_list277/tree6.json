@@ -1,0 +1,46 @@
+{
+    "6": {
+        "req": "about village",
+        "res": "about sevantri(sewantri) tourism , This pilgrimage place is surrounded by dense hills of Aravalli range, dense forest, ghats, lake(laxman juhla-gomti and amalda) , which are decorated with different types of fruits. (Different types of fruits found in this region probably will not occur throughout India), , it is a myth that at this place of pilgrimage, a variety of fruits, rare Ayurvedic flora, which are rarely found anywhere other than the Himalaya Mountains. Due Pandavas also chosen as the temporary residence of the shrine and Mantya of the temple was also built and worshiped ever Pandavas.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "about village"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "about temple",
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "images",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "go back",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 5
+    }
+}

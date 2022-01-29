@@ -1,0 +1,44 @@
+{
+    "124": {
+        "req": "はい",
+        "res": "少し言い換えていただけませんか。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 124,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 123
+    },
+    "125": {
+        "req": "いいえ",
+        "res": "少し言い換えていただけませんか。",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 125,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 123
+    },
+    "126": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 126,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 123
+    }
+}

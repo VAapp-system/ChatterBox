@@ -1,0 +1,39 @@
+{
+    "2": {
+        "req": "次の大安につないで",
+        "res": "はい。 次の たいあんです。すみません。 次の たいあんは、この地域ではサポートされていません。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "次の大安につないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "六曜を教えてください",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "大安を教えてください",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

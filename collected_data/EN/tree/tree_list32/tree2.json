@@ -1,0 +1,58 @@
+{
+    "2": {
+        "req": "Talk to Colorful Numbers",
+        "res": "OK. Let's get Colorful Numbers.Welcome to Colorful Numbers! I can role a dice for you, Say roll a dice to get dice number.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Colorful Numbers"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "roll a dice",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "5": {
+        "req": "Talk to Colorful Numbers",
+        "res": "Welcome to Colorful Numbers! I can role a dice for you, Say roll a dice to get dice number.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Talk to Colorful Numbers"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "roll a dice",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

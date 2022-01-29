@@ -1,0 +1,63 @@
+{
+    "response": "Alright. Getting Voice Othello.To save the game result, you’ll need an account with Voice Othello. To create a new one for you, I’ll just need some info. If you want more details, say \"Tell me more.\" So, can I ask Google for your name, email address, and profile picture?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Voice Othello."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "To save the game result, you’ll need an account with Voice Othello. To create a new one for you, I’ll just need some info. If you want more details, say \"Tell me more.\" So, can I ask Google for your name, email address, and profile picture?"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/QSpXlopNH8EEAou_G2pzBwlTrHL2OZVfhyFjckF05sUdWokcJT_XiM25msVy4u6idNNQG5ouWcK7"
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No",
+                    "Tell Me More"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Voice Othello",
+    "servingModelOutdated": false,
+    "request": "Talk to Voice Othello"
+}

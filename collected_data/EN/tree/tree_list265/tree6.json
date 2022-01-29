@@ -1,0 +1,29 @@
+{
+    "6": {
+        "req": "Favourite places?",
+        "res": "I want to visit all places in India.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Favourite places?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Favourite food?",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

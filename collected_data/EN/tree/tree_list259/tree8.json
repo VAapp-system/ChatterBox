@@ -1,0 +1,29 @@
+{
+    "8": {
+        "req": "who invented Printer?",
+        "res": "It was invented by Eli Whitney",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "who invented Printer?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Who invented Radio?",
+                    "visit": true,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "response": "Alright. Here's wild tic tac toe.Welcome to Wild Tic-tac-toe. In this game, players can choose to place either X or O on each move, anytime. You are trying to get three in a row first. To make a move respond with a symbol name and a place on the board. For example, say \"move cross to the upper right corner\". To start a new game at any time, say: who the first and start game. For example, say \"You start first\"",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Wild Tic-tac-toe."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Wild Tic-tac-toe. In this game, players can choose to place either X or O on each move, anytime. You are trying to get three in a row first. To make a move respond with a symbol name and a place on the board. For example, say \"move cross to the upper right corner\". To start a new game at any time, say: who the first and start game. For example, say \"You start first\""
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "I start"
+            },
+            {
+                "title": "You start"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/U1J8mPrsgaxrxXVYWIGlApf3l7KdH5JRd9LddmbkAU7uI0EYdpSoRmfOEyIxip6uPU7y5t0z0--GHg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "I start",
+                    "You start"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "wild tic tac toe",
+    "servingModelOutdated": false,
+    "request": "Talk to Wild Tic-tac-toe"
+}

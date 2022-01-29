@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to an best friend",
+        "res": "Alright. Getting an best friend.Hi! How are you doing?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to an best friend"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Your name?",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 1
+    }
+}

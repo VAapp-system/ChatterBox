@@ -1,0 +1,46 @@
+{
+    "10": {
+        "req": "Investment",
+        "res": "In terms of finance, an investment is a monetary asset purchased with the idea of selling it in the future at a higher price which is accumulated with time.\nLet's suppose that you save 100 rupees per month and invest it somewhere and your wealth grows at a rate of 12% annually,\nthen after 10 years, the invested amount would be 12000 but when you see the amount of wealth generated you would be surprised.\nIt is 23234, in which 11234 is the wealth gain other than your invested amount, see the power of compounding.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Investment"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Insurance",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Income Tax",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Start Investment",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 9
+    }
+}

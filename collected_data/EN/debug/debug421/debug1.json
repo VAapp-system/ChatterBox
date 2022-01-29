@@ -1,0 +1,77 @@
+{
+    "response": "Alright. Here's Party Mix Radio.OK, here's Party Mix Radio.",
+    "expectUserResponse": false,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Party Mix Radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "OK, here's Party Mix Radio."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Party Mix Radio",
+                                "description": "Dance, Retro, Top 40 & Party Anthems, Remixes & Mashups",
+                                "contentUrl": "https://samcloud.spacial.com/api/listen?sid=75960&rid=156316"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-678490622116665452"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/K9k7nOFbyxv96BAXTYvauMhPqQv7RqEtYKRddU3hV38EMehSpqHIHmLrIX61KDo3VzHyt1Gg7ZRd",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Party Mix Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to Party Mix Radio"
+}

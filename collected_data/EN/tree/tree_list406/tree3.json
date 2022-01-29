@@ -1,0 +1,62 @@
+{
+    "3": {
+        "req": "How to buy a ring",
+        "res": "There are five basic steps to buying an engagement ring: Choose a diamond, select a diamond shape, choose a precious metal for the ring, pick a ring setting and select the ring size. Which of these would you like to learn more about?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "How to buy a ring"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Choose a diamond",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Select a diamond shape",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Choose a precious metal",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Pick a ring setting",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "Select a ring size",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

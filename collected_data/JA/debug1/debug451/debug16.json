@@ -1,0 +1,98 @@
+{
+    "response": "日本国の「原爆ドーム」 です。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "日本国の「原爆ドーム」 です。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "原爆ドーム",
+                    "subtitle": "",
+                    "formattedText": "原爆ドーム（げんばくドーム、英: Atomic Bomb Dome）の名で知られる広島平和記念碑（ひろしまへいわきねんひ、英: Hiroshima Peace Memorial）は、日本の広島市に投下された原子爆弾の惨禍を今に伝える記念碑（被爆建造物）である。元は広島県物産陳列館として開館し、原爆投下当時は広島県産業奨励館と呼ばれていた。ユネスコの世界遺産（文化遺産）に登録されており、「二度と同じような悲劇が起こらないように」との戒めや願いをこめて、特に負の世界遺産と呼ばれている。",
+                    "image": {
+                        "url": "http://ja.wikipedia.org/wiki/Special:FilePath/Genbaku_Dome04-r.JPG",
+                        "accessibilityText": "Image alternate text",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "詳しくはこちら",
+                            "openUrlAction": {
+                                "url": "https://ja.wikipedia.org/wiki/%E5%8E%9F%E7%88%86%E3%83%89%E3%83%BC%E3%83%A0",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "日本"
+            },
+            {
+                "title": "日本国"
+            },
+            {
+                "title": "オランダ王国"
+            },
+            {
+                "title": "パレスチナ国"
+            },
+            {
+                "title": "デイリー世界遺産通知の設定をする"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/OYuDIrt-iQvSkJUw-4CBNiy5zwJLukqcN8sriPXpm-4O0MdMo2cq-_mqnINi53iITu1aY2KMUanW",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "日本",
+                    "日本国",
+                    "オランダ王国",
+                    "パレスチナ国",
+                    "デイリー世界遺産通知の設定をする"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "世界遺産マスター",
+    "servingModelOutdated": false,
+    "request": "日本"
+}

@@ -1,0 +1,4435 @@
+{
+    "2": {
+        "req": "数字エルフに開始ゲームを頼む",
+        "res": "わかりました。 数字エルフです。ようこそ数字エルフをプレイする このサービスは古典的な数字推測ゲームです 初め前で、私は先にあなたの選ぶ数字の上限をすこし聞きたいです 例を挙げます；もしもあなたの指定した上限は50で、それではゲームの推測する数字は0～50間であるでしょう それでは、あなたの選ぶ上限はいくらですか？",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "数字エルフに開始ゲームを頼む"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "50",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "250",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "500",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "1000",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "🎲 お任せします",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {
+                "1": {
+                    "req": "弾幕系シューティング",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "コネクト6",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ゲームブックドラゴンクエスト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "トンネルズ&トロールズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "5五将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "アクワイア",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "チェッカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "アグリコラ (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "三目並べ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "ドミノ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "暗棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "大将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "タンクライフRPG ダークブレイズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "ウインクキラー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "15": {
+                    "req": "クラップス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "16": {
+                    "req": "バトルシップ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "17": {
+                    "req": "クレイジーエイト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "18": {
+                    "req": "薩摩拳",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "19": {
+                    "req": "チャトラジ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "20": {
+                    "req": "マンハッタン (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "21": {
+                    "req": "パターゴルフ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "22": {
+                    "req": "七国象棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "23": {
+                    "req": "タクテクス (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "24": {
+                    "req": "ファンタン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "25": {
+                    "req": "鶏投げ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "26": {
+                    "req": "ワードバスケット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "27": {
+                    "req": "機動戦士ガンダム G-STRATEGY",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "28": {
+                    "req": "カップル (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "29": {
+                    "req": "テキサス・ホールデム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "30": {
+                    "req": "平安将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "31": {
+                    "req": "イルミナティ (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "32": {
+                    "req": "カルキュレーション",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "33": {
+                    "req": "ままこ立て",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "34": {
+                    "req": "ダンジョンズ&ドラゴンズ ミニチュアゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "35": {
+                    "req": "プロフェッサーキューブ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "36": {
+                    "req": "レットイットライド",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "37": {
+                    "req": "十六むさし",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "38": {
+                    "req": "ドジック",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "39": {
+                    "req": "街コロ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "40": {
+                    "req": "ダブルムーン伝説RPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "41": {
+                    "req": "ディプロマシー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "42": {
+                    "req": "100&メダル 激KAZAAAN!!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "43": {
+                    "req": "魚雷戦ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "44": {
+                    "req": "V-Cube 7",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "45": {
+                    "req": "ピラミンクス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "46": {
+                    "req": "ジャック叩き",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "47": {
+                    "req": "風船バレー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "48": {
+                    "req": "ボーナンザ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "49": {
+                    "req": "禽将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "50": {
+                    "req": "パンギンギ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "51": {
+                    "req": "ストリップ・ポーカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "52": {
+                    "req": "ドミニオン (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "53": {
+                    "req": "コロレット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "54": {
+                    "req": "スコットランドヤード (ボードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "55": {
+                    "req": "箱入り娘 (パズル)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "56": {
+                    "req": "アースドーン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "57": {
+                    "req": "クロキノール",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "58": {
+                    "req": "変則将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "59": {
+                    "req": "ガンドッグ (TRPG)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "60": {
+                    "req": "ワイプアウト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "61": {
+                    "req": "ピンポンパンゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "62": {
+                    "req": "大局将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "63": {
+                    "req": "ブロット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "64": {
+                    "req": "パチーシ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "65": {
+                    "req": "戦国大名 (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "66": {
+                    "req": "パイ・ゴウ・ポーカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "67": {
+                    "req": "ビデオポーカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "68": {
+                    "req": "ポチッとにゃ〜",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "69": {
+                    "req": "100&メダル HYOZAAAN!!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "70": {
+                    "req": "つみあげうた",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "71": {
+                    "req": "泰将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "72": {
+                    "req": "瞬間決着ゲームシンペイ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "73": {
+                    "req": "キノ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "74": {
+                    "req": "アドバンスト・ダンジョンズ&ドラゴンズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "75": {
+                    "req": "ハノイの塔",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "76": {
+                    "req": "コンキアン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "77": {
+                    "req": "カチョ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "78": {
+                    "req": "ルービッククロック",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "79": {
+                    "req": "真・女神転生トレーディングカード",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "80": {
+                    "req": "平安大将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "81": {
+                    "req": "ルービックリベンジ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "82": {
+                    "req": "レッドドッグ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "83": {
+                    "req": "マネー・ホイール",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "84": {
+                    "req": "脱衣麻雀",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "85": {
+                    "req": "ピケ (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "86": {
+                    "req": "バカラバンク",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "87": {
+                    "req": "29 (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "88": {
+                    "req": "三国殺",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "89": {
+                    "req": "サブマリンキャッチャー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "90": {
+                    "req": "ハイパートンネルズ&トロールズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "91": {
+                    "req": "中将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "92": {
+                    "req": "ハースストーン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "93": {
+                    "req": "スピード (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "94": {
+                    "req": "スター・ウォーズ (ピンボール)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "95": {
+                    "req": "がんばこ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "96": {
+                    "req": "QIX",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "97": {
+                    "req": "タントリックス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "98": {
+                    "req": "ハングマン (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "99": {
+                    "req": "セネト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "100": {
+                    "req": "央華封神RPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "101": {
+                    "req": "サムライ (ボードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "102": {
+                    "req": "十三張",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "103": {
+                    "req": "摩訶大大将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "104": {
+                    "req": "ルービック・ミラーブロックス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "105": {
+                    "req": "にらめっこ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "106": {
+                    "req": "ルービックキューブ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "107": {
+                    "req": "シークワーズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "108": {
+                    "req": "スペースフライトシミュレーター",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "109": {
+                    "req": "投扇興",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "110": {
+                    "req": "ラー (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "111": {
+                    "req": "フォーチュン・クエストRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "112": {
+                    "req": "宇宙将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "113": {
+                    "req": "BEAST BIND 魔獣の絆 R.P.G",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "114": {
+                    "req": "ジャドケンス将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "115": {
+                    "req": "100&メダル KAZAAAN!!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "116": {
+                    "req": "雪合戦",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "117": {
+                    "req": "スーパーヒーロー戦線 スクランブルデュエル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "118": {
+                    "req": "すごろく",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "119": {
+                    "req": "テイク・イット・イージー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "120": {
+                    "req": "エムブリオマシンRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "121": {
+                    "req": "シェフィ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "122": {
+                    "req": "ナイト・ツアー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "123": {
+                    "req": "ラブレター (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "124": {
+                    "req": "聖獣魔伝ビースト&ブレイド",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "125": {
+                    "req": "V-Cube 6",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "126": {
+                    "req": "バンダイifシリーズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "127": {
+                    "req": "BEAST BIND NEW TESTAMENT 新約・魔獣の絆",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "128": {
+                    "req": "ごきぶりスープ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "129": {
+                    "req": "D20モダン・ロールプレイング・ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "130": {
+                    "req": "穴掘りモグラ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "131": {
+                    "req": "超女王様伝説 セント★プリンセス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "132": {
+                    "req": "ゲヘナ (TRPG)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "133": {
+                    "req": "ロシアンルーレット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "134": {
+                    "req": "パラダイス・フリートRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "135": {
+                    "req": "遊☆戯☆王 タッグフォースシリーズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "136": {
+                    "req": "いただきストリート3 億万長者にしてあげる! 〜家庭教師つき!〜",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "137": {
+                    "req": "いただきストリートMOBILE どんどん開店!増築中!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "138": {
+                    "req": "スキューブダイアモンド",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "139": {
+                    "req": "フリーセル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "140": {
+                    "req": "和将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "141": {
+                    "req": "メガミンクス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "142": {
+                    "req": "アサルト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "143": {
+                    "req": "ポーカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "144": {
+                    "req": "ハイパーウォーズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "145": {
+                    "req": "フットメザ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "146": {
+                    "req": "四つ葉のクローバー (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "147": {
+                    "req": "台湾麻雀",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "148": {
+                    "req": "パンデミック (ボードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "149": {
+                    "req": "無限のファンタジア",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "150": {
+                    "req": "じゃんけんしょうぎ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "151": {
+                    "req": "ルートランサー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "152": {
+                    "req": "あやつり人形 (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "153": {
+                    "req": "貴族の務め",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "154": {
+                    "req": "美術館 (パズル)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "155": {
+                    "req": "ごきぶりサラダ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "156": {
+                    "req": "グーパー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "157": {
+                    "req": "ジェンガ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "158": {
+                    "req": "豚のしっぽ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "159": {
+                    "req": "UNO (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "160": {
+                    "req": "ドラゴンハーフRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "161": {
+                    "req": "広将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "162": {
+                    "req": "ビーストバインド トリニティ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "163": {
+                    "req": "おいちょかぶ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "164": {
+                    "req": "お邪魔者",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "165": {
+                    "req": "クロスナンバーパズル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "166": {
+                    "req": "桃太郎電鉄15 五大ボンビー登場!の巻",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "167": {
+                    "req": "スーパーシナリオサポート",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "168": {
+                    "req": "スキューブ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "169": {
+                    "req": "メタリックガーディアンRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "170": {
+                    "req": "チキンゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "171": {
+                    "req": "マギウス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "172": {
+                    "req": "プロ野球ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "173": {
+                    "req": "ノックダウン (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "174": {
+                    "req": "サードパーソン・シューティングゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "175": {
+                    "req": "山手線ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "176": {
+                    "req": "ポケットキューブ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "177": {
+                    "req": "ジュマンジ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "178": {
+                    "req": "インバスケット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "179": {
+                    "req": "カックロ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "180": {
+                    "req": "ブラグ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "181": {
+                    "req": "ウォークラリー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "182": {
+                    "req": "O'NO 99",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "183": {
+                    "req": "橋をかけろ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "184": {
+                    "req": "ハルマ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "185": {
+                    "req": "ナポレオン (イギリスのトランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "186": {
+                    "req": "Netrunner (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "187": {
+                    "req": "4つの4",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "188": {
+                    "req": "ニムト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "189": {
+                    "req": "サイキックハーツRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "190": {
+                    "req": "プレフェランス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "191": {
+                    "req": "ページワン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "192": {
+                    "req": "リトルパイレーツ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "193": {
+                    "req": "タイムショック (玩具)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "194": {
+                    "req": "六博",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "195": {
+                    "req": "ごきげんななめ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "196": {
+                    "req": "ライツアウト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "197": {
+                    "req": "Trivial Pursuit",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "198": {
+                    "req": "水道管ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "199": {
+                    "req": "戦争 (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "200": {
+                    "req": "ハゲタカのえじき",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "201": {
+                    "req": "番長学園!!RPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "202": {
+                    "req": "アベ・カエサル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "203": {
+                    "req": "四目並べ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "204": {
+                    "req": "真・女神転生RPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "205": {
+                    "req": "熱闘12球団ペナントレース",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "206": {
+                    "req": "ノイ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "207": {
+                    "req": "升級",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "208": {
+                    "req": "ドラゴンアームズ改 バハムートライジング",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "209": {
+                    "req": "宗春かるた",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "210": {
+                    "req": "牌九",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "211": {
+                    "req": "クリスタニアRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "212": {
+                    "req": "トラントエカラント",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "213": {
+                    "req": "カタンの開拓者たち",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "214": {
+                    "req": "ブロックス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "215": {
+                    "req": "ポンジャン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "216": {
+                    "req": "ミカド (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "217": {
+                    "req": "雀球",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "218": {
+                    "req": "アルシャードトライデント",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "219": {
+                    "req": "四角に切れ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "220": {
+                    "req": "ハンプティ・ダンプティ (ピンボール)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "221": {
+                    "req": "桃太郎電鉄11 ブラックボンビー出現!の巻",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "222": {
+                    "req": "ぬりかべ (パズル)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "223": {
+                    "req": "チクタクバンバン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "224": {
+                    "req": "ラグナロクオンラインカードゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "225": {
+                    "req": "パトリ (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "226": {
+                    "req": "J-Chess",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "227": {
+                    "req": "フューチャーカード バディファイト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "228": {
+                    "req": "チケット・トゥ・ライド",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "229": {
+                    "req": "アンティキティ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "230": {
+                    "req": "1856 (ボードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "231": {
+                    "req": "ごいた",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "232": {
+                    "req": "Kingdom Under Fire : Circle Of Doom",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "233": {
+                    "req": "パズループ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "234": {
+                    "req": "Kami-Robo",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "235": {
+                    "req": "ポープ・ジョーン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "236": {
+                    "req": "恋と冒険の学園TRPG エリュシオン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "237": {
+                    "req": "100&メダル GINGAAAN!!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "238": {
+                    "req": "モグラ叩き",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "239": {
+                    "req": "たたいて・かぶって・ジャンケンポン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "240": {
+                    "req": "桃太郎電鉄G ゴールド・デッキを作れ!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "241": {
+                    "req": "ダウト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "242": {
+                    "req": "アメリカ麻雀",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "243": {
+                    "req": "VSシステム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "244": {
+                    "req": "モモコ120%",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "245": {
+                    "req": "バグハウスチェス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "246": {
+                    "req": "野球盤",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "247": {
+                    "req": "ツーテンジャック",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "248": {
+                    "req": "バイスクル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "249": {
+                    "req": "Red Arrow, Black Shield",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "250": {
+                    "req": "小将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "251": {
+                    "req": "ミラクルファイブ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "252": {
+                    "req": "スパイト・アンド・マリス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "253": {
+                    "req": "お絵かきロジック",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "254": {
+                    "req": "バックギャモン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "255": {
+                    "req": "ナンバーリンク",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "256": {
+                    "req": "ゴーストハンターRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "257": {
+                    "req": "ラミーキューブ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "258": {
+                    "req": "スリザーリンク",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "259": {
+                    "req": "結界師 カードバトル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "260": {
+                    "req": "Toアミー漁",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "261": {
+                    "req": "幻奏戦記RuLiLuRa",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "262": {
+                    "req": "大大将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "263": {
+                    "req": "スケルトン (パズル)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "264": {
+                    "req": "三人麻雀",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "265": {
+                    "req": "放課後怪奇くらぶ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "266": {
+                    "req": "拱猪",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "267": {
+                    "req": ".hack//Enemy",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "268": {
+                    "req": "クラックス",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "269": {
+                    "req": "スペード (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "270": {
+                    "req": "カービィのコピとる!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "271": {
+                    "req": "スクエア1",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "272": {
+                    "req": "数独",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "273": {
+                    "req": "ヴァルツァーの紋章",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "274": {
+                    "req": "ファイブスタッドポーカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "275": {
+                    "req": "ヒャーシャタル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "276": {
+                    "req": "13th Age",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "277": {
+                    "req": "ババ抜き",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "278": {
+                    "req": "人生ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "279": {
+                    "req": "二人麻雀",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "280": {
+                    "req": "天竺大将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "281": {
+                    "req": "トレッセッテ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "282": {
+                    "req": "ごきぶりポーカー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "283": {
+                    "req": "神経衰弱 (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "284": {
+                    "req": "スピード (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "285": {
+                    "req": "ウィザード (カードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "286": {
+                    "req": "ドルアーガの塔 (ボードゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "287": {
+                    "req": "カナスタ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "288": {
+                    "req": "パラノイア (TRPG)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "289": {
+                    "req": "ましゅ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "290": {
+                    "req": "テーブルトークRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "291": {
+                    "req": "ダンジョンズ&ドラゴンズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "292": {
+                    "req": "クラシック・ダンジョンズ&ドラゴンズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "293": {
+                    "req": "目隠し将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "294": {
+                    "req": "プー棒投げ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "295": {
+                    "req": "ダンジョンズ&ドラゴンズ第4版",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "296": {
+                    "req": "アマデウス (TRPG)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "297": {
+                    "req": "アメリカンページワン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "298": {
+                    "req": "シャンチー",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "299": {
+                    "req": "シュナプセン",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "300": {
+                    "req": "マンカラ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "301": {
+                    "req": "京都将棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "302": {
+                    "req": "牛タンゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "303": {
+                    "req": "アリュエット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "304": {
+                    "req": "ひとりにしてくれ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "305": {
+                    "req": "セブンブリッジ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "306": {
+                    "req": "ウィッチクエスト",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "307": {
+                    "req": "マイティ (トランプゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "308": {
+                    "req": "ベンハムの独楽",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "309": {
+                    "req": "投壺",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "310": {
+                    "req": "クイーンズブレイド アンリミテッド",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "311": {
+                    "req": "混沌の渦",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "312": {
+                    "req": "電車でGO!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "313": {
+                    "req": "スクラップド・プリンセスRPG",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "314": {
+                    "req": "打馬",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "315": {
+                    "req": "王様ゲーム",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "316": {
+                    "req": "へやわけ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "317": {
+                    "req": "ビンゴ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "318": {
+                    "req": "クトゥルフの呼び声 (TRPG)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "319": {
+                    "req": "ブラックジャック",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "320": {
+                    "req": "桃太郎電鉄12 西日本編もありまっせー!",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "321": {
+                    "req": "コズミック・エンカウンター",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "322": {
+                    "req": "クリケット (ダーツ)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "323": {
+                    "req": "カルカソンヌ (ゲーム)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "324": {
+                    "req": "テンパズル",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "325": {
+                    "req": "早押しクイズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "326": {
+                    "req": "ナインボール",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "327": {
+                    "req": "MILLIONET",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "328": {
+                    "req": "恐竜戦隊ジュウレンジャーRPG大百科",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "329": {
+                    "req": "チャンギ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "330": {
+                    "req": "大富豪",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "331": {
+                    "req": "たほいや",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "332": {
+                    "req": "サムライン (パズル)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "333": {
+                    "req": "弾棋",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "334": {
+                    "req": "絵取り",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "335": {
+                    "req": "ルービックマジック",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "336": {
+                    "req": "清少納言知恵の板",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "337": {
+                    "req": "さくら (花札)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "338": {
+                    "req": "聖珠伝説パールシード",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "339": {
+                    "req": "メタ新世界",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "340": {
+                    "req": "スーパー桃太郎電鉄III",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "341": {
+                    "req": "ジュエルペット",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "342": {
+                    "req": "エルジェネシスシリーズ",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "343": {
+                    "req": "オセロ (遊戯)",
+                    "NEType": "ゲーム名＿その他",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "344": {
+                    "req": "1000円",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "345": {
+                    "req": "10円",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "346": {
+                    "req": "100円",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "347": {
+                    "req": "10000円",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "348": {
+                    "req": "100000円",
+                    "NEType": "金額",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "349": {
+                    "req": "1",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "350": {
+                    "req": "2",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "351": {
+                    "req": "3",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "352": {
+                    "req": "4",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "353": {
+                    "req": "5",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "354": {
+                    "req": "6",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "355": {
+                    "req": "7",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "356": {
+                    "req": "8",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "357": {
+                    "req": "9",
+                    "NEType": "1桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "358": {
+                    "req": "10",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "359": {
+                    "req": "11",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "360": {
+                    "req": "12",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "361": {
+                    "req": "13",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "362": {
+                    "req": "14",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "363": {
+                    "req": "15",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "364": {
+                    "req": "16",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "365": {
+                    "req": "17",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "366": {
+                    "req": "18",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "367": {
+                    "req": "19",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "368": {
+                    "req": "20",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "369": {
+                    "req": "21",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "370": {
+                    "req": "22",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "371": {
+                    "req": "23",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "372": {
+                    "req": "24",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "373": {
+                    "req": "25",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "374": {
+                    "req": "26",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "375": {
+                    "req": "27",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "376": {
+                    "req": "28",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "377": {
+                    "req": "29",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "378": {
+                    "req": "30",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "379": {
+                    "req": "31",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "380": {
+                    "req": "32",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "381": {
+                    "req": "33",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "382": {
+                    "req": "34",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "383": {
+                    "req": "35",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "384": {
+                    "req": "36",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "385": {
+                    "req": "37",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "386": {
+                    "req": "38",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "387": {
+                    "req": "39",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "388": {
+                    "req": "40",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "389": {
+                    "req": "41",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "390": {
+                    "req": "42",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "391": {
+                    "req": "43",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "392": {
+                    "req": "44",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "393": {
+                    "req": "45",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "394": {
+                    "req": "46",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "395": {
+                    "req": "47",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "396": {
+                    "req": "48",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "397": {
+                    "req": "49",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "398": {
+                    "req": "50",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "399": {
+                    "req": "51",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "400": {
+                    "req": "52",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "401": {
+                    "req": "53",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "402": {
+                    "req": "54",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "403": {
+                    "req": "55",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "404": {
+                    "req": "56",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "405": {
+                    "req": "57",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "406": {
+                    "req": "58",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "407": {
+                    "req": "59",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "408": {
+                    "req": "60",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "409": {
+                    "req": "61",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "410": {
+                    "req": "62",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "411": {
+                    "req": "63",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "412": {
+                    "req": "64",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "413": {
+                    "req": "65",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "414": {
+                    "req": "66",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "415": {
+                    "req": "67",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "416": {
+                    "req": "68",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "417": {
+                    "req": "69",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "418": {
+                    "req": "70",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "419": {
+                    "req": "71",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "420": {
+                    "req": "72",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "421": {
+                    "req": "73",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "422": {
+                    "req": "74",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "423": {
+                    "req": "75",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "424": {
+                    "req": "76",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "425": {
+                    "req": "77",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "426": {
+                    "req": "78",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "427": {
+                    "req": "79",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "428": {
+                    "req": "80",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "429": {
+                    "req": "81",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "430": {
+                    "req": "82",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "431": {
+                    "req": "83",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "432": {
+                    "req": "84",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "433": {
+                    "req": "85",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "434": {
+                    "req": "86",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "435": {
+                    "req": "87",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "436": {
+                    "req": "88",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "437": {
+                    "req": "89",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "438": {
+                    "req": "90",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "439": {
+                    "req": "91",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "440": {
+                    "req": "92",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "441": {
+                    "req": "93",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "442": {
+                    "req": "94",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "443": {
+                    "req": "95",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "444": {
+                    "req": "96",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "445": {
+                    "req": "97",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "446": {
+                    "req": "98",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "447": {
+                    "req": "99",
+                    "NEType": "2桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "448": {
+                    "req": "100",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "449": {
+                    "req": "150",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "450": {
+                    "req": "200",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "451": {
+                    "req": "300",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "452": {
+                    "req": "400",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "453": {
+                    "req": "500",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "454": {
+                    "req": "600",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "455": {
+                    "req": "700",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "456": {
+                    "req": "800",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "457": {
+                    "req": "900",
+                    "NEType": "3桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "458": {
+                    "req": "1000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "459": {
+                    "req": "2000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "460": {
+                    "req": "3000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "461": {
+                    "req": "4000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "462": {
+                    "req": "5000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "463": {
+                    "req": "6000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "464": {
+                    "req": "7000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "465": {
+                    "req": "8000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "466": {
+                    "req": "9000",
+                    "NEType": "4桁",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "古典を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "数字を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "当てを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "上限を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "数を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "音声を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "テキストを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "プロセスを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "言語を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "リストを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "12": {
+                    "req": "繁体字を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "13": {
+                    "req": "中国を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "14": {
+                    "req": "語を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "15": {
+                    "req": "台湾を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "16": {
+                    "req": "香港を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "17": {
+                    "req": "英語を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "18": {
+                    "req": "日本を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "19": {
+                    "req": "韓国を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "20": {
+                    "req": "タイを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "21": {
+                    "req": "ドイツを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

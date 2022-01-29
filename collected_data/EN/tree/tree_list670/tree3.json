@@ -1,0 +1,54 @@
+{
+    "3": {
+        "req": "Okay",
+        "res": "Welcome to Feeling Insulted. I am here to insult you in an authoritative British accent! Of all the idiots, in all the idiot villages, in all the idiot worlds - you stand alone.\nYou don't seem to have anything better to do; how about another insult?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Okay"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Why not",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "One more",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Ok",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Enough!",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 2
+    }
+}

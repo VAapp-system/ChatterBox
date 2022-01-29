@@ -1,0 +1,40 @@
+{
+    "6": {
+        "req": "About Shah's education?",
+        "res": "He went to school in Mehsana and moved to Ahmedabad to study biochemistry at CU Shah Science College. He graduated with a BSc degree in biochemistry and then worked for his father's business. He also worked as a stockbroker and in co-operative banks in Ahmedabad.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "About Shah's education?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "How comes into politics?",
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Amit Shah.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

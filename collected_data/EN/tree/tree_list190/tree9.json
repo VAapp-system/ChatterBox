@@ -1,0 +1,49 @@
+{
+    "9": {
+        "req": "I want to know Sounding Board.",
+        "res": "you are plum out of replies. Would you like to create a post or listen to a post?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "I want to know Sounding Board."
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "create a post",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "listen to a post",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sounding Board.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "215": {
+        "req": "Attractions",
+        "res": "Atlavik. Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 215,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        216
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Egilsstadir.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 214
+    }
+}

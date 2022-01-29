@@ -1,0 +1,40 @@
+{
+    "2": {
+        "req": "Talk to Mr. Career",
+        "res": "Alright. Let's get Mr. Career.Hello! How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mr. Career"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "what is your aim?",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know a Networking Scientist.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

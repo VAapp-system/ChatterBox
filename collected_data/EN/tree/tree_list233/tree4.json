@@ -1,0 +1,30 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "At Saragarhi, the enemy made two determined attempts to rush the gate of the post and on both occasions the defenders repulsed the assault. While the enemy suffered heavy casualties, the ranks of the defenders too kept dwindling as the fire from the attackers took its toll and their ammunition stocks were depleting. Wanna know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Saragarhi Fort Facts.",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "response": "",
+    "expectUserResponse": false,
+    "conversationToken": "EooES201Vk...",
+    "audioResponse": "//NExAASWK...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Beethoven's Moonlight Sonata."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Listen to Beethoven's \"Moonlight Sonata\" arranged and performed by Penitent."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Beethoven's Moonlight Sonata by Penitent",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/fphdusz4qjugt4c/Penitent%20Maestro%20Beethoven.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://www.dropbox.com/s/nzmcp1zk6jernvn/01%20-%20Moonlight%20Sonata.mp3?raw=1"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "6041096441355739280"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yndnOdPO-SLA2NRttP0-M2ni7g4QCh78S-Pth63D7Cyjnb1Rg_RuerJpYmaga_Lggwg2fclkyyIW",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 9,
+            "mediaControlPayLoad": {
+                "mediaControlType": 3
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Beethoven's Moonlight Sonata",
+    "servingModelOutdated": false,
+    "request": "Stop"
+}

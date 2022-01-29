@@ -1,0 +1,40 @@
+{
+    "2": {
+        "req": "Talk to Amit Shah's FAQs",
+        "res": "Alright. Let's get Amit Shah's FAQs.Hi! How are you doing?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Amit Shah's FAQs"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Who is Amit shah?",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Amit Shah.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

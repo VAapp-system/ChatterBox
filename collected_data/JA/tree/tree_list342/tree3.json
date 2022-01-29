@@ -1,0 +1,62 @@
+{
+    "3": {
+        "req": "二十歳以上であれば今日のビールは",
+        "res": "今日はエビスにしましょう。お気に召さなかった場合は、もう一度今日のビールは？とお尋ねください。不要であれば終了とお声がけください。",
+        "QType": "LINK",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "二十歳以上であれば今日のビールは"
+        ],
+        "candidates": {
+            "LINK": {
+                "1": {
+                    "req": "お気に召さなかった",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "もう一度今日のビールは",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "ビールを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "天賦を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "49": {
+        "req": "want one more fact",
+        "res": "SASTRA, is a deemed-to-be university in the town of Thirumalaisamudram, Thanjavur district, Tamil Nadu, India. Do you want one more fact or know about the developer?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 49,
+        "req_list": [
+            "want one more fact"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "want one more fact",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        50
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "know about the developer",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know SASTRA Deemed University.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 48
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "8": {
+        "req": "Favourite book?",
+        "res": "The alchemist",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "Favourite book?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Whom do you like?",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

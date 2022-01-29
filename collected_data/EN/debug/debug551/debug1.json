@@ -1,0 +1,78 @@
+{
+    "response": "OK. Getting Speed Lite.Hi! How are you doing?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Speed Lite."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi! How are you doing?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "holiday"
+            },
+            {
+                "title": "holiday mode"
+            },
+            {
+                "title": "I am going on holiday"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/bi_P4WGvAF7-lOM_TjHE5_FgZU2B9oHlrVeWeiGfeRC1yGBkeRrHHeVKKUhqQqkaVzYuUybpjb4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "holiday",
+                    "holiday mode",
+                    "I am going on holiday"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Speed Lite",
+    "servingModelOutdated": false,
+    "request": "Talk to Speed Lite"
+}

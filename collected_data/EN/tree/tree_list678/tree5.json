@@ -1,0 +1,40 @@
+{
+    "5": {
+        "req": "Yes",
+        "res": "Your time zone is: -8 Hours. Start dictating, when done, say the command save it, to keep the recording. You can say help - to learn more. You can also get Vocal Notes companion app on Google Play store, where you can view and edit your recordings and much more!",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "the command save it",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "help -",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 4
+    }
+}

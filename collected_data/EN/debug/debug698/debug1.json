@@ -1,0 +1,282 @@
+{
+    "response": "Alright. Let's get You Choose Justice League Stories.Welcome to Justice League Stories, a You Choose adventure bundle from Capstone, made with Earplay.We’re about to go on a journey together where you decide how the story unfolds. You will be asked questions about what should happen next and you’ll choose the path Justice League should take. Each path will take 9 to 12 minutes to complete.The stories in this bundle are Cosmic Conquest, League of Laughs, Portal of Doom, and Ultimate Weapon.Which story are you interested in?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get You Choose Justice League Stories."
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://canvas.earplay.com/",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "blocking",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "CACHE_IMAGES"
+                                                }
+                                            ],
+                                            [
+                                                "setup",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ],
+                                            [
+                                                "urls",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_bundlecard.jpg"
+                                                            },
+                                                            {
+                                                                "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_background_2.jpg"
+                                                            },
+                                                            {
+                                                                "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_menucard.jpg"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "color",
+                                                {
+                                                    "stringValue": "#000000"
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "SET_BACKGROUND"
+                                                }
+                                            ],
+                                            [
+                                                "setup",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "animate",
+                                                {
+                                                    "structValue": {
+                                                        "fieldsMap": [
+                                                            [
+                                                                "out",
+                                                                {
+                                                                    "structValue": {
+                                                                        "fieldsMap": [
+                                                                            [
+                                                                                "duration",
+                                                                                {
+                                                                                    "numberValue": 0
+                                                                                }
+                                                                            ],
+                                                                            [
+                                                                                "type",
+                                                                                {
+                                                                                    "stringValue": "fade"
+                                                                                }
+                                                                            ]
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "SHOW_IMAGE"
+                                                }
+                                            ],
+                                            [
+                                                "duration",
+                                                {
+                                                    "numberValue": 500
+                                                }
+                                            ],
+                                            [
+                                                "url",
+                                                {
+                                                    "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_bundlecard.jpg"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "CHOICE_SINGLE"
+                                                }
+                                            ],
+                                            [
+                                                "options",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "cosmic conquest"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the league of laughs"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the portal of doom"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the ultimate weapon"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "url",
+                                                {
+                                                    "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_menucard.jpg"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/grhpXo50UTs4f6hW64YuXOWSAnb3g0QMKiotNw0kKlVOCLw8nwaH7_KBQtZueHocWcwA6qJ-vMJYWA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://canvas.earplay.com/",
+                "updatedStateJson": "[{\"urls\":[\"https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_bundlecard.jpg\",\"https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_background_2.jpg\",\"https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_menucard.jpg\"],\"setup\":true,\"blocking\":true,\"command\":\"CACHE_IMAGES\"},{\"setup\":true,\"color\":\"#000000\",\"command\":\"SET_BACKGROUND\"},{\"url\":\"https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_bundlecard.jpg\",\"duration\":500,\"command\":\"SHOW_IMAGE\",\"animate\":{\"out\":{\"duration\":0,\"type\":\"fade\"}}},{\"url\":\"https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_menucard.jpg\",\"command\":\"CHOICE_SINGLE\",\"options\":[{\"query\":\"cosmic conquest\"},{\"query\":\"the league of laughs\"},{\"query\":\"the portal of doom\"},{\"query\":\"the ultimate weapon\"}]}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening You Choose Justice League Stories by Capstone",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{\"earplay_user_id\":\"HS_USER_ID_a8d0d7d9-fb4a-4b71-bbf0-5d782be64190\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "You Choose Justice League Stories",
+    "servingModelOutdated": false,
+    "request": "Talk to Justice League Stories"
+}

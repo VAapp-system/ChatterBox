@@ -1,0 +1,110 @@
+{
+    "response": "Information about Mercury",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wm...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Information about Mercury"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Mercury",
+                    "subtitle": "",
+                    "formattedText": "Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes only 87.97 days, the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger of the gods.",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/planets-8cbb1.appspot.com/o/planet-images-logo%2Fmercury.jpg?alt=media&token=a1baa3b2-167a-4637-9e81-174445b3eacc",
+                        "accessibilityText": "accessibility text",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Read More on Wikipedia",
+                            "openUrlAction": {
+                                "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Venus"
+            },
+            {
+                "title": "Earth"
+            },
+            {
+                "title": "Mars"
+            },
+            {
+                "title": "Jupiter"
+            },
+            {
+                "title": "Saturn"
+            },
+            {
+                "title": "Uranus"
+            },
+            {
+                "title": "Neptune"
+            },
+            {
+                "title": "Home"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/cS9L2o86Fl0fKE067w8HF7OHp4t-6pplkUcmC2cJ3cRJ6d-U5DtXIrbLo8y3fOtnmmfVe8HKhdot",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Venus",
+                    "Earth",
+                    "Mars",
+                    "Jupiter",
+                    "Saturn",
+                    "Uranus",
+                    "Neptune",
+                    "Home"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My planet system",
+    "servingModelOutdated": false,
+    "request": "Mercury"
+}

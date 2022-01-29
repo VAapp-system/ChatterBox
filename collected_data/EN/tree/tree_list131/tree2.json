@@ -1,0 +1,112 @@
+{
+    "2": {
+        "req": "Talk to dice minister",
+        "res": "OK. Getting dice minister.Welcome! I can help you with random number and lucky number. Select anyone!",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to dice minister"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "Roll a dice",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "lucky number",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to dice minister",
+        "res": "Alright. Let's get dice minister.Welcome! I can help you with random number and lucky number. Select anyone!",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to dice minister"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "Roll a dice",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "lucky number",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "6": {
+        "req": "Talk to dice minister",
+        "res": "Welcome! I can help you with random number and lucky number. Select anyone!",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Talk to dice minister"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "Roll a dice",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "lucky number",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

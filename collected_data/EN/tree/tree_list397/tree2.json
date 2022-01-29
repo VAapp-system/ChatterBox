@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Mobile Techno former",
+        "res": "OK. Let's get Mobile Techno former.Hi! I am your Tech Assistant. How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mobile Techno former"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Mobile Devices.",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

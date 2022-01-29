@@ -1,0 +1,66 @@
+{
+    "12": {
+        "req": "chainsaw",
+        "res": "Maybe next time! The\nЩетка\nis Brush!Here is what you have learned so far!\nThe first word, Latch, is\nзадвижка.\nThe Roof is\nкрыша.\nThe Moths and butterflies is\nМотыльки и бабочки.\nLast one, Vertebrate, means\nпозвоночный.\nAre you ready for the next round?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "chainsaw"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Yes, continue",
+                    "visit": false,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No, end",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Russian.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 11
+    }
+}

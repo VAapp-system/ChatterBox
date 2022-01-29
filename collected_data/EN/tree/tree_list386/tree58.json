@@ -1,0 +1,49 @@
+{
+    "62": {
+        "req": "want one more fact",
+        "res": "SASTRA was ranked 33 among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2018, Do you want one more fact or know about the developer?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 62,
+        "req_list": [
+            "want one more fact"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "want one more fact",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [
+                        63
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "know about the developer",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know SASTRA Deemed University.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 61
+    }
+}

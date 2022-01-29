@@ -1,0 +1,70 @@
+{
+    "response": "OK. Getting Southern Curb Appeal.{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Southern Curb Appeal."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What are your hours?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Ips_p39k2SMppFq95VAlAfnWAJntY3_fbSpQUuUeX1IqSbe_PifzA0PVwbNd3KrW7wcawH6u-5Oo",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What are your hours?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Southern Curb Appeal",
+    "servingModelOutdated": false,
+    "request": "Talk to Southern Curb Appeal"
+}

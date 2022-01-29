@@ -1,0 +1,88 @@
+{
+    "75": {
+        "req": "more questions about the business to learn more",
+        "res": "Our phone number is (217) 814-0566 You can ask more questions about the business to learn more.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 75,
+        "req_list": [
+            "more questions about the business to learn more"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "more questions about the business to learn more",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s is your phone number, What",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Springfield IL.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 74
+    },
+    "76": {
+        "req": "s is your phone number, What",
+        "res": "What is the Number?",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 76,
+        "req_list": [
+            "s is your phone number, What"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s is your phone number, What",
+                    "visit": true,
+                    "child": [
+                        77
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Springfield IL.",
+                    "visit": false,
+                    "child": [
+                        78
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 74
+    }
+}

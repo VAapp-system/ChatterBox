@@ -1,0 +1,40 @@
+{
+    "2": {
+        "req": "Talk to Athlone tour",
+        "res": "Alright. Here's Athlone tour.Hi. I can tell you attractions in Athlone, If you say 'Attractions'",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Athlone tour"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Attractions",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Athlone.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

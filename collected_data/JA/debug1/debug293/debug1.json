@@ -1,0 +1,63 @@
+{
+    "response": "わかりました。 音声おみくじです。おみくじの結果を保存するため、音声おみくじのアカウントが必要です。 アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。 「はい」か「いいえ」で答えてください。 詳しく知りたい場合は、「詳細を確認」と言ってください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。音声おみくじです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "おみくじの結果を保存するため、音声おみくじのアカウントが必要です。アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。「はい」か「いいえ」で答えてください。詳しく知りたい場合は、「詳細を確認」と言ってください。"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Njd5p1wqbVmeESM14Ok2Od9oGOfdBiavaydEZZRZlbe5XB_S3Layf_Hfiei3Q1gghWdOVwhAuCE7"
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "はい",
+                    "いいえ",
+                    "詳細を確認"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "音声おみくじ",
+    "servingModelOutdated": false,
+    "request": "音声おみくじにつないで"
+}

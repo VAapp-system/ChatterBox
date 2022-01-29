@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to electric cars benefits",
+        "res": "OK. Let's get electric cars benefits.Hi I can tell you random benefits about electric cars\nWanna know ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to electric cars benefits"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

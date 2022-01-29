@@ -1,0 +1,62 @@
+{
+    "response": "What time would you like me to send your daily Tube Status?",
+    "expectUserResponse": true,
+    "conversationToken": "EocFS293Qm...",
+    "audioResponse": "//NExAAQWE...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "What time would you like me to send your daily Tube Status?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1:45pm"
+            },
+            {
+                "title": "8:30pm"
+            },
+            {
+                "title": "11:45am"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/2jvpMXQvkvFWWwWqauWoMa0n4xT5T9s4Y6ljBHVjA3rJhHRgXefvxjiIGZ3iCDGj319OwIpLRQHD"
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1:45pm",
+                    "8:30pm",
+                    "11:45am"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "tube status",
+    "servingModelOutdated": false,
+    "request": "Send updates"
+}

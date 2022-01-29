@@ -1,0 +1,50 @@
+{
+    "19": {
+        "req": "s is your phone number, What",
+        "res": "What is the Number?",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 19,
+        "req_list": [
+            "s is your phone number, What"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s is your phone number, What",
+                    "visit": true,
+                    "child": [
+                        20
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Lambert Law.",
+                    "visit": false,
+                    "child": [
+                        21
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Rochester MI.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 18
+    }
+}

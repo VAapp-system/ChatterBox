@@ -1,0 +1,50 @@
+{
+    "5": {
+        "req": "Word Of the Day",
+        "res": "My heart is steadfast, O God!\nI will sing and make melody with all my being! Psalm 108 If you'd like to learn more about Corner to Corner, say Learn More. Or say Stop.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Word Of the Day"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Learn More",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "I&SC_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Core Values.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Need and Understanding of Jesus and the Gospel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

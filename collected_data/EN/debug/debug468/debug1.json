@@ -1,0 +1,101 @@
+{
+    "response": "OK. Here's Backstage at WMMR.Thank you for opening m. m. r. You can choose: play preston and steve podcast, play preston and steve fun size, or play the bizarre files",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Vk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Backstage at WMMR."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Thank you for opening m. m. r. You can choose: play preston and steve podcast, play preston and steve fun size, or play the bizarre files"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Welcome to 93.3 WMMR",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://connecteddevices.bbgi.com/publishers/Philadelphia/WMMR/images/Screen_Companion.png",
+                        "accessibilityText": "Intro Card",
+                        "height": 150,
+                        "width": 350
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "93.3 WMMR",
+                            "openUrlAction": {
+                                "url": "https://wmmr.com/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 1
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Preston & Steve Show Podc"
+            },
+            {
+                "title": "Preston & Steve's Fun Siz"
+            },
+            {
+                "title": "The Bizarre Files"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/X_fmJInSumZOQihkTw7FBOJB_N6AieL2uQ654WNnf8F86KH6htN2BJw-ZbD0yCnkRtDF3WNYtFM",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Preston & Steve Show Podc",
+                    "Preston & Steve's Fun Siz",
+                    "The Bizarre Files"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Backstage at WMMR",
+    "servingModelOutdated": false,
+    "request": "Talk to Backstage at WMMR"
+}

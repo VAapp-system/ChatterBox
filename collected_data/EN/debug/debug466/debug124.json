@@ -1,0 +1,98 @@
+{
+    "response": "Welcome to Devotional Raga.\nHere is todays re-mastered raga",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Welcome to Devotional Raga."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Here is todays re-mastered raga"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Ganesha Om Mantra",
+                                "description": "Ganesha om mantra remastered version",
+                                "icon": {
+                                    "url": "https://smartassistants.s3-eu-west-1.amazonaws.com/images/logo/devotion_raga_logo.png",
+                                    "accessibilityText": "Media icon",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://smartassistants.s3-eu-west-1.amazonaws.com/media/audio/devotional_raga/om_mantra_ganesha.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-8978068476114158234"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Next"
+            },
+            {
+                "title": "Previous"
+            },
+            {
+                "title": "Exit"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/GEHPk0YMH3kV925Kad8pIhX0xG5IPIoUDfU90tUv0CfsjexxkBv83E-iZXV7oBNJKSdQ9lcPkT3c-Q",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Next",
+                    "Previous",
+                    "Exit"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Devotional Raga",
+    "servingModelOutdated": false,
+    "request": "Talk to Devotional Raga"
+}

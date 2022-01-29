@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "怒ってないよにつないで",
+        "res": "はい。 おこってないよです。えい、えい、怒った？って話しかけてみてね☆",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "怒ってないよにつないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "話しを教えてください",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

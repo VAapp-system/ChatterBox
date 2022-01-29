@@ -1,0 +1,70 @@
+{
+    "response": "Alright. Getting Smog Check.{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Smog Check."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What are your hours?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/f31u8iBe8j1u3Q1p8DErRSC2e8drnv2aMWVCuDYos-ddLxvClXGg31J05uUin8THb0FpVnnK9tw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What are your hours?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Smog Check",
+    "servingModelOutdated": false,
+    "request": "Talk to Smog Check"
+}

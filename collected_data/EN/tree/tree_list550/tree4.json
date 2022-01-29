@@ -1,0 +1,59 @@
+{
+    "4": {
+        "req": "Voice Assistants",
+        "res": "Voice assistants work like your personal assistant, except they exist virtually. They can answer your questions, offer reminders and suggestions, and get things done for you.\nSome of the more popular voice assistants are, in alphabetical order, Alexa, Bixby, Cortana, Google Assistant and Siri.\nTo explore related topics, just say \"Business Opportunity\" or \"Done\" to exit.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Voice Assistants"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Business Opportunity",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Business Opportunity",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

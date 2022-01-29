@@ -1,0 +1,78 @@
+{
+    "response": "OK. Here's Shri Roop narayan Ji Mandir.hello nice to see you here , you can find out temple and village related information just say like about village or about temple ?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's shree roopnarayan ji mandir."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "hello nice to see you here , you can find out temple and village related information just  say like about village or about temple ?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "about temple?"
+            },
+            {
+                "title": "about village?"
+            },
+            {
+                "title": "contact"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/72b1NBzRfpov8zx-MAjzfgMBFsGr4Dj_fio_tIQYITKCSOoIei6PbXAYVCuw7ttCNDJOaSQvSBQA1A",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "about temple?",
+                    "about village?",
+                    "contact"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Shri Roop narayan Ji Mandir",
+    "servingModelOutdated": false,
+    "request": "Talk to shree roopnarayan ji mandir"
+}

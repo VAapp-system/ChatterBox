@@ -1,0 +1,60 @@
+{
+    "92": {
+        "req": "com",
+        "res": "Sorry, I don't have that information, please ask me something else. What else can I help with?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 92,
+        "req_list": [
+            "com"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "something else",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        93
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s is your phone number, What",
+                    "visit": false,
+                    "child": [
+                        94
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sawyers Cabinet Shop Inc.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Campobello SC.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 91
+    }
+}

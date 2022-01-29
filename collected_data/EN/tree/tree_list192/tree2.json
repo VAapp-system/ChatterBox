@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Unify Circuit",
+        "res": "It looks like your Unify Circuit account is not linked yet. You can link Unify Circuit to your Google Account from the Google Home app.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Unify Circuit"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

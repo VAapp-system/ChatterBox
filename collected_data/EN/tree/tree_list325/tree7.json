@@ -1,0 +1,39 @@
+{
+    "7": {
+        "req": "How comes into politics?",
+        "res": "Shah started his political career as a leader of the student wing of the RSS, the Akhil Bharatiya Vidyarthi Parishad, in 1983. He joined BJP in 1987, one year before Modi joined the party. He became an activist of the BJP's youth wing, Bharatiya Janata Yuva Morcha (BJYM), in 1987.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "How comes into politics?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "His role in BJP?",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Amit Shah.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

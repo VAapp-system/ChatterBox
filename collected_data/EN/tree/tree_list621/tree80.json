@@ -1,0 +1,96 @@
+{
+    "80": {
+        "req": "Hanoi to Ho Chi Minh",
+        "res": "What to know about flights from Hanoi to Ho Chi Minh\n* Flight distance from Hanoi to Ho Chi Minh: 761.79 miles / 1225.98 km\n* Airport Latitude/Longitude: trips are from Noi Bai International Airport, Hanoi at (21 13' 3.9576'' N, 105 48' 9.4032'' E) to Tan Son Nhat International Airport, Ho Chi Minh City at (10 49' 14.0016'' N, 106 39' 38.9988'' E)\n* Flight time from Hanoi to Ho Chi Minh by Vietnam Airlines: 2 hours\n* Flights from Hanoi to Ho Chi Minh by Vietnam Airlines: 17 flights/day\n* Fares quoted in USD, included taxes and airport fees",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 80,
+        "req_list": [
+            "Hanoi to Ho Chi Minh"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Ho Chi Minh",
+                    "visit": false,
+                    "child": [
+                        81
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Hanoi",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Bamboo Airways.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Vietnam.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Hanoi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Ho Chi Minh.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Hue.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know Da Nang.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "I want to know Da Lat.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 79
+    }
+}

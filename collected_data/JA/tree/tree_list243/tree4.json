@@ -1,0 +1,63 @@
+{
+    "4": {
+        "req": "ダジャレ",
+        "res": "新しいものがあったらしい　　続きを聞く場合は「ダジャレ」と言ってね！終了してほしい場合は「終わり」と言ってね！",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "ダジャレ"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "ダジャレ",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "終わり",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "ダジャレを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "アプリを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "response": "OK. Getting Mr Superhero.Hi there, I am Mr Superhero, I can tell you about the two Universe Marvel cinematic Universe and DC universe.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Mr Superhero."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi there, I am Mr Superhero, I can tell you about the  two Universe Marvel cinematic Universe and DC universe."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "what is MCU"
+            },
+            {
+                "title": "what is DC universe"
+            },
+            {
+                "title": "what is marvel versus DC"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/N9kHT1BL_6ahNZS4Cmxs11lsk-zCXzKXUeXtzWYNjBrWFuDRQjgKgwDILv80uG4ATs8oPLMOoprg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "what is MCU",
+                    "what is DC universe",
+                    "what is marvel versus DC"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Mr Superhero",
+    "servingModelOutdated": false,
+    "request": "Talk to Mr Superhero"
+}

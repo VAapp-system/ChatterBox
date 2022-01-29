@@ -1,0 +1,38 @@
+{
+    "16": {
+        "req": "Dark Chocolates",
+        "res": "Dark black chocolate is a form of chocolate containing cocoa solids, cocoa butter and sugar, without the milk found in milk chocolate. Government and industry standards of what products may be labeled \"dark chocolate\" vary by country and market.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "Dark Chocolates"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "White Chocolates",
+                    "visit": false,
+                    "child": [
+                        17
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Exit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 15
+    }
+}

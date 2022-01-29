@@ -1,0 +1,38 @@
+{
+    "7": {
+        "req": "more about our core values",
+        "res": "At corner to corner we have 4 core values. These are to 1. Love your neighbor as yourself. 2. Pass the spotlight. 3. A Ministry of consistency. And Finally, Economic development. Would you like information about how to contact us or\nabout our accomplishments as an organization?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "more about our core values"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Core Values.",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Need and Understanding of Jesus and the Gospel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

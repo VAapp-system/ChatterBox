@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Introduction of Unknown people",
+        "res": "Alright. Let's get Introduction of Unknown people.Hello! How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Introduction of Unknown people"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Hi, What is your name?",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 1
+    }
+}

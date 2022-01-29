@@ -1,0 +1,83 @@
+{
+    "response": "Alright. Here's Drop the Puck.🔊\nWelcome to Drop the Puck. A hockey trivia game that will very likely stump you once or twice. My name is Kate, and I'm so happy to be your host. I've loaded up 6 questions. I hope you're a big hockey fan. It's should go by quickly, but, if you want to end the game early, just stay, Stop. Let's go! Your first question is here.\nIn which year did The Minnesota North Stars become the first NHL team to sell advertising on the boards of their home rink?\n🔊",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Drop the Puck."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "🔊 Welcome to Drop the Puck. A hockey trivia game that will very likely stump you once or twice. My name is Kate, and I'm so happy to be your host. I've loaded up 6 questions. I hope you're a big hockey fan. It's should go by quickly, but, if you want to end the game early, just stay, Stop. Let's go! Your first question is here."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "In which year did The Minnesota North Stars become the first NHL team to sell advertising on the boards of their home rink? 🔊"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "1975"
+            },
+            {
+                "title": "1982"
+            },
+            {
+                "title": "1980"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/k-ueL51vbx_qVRpoAqnCb0kMqpKfJkRAt5mNn2vfRz8GRZ8lQWotLk1GGtA0c1wGg0h0XNbCKt6hOQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "1975",
+                    "1982",
+                    "1980"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Drop the Puck",
+    "servingModelOutdated": false,
+    "request": "Talk to Drop the Puck"
+}

@@ -1,0 +1,54 @@
+{
+    "2": {
+        "req": "Talk to Apollo 11 Story",
+        "res": "Alright. Let's get You Choose Apollo Eleven Story.Welcome to Apollo 11 Story, a You Choose Adventure from Capstone, made with Earplay.We’re about to go on a journey together where you decide how the story unfolds. You will be asked questions about what should happen next and you’ll choose the path you should take. Each path will take 9 to 12 minutes to complete.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": true,
+        "id": 2,
+        "req_list": [
+            "Talk to Apollo 11 Story"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know American.",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know John F. Kennedy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know the United States.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know the Space Race.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

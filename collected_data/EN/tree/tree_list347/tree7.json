@@ -1,0 +1,66 @@
+{
+    "7": {
+        "req": "Yes",
+        "res": "4 June 2014.\nKensington PEI Sighting.\nKensington, Prince Edward Island, Canada.\nWhile putting out a bonfire late in the evening of June 4, 2014, John Sheppard witnessed unusual lights in the sky over the Gulf of St. Lawrence and captured 22 minutes of it on his cellphone. After reporting the incident to MUFON and their investigation concluding it being a confirmed sighting, CBC covered the event. The next day, CBC released a follow-up article in which a series of alternate explanations for the event were presented.\nShould I tell some more cases ?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Alien Encounters.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

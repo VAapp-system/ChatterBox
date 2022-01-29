@@ -1,0 +1,49 @@
+{
+    "7": {
+        "req": "自動車を教えてください",
+        "res": "もう一度、お願いします。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "自動車を教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "自動車を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "学校を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "8": {
+        "req": "学校を教えてください",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "学校を教えてください"
+        ],
+        "candidates": {},
+        "parent": 6
+    }
+}

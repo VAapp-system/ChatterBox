@@ -1,0 +1,78 @@
+{
+    "response": "OK. Here's Learn Spanish.Hey there! I can teach you how to say anything in Spanish. What phrase do you want to know?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Learn Spanish."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hey there! I can teach you how to say anything in Spanish. What phrase do you want to know?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Hello"
+            },
+            {
+                "title": "How are you?"
+            },
+            {
+                "title": "DONE"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/RXnHnsMnp16JBW-OU8sxNmHjmRetOM7gF9OYw8YMG0dI0zkSSJipA9676TvnoB0EFgfj__9Cpys",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Hello",
+                    "How are you?",
+                    "DONE"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Learn Spanish",
+    "servingModelOutdated": false,
+    "request": "Talk to Learn Spanish"
+}

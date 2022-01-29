@@ -1,0 +1,40 @@
+{
+    "2": {
+        "req": "Talk to college info",
+        "res": "Alright. Let's get college info.Hello! How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to college info"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "IIITN?",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

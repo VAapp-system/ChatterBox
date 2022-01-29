@@ -1,0 +1,49 @@
+{
+    "40": {
+        "req": "Yes",
+        "res": "SASTRA is also recognised as a Category 1 university by the University Grants Commission. Do you want one more fact or know about the developer?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 40,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "want one more fact",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        41
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "know about the developer",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know SASTRA Deemed University.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 39
+    }
+}

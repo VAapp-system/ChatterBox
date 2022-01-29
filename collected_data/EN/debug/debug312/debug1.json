@@ -1,0 +1,85 @@
+{
+    "response": "OK. Getting Find My Rep.Welcome to Find My Rep! You can find contact information and details about your representatives from federal to local. Just say your zip code.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wm...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Find My Rep."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Find My Rep! You can find contact information and details about your representatives from federal to local. Just say your zip code."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://voicify-prod-files.s3.amazonaws.com/9bf40a95-46df-41f5-8eb7-ebeae97f61d5/eebb11af-85db-4c31-974c-5181c0ccd1d6/icon-512-A2Z.png",
+                        "accessibilityText": "Image",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 2
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Mayor of 02110"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/pIDcQYR6HtsqBe6qAQCM9EvkqrU9r0TdPjoVe53dPF5s-k7wX_Lo3NY_bdxmcl1Zd0XNH6WBqAWN",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Mayor of 02110"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Find My Rep",
+    "servingModelOutdated": false,
+    "request": "Talk to Find My Rep"
+}

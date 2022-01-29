@@ -1,0 +1,37 @@
+{
+    "2": {
+        "req": "祈りの時間につないで",
+        "res": "はい。 いのりのじかんです。こんにちは！祈りの時間ではキリスト教の祈りができます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "祈りの時間につないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "祈りを教えてください",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "キリスト教を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

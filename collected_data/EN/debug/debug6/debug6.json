@@ -1,0 +1,51 @@
+{
+    "response": "OK, I just sent you a sign-in link. You can find it in the Google Home app.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAASEE...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK, I just sent you a sign-in link. You can find it in the Google Home app."
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": ""
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What sound does an elephant make?",
+                    "What was yesterday's animal of the day?"
+                ]
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Sleep tracker",
+    "servingModelOutdated": false,
+    "request": "Yes"
+}

@@ -1,0 +1,30 @@
+{
+    "10": {
+        "req": "Yes",
+        "res": "At various times, the Portuguese, Dutch, French, Spanish, and English established monopolies over various parts of the spice trade. This period saw empires founded and fortunes made and were also characterized by brutal conquests, piracy, and greed. This era saw the formation of trading empires such as the British East India Company. Wanna Know More?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spices Trivia.",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

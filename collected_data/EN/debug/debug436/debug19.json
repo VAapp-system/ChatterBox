@@ -1,0 +1,82 @@
+{
+    "response": "Listen to Jær Radio",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Vk...",
+    "audioResponse": "//NExAAR0G...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Listen to Jær Radio"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Jær Radio",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/lzmk0hao627rz7h/Jaer%20Radioen.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "http://stream.jaerradiogruppen.no:8018/;"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "1130665909982455653"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About Jær Radio"
+            },
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Rkz9yYWt5OHmJFsWY0p43-5Vc0JBlH4wwUwvNreaAVdYrsGhNRtD5XiU3tIL1ksxd90suTgU15T9",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About Jær Radio",
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Jaer Radio",
+    "servingModelOutdated": false,
+    "request": "Listen Live"
+}

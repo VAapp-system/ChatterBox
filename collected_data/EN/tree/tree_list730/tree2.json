@@ -1,0 +1,96 @@
+{
+    "2": {
+        "req": "Talk to W R C B",
+        "res": "Alright. Here's W R C B.Welcome to WRCB TV Channel 3 Chattanooga. I have Headlines, Weather available. For weather say \"play weather\". For headlines say \"play headlines\". What would you like to search for?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to W R C B"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "play weather \"",
+                    "string_ID": 4,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "play headlines \"",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the Tennessee Valley.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to W R C B",
+        "res": "Alright. Let's get W R C B.Welcome to WRCB TV Channel 3 Chattanooga. I have Headlines, Weather available. For weather say \"play weather\". For headlines say \"play headlines\". What would you like to search for?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to W R C B"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "play weather \"",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "play headlines \"",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the Tennessee Valley.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

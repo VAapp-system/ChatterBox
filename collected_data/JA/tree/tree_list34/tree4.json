@@ -1,0 +1,65 @@
+{
+    "7": {
+        "req": "他になに",
+        "res": "ごめんなさい、よくわからなかったのでサポートがいる場合は052 584 6820に連絡してください。他になにか質問はありますか？",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "他になに"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "他になに",
+                    "type_ID": [
+                        "29"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "質問",
+                    "type_ID": [
+                        "29"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "情報を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "8": {
+        "req": "質問",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "INST",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "質問"
+        ],
+        "candidates": {},
+        "parent": 6
+    }
+}

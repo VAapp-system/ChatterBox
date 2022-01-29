@@ -1,0 +1,57 @@
+{
+    "3": {
+        "req": "丸を教えてください",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "丸を教えてください"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "とっておきを教えてください",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "とっておきを教えてください"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "アプリを教えてください",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "OTHER",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "アプリを教えてください"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

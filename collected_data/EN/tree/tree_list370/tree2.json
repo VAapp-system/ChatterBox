@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to S supreme",
+        "res": "Alright. Getting S supreme.Hello! How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to S supreme"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "about soldier supreme",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 1
+    }
+}

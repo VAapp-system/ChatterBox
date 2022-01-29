@@ -1,0 +1,67 @@
+{
+    "9": {
+        "req": "our locations",
+        "res": "EAST LOCATION\n1815 East Lake Mead Blvd, Ste 200\nNorth Las Vegas, NV 89030\nPhone: 702.685.0440\nHours: Monday – Thursday 8am – 5pm\nLunch 12pm – 1pm\nFriday 8am – 3pm\nCENTRAL LOCATION\n600 S. Tonopah Dr. Ste 350\nLas Vegas, NV 89106\nPhone: 702.384.6330\nHours: Monday – Thursday 7:30am – 6pm\nLunch 12pm – 1pm\nFriday 8am – 3pm\nAffiliate Location: Jackson PT\n4765 South Durango #106\nLas Vegas, Nevada 89147\nPhone: 702.898.7633\nAffiliate Location: Jackson PT\n100 N. Green Valley Pkwy #335\nHenderson, NV 89074\nPhone: 702.818.4442 Would you like information about something else? Say yes or no.",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "our locations"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "yes",
+                    "string_ID": 9,
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "no",
+                    "string_ID": 9,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know MML Therapy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know MML Physical Therapy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Las Vegas.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

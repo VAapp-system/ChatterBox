@@ -1,0 +1,108 @@
+{
+    "response": "入力したのは 0785 です。 リマインド 0A1B",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "判断が完了しました。\nプロンプト0A1B"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "0785   (0A1B)",
+                    "subtitle": "\n◎最初の5つの入力レコード：",
+                    "columnPropertiesList": [
+                        {
+                            "header": "入力値",
+                            "horizontalAlignment": 1
+                        },
+                        {
+                            "header": "ヒント",
+                            "horizontalAlignment": 1
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "3746"
+                                },
+                                {
+                                    "text": "0A2B"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "123"
+                                },
+                                {
+                                    "text": "1A1B"
+                                }
+                            ],
+                            "dividerAfter": false
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "3762"
+            },
+            {
+                "title": "0985"
+            },
+            {
+                "title": "説明0A1Bの意味"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/bq7AdNyaNrET2f4F55Eq27vxnfA-G3odqoOZPA9_hl3sadVsSHzoFWEOeseoootSzwuewJyxfIU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "3762",
+                    "0985",
+                    "説明0A1Bの意味"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "数を推測する",
+    "servingModelOutdated": false,
+    "request": "0785"
+}

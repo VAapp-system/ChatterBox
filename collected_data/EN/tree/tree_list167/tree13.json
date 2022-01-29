@@ -1,0 +1,106 @@
+{
+    "13": {
+        "req": "Yes",
+        "res": "Wonderful! We'll go straight to the library and I'll tell you the story of how I used my love of reading to fix things around the castle.\nHere we are. Back in the library. Let's get comfy and I'll begin the story...\nOne day, the Beast saw me struggling on the library ladder to reach a book, and offered to get it for me. The Beast climbed up. He had almost reached the book, when suddenly we heard a sharp C-R-R-RACK! The Beast was too heavy for the ladder. It had broken apart! With a thump, he landed on the floor. I asked him if he was alright, as I knelt by his side, but the Beast just grumbled. He was fine, but the splintered ladder was useless now. I assured him that we could build a new one, but he snapped back that it would be impossible. He knew his hands were too big and clumsy to handle most tools. The Beast told me to leave it, and stormed off. But I wasn't used to leaving things broken. My father was an inventor, and I was sure I could figure out a way to build a new ladder.\nI hope you've enjoyed the story so far. Would you like to hear the next part?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Disney.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Cinderella.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Ariel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Belle.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Jasmine.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know Tiana.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

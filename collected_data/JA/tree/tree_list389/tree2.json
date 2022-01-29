@@ -1,0 +1,72 @@
+{
+    "2": {
+        "req": "助数詞レンジャーピンクにつないで",
+        "res": "はい。 助数詞レンジャーピンクです。ハーイ！数の数え方についてお答えしちゃいます！",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "助数詞レンジャーピンクにつないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "数を教えてください",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "数えを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "助数詞レンジャーピンクにつないで",
+        "res": "わかりました。 助数詞レンジャーピンクです。ハーイ！数の数え方についてお答えしちゃいます！",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "助数詞レンジャーピンクにつないで"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "数を教えてください",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "数えを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

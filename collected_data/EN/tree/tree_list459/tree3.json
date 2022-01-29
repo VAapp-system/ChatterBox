@@ -1,0 +1,48 @@
+{
+    "3": {
+        "req": "About us",
+        "res": "Heartbeats is an online media where you will find a wide selection of stories on everything from music, debate, community and lifestyle. We disseminate across audio, video and text - and we curate people with a special expertise in their field to contribute on our site. You can find all our content at: www.heartbeats.dk.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "About us"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Listen Live",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Stop",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Heartbeats Radio.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "48": {
+        "req": "Yes",
+        "res": "So cool! He sang about 20 songs that night!\nWhich song from Ed do you like the most?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 48,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know NBA.",
+                    "visit": false,
+                    "child": [
+                        49
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 47
+    }
+}

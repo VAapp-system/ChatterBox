@@ -1,0 +1,207 @@
+{
+    "response": "あなたの解答は「す●●●●」でした。\n不正解です。正解は「スクーター」です。\n（結果発表） あなたの得点は 0 点でした。 アプリを終了するために「終了」と言ってください。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "appName",
+                                                {
+                                                    "stringValue": "乗り物の名前"
+                                                }
+                                            ],
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 29
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": "スクーター"
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": "easy"
+                                                }
+                                            ],
+                                            [
+                                                "five_point_rating",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": "す●●●●"
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/vehicle_names/scooter.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 10
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 10
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "（結果発表）<break time=\"500ms\"/><br/>あなたの得点は 0 点でした。<break time=\"2000ms\"/><br/>アプリを終了するために「終了」と言ってください。"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "あなたの解答は「す●●●●」でした。<break time=\"500ms\"/><audio src=\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\"><desc></desc></audio>不正解です。正解は「スクーター」です。<br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/vehicle_names/scooter.png"
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "result"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ],
+                                            [
+                                                "userId",
+                                                {
+                                                    "stringValue": "608ee134bf9eae004d51f948"
+                                                }
+                                            ],
+                                            [
+                                                "userName",
+                                                {
+                                                    "stringValue": "Logue Dia"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8R0nOUospRTjCNmoQbzNKK8ZGghFVOytCwDTsPG_b0JhI2vyebzIDOyMRPDyMc55xdm7UkA-jufn",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                "updatedStateJson": "[{\"content\":\"\",\"difficulty\":\"easy\",\"chosenRegion\":\"\",\"appName\":\"乗り物の名前\",\"correctAnswer\":\"スクーター\",\"results\":\"0, 0, 0, 0, 0, 0, 0, 0, 0, 0\",\"hintWord\":\"す●●●●\",\"userName\":\"Logue Dia\",\"preContent\":\"あなたの解答は「す●●●●」でした。\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003caudio src=\\\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\\\"\\u003e\\u003cdesc\\u003e\\u003c/desc\\u003e\\u003c/audio\\u003e不正解です。正解は「スクーター」です。\\u003cbr/\\u003e\",\"userId\":\"608ee134bf9eae004d51f948\",\"number_of_questions\":10,\"postContent\":\"（結果発表）\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003cbr/\\u003eあなたの得点は 0 点でした。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003eアプリを終了するために「終了」と言ってください。\",\"app_id\":29,\"imageSilhouetteUrl\":\"\",\"locale\":\"ja-JP\",\"preImageUrl\":\"https://www.voice-ui.work/images/vehicle_names/scooter.png\",\"scene\":\"result\",\"five_point_rating\":\"\",\"imageUrl\":\"https://www.voice-ui.work/images/vehicle_names/scooter.png\",\"order\":10,\"total_score\":0}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"sub\":\"108142502242634365866\",\"given_name\":\"Logue\",\"family_name\":\"Dia\",\"exp\":1.62605618E9,\"iss\":\"https://accounts.google.com\",\"aud\":\"764567851094-sof32id1ccsd7vv5edpcf7epvep9aptf.apps.googleusercontent.com\",\"name\":\"Logue Dia\",\"nbf\":1.62605228E9,\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJxzacCPGu0_jXlFsg3iioRKMv9OgVpc_fU3XD0u=s96-c\",\"email\":\"XXX@example.com\",\"iat\":1.62605258E9,\"email_verified\":true,\"jti\":\"196d656ae79ea7e7b9b9633a86b030e51cf06828\"}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "乗り物の名前",
+    "servingModelOutdated": false,
+    "request": "す●●●●"
+}

@@ -1,0 +1,65 @@
+{
+    "2": {
+        "req": "Talk to Drop the Puck",
+        "res": "Alright. Here's Drop the Puck.🔊\nWelcome to Drop the Puck. A hockey trivia game that will very likely stump you once or twice. My name is Kate, and I'm so happy to be your host. I've loaded up 6 questions. I hope you're a big hockey fan. It's should go by quickly, but, if you want to end the game early, just stay, Stop. Let's go! Your first question is here.\nIn which year did The Minnesota North Stars become the first NHL team to sell advertising on the boards of their home rink?\n🔊",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Drop the Puck"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "1975",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "1982",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "1980",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "once",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "twice",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

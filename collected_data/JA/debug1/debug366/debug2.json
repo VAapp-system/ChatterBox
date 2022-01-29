@@ -1,0 +1,63 @@
+{
+    "response": "ウェザーニュースは最新の天気情報を２４時間リアルタイムで配信しています。最新の天気をお知らせしますか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ウェザーニュースは最新の天気情報を２４時間リアルタイムで配信しています。最新の天気をお知らせしますか？"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "最新の天気を教えて"
+            },
+            {
+                "title": "終了"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/wLf8b2K8Bd3f2QeYSWQxlheHSdzW-ZA-ZVp8QAdp6hlcumCMvHa--jE-_5F4NySysKOh16J_Mqy-iA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "最新の天気を教えて",
+                    "終了"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ウェザーニュース",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

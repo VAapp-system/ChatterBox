@@ -1,0 +1,75 @@
+{
+    "15": {
+        "req": "Income Tax",
+        "res": "Income tax is the tax you pay for your earnings or income like salary, money coming from a rented property you own, interest earned on savings etc.\nYou can save tax on your income by analyzing the amount which is tax free and which is taxable.\nThen investing the taxable amount in various tax saving schemes like PF, PPF, NPS, Tax saving mutual funds i.e. ELSS, Life Insurances, Health Insurances etc.\nIn general there are more than 30 different ways to save income tax in India.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "Income Tax"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Investment",
+                    "visit": false,
+                    "child": [
+                        16
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Insurance",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "the tax you pay for your earnings",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "income like salary",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "money coming from a rented property you own",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "interest earned on savings etc",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 14
+    }
+}

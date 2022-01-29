@@ -1,0 +1,38 @@
+{
+    "2": {
+        "req": "Talk to Media Okra",
+        "res": "Alright. Let's get Media Okra.Hi! Welcome to Media Okra. To sign-in say sign-in. The available commands are: generate code - to generate a Media Okra code to link with your device , my code - to get your Media Okra Code and lastly the media commands are: play, pause, and mute.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Media Okra"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know MediaOkra.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Udemy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

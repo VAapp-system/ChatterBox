@@ -1,0 +1,183 @@
+{
+    "response": "あなたの解答は「と●●●」でした。\n不正解です。正解は「トラック」です。 （問題3） この乗り物の名前は何ですか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 29
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": "トラック"
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": "easy"
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": "ひ●●●●"
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/vehicle_names/airship.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 10
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 2
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "<sub alias=\"次に進みます。\"></sub><break time=\"2000ms\"/>（問題3）<break time=\"500ms\"/><br/>この乗り物の名前は何ですか？"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "あなたの解答は「と●●●」でした。<break time=\"500ms\"/><audio src=\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\"><desc></desc></audio>不正解です。正解は「トラック」です。<br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/vehicle_names/truck.png"
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": "0, 0"
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "answer"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8R0nOUospRTjCNmoQbzNKK8ZGghFVOytCwDTsPG_b0JhI2vyebzIDOyMRPDyMc55xdm7UkA-jufn",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/image_quiz",
+                "updatedStateJson": "[{\"total_score\":0,\"imageSilhouetteUrl\":\"\",\"preContent\":\"あなたの解答は「と●●●」でした。\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003caudio src=\\\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\\\"\\u003e\\u003cdesc\\u003e\\u003c/desc\\u003e\\u003c/audio\\u003e不正解です。正解は「トラック」です。\\u003cbr/\\u003e\",\"content\":\"\",\"difficulty\":\"easy\",\"scene\":\"answer\",\"order\":2,\"imageUrl\":\"https://www.voice-ui.work/images/vehicle_names/airship.png\",\"chosenRegion\":\"\",\"locale\":\"ja-JP\",\"app_id\":29,\"number_of_questions\":10,\"results\":\"0, 0\",\"postContent\":\"\\u003csub alias=\\\"次に進みます。\\\"\\u003e\\u003c/sub\\u003e\\u003cbreak time=\\\"2000ms\\\"/\\u003e（問題3）\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003cbr/\\u003eこの乗り物の名前は何ですか？\",\"hintWord\":\"ひ●●●●\",\"preImageUrl\":\"https://www.voice-ui.work/images/vehicle_names/truck.png\",\"correctAnswer\":\"トラック\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"email\":\"XXX@example.com\",\"given_name\":\"Logue\",\"email_verified\":true,\"nbf\":1.626052002E9,\"iss\":\"https://accounts.google.com\",\"aud\":\"764567851094-sof32id1ccsd7vv5edpcf7epvep9aptf.apps.googleusercontent.com\",\"sub\":\"108142502242634365866\",\"family_name\":\"Dia\",\"name\":\"Logue Dia\",\"exp\":1.626055902E9,\"jti\":\"f8dd8712a0fca7bd06ccda432b577fbc51d12379\",\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJxzacCPGu0_jXlFsg3iioRKMv9OgVpc_fU3XD0u=s96-c\",\"iat\":1.626052302E9}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "乗り物の名前",
+    "servingModelOutdated": false,
+    "request": "と●●●"
+}

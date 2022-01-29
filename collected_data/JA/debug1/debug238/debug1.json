@@ -1,0 +1,63 @@
+{
+    "response": "はい。 乗り物の名前です。乗り物の名前の利用には、乗り物の名前のアカウントが必要です。 アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。 「はい」か「いいえ」で答えてください。 詳しく知りたい場合は、「詳細を確認」と言ってください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。乗り物の名前です。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "乗り物の名前の利用には、乗り物の名前のアカウントが必要です。アカウント作成のために、氏名、メールアドレス、プロフィール写真をGoogleから取得してもよろしいですか。「はい」か「いいえ」で答えてください。詳しく知りたい場合は、「詳細を確認」と言ってください。"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8R0nOUospRTjCNmoQbzNKK8ZGghFVOytCwDTsPG_b0JhI2vyebzIDOyMRPDyMc55xdm7UkA-jufn"
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "はい",
+                    "いいえ",
+                    "詳細を確認"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "乗り物の名前",
+    "servingModelOutdated": false,
+    "request": "乗り物の名前につないで"
+}

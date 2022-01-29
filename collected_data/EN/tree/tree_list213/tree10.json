@@ -1,0 +1,39 @@
+{
+    "10": {
+        "req": "fees of institute?",
+        "res": "Caution Money (One Time, Refundable) (to be paid in first 2 semesters)\t₹5,000\nOne Time Fees (to be paid in first 2 semesters)\t₹3,250\nTuition Fee (per Semester)\t₹90,000\nOther Fees (per Semester)\t₹14,350\nTotal\t₹1,12,600",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "fees of institute?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "connectivity?",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

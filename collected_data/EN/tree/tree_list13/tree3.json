@@ -1,0 +1,159 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "Excellent. In your Google Assistant app, go to the device settings for this device, and make sure that both \"Personal Results\" and \"Voice Match\" are turned on. I'll leave while you do that. Come back soon!",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "Today's meditation",
+        "res": "Today's meditation",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Today's meditation"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "stop",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "Headspace is meditation made simple. And with our Google Action, it’s even simpler to build a meditation practice that fits into your daily schedule. Enable this action for access to a new guided meditation every day, plus a sleep exercise to help you wind down. Connect to your Headspace account for even more meditations, including our Basics course which teaches you the fundamentals of meditation and mindfulness.HOW DOES IT WORK?Just ask your Google Assistant to talk to Headspace. We’ll have a fresh meditation for you every day and a sleep exercise for when you’re ready to wind down.You can say… - Ok Google, talk to Headspace - Ok Google, tell Headspace I’m ready to meditate - Ok Google, ask Headspace for today’s meditation - Ok Google, tell Headspace I want to wind down - Ok Google, ask Headspace to help me fall asleepHOW DO I CONNECT TO MY HEADSPACE ACCOUNT?To connect to your Headspace account, just say “connect my account” on the Google Assistant app. A prompt will appear, asking you to sign in. In addition to today’s meditation and a sleep exercise, you’ll have access to the Basics pack which teaches the fundamentals of meditation. And if you’re a Headspace subscriber, you can continue your practice both through your device and the Headspace app. Plus, you’ll have access to our brand new experience called a Sleepcast, which uses a mixture of sound and visualization to create the ideal conditions for healthy, restful sleep. You can say… - Ok Google, tell Headspace to connect my accountCAN I SUBSCRIBE TO HEADSPACE THROUGH GOOGLE ASSISTANT?You sure can. Just say ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "subscribe",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": " anytime after you ask your Google Assistant to talk to Headspace. WHY SHOULD I MEDITATE?Meditation can help you stress less, focus more, and be happier. The proof is in the science. These published studies show the impact Headspace can have on both your health and your relationships. - 10 days of Headspace resulted in a 14% decrease in stress* - 3 weeks of Headspace resulted in 23% more compassionate behavior* - 3 weeks of Headspace made users 57% less aggressive and reactive towards negative feedback** Headspace is not intended to diagnose, treat, cure, or prevent any disease or medical condition. Cited studies' methods and results are consistent with accepted social science research regarding meditation.Most people find that the effects of meditation are more apparent with consistent practice. The Headspace Google Action makes it easier to fit meditation into your dayn and feel the benefits of a happier, healthier mind.WHAT IS HEADSPACE?Headspace is the app that teaches you to meditate. For access to all of our guided meditations and animations, download the Headspace app or visit Headspace.com. Start meditating and living mindfully with hundreds of themed sessions on everything from stress to sleep, bite-sized meditations for busy schedules, and SOS exercises for meltdown moments.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Google Action.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Headspace.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Google.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Headspace - Ok Google.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Google Assistant.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know Sleepcast.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "I want to know 14%.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "I want to know 23%.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "I want to know 57%.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "I want to know Headspace.com.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "11": {
+                    "req": "I want to know SOS.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

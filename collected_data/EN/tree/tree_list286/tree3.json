@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "Welcome to Touch India Which fact do you want to hear about , India 's history",
+        "res": "The World's first university was established in Takshila in 700BC. More than 10,500 students from all over the world studied more than 60 subjects. The University of Nalanda built in the 4th century BC was one of the greatest achievements of ancient India in the field of education. What else would like to know?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Welcome to Touch India Which fact do you want to hear about , India 's history"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know India.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

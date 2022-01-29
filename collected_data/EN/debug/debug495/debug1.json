@@ -1,0 +1,78 @@
+{
+    "response": "Alright. Let's get Radioplayer Canada.Hello, nice to meet you. My ability is to stream different Radio-Channels. In order to play a specific radio-channel, just say or type 'play [radiochannel]'. Other possible commands are 'Recommendations?' and 'play random channel'. How can I help you?",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Radioplayer Canada."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello, nice to meet you. My ability is to stream different Radio-Channels. In order to play a specific radio-channel, just say or type 'play [radiochannel]'. Other possible commands are 'Recommendations?' and 'play random channel'. How can I help you?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Recommendations?"
+            },
+            {
+                "title": "Play random channel"
+            },
+            {
+                "title": "Help"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/AJfZA6RAYr7KBV6MtxKs2oyL4hTceLhtYWhxlVl1q-pDjXNQpqYIWlduqity9aja8-hpZoV1z1sB",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Recommendations?",
+                    "Play random channel",
+                    "Help"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Radioplayer Canada",
+    "servingModelOutdated": false,
+    "request": "Talk to Radioplayer Canada"
+}

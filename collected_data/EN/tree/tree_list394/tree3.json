@@ -1,0 +1,38 @@
+{
+    "3": {
+        "req": "What are your hours?",
+        "res": "Our regular hours are as follows: Mondays from 07:30 AM to 06:00 PM. Tuesdays from 07:30 AM to 06:00 PM. Wednesdays from 07:30 AM to 06:00 PM. Thursdays from 07:30 AM to 06:00 PM. Fridays from 07:30 AM to 06:00 PM. We are closed on Saturdays and Sundays What other questions can I help with?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "What are your hours?"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spanish Schoolhouse Tomball.",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Tomball TX.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

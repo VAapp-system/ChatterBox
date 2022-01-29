@@ -1,0 +1,38 @@
+{
+    "9": {
+        "req": "I want to know FAQ Portal.",
+        "res": "Let me introduce myself as a voice portal to raise a grievance & know about frequently asked questiob related to AICTE Grievance Management. How can i help you?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "I want to know FAQ Portal."
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know FAQ Portal.",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Grievance Management System.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

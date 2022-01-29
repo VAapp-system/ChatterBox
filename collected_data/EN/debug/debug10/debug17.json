@@ -1,0 +1,103 @@
+{
+    "response": "For meditation options you can choose between our Body Scan, Walking Meditation or Calming Anxiety session.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "For meditation options you can choose between our Body Scan, Walking Meditation or Calming Anxiety session."
+                }
+            },
+            {
+                "listSelect": {
+                    "title": "Select meditation",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "Body Scan",
+                                "synonymsList": [
+                                    "Body Scan"
+                                ]
+                            },
+                            "title": "Body Scan",
+                            "description": "Cultivate awareness and relaxation through this meditative exploration of the body.",
+                            "image": {
+                                "url": "https://cdn.calm.com/images/whzIxMJxVR/Vkx5lnJAs/program-ic-whzIxMJxVR.png?v=1486455559300",
+                                "accessibilityText": "Body Scan",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "Walking Meditation",
+                                "synonymsList": [
+                                    "Walking Meditation"
+                                ]
+                            },
+                            "title": "Walking Meditation",
+                            "description": "A guided meditation for walking mindfully.",
+                            "image": {
+                                "url": "https://cdn.calm.com/images/wAzjO76/dw8Qqk3Rj/program-ic-wAzjO76.png?v=1486455578084",
+                                "accessibilityText": "Walking Meditation",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "Calming Anxiety",
+                                "synonymsList": [
+                                    "Calming Anxiety"
+                                ]
+                            },
+                            "title": "Calming Anxiety",
+                            "description": "Release lingering tension",
+                            "image": {
+                                "url": "https://cdn.calm.com/images/euLMnJXPGG/EJmGqlnJAo/program-ic-euLMnJXPGG.png?v=1486455546366",
+                                "accessibilityText": "Calming Anxiety",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/-D7sk9PsHafY/WVptkT4g-KI/AAAAAAAAASE/Glgu1BGfh6QiS9opNrD3R_vjhs45rfjRACMYCGAYYCw/h192-w192/Calm_icon%25402x.png",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "calm",
+    "servingModelOutdated": false,
+    "request": "Meditate"
+}

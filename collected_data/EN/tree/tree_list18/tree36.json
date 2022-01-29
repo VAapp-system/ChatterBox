@@ -1,0 +1,55 @@
+{
+    "36": {
+        "req": "stress",
+        "res": "Here's a wonderful guided meditation for stress by Madeleine Shaw",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 36,
+        "req_list": [
+            "stress"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "pause",
+                    "visit": false,
+                    "child": [
+                        37
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "start over",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Madeleine Shaw.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Easy Meditation.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 35
+    }
+}

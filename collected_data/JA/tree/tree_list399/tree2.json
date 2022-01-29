@@ -1,0 +1,102 @@
+{
+    "2": {
+        "req": "串木野自動車教習所 チャットにつないで",
+        "res": "わかりました。 串木野自動車教習所 チャットです。質問を1つ選択し、話しかけてください。キャンセルと話しかけると、終了します。　【みきわめ】【一日中教習】【仮免学科試験】【休校日】【修了検定】【入校で必要なもの】【入校日】【卒業検定】【年齢】【最終学科試験】【本免】【高校生入校】",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "串木野自動車教習所 チャットにつないで"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "キャンセル",
+                    "type_ID": [
+                        "6",
+                        "7"
+                    ],
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "自動車を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "学校を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "串木野自動車教習所 チャットにつないで",
+        "res": "質問を1つ選択し、話しかけてください。キャンセルと話しかけると、終了します。　【みきわめ】【一日中教習】【仮免学科試験】【休校日】【修了検定】【入校で必要なもの】【入校日】【卒業検定】【年齢】【最終学科試験】【本免】【高校生入校】",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "串木野自動車教習所 チャットにつないで"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "キャンセル",
+                    "type_ID": [
+                        "6",
+                        "7"
+                    ],
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "自動車を教えてください",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "学校を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "response": "Listen to Fun Radio",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAASer...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Listen to Fun Radio"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Fun Radio",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/xzjmyvu6r2z6rpf/Fun%20Radio.png?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "http://stream.funradio.se:81/live192"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "9187787467681030873"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About us"
+            },
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/3iD-kszk_xxzz0_lnwM3qSlsxzQTsrTw8fbks6jhFb08psLcF9YGNl7uy3Z_K4t2OaSpeCwlLevEcQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About us",
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Fun Radio Sweden",
+    "servingModelOutdated": false,
+    "request": "Listen Live"
+}

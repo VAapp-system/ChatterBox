@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to incredible sports facts",
+        "res": "Alright. Here's incredible sports facts.Hi I can tell you incredible facts about sports.\nWanna know ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to incredible sports facts"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

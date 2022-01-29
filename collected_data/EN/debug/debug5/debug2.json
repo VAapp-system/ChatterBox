@@ -1,0 +1,64 @@
+{
+    "response": "Here are the estimated wait times in Edmonton. Fort Saskatchewan Community Hospital, 30 minutes. Stollery Children's Hospital, 33 minutes. WestView Health Centre, 1 hour 15 minutes. Leduc Community Hospital, 1 hour 22 minutes. University of Hospital, 1 hour 49 minutes. Strathcona Community Hospital , 1 hour 52 minutes. Grey Nuns Community Hospital, 2 hours 13 minutes. Sturgeon Community Hospital, 4 hours 19 minutes. Royal Alexandra Hospital, 4 hours 54 minutes. Northeast Community Health Centre, 5 hours 30 minutes. Misercordia Community Hospital, 5 hours 30 minutes. For more information on emergency wait times and options for care, visit, AHS -dot- CA slash wait-times or call Health Link at 811.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAASEk...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Here is the information that you requested."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "AHS Wait Times for Edmonton",
+                    "subtitle": "Alberta Health Services",
+                    "formattedText": "• Fort Saskatchewan Hospital - 30 min  \n• Stollery Children's Hospital - 33 min  \n• WestView Health Centre - 1 h 15 min  \n• Leduc Community Hospital - 1 h 22 min  \n• University of Alberta Hospital - 1 h 49 min  \n• Strathcona Community Hospital  - 1 h 52 min  \n• Grey Nuns Community Hospital - 2 h 13 min  \n• Sturgeon Community Hospital - 4 h 19 min  \n• Royal Alexandra Hospital - 4 h 54 min  \n• N. E. Community Health Centre - 5 h 30 min  \n• Misercordia Community Hospital - 5 h 30 min  \n  \nFor more information on emergency wait times and options for care, visit AHS.ca/waittimes or call Health Link at 811.",
+                    "buttonsList": [
+                        {
+                            "title": "Click here for more locations and details",
+                            "openUrlAction": {
+                                "url": "https://www.albertahealthservices.ca/waittimes",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/kqwvdP3f5fW6w9Zbr3-5qQnaFK8VN7QZzjKCqLRjPUg7tTZiGFMu1iqROrZOZokr8xy2epYa__r5cw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Alberta Health Services",
+    "servingModelOutdated": false,
+    "request": "Edmonton"
+}

@@ -1,0 +1,48 @@
+{
+    "19": {
+        "req": "About Jær Radio",
+        "res": "JærRadio broadcasts live all over Jæren every single day, giving you everything you need from local news, sports, weather, traffic and reports as well as your favorite music on a continuous basis. In stock radio for the target group 20 to 40 years - professional and modern people with the same taste in music and entertainment. We play the biggest hits of the day, mixed with the biggest and best songs from the 80s to today. We emphasize variety and like to dig into the music piles to make sure you always hear something new and can stay at your favorite station for a long time! Jær Radio is the origin of, and now wholly owned by and part of Jærradiogruppen AS, which has become one of Norway's largest local radio groups with ownership interests in radio stations across the country.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 19,
+        "req_list": [
+            "About Jær Radio"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Listen Live",
+                    "visit": false,
+                    "child": [
+                        20
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Stop",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Jær Radio.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 18
+    }
+}

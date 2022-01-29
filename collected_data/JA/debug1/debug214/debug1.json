@@ -1,0 +1,78 @@
+{
+    "response": "はい。 東京23区です。東京23区の名前、全部いえるかな？では、一つ目どうぞ！",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。東京23区です。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "東京23区の名前、全部いえるかな？では、一つ目どうぞ！"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "ヒント"
+            },
+            {
+                "title": "降参"
+            },
+            {
+                "title": "終わり"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/5I2BhHYjC9PtHp3dDTqbGW-ADcGh6QSPPBLQSkmRDmYhQr0Gfw7i3ycPySudKtbygy4YQbjSlnKtlA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "ヒント",
+                    "降参",
+                    "終わり"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "東京23区",
+    "servingModelOutdated": false,
+    "request": "東京23区につないで"
+}

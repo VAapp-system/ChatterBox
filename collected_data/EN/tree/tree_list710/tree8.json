@@ -1,0 +1,47 @@
+{
+    "8": {
+        "req": "Some great players of you",
+        "res": "Sailen Manna, Chuni Goswami, Gostha Paul , Shibdas Bhaduri , Jose Ramirej Baretto, Sony Norde etc",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "Some great players of you"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "about your supporter",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the National club of India.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mohunbagan.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

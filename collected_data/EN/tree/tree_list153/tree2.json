@@ -1,0 +1,97 @@
+{
+    "2": {
+        "req": "Talk to Wild Tic-tac-toe",
+        "res": "Alright. Here's wild tic tac toe.Welcome to Wild Tic-tac-toe. In this game, players can choose to place either X or O on each move, anytime. You are trying to get three in a row first. To make a move respond with a symbol name and a place on the board. For example, say \"move cross to the upper right corner\". To start a new game at any time, say: who the first and start game. For example, say \"You start first\"",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Wild Tic-tac-toe"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "I start",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "You start",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "move cross to the upper right corner \"",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "You start first",
+                    "string_ID": 8,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "X",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "O",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "I&SC_CC": {
+                "1": {
+                    "req": "who the first",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "start game",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

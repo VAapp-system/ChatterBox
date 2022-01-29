@@ -1,0 +1,63 @@
+{
+    "48": {
+        "req": "Next",
+        "res": "This is  Jesus and John Wayne Episode 2: Culture Warriors (The ‘70s - ‘80s) from featured podcasts . You can say, Next or Previous to navigate to another podcast.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 48,
+        "req_list": [
+            "Next"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Next",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        49
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Previous",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        50
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Edifi.",
+                    "visit": false,
+                    "child": [
+                        51
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Christian.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 47
+    }
+}

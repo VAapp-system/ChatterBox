@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Shadow Boi",
+        "res": "OK. Let's get Shadow Boi.Hello Dear Welcome To Shadow Boi May I Know your Favorite color?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Shadow Boi"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Shadow Boi.",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

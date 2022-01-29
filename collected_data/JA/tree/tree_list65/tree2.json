@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "みる電につないで",
+        "res": "みる電 とリンクしていません。Google Home アプリからみる電 と Google アカウントをリンクできます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "みる電につないで"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

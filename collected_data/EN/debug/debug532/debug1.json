@@ -1,0 +1,81 @@
+{
+    "response": "Alright. Here's voodoo drive.Welcome to Vodo Drive. My goal is to give you an easy way to access the files in one folder of your Google Drive. However, to use most features, you will need to login and configure your account at vodo-drive.com. What would you like to do next?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Vodo Drive."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Vodo Drive. My goal is to give you a convenient way to access the spreadsheets and other files in one folder of your Google Drive. However, to use most features, you will need to login and configure your account at vodo-drive.com. What would you like to do next?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://vodo-drive.com/img/vodo/vodo-full-logo-200.png",
+                        "accessibilityText": "Vodo Drive",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Visit",
+                            "openUrlAction": {
+                                "url": "https://vodo-drive.com/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/HDx-7z65suUFP5Fim5S-i7RTUlPZ7FSpzsvvxpnhSypwXBUZ3ubnpZNp5kdfan6sNS3yGDr8EuY",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "voodoo drive",
+    "servingModelOutdated": false,
+    "request": "Talk to Vodo Drive"
+}

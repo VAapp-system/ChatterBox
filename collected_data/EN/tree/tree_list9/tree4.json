@@ -1,0 +1,38 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "Boiling water enriches it with energy and it gains a quality that in Ayurveda is called sukshma (= penetrating), which allows purification of the subtle channels of the body through deeper penetration into the physiology. Do you want to know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 3
+    }
+}

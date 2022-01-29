@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "who are you ?",
+        "res": "welcome to shilp tattva ...we are working on interior designing, maintenance, renovation and built up new infrastructure .",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "who are you ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Types of project you done",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

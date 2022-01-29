@@ -1,0 +1,82 @@
+{
+    "response": "Alright. Here's Tim and Justine Burke Estate Agents.Hello, welcome to Tim and Justine Burke - Luton Properties Weston on Google Assistant. Do you want to look for a property for rent, sold properties or a property for sale?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Tim and Justine Burke Estate Agents."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello, welcome to Tim & Justine Burke - Luton Properties Weston on Google Assistant.  Do you want to look for a property for rent, sold properties or a property for sale?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "For sale"
+            },
+            {
+                "title": "Rent"
+            },
+            {
+                "title": "Sold"
+            },
+            {
+                "title": "Sign in"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/btDqM5qRnNDQSknJDra4ClVGfjyneyuSWLuxUBJfwu_2RlGBWEOVWC3qsjsgwVTy1wEVYVCBrWM",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "For sale",
+                    "Rent",
+                    "Sold",
+                    "Sign in"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Tim and Justine Burke Estate Agents",
+    "servingModelOutdated": false,
+    "request": "Talk to Tim and Justine Burke Estate Agents"
+}

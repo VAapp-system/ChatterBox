@@ -1,0 +1,72 @@
+{
+    "response": "Today's meditation",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201bk...",
+    "audioResponse": "//NExAASad...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Today's meditation"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Today's meditation",
+                                "description": "",
+                                "contentUrl": "https://s3.amazonaws.com/headspace-skill-production-v4/pack-evdh-test22-100-s23-10min.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-7016905611814800256"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/3cCG_UDjnl6pwgjBARfpgyHQ_4Z06qugV1rNSCJy9oxYBMpLylwAmsUSZuqWrDQYUsDiRvMe2aWp",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Headspace",
+    "servingModelOutdated": false,
+    "request": "Today's meditation"
+}

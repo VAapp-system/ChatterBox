@@ -1,0 +1,69 @@
+{
+    "55": {
+        "req": "urgent care",
+        "res": "We offer a variety of Urgent Care and Walk-in services – fast, quick, & friendly.\nInjuries and illnesses strike without warning. The caring staff of Moore Life Urgent Care is here to handle all of your non-life-threatening medical needs. We treat most minor illnesses and injuries onsite. No appointments necessary, and walk-ins are welcome 7 days a week! Most major insurance plans are accepted. Would you like information about something else? Say yes or no",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 55,
+        "req_list": [
+            "urgent care"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        56
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "yes",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "no",
+                    "string_ID": 7,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Moore Life Urgent Care.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 54
+    }
+}

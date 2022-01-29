@@ -1,0 +1,40 @@
+{
+    "1": {
+        "req": null,
+        "res": null,
+        "QType": null,
+        "Q_id": null,
+        "over": false,
+        "canvas": false,
+        "id": 1,
+        "req_list": [
+            null
+        ],
+        "candidates": {
+            "START": {
+                "1": {
+                    "req": "ノベルショートにつないで",
+                    "visit": false,
+                    "child": [
+                        2,
+                        4,
+                        6,
+                        12,
+                        14,
+                        16,
+                        18,
+                        22,
+                        24,
+                        34,
+                        56,
+                        84
+                    ],
+                    "loop_start": true,
+                    "loop_end": [],
+                    "loop_count": 42
+                }
+            }
+        },
+        "parent": null
+    }
+}

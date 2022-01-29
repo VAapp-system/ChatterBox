@@ -1,0 +1,40 @@
+{
+    "8": {
+        "req": "His role in BJP?",
+        "res": "He has played an organizing and membership-promotional role in the elections of many states since 2014. In his initial two years, the BJP achieved success in Legislative Assembly elections in Maharashtra, Haryana, Jammu and Kashmir, Jharkhand and Assam but lost ground in Delhi and the large eastern state of Bihar in 2015.BJP won 303 seats to get a majority in the 2019 Indian general election under Shah's leadership.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "His role in BJP?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Shah's latest position?",
+                    "visit": true,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Amit Shah.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

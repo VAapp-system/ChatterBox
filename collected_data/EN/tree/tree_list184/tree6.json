@@ -1,0 +1,56 @@
+{
+    "6": {
+        "req": "Yes",
+        "res": "In order to get started, I need your phone number so I can look up the community you are registered with. If you are ready to share your phone number with me, say \"yes\".",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "yes \"",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Connect2Affect Connected Communities™ AARP Foundation’s Connected Communities.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Community Hub Google.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Community Hub.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

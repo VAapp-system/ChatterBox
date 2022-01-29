@@ -1,0 +1,39 @@
+{
+    "3": {
+        "req": "what is your aim?",
+        "res": "I want to become a scientist.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "what is your aim?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "why scientist?",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know a Networking Scientist.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "9": {
+        "req": "True",
+        "res": "That's correct. You can check balances and claim statuses, as well as download documents, find a doctor and request a new ID card. Welcome back. Would you like a journey to Manage your Health, Manage your Money, or a journey for those New to Insurance? I can also help you understand healthcare terms. For example, you can ask me, What is a Out-of-Network Provider",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "True"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "What is a Out - of - Network Provider",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "like a journey to Manage your Health",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Manage your Money",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "a journey for those New to Insurance",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know My Cap BlueCross.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

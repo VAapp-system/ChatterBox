@@ -1,0 +1,70 @@
+{
+    "response": "Alright. Let's get Mid South Fence Co.{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Mid South Fence Co."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What are your hours?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/LhfS3hHh6FJKQQgnYEC4FWe6dPnfSpOXxF5NJUSyzy3wktkyQ9i_-dF3s36z_-grJcBakuxojYkD",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What are your hours?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Mid South Fence Co",
+    "servingModelOutdated": false,
+    "request": "Talk to Mid South Fence Co"
+}

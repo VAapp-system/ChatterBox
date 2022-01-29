@@ -1,0 +1,79 @@
+{
+    "response": "Can you please say it again? I can either help you file a new police report anonymously, tell you what crimes have been reported lately in your neighborhood, or put you in contact with law enforcement.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Can you please say it again? I can either help you file a new police report anonymously, tell you what crimes have been reported lately in your neighborhood, or put you in contact with law enforcement."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "📝 Report an Incident"
+            },
+            {
+                "title": "⭐ Browse Incidents"
+            },
+            {
+                "title": "🚔 Contact Police"
+            },
+            {
+                "title": "📍 Locate Me"
+            },
+            {
+                "title": "📖 About Reported"
+            },
+            {
+                "title": "🚫 Quit"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/xVZmiAb6MO4iMuFv3C6hwm9dCxBOCS4gQCiotS5y6Wm1R32sOGbwJulse25kwAjkv-SFL5SZkdF8",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "📝 Report an Incident",
+                    "⭐ Browse Incidents",
+                    "🚔 Contact Police",
+                    "📍 Locate Me",
+                    "📖 About Reported",
+                    "🚫 Quit"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Reported San Francisco",
+    "servingModelOutdated": false,
+    "request": "I want to know San Francisco."
+}

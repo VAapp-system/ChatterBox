@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "FLutter mobile Platform ?",
+        "res": "IOS and Android",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "FLutter mobile Platform ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Flutter Static Widgets ?",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

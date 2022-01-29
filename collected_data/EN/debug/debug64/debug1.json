@@ -1,0 +1,84 @@
+{
+    "response": "OK. Here's Smeagol Riddles.Welcome To Smeagol Riddles. These are the Riddles In The Dark. Complete them all and you get out of the cave. Lose and you get eaten by Smeagol. Would you like to play?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Smeagol Riddles."
+                }
+            },
+            {
+                "displayText": {
+                    "content": " Welcome To Smeagol Riddles. These are the Riddles In The Dark. Complete them all and you get out of the cave. Lose and you get eaten by Smeagol. Would you like to play?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Sméagol Riddles",
+                    "subtitle": "",
+                    "formattedText": "Riddles in the Dark",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "yes"
+            },
+            {
+                "title": "no"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/AwXfUDtTLquc81a1BIhK2FQg1WaL2C2miegsaQ6Vkw_3spTzh_apin0zzq5eNP70EtOP9VTS7X6P",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/b39mZQrZe5opSUVgXgFgTxR2aXsadb2oVYHqhxqIHfvDXqcjSNv-JyEHaJ-58ZKccJ22PzUEFdQM9g"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "yes",
+                    "no"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Smeagol Riddles",
+    "servingModelOutdated": false,
+    "request": "Talk to Smeagol Riddles"
+}

@@ -1,0 +1,74 @@
+{
+    "response": "OK. Here's Mr. Digit.Hey Welcome to Mr. Digit app , This app will give you a random four digit number , ask to your agent \" give a 4 digit number \"",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Mr. Digit."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hey Welcome to Mr. Digit app ,  This app will give you a random four digit number , ask to your agent \" give a 4 digit number \""
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "4 digit number"
+            },
+            {
+                "title": "a random 4 digit number"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/BSusnrLqla0wA_uLTSEpg4f4On61LGnCNnqEsJo_yOvee-enSY-Nfbil7_io_rwIRJjy5vLeedCL",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "4 digit number",
+                    "a random 4 digit number"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Mr. Digit",
+    "servingModelOutdated": false,
+    "request": "Talk to Mr. Digit"
+}

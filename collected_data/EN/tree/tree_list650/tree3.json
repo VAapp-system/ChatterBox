@@ -1,0 +1,62 @@
+{
+    "3": {
+        "req": "What's its size ?",
+        "res": "The creation was accomplished with unbelievable dimensions height 1.21m, width 5.28 m and 155 Kg in weight. Most remarkable thing about this handmade spectacle is that i have used approx 1400 american diamonds to enhance it's look.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "What's its size ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Wonderful! Who made it?",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "How many records it broke",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "ok, talk to you later",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "How did you made it?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "Record Breaking things",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

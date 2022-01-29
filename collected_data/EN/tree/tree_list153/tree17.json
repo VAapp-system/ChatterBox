@@ -1,0 +1,43 @@
+{
+    "17": {
+        "req": "O top center",
+        "res": "I move O to the bottom center. Vertical line match: A2, B2, C2. Sorry, but I won! Thank you for playing! One more try?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "O top center"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "I start",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "You start",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Give up",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 16
+    }
+}

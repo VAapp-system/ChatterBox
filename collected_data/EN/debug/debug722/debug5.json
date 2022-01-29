@@ -1,0 +1,73 @@
+{
+    "response": "Hello! Welcome to GDG Philippines. I can tell you about the upcoming events or information about us. Which would you like to know?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hello! Welcome to GDG Philippines. I can tell you about the upcoming events or information about us. Which would you like to know?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Events"
+            },
+            {
+                "title": "Community Managers"
+            },
+            {
+                "title": "What is GDG Philippines"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8O3ynmVQUEVAyuYxVIQDvaP9Hs2P50J5iDSxrM4Z5dEX0ol4bssoWEPVMkW-9gGJrxpZN5nWYZW4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Events",
+                    "Community Managers",
+                    "What is GDG Philippines"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "gdg philippines",
+    "servingModelOutdated": false,
+    "request": "Talk to GDG Philippines"
+}

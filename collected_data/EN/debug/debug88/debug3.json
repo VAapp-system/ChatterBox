@@ -1,0 +1,77 @@
+{
+    "response": "Welcome to game of digits this will tell you the random digit on the basis of the color you choose",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Welcome to game of digits this will tell you the random digit on the basis of the color you choose"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Red"
+            },
+            {
+                "title": "Yellow"
+            },
+            {
+                "title": "Blue"
+            },
+            {
+                "title": "Greeen"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/OIE1frO9tmxMlLqo-CZ5v7Ywt2_XQkgHLyPO_RmqhhxOn4oLJPbxGY7tSq7hvWILsqRCJg2p1f0Bow",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Red",
+                    "Yellow",
+                    "Blue",
+                    "Greeen"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "game of digits",
+    "servingModelOutdated": false,
+    "request": "Talk to game of digits"
+}

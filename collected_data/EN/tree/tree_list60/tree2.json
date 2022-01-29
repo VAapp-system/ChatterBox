@@ -1,0 +1,78 @@
+{
+    "2": {
+        "req": "Talk to Sinister Genesis",
+        "res": "Alright. Getting Sinister Genesis.Ask me a joke.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Sinister Genesis"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "a joke",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sinister Genesis.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to Sinister Genesis",
+        "res": "Ask me a joke.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to Sinister Genesis"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "a joke",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sinister Genesis.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

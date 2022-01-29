@@ -1,0 +1,37 @@
+{
+    "71": {
+        "req": "祈りを教えてください",
+        "res": "祈りの時間ではカトリックキリスト教の祈りができます。「アヴェ・マリアの祈り」とためしに言ってみてください。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 71,
+        "req_list": [
+            "祈りを教えてください"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "祈りを教えてください",
+                    "visit": false,
+                    "child": [
+                        72
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "キリスト教を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 70
+    }
+}

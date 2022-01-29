@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to MOTIVATE TOUR",
+        "res": "Alright. Here's MOTIVATE TOUR.WELCOME TO MOTIVATE TOUR. DO YOU WANT SOME MOTIVATE QUOTES",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to MOTIVATE TOUR"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

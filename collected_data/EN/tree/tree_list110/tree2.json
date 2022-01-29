@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Mr Roller Dice",
+        "res": "OK. Let's get Mr Roller Dice.Hi, I am your Dice Roller. What can I do for you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mr Roller Dice"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "roll a dice for me",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

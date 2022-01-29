@@ -1,0 +1,37 @@
+{
+    "11": {
+        "req": "Maximum Loan",
+        "res": "You can get a loan up to 90% of value of property if you can prove your income. If you want to hear more about our product, please contact our mortgage specialist.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "Maximum Loan"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Start",
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Bye",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

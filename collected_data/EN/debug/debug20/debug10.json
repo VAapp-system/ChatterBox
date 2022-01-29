@@ -1,0 +1,90 @@
+{
+    "response": "It seems as though I'm having some trouble understanding at the moment.\nLet's try this again another time, orr, you can visit Cleveland Clinic dot org for more information.\nBye for now.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAAQUD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "It seems as though I'm having some trouble understanding at the moment. Let's try this again another time, or you can visit clevelandclinic.org for more information. Bye for now."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Cleveland Clinic",
+                    "subtitle": "Every Life Deserves World Class Care",
+                    "formattedText": "Cleveland Clinic, a non-profit academic medical center, provides clinical and hospital care and is a leader in research, education and health information.",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/clevelandclinic-cui-txkaol.appspot.com/o/logo-500px.jpg?alt=media&token=1785a0d9-e356-4002-9029-43ba4d5be13c",
+                        "accessibilityText": "Cleveland Clinic website",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Go to Cleveland Clinic website",
+                            "openUrlAction": {
+                                "url": "https://my.clevelandclinic.org/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 2
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Send me nutrition tips"
+            },
+            {
+                "title": "Send me healthy habits tips"
+            },
+            {
+                "title": "Send me common concerns tips"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/Ms87tQBhkGy51jZPyQmpigszEb_4ZkgqhnbFR5xcFOOzih19GY0oBdT1nH5apHDFjEuGsxdGQLB2",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Send me nutrition tips",
+                    "Send me healthy habits tips",
+                    "Send me common concerns tips"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Cleveland Clinic",
+    "servingModelOutdated": false,
+    "request": "English"
+}

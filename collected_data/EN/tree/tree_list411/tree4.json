@@ -1,0 +1,50 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "Google rents out goats from a company called California Grazing to help cut down the number• of weeds and brush at Google HQ! Want to hear the next one?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 3
+    },
+    "5": {
+        "req": "No",
+        "res": "If you wanna know more technology facts do visit again. Have a nice day GoodBye",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 3
+    }
+}

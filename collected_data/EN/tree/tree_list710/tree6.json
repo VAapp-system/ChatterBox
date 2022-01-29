@@ -1,0 +1,47 @@
+{
+    "6": {
+        "req": "Anything  great about you",
+        "res": "In 1911, Mohun Bagan created history by becoming the first Indian club to win the IFA Shield after defeating East Yorkshire Regiment 2–1 on 29 July. Most Mohun Bagan players played bare feet while East Yorkshire Regiment played with proper footballing equipment.This win was considered a landmark victory in the Indian freedom struggle.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Anything  great about you"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Which trophies you have?",
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the National club of India.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mohunbagan.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

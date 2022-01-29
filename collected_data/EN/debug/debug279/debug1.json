@@ -1,0 +1,70 @@
+{
+    "response": "Alright. Let's get Ronnie's Pizza.{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Let's get Ronnie's Pizza."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "{welcome_msg} How else can I help you? You can ask about business hours, our services, contact info and more.?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What are your hours?"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/7PgDnltjL_lYwhdSMCJ18APkadhxj4ySWmAi0Brn6B0n2NOujs4HrNQVuwIgEKF-x_2XYGwDc6M",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What are your hours?"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Ronnie's Pizza",
+    "servingModelOutdated": false,
+    "request": "Talk to Ronnie's Pizza"
+}

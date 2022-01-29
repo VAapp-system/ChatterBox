@@ -1,0 +1,58 @@
+{
+    "43": {
+        "req": "read news",
+        "res": "Part 4. download our WRCB Weather app for the latest updates!. Say \"read news\" to continue reading. For weather say \"play weather\". For headlines say \"play headlines\".",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 43,
+        "req_list": [
+            "read news"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "read news",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        44
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "play weather \"",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "play headlines \"",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the Tennessee Valley.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 42
+    }
+}

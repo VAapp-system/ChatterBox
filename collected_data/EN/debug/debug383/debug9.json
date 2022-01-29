@@ -1,0 +1,103 @@
+{
+    "response": "This application is designed and developed by Sahil Kansal.\nAsk me, What else do you want to know?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAREE...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "This application is designed and developed by Sahil Kansal.\n\nAsk me, What else do you want to know?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Sahil Kansal",
+                    "subtitle": "Assistant System Engineer - Trainee",
+                    "formattedText": "I'm Sahil Kansal and currently, working with Tata Consultany Services.",
+                    "image": {
+                        "url": "https://media.licdn.com/dms/image/C5603AQFEgE60fbOk6w/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=5qs-VCcXj5QzIJodEnLYCtrhj849AkPLeSYpFV9hugk",
+                        "accessibilityText": "Sahil Kansal",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "LinkedIn",
+                            "openUrlAction": {
+                                "url": "https://www.linkedin.com/in/sahilkansal09/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Skills"
+            },
+            {
+                "title": "Projects"
+            },
+            {
+                "title": "About Sahil"
+            },
+            {
+                "title": "Address"
+            },
+            {
+                "title": "Contact Info"
+            },
+            {
+                "title": "Quit"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/kll_5QnO-73umgrHwVPw7EyAF0n6WcsTHATMUU2pJmXrSqbiakigzT_QhYyT9g3CVjLt2hfRtntv",
+        "agentStyle": {
+            "primaryColor": "#4a148c",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundColor": "#ffffff"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Skills",
+                    "Projects",
+                    "About Sahil",
+                    "Address",
+                    "Contact Info",
+                    "Quit"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Sahil's Resume",
+    "servingModelOutdated": false,
+    "request": "Developer"
+}

@@ -1,0 +1,59 @@
+{
+    "response": "Buses are: [Khu A,B: 6,14,19,43,44,45,52,55,104,150,60-3,60-4,72-1]- [Khu D: 45,93,150]- [Khu U: 5,8,14,19,24,44,45,91,93,146]- [Khu R,E: 6,8,10,30,52,150]. Can I help you with something else?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAQKO...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Buses are:\n            [Khu A,B: 6,14,19,43,44,45,52,55,104,150,60-3,60-4,72-1]-\n            [Khu D:    45,93,150]-\n            [Khu U:    5,8,14,19,24,44,45,91,93,146]-\n            [Khu R,E: 6,8,10,30,52,150].\n            Can I help you with something else?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "address"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/hwG_RzJvS54BoQoQWc0HbYyowEh-hOh4RUmMkuHBDVKzaWICC2R43ghy8KeCYIu-Q7FfBeBAMms6MA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "address"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Hutech info",
+    "servingModelOutdated": false,
+    "request": "buses of zones"
+}

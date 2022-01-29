@@ -1,0 +1,29 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "Great, your new the bit box account is set up. You'll get a confirmation email soon.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

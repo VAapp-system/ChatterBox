@@ -1,0 +1,86 @@
+{
+    "response": "OK. Getting Alberta Health Services.I found multiple cities. Which one would you like? You can say, Edmonton, Red Deer, Calgary, Lethbridge or Medicine Hat.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Alberta Health Services."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "I found multiple cities. Which one would you like? You can say, Edmonton, Red Deer, Calgary, Lethbridge or Medicine Hat."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Edmonton"
+            },
+            {
+                "title": "Calgary"
+            },
+            {
+                "title": "Red Deer"
+            },
+            {
+                "title": "Lethbridge"
+            },
+            {
+                "title": "Medicine Hat"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/kqwvdP3f5fW6w9Zbr3-5qQnaFK8VN7QZzjKCqLRjPUg7tTZiGFMu1iqROrZOZokr8xy2epYa__r5cw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Edmonton",
+                    "Calgary",
+                    "Red Deer",
+                    "Lethbridge",
+                    "Medicine Hat"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Alberta Health Services",
+    "servingModelOutdated": false,
+    "request": "Ask Alberta Health Services for wait times."
+}

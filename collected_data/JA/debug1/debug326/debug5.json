@@ -1,0 +1,90 @@
+{
+    "response": "入力したのは 0123 です。 リマインド 1A1B",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "判断が完了しました。\nプロンプト1A1B"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "0123   (1A1B)",
+                    "subtitle": "\n◎最初の5つの入力レコード：",
+                    "columnPropertiesList": [
+                        {
+                            "header": "",
+                            "horizontalAlignment": 1
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "\nここでの記録をお手伝いします\n"
+                                }
+                            ],
+                            "dividerAfter": false
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "3746"
+            },
+            {
+                "title": "9673"
+            },
+            {
+                "title": "説明1A1Bの意味"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/bq7AdNyaNrET2f4F55Eq27vxnfA-G3odqoOZPA9_hl3sadVsSHzoFWEOeseoootSzwuewJyxfIU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "3746",
+                    "9673",
+                    "説明1A1Bの意味"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "数を推測する",
+    "servingModelOutdated": false,
+    "request": "123"
+}

@@ -1,0 +1,578 @@
+{
+    "4": {
+        "req": "80",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "80"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "5": {
+        "req": "100",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "100"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "6": {
+        "req": "120",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "120"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "10": {
+        "req": "80",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "80"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    },
+    "11": {
+        "req": "100",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "100"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    },
+    "12": {
+        "req": "120",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "120"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    },
+    "15": {
+        "req": "80",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "80"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 14
+    },
+    "16": {
+        "req": "100",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "100"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 14
+    },
+    "17": {
+        "req": "120",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "120"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        18
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 14
+    },
+    "20": {
+        "req": "80",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 20,
+        "req_list": [
+            "80"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 19
+    },
+    "21": {
+        "req": "100",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 21,
+        "req_list": [
+            "100"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 19
+    },
+    "22": {
+        "req": "120",
+        "res": "Welcome. At what speed in beats per minute should I start the metronome: 80, 100 or 120 ?",
+        "QType": "SELECT_CC",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 22,
+        "req_list": [
+            "120"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "80",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "100",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "120",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        23
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 19
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Ask Doctor philip miller a question",
+        "res": "Alright. Getting Doctor Philip Miller a question.Hi and welcome to Dr. Philip Miller's answers to your frequently asked post operative questions. While I can not provide any medical advice, I'm happy to answer common questions patients have about what to do while recovering from surgery. How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Ask Doctor philip miller a question"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

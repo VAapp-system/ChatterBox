@@ -1,0 +1,30 @@
+{
+    "7": {
+        "req": "your favorite places??",
+        "res": "Well i like to visit adventurous and exciting places...",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "your favorite places??"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What do you love to eat?",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 6
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "11": {
+        "req": "Celebrity Crush?",
+        "res": "They are Shawn Mendes and Noah Centineo.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "Celebrity Crush?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Favourite youtuber?",
+                    "visit": true,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 10
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "response": "OK. Here's tube status.There is a Good Service on the Central line.\nWould you like daily updates?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Tube Status."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "There is a Good Service on the Central line. "
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Would you like daily updates?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Send updates"
+            },
+            {
+                "title": "No updates"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/2jvpMXQvkvFWWwWqauWoMa0n4xT5T9s4Y6ljBHVjA3rJhHRgXefvxjiIGZ3iCDGj319OwIpLRQHD",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Send updates",
+                    "No updates"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "tube status",
+    "servingModelOutdated": false,
+    "request": "Ask Tube Status for the Central line?"
+}

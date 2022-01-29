@@ -1,0 +1,102 @@
+{
+    "response": "Liverpool's stadium is called Anfield and is located in Liverpool.\nNotable statistics: ranks 1st in wins with 32 of them, ranks 2nd in passes with 23,872 of them, and ranks 2nd in goals with 85 of them this season (2019-20).\nNotable players: Virgil van Dijk ranks 4th in clean sheets with 15 of them, and ranks 1st in most passes with 3,259 of them; Mohamed Salah ranks 5th in goals with 19 of them, ranks 4th in most assists with 10 of them, and ranks 1st in shots with 132 of them; Trent Alexander-Arnold ranks 2nd in most assists with 13 of them, and ranks 1st in crosses with 382 of them.\nFor information about the team, go to the website below.\nTo explore related topics, just say \"Passes\", \"Standings\", \"Newcastle United\", \"Manchester United\", \"Manchester City\" or \"Done\" to exit.",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201ek...",
+    "audioResponse": "//NExAAQ2k...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Liverpool's stadium is called Anfield and is located in Liverpool. \nNotable statistics: ranks 1st in wins with 32 of them, ranks 2nd in passes with 23,872 of them, and ranks 2nd in goals with 85 of them this season (2019-20). \nNotable players: Virgil van Dijk ranks 4th in clean sheets with 15 of them, and ranks 1st in most passes with 3,259 of them; Mohamed Salah ranks 5th in goals with 19 of them, ranks 4th in most assists with 10 of them, and ranks 1st in shots with 132 of them; Trent Alexander-Arnold ranks 2nd in most assists with 13 of them, and ranks 1st in crosses with 382 of them. \nFor information about the team, go to the…"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "Liverpool",
+                    "image": {
+                        "url": "https://delight-user-generated-content.s3.amazonaws.com/bot/58/discovery/images/5fa89e54-ede0-4d46-8a31-5f2a6c581902",
+                        "accessibilityText": "Image",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Liverpool team roster",
+                            "openUrlAction": {
+                                "url": "https://alfredstaging.koti.ai/external/?url=https%3A//fbref.com/en/squads/822bd0ba/Liverpool-Stats&event=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJib3RfcGsiOjU4LCJzb3VyY2UiOiIvZGlzY292ZXJ5L0xpdmVycG9vbCIsImxhYmVsIjoiTGl2ZXJwb29sIiwiYm90X3VzZXJfcGsiOjE1MjgxLCJsYW5ndWFnZSI6ImVuLVVTIiwic291cmNlX2dyb3VwIjoibGV4aWNvbl9pbnF1aXJ5L2Rpc2NvdmVyeSIsIl9ldmVudF90eXBlIjoidHJhY2tfZXh0ZXJuYWxfdXJsX3Zpc2l0In0.hGwaITxARDShGBHSJTHnJFY-gxNR0n872KrB4jfZ55U",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 2
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Passes"
+            },
+            {
+                "title": "Standings"
+            },
+            {
+                "title": "Newcastle United"
+            },
+            {
+                "title": "Manchester United"
+            },
+            {
+                "title": "Manchester City"
+            },
+            {
+                "title": "Done"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/57G6ppAjcLtuCVTxOW9aPdQR3GyeNRo8uTYImI1EvOj5wkcWGM5XtK_vFBZgeMI9_EaqQ8d7JqM",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Passes",
+                    "Standings",
+                    "Newcastle United",
+                    "Manchester United",
+                    "Manchester City",
+                    "Done"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "English Football Stats",
+    "servingModelOutdated": false,
+    "request": "Liverpool"
+}

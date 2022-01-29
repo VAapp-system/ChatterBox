@@ -1,0 +1,70 @@
+{
+    "response": "OK. Getting New Zealand trip.Hi. If you tell us your keyword, I'll help you travel to the New Zealand.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting New Zealand trip."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi. If you tell us your keyword, I'll help you travel to the New Zealand."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Restaurant"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yMe7KbKlGd32iGJfLoBUkHmPyBk2qCskKL-qfw47wPBmtzAqGY67EKHdb3TxOfpDktrNX_yqHVWM",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Restaurant"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "New Zealand trip",
+    "servingModelOutdated": false,
+    "request": "Talk to New Zealand trip"
+}

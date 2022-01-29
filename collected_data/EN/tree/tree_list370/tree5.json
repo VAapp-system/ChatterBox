@@ -1,0 +1,29 @@
+{
+    "5": {
+        "req": "age soldier supreme",
+        "res": "soldier supreme is a great character of marvel studio so soldier supreme is in our heart ever",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "age soldier supreme"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "home of soldier supreme",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

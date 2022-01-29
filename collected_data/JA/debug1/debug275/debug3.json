@@ -1,0 +1,142 @@
+{
+    "response": "次の鑑定の前に一度だけ武器について説明をするわ。\n塔から持って帰ってきた武器で装備できるのはひとつだけ。あとは消えてしまうわ。そういう呪いがかけられているみたいなの。\nでも安心して、装備しなかった武器は、今装備している武器に合成できるの。どんどん武器を強くして、どんどん深い所まで潜っていってちょうだい！\nじゃあ次の鑑定をするわね。\nこれは…ゴブリンソード。\n今装備している武器と比べると、攻撃力が強く、体力が弱くなるわね。\n装備しますか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAASKQ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "次の鑑定の前に一度だけ武器について説明をするわ。  \n塔から持って帰ってきた武器で装備できるのはひとつだけ。あとは消えてしまうわ。そういう呪いがかけられているみたいなの。  \nでも安心して、装備しなかった武器は、今装備している武器に合成できるの。どんどん武器を強くして、どんどん深い所まで潜っていってちょうだい！  \nじゃあ次の鑑定をするわね。  \nこれは…ゴブリンソード。  \n今装備している武器と比べると、攻撃力が強く、体力が弱くなるわね。  \n装備しますか？"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "武器レベル: 1",
+                    "subtitle": "職業: 探索者",
+                    "columnPropertiesList": [
+                        {
+                            "header": "",
+                            "horizontalAlignment": 0
+                        },
+                        {
+                            "header": "E: スライムグローブ",
+                            "horizontalAlignment": 0
+                        },
+                        {
+                            "header": "ゴブリンソード",
+                            "horizontalAlignment": 0
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "🎖 RANK"
+                                },
+                                {
+                                    "text": "⭐"
+                                },
+                                {
+                                    "text": "⭐"
+                                }
+                            ],
+                            "dividerAfter": true
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "💖 HP"
+                                },
+                                {
+                                    "text": "56"
+                                },
+                                {
+                                    "text": "52 ⬇"
+                                }
+                            ],
+                            "dividerAfter": true
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "🗡 ATK"
+                                },
+                                {
+                                    "text": "16"
+                                },
+                                {
+                                    "text": "18 ⬆"
+                                }
+                            ],
+                            "dividerAfter": true
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "🛡 DEF"
+                                },
+                                {
+                                    "text": "16"
+                                },
+                                {
+                                    "text": "16 "
+                                }
+                            ],
+                            "dividerAfter": true
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "はい"
+            },
+            {
+                "title": "いいえ"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ruwMNmWY2oLh8LvL5V3XslZTLwM_77s5T71f4beE6joJIrn40B0JhQ4AMtjP8UQ2nsdSFcDsgOU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "はい",
+                    "いいえ"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "勇者と逆さまの塔",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

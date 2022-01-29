@@ -1,0 +1,82 @@
+{
+    "response": "Alright. Getting Singapore tour.Choose a subject what you want to find.",
+    "expectUserResponse": true,
+    "conversationToken": "EogES2w1Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Singapore tour."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Choose a subject what you want to find."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Hotels"
+            },
+            {
+                "title": "Shopping"
+            },
+            {
+                "title": "Attractions"
+            },
+            {
+                "title": "Restaurants"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/bA62tgWCOCKbDQlLFg557kYIVUWbJOa2Xg2-ATY71s_j86mq7oRGkqxkiEJS-9p_-QtTBdrtRNU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Hotels",
+                    "Shopping",
+                    "Attractions",
+                    "Restaurants"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Singapore tour",
+    "servingModelOutdated": false,
+    "request": "Talk to Singapore tour"
+}

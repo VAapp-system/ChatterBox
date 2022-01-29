@@ -1,0 +1,49 @@
+{
+    "55": {
+        "req": "want one more fact",
+        "res": "In 2011, software company Tata Consultancy Services set a world record of recruiting 1,755 students from SASTRA, the largest recruitment by any company in the world from a single campus. Do you want one more fact or know about the developer?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 55,
+        "req_list": [
+            "want one more fact"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "want one more fact",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        56
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "know about the developer",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know SASTRA Deemed University.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 54
+    }
+}

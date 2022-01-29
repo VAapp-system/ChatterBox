@@ -1,0 +1,97 @@
+{
+    "response": "Alright. Here's My planet system.Hello!! Welcome to Solar Planets! Let's get started with the Solar System Information",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's My planet system."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello!! Welcome to Solar Planets! Let's get started with the Solar System Information"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Solar System",
+                    "subtitle": "",
+                    "formattedText": "The Solar System is the gravitation-ally bound system of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies.",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/planets-8cbb1.appspot.com/o/Solar-System.jpg?alt=media&token=cce02e1e-d5a4-47f9-b815-f24c07ef8f06",
+                        "accessibilityText": "Solar System",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Read More",
+                            "openUrlAction": {
+                                "url": "https://en.wikipedia.org/wiki/Solar_System",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Planets"
+            },
+            {
+                "title": "Developer"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/cS9L2o86Fl0fKE067w8HF7OHp4t-6pplkUcmC2cJ3cRJ6d-U5DtXIrbLo8y3fOtnmmfVe8HKhdot",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Planets",
+                    "Developer"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My planet system",
+    "servingModelOutdated": false,
+    "request": "Talk to My planet system"
+}

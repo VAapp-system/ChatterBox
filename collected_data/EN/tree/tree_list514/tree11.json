@@ -1,0 +1,58 @@
+{
+    "11": {
+        "req": "Yes",
+        "res": "POHA :- heat oil in the same pan.\ncrackle the mustard seeds first.\nthen add onions and saute them till they become translucent.\nadd curry leaves and green chilies. ...\nadd the roasted peanuts and stir.\nadd the poha and stir.\ncover and steam the poha for 2-3 minutes on a low flame. Would you like to see more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "Quick Food Recipes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Quick Food Recipes.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "response": "Hi, This is Marvel Guru Please choose a number between 1 to 8 to and find your which marvel character you belong to",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hi, This is Marvel Guru Please choose a number between 1 to 8 to and find your which marvel character you belong to"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "One"
+            },
+            {
+                "title": "Two"
+            },
+            {
+                "title": "Three"
+            },
+            {
+                "title": "Four"
+            },
+            {
+                "title": "Five"
+            },
+            {
+                "title": "Six"
+            },
+            {
+                "title": "Seven"
+            },
+            {
+                "title": "Eight"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yVvdnmnoDi3w9uSRnM-nSUbkuQZMTpf6OsSsggYoh4FDIRf-WQYazcwz-gerX9sRyFR5JzdIzfxx",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "One",
+                    "Two",
+                    "Three",
+                    "Four",
+                    "Five",
+                    "Six",
+                    "Seven",
+                    "Eight"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Marvel Guru",
+    "servingModelOutdated": false,
+    "request": "Talk to Marvel Guru"
+}

@@ -1,0 +1,98 @@
+{
+    "response": "Alright. Getting Amit's Resume.Good day! What can I do for you today?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Amit's Resume."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Good day! What can I do for you today?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "introduction"
+            },
+            {
+                "title": "academics and education"
+            },
+            {
+                "title": "projects"
+            },
+            {
+                "title": "courses"
+            },
+            {
+                "title": "goal"
+            },
+            {
+                "title": "skills"
+            },
+            {
+                "title": "internships"
+            },
+            {
+                "title": "exit"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/2Du88KQBXOuGHBJzC1UcmsH7CdwZ-8h8rjDuZMeyelAIyL8WckJ7VWWmr_pZgfJSjoWIOnDYsqxg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "introduction",
+                    "academics and education",
+                    "projects",
+                    "courses",
+                    "goal",
+                    "skills",
+                    "internships",
+                    "exit"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Amit's Resume",
+    "servingModelOutdated": false,
+    "request": "Talk to Amit's Resume"
+}

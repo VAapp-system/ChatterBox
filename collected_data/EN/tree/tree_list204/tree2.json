@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Paws and Whiskers",
+        "res": "OK. Let's get Paws and Whiskers.Sorry, Paws and Whiskers isn't supported on this device.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Paws and Whiskers"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

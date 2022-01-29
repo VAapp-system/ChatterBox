@@ -1,0 +1,188 @@
+{
+    "response": "アメリカの州の名前のアカウントの設定が完了しました。 後ほど、確認のメールが届きます。これから「アメリカの州の名前」を始めます。問題の範囲を選択してください。 「すべて」「北東部」「中西部」「南部」「西部」から選んでください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "アメリカの州の名前のアカウントの設定が完了しました。後ほど、確認のメールが届きます。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 27
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names1920x1080_ja.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "「すべて」「北東部」「中西部」「南部」「西部」から選んでください。"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "これから「アメリカの州の名前」を始めます。問題の範囲を選択してください。<break time=\"2000ms\"/><br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "default"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ne73qU1dMlvP2ndx3PuN7HVQvl5ZFYdYQBpwTxATXafcKHC63Jlvp0Bh6e7A4e_oShUdUjz53tQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                "updatedStateJson": "[{\"imageSilhouetteUrl\":\"\",\"correctAnswer\":\"\",\"preImageUrl\":\"\",\"preContent\":\"これから「アメリカの州の名前」を始めます。問題の範囲を選択してください。\\u003cbreak time=\\\"2000ms\\\"/\\u003e\\u003cbr/\\u003e\",\"locale\":\"ja-JP\",\"order\":0,\"hintWord\":\"\",\"scene\":\"default\",\"total_score\":0,\"results\":\"\",\"postContent\":\"「すべて」「北東部」「中西部」「南部」「西部」から選んでください。\",\"content\":\"\",\"app_id\":27,\"difficulty\":\"\",\"number_of_questions\":\"\",\"chosenRegion\":\"\",\"imageUrl\":\"https://www.voice-ui.work/images/state_names1920x1080_ja.png\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"email\":\"XXX@example.com\",\"family_name\":\"Dia\",\"name\":\"Logue Dia\",\"iss\":\"https://accounts.google.com\",\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJx7uSKSYKwxuXfL1AarmP5LAIlhnI7cadoVFHas=s96-c\",\"iat\":1.625705239E9,\"jti\":\"e75009d5305922d435170ff9a8fe4fa5527b8231\",\"exp\":1.625708839E9,\"nbf\":1.625704939E9,\"aud\":\"256611444361-25f0f3h9ened9np3hj6khar5n3igbvo6.apps.googleusercontent.com\",\"given_name\":\"Logue\",\"sub\":\"116039277228415351579\",\"email_verified\":true}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "アメリカの州の名前",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

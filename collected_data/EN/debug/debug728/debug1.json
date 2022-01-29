@@ -1,0 +1,87 @@
+{
+    "response": "Alright. Getting Current Drifts.Greetings! How can I assist?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Current Drifts."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Greetings! How can I assist?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Trends",
+                    "subtitle": "",
+                    "formattedText": "A trend or a fad is a type of behavior that develops in a large population. A trend happens when a large group of people begin liking an object, thing, hobby or a person in a short period of time. This can also include fashion, when a large group of people like a type of clothing and having it \"sold out\" in a short period of time.",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What's trending"
+            },
+            {
+                "title": "Trending"
+            },
+            {
+                "title": "Current trends"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/DC4U8DwxkJEM7tWXgkgqTOmVJ6B95Kvk7HLnHi3VhP8IXlLN7Q5xewA7Lb5IDWA3VzRjtURzrCs",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What's trending",
+                    "Trending",
+                    "Current trends"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Current Drifts",
+    "servingModelOutdated": false,
+    "request": "Talk to Current Drifts"
+}

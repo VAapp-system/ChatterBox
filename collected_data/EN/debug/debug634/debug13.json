@@ -1,0 +1,68 @@
+{
+    "response": "There is a Good Service on the Central line.\nWould you like daily updates?",
+    "expectUserResponse": true,
+    "conversationToken": "EocFS293Qm...",
+    "audioResponse": "//NExAAQ2O...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "There is a Good Service on the Central line. "
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Would you like daily updates?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Send updates"
+            },
+            {
+                "title": "No updates"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/2jvpMXQvkvFWWwWqauWoMa0n4xT5T9s4Y6ljBHVjA3rJhHRgXefvxjiIGZ3iCDGj319OwIpLRQHD",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Send updates",
+                    "No updates"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "tube status",
+    "servingModelOutdated": false,
+    "request": "I want to know the London Underground."
+}

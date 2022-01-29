@@ -1,0 +1,102 @@
+{
+    "response": "I place O to middle center.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAARaL...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "I place O to middle center."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://s3.amazonaws.com/wild-tic-tac-toe/board/0123o5x78.png",
+                        "accessibilityText": "game field",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "O top center"
+            },
+            {
+                "title": "X bottom center"
+            },
+            {
+                "title": "O top left"
+            },
+            {
+                "title": "O bottom right"
+            },
+            {
+                "title": "X top right"
+            },
+            {
+                "title": "X middle left"
+            },
+            {
+                "title": "O middle left"
+            },
+            {
+                "title": "O top right"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/U1J8mPrsgaxrxXVYWIGlApf3l7KdH5JRd9LddmbkAU7uI0EYdpSoRmfOEyIxip6uPU7y5t0z0--GHg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "O top center",
+                    "X bottom center",
+                    "O top left",
+                    "O bottom right",
+                    "X top right",
+                    "X middle left",
+                    "O middle left",
+                    "O top right"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "wild tic tac toe",
+    "servingModelOutdated": false,
+    "request": "X bottom left"
+}

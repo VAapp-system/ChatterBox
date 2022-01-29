@@ -1,0 +1,29 @@
+{
+    "5": {
+        "req": "Where do you live?",
+        "res": "I live in Gujarat.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Where do you live?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What is your goal?",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "2": {
+        "req": "Talk to Tales About Animals",
+        "res": "Alright. Getting Tales About Animals.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": true,
+        "id": 2,
+        "req_list": [
+            "Talk to Tales About Animals"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "t TryHippo Wants to DanceMama Antelope",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know AnimalsThe Lion Who Wouldn't TryHippo.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mama Antelope's.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Penguin.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Perfect Palace.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

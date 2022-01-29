@@ -1,0 +1,49 @@
+{
+    "4": {
+        "req": "hobbie of soldier supreme",
+        "res": "for more info about soldier supreme i can suggest you the book Infinity Wars: Soldier Supreme #1 &#2",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "hobbie of soldier supreme"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "age soldier supreme",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_SC": {
+                "1": {
+                    "req": "1",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "2",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

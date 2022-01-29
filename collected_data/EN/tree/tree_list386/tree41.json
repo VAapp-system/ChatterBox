@@ -1,0 +1,49 @@
+{
+    "44": {
+        "req": "want one more fact",
+        "res": "The campus occupies a built up area of over 2,000,000 square feet. Do you want one more fact or know about the developer?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 44,
+        "req_list": [
+            "want one more fact"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "want one more fact",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        45
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "know about the developer",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know SASTRA Deemed University.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 43
+    }
+}

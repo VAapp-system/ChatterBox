@@ -1,0 +1,39 @@
+{
+    "13": {
+        "req": "Hint",
+        "res": "Okay.Your hint is: It means either what time do you close or what time do you open. Nǐ jǐ diǎn kāiménNow what's your answer?",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "Hint"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "what time do you close",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        14
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "what time do you open",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 12
+    }
+}

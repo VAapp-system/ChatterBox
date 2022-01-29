@@ -1,0 +1,39 @@
+{
+    "62": {
+        "req": "Yes",
+        "res": "",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 62,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Edifi.",
+                    "visit": true,
+                    "child": [
+                        63
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Christian.",
+                    "visit": true,
+                    "child": [
+                        64
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 61
+    }
+}

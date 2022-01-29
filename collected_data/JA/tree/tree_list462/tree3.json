@@ -1,0 +1,205 @@
+{
+    "3": {
+        "req": "水泳",
+        "res": "最後の一文を言い換えていただけませんか。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "水泳"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "プロを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "テニスを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "プレイヤーを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "男子を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "世界を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "トップを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "選手を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "名を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "錦織を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "10": {
+                    "req": "ランキングを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    },
+    "7": {
+        "req": "水泳",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "水泳"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "8": {
+        "req": "アーチェリー",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "アーチェリー"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "9": {
+        "req": "陸上競技",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "陸上競技"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "10": {
+        "req": "バドミントン",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "バドミントン"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "11": {
+        "req": "野球・ソフトボール",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "NE",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "野球・ソフトボール"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "12": {
+        "req": "バスケットボール",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "NE",
+        "Q_id": 6,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "バスケットボール"
+        ],
+        "candidates": {},
+        "parent": 6
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "2": {
+        "req": "Talk to Keyforge Companion",
+        "res": "OK. Here's Keyforge Companion.Welcome! Would you like to hear about a card or a rule?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Keyforge Companion"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "a card",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "a rule",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "5": {
+        "req": "Talk to Keyforge Companion",
+        "res": "Welcome! Would you like to hear about a card or a rule?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Talk to Keyforge Companion"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "a card",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "a rule",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

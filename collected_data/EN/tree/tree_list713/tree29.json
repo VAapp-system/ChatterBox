@@ -1,0 +1,91 @@
+{
+    "29": {
+        "req": "What is MCU",
+        "res": "The Marvel Universe is a fictional universe where the stories in most American comic book titles and other media published by Marvel Comics take place. Super-teams such as the Avengers, the X-Men, the Fantastic Four, the Guardians of the Galaxy, the Defenders, the Inhumans, the New Warriors, the Nova Corps and other Marvel superheroes live in this universe, including characters such as Spider-Man, Iron Man, Thor, the Hulk, Captain America, Daredevil, Wolverine, Black Panther, Doctor Strange, Captain Marvel, Blade, Ghost Rider, the Punisher, Deadpool, Silver Surfer, Nova, Moon Knight and numerous others.\nThe Marvel Universe is further depicted as existing within a \"multiverse\" consisting of thousands of separate universes, all of which are the creations of Marvel Comics and all of which are, in a sense, \"Marvel universes\". In this context, \"Marvel Universe\" is taken to refer to the mainstream Marvel continuity, which is known as Earth-616 or currently as Earth Prime. anything else?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 29,
+        "req_list": [
+            "What is MCU"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "what is DC Universe",
+                    "visit": false,
+                    "child": [
+                        30
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "what is Marvel vs DC",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "who created Marvel",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "as Earth - 616",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "currently as Earth Prime",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Superhero.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Marvel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know DC.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 28
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "response": "Something went wrong while trying to load the menu.\nSay something like Main menu, or load menu",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAASAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Something went wrong while trying to load the menu."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Say something like Main menu, or load menu"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Main Menu"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/xVZmiAb6MO4iMuFv3C6hwm9dCxBOCS4gQCiotS5y6Wm1R32sOGbwJulse25kwAjkv-SFL5SZkdF8",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Main Menu"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Reported San Francisco",
+    "servingModelOutdated": false,
+    "request": "Main menu"
+}

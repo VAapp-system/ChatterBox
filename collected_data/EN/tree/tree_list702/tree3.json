@@ -1,0 +1,99 @@
+{
+    "3": {
+        "req": "January 1st",
+        "res": "One more time?",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "January 1st"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "Febrauary 1st",
+        "res": "I missed what you said. What was that?",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Febrauary 1st"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "March 1st",
+        "res": "Sorry, I can't help.",
+        "QType": "NE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "March 1st"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "7": {
+        "req": "Yes",
+        "res": "Can you say that again?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "8": {
+        "req": "No",
+        "res": "I missed that, say that again?",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "11": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 10
+    }
+}

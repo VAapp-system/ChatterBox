@@ -1,0 +1,75 @@
+{
+    "response": "please select from the categories",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAASYd...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "please select from the categories"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "sports trends"
+            },
+            {
+                "title": "bollywood"
+            },
+            {
+                "title": "hollywood"
+            },
+            {
+                "title": "technology"
+            },
+            {
+                "title": "current affairs"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/DC4U8DwxkJEM7tWXgkgqTOmVJ6B95Kvk7HLnHi3VhP8IXlLN7Q5xewA7Lb5IDWA3VzRjtURzrCs",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "sports trends",
+                    "bollywood",
+                    "hollywood",
+                    "technology",
+                    "current affairs"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Current Drifts",
+    "servingModelOutdated": false,
+    "request": "What's trending"
+}

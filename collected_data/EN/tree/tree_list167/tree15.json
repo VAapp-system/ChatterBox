@@ -1,0 +1,134 @@
+{
+    "15": {
+        "req": "Yes",
+        "res": "Then, Mrs. Potts asked if I knew how to fix a leaky faucet, because the one in the kitchen had a terrible drip. Before I could answer, Lumiere jumped in and said that the chimney in the dining room fireplace was making too much smoke. And Cogsworth chimed in to tell me that the service bell in the butler's pantry hadn't worked for a month, and that I should repair that first. Hearing all these requests didn't make the Beast very happy. He reminded everyone that I was not a plumber, a chimney sweep or whatever sort of person fixed pantry bells. I just smiled and led my friends back to the library. \"I have a feeling that with the right book, we can fix anything,\" I said. To Cogsworth's delight, I went to the pantry first. He watched eagerly as I examined the broken bell on the wall. A cord that ran up to the Beast's room was attached to it. If he needed something, he could ring. But the hinge that held the bell seemed to be stuck. I found a home-repair book that had a section on fixing hinges and read the instructions. \"Why, it just needs to be oiled!\" I said. I poured a few drops of oil on the hinge. Then I gave the bell a tap. Briing briiing! The bell rang! Cogsworth was so pleased he jumped up and down, exclaiming it to be as good as new!\nI hope you've enjoyed the story so far. Would you like to hear the next part?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        16
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "a plumber",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "a chimney sweep",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "whatever sort of person fixed pantry bells",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Disney.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Cinderella.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Ariel.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Belle.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Jasmine.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know Tiana.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 14
+    }
+}

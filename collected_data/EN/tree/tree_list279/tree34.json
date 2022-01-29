@@ -1,0 +1,70 @@
+{
+    "64": {
+        "req": "s Pizza to ask questions about the business and get verified answers. Ronnie",
+        "res": "Our phone number is (844) 355-0532 You can ask more questions about the business to learn more.",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 64,
+        "req_list": [
+            "s Pizza to ask questions about the business and get verified answers. Ronnie"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "more questions about the business to learn more",
+                    "string_ID": 0,
+                    "visit": true,
+                    "child": [
+                        65
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s Pizza to ask questions about the business and get verified answers. Ronnie",
+                    "visit": true,
+                    "child": [
+                        66
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "s is your phone number, What",
+                    "visit": false,
+                    "child": [
+                        67
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Ronnie's Pizza.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Yuma AZ.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 63
+    }
+}

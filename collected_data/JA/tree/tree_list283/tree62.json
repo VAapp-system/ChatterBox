@@ -1,0 +1,63 @@
+{
+    "68": {
+        "req": "テリー (犬)",
+        "res": "「鼻の長い動物」を答えてくれYOYO!!　漢字一文字、ひらがな二文字だYOYO!!",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 68,
+        "req_list": [
+            "テリー (犬)"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "みりん",
+                    "visit": false,
+                    "child": [
+                        69
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "みりんを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "おれを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "とっておきを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "クイズを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 67
+    }
+}

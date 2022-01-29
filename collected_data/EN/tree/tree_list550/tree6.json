@@ -1,0 +1,59 @@
+{
+    "6": {
+        "req": "Business Applications",
+        "res": "You can use voice interfaces to automate question answering, e-commerce, marketing, customer support and other business functions.\nFor example, if you run an online store, you can create a voice interface to your shop, so customers can search and look at products with voice commands.\nTo explore related topics, just say \"Market Size\" or \"Done\" to exit.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Business Applications"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Market Size",
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Market Size",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

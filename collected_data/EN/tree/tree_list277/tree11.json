@@ -1,0 +1,57 @@
+{
+    "11": {
+        "req": "about temple",
+        "res": "Shree Roopnarayan Ji Mandir is one of the oldest temple of india in rajsamand district located in sevantri(sewantri) village near charbhuja. for more info just say how to reach temple? or for more info download our officail app from playstore just by click below.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "about temple"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "about village",
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "images",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "go back",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "how to reach temple ?",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 10
+    }
+}

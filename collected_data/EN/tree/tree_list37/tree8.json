@@ -1,0 +1,38 @@
+{
+    "10": {
+        "req": "I want to know Smaran.",
+        "res": "On the 10 year anniversary of Harry’s parents’ death and the first time Voldemort was defeated, 31st October 1991, he and Ron saved Hermione from the troll in the bathroom. This is generally regarded as the day the trio became friends\nDo you want to listen to another fact or exit ?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "I want to know Smaran."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smaran.",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Harry Potter.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Nailing a job interview",
+        "res": "Alright. Here's Nailing a job interview.Welcome to the EXTRA Pep Talks “Job Interview” simulator, where you can learn to interview like a boss. Start by saying, “Hi, I’m here for my job interview.”",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Nailing a job interview"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "“ Hi , I ’m here",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

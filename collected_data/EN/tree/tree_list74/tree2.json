@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Word Quiz for Rising Star",
+        "res": "OK. Let's get Word Quiz for Rising Star.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": true,
+        "id": 2,
+        "req_list": [
+            "Talk to Word Quiz for Rising Star"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Word Quiz for Rising Star.",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

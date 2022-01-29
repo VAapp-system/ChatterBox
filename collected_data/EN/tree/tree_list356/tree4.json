@@ -1,0 +1,29 @@
+{
+    "4": {
+        "req": "What is variable",
+        "res": "Every existing element are every existing item is consider as variable",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "What is variable"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What is java",
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

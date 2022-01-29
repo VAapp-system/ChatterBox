@@ -1,0 +1,30 @@
+{
+    "204": {
+        "req": "Yes",
+        "res": "Cloves were used in Mesopotamia by 1700 BCE.he ancient Indian epic Ramayana mentions cloves. The Romans had cloves in the 1st century CE, as Pliny the Elder wrote about them. The earliest written records of spices come from ancient Egyptian, Chinese, and Indian cultures. The Ebers Papyrus from Early Egyptians that dates from 1550 B.C.E. describes some eight hundred different medicinal remedies and numerous medicinal procedures. Wanna Know More?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 204,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spices Trivia.",
+                    "visit": false,
+                    "child": [
+                        205
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 203
+    }
+}

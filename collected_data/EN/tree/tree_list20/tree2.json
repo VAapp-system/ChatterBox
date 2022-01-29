@@ -1,0 +1,38 @@
+{
+    "2": {
+        "req": "Talk to Cleveland Clinic",
+        "res": "OK. Here's Cleveland Clinic.Hi.\nI'm Cleveland Clinic.\nI can provide you with daily health tips, information about medical conditions, and Cleveland Clinic locations.\nThe information provided is not a substitute for a physician's advice and judgment.\nWhat would you like to talk about?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Cleveland Clinic"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Cleveland Clinic.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know U.S. News & World Report.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

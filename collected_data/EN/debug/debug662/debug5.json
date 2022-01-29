@@ -1,0 +1,64 @@
+{
+    "response": "That's amazing!\nYou woke up at5:0. Keep it up. Did you plan your day today?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "That's amazing! You woke up at 5:0. Keep it up. Did you plan your day today?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/IptmV1AX_4Y82jGk2bTD2CFWD2g-5ryKrCh4hQbr5qxpqBPCNg2qukdEgToV4Yn9t1P7H2yrgTvM",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "daily reflection",
+    "servingModelOutdated": false,
+    "request": "5AM"
+}

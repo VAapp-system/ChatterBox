@@ -1,0 +1,44 @@
+{
+    "4": {
+        "req": "はい",
+        "res": "付近に薬局が見つかりませんでした",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "7": {
+        "req": "はい",
+        "res": "付近に薬局が見つかりませんでした",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "8": {
+        "req": "いいえ",
+        "res": "承認が得られなかったため、位置情報が取得できませんでした",
+        "QType": "OPTION",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 6
+    }
+}

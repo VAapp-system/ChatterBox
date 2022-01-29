@@ -1,0 +1,48 @@
+{
+    "9": {
+        "req": "about your supporter",
+        "res": "I have historically enjoyed the privilege of possessing the biggest fan base in India and one of the biggest, globally. The fans known as Mariners have the distinction of the highest attendance in I-League matches. There are several fan clubs dedicated to Mohun Bagan in different parts of India.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "about your supporter"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "nice to talk with you.",
+                    "visit": false,
+                    "child": [
+                        10
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know the National club of India.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Mohunbagan.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 8
+    }
+}

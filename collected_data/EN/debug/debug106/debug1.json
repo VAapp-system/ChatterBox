@@ -1,0 +1,70 @@
+{
+    "response": "OK. Let's get flipping coin.for flipping coin just say flip coin",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get flipping coin."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "for flipping coin just say flip coin"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "flip coin"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/TfskzjubQLgeazQuEfp5l3e2e2wYuiM5uG4m7Clm2hufiFoWl9qPw1eS6o48gW3tRdHsiN9Bqre_",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "flip coin"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "flipping coin",
+    "servingModelOutdated": false,
+    "request": "Talk to flipping coin"
+}

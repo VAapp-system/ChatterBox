@@ -1,0 +1,85 @@
+{
+    "response": "OK. Here's Delight Labs.Welcome to Delight! I am here to share what voice interfaces are and how they present opportunities for your business.\nTo get started, just say \"tell me more about voice interfaces\".",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Delight Labs."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Delight! I am here to share what voice interfaces are and how they present opportunities for your business.\n\nTo get started, just say \"tell me more about voice interfaces\"."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "Welcome to Delight! I am here to share what voice interfaces are and how they present opportunities for your business.\n\nTo get started, just say \"tell me more about voice interfaces\".",
+                    "image": {
+                        "url": "https://i.imgur.com/fyodaI2.png",
+                        "accessibilityText": "Image",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 2
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Voice interfaces"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/4tGN5mjD6eQ254W9nUlkX74qr20R-stqcDjtiRkf1nbg7vi16xMuo9JBNQ_II_R7d1mRb8LQDF8",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Voice interfaces"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Delight Labs",
+    "servingModelOutdated": false,
+    "request": "Talk to Delight Labs"
+}

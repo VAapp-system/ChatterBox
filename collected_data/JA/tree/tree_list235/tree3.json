@@ -1,0 +1,829 @@
+{
+    "3": {
+        "req": "弾幕系シューティング",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "弾幕系シューティング"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "コネクト6",
+        "res": "最後の一文を言い換えていただけませんか。",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "コネクト6"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "おまかせレース",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "レースを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "コースを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "車種を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "まかせを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "名を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "ランダムを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    },
+    "7": {
+        "req": "弾幕系シューティング",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "弾幕系シューティング"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "8": {
+        "req": "コネクト6",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "コネクト6"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "9": {
+        "req": "ゲームブックドラゴンクエスト",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "NE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "ゲームブックドラゴンクエスト"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "10": {
+        "req": "トンネルズ&トロールズ",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "トンネルズ&トロールズ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "11": {
+        "req": "5五将棋",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "5五将棋"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "12": {
+        "req": "アクワイア",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 6,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "アクワイア"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "13": {
+        "req": "チェッカー",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "NE",
+        "Q_id": 7,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "チェッカー"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "14": {
+        "req": "アグリコラ (ゲーム)",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 8,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "アグリコラ (ゲーム)"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "15": {
+        "req": "三目並べ",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 9,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "三目並べ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "16": {
+        "req": "ドミノ",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "NE",
+        "Q_id": 10,
+        "over": false,
+        "canvas": false,
+        "id": 16,
+        "req_list": [
+            "ドミノ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "17": {
+        "req": "暗棋",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "NE",
+        "Q_id": 11,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "暗棋"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "18": {
+        "req": "大将棋",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 12,
+        "over": false,
+        "canvas": false,
+        "id": 18,
+        "req_list": [
+            "大将棋"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "19": {
+        "req": "タンクライフRPG ダークブレイズ",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 13,
+        "over": false,
+        "canvas": false,
+        "id": 19,
+        "req_list": [
+            "タンクライフRPG ダークブレイズ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "20": {
+        "req": "ウインクキラー",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 14,
+        "over": false,
+        "canvas": false,
+        "id": 20,
+        "req_list": [
+            "ウインクキラー"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "21": {
+        "req": "クラップス",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 15,
+        "over": false,
+        "canvas": false,
+        "id": 21,
+        "req_list": [
+            "クラップス"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "22": {
+        "req": "バトルシップ",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 16,
+        "over": false,
+        "canvas": false,
+        "id": 22,
+        "req_list": [
+            "バトルシップ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "23": {
+        "req": "クレイジーエイト",
+        "res": "今のは少しわかりにくかったです。",
+        "QType": "NE",
+        "Q_id": 17,
+        "over": false,
+        "canvas": false,
+        "id": 23,
+        "req_list": [
+            "クレイジーエイト"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "24": {
+        "req": "薩摩拳",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 18,
+        "over": false,
+        "canvas": false,
+        "id": 24,
+        "req_list": [
+            "薩摩拳"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "25": {
+        "req": "チャトラジ",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "NE",
+        "Q_id": 19,
+        "over": false,
+        "canvas": false,
+        "id": 25,
+        "req_list": [
+            "チャトラジ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "26": {
+        "req": "マンハッタン (ゲーム)",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 20,
+        "over": false,
+        "canvas": false,
+        "id": 26,
+        "req_list": [
+            "マンハッタン (ゲーム)"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "27": {
+        "req": "パターゴルフ",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 21,
+        "over": false,
+        "canvas": false,
+        "id": 27,
+        "req_list": [
+            "パターゴルフ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "28": {
+        "req": "七国象棋",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 22,
+        "over": false,
+        "canvas": false,
+        "id": 28,
+        "req_list": [
+            "七国象棋"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "29": {
+        "req": "タクテクス (ゲーム)",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "NE",
+        "Q_id": 23,
+        "over": false,
+        "canvas": false,
+        "id": 29,
+        "req_list": [
+            "タクテクス (ゲーム)"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "30": {
+        "req": "ファンタン",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 24,
+        "over": false,
+        "canvas": false,
+        "id": 30,
+        "req_list": [
+            "ファンタン"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "31": {
+        "req": "鶏投げ",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 25,
+        "over": false,
+        "canvas": false,
+        "id": 31,
+        "req_list": [
+            "鶏投げ"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "32": {
+        "req": "ワードバスケット",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 26,
+        "over": false,
+        "canvas": false,
+        "id": 32,
+        "req_list": [
+            "ワードバスケット"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "33": {
+        "req": "機動戦士ガンダム G-STRATEGY",
+        "res": "最後の一文を言い換えていただけませんか。",
+        "QType": "NE",
+        "Q_id": 27,
+        "over": false,
+        "canvas": false,
+        "id": 33,
+        "req_list": [
+            "機動戦士ガンダム G-STRATEGY"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": true,
+                    "child": [
+                        34
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": true,
+                    "child": [
+                        35
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "おまかせレース",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "レースを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "コースを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "車種を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "まかせを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "名を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "ランダムを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "36": {
+        "req": "機動戦士ガンダム G-STRATEGY",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 27,
+        "over": false,
+        "canvas": false,
+        "id": 36,
+        "req_list": [
+            "機動戦士ガンダム G-STRATEGY"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "37": {
+        "req": "カップル (トランプゲーム)",
+        "res": "すみません。よく分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 28,
+        "over": false,
+        "canvas": false,
+        "id": 37,
+        "req_list": [
+            "カップル (トランプゲーム)"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "38": {
+        "req": "テキサス・ホールデム",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 29,
+        "over": false,
+        "canvas": false,
+        "id": 38,
+        "req_list": [
+            "テキサス・ホールデム"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "39": {
+        "req": "平安将棋",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 30,
+        "over": false,
+        "canvas": false,
+        "id": 39,
+        "req_list": [
+            "平安将棋"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "40": {
+        "req": "イルミナティ (カードゲーム)",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "NE",
+        "Q_id": 31,
+        "over": false,
+        "canvas": false,
+        "id": 40,
+        "req_list": [
+            "イルミナティ (カードゲーム)"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "41": {
+        "req": "カルキュレーション",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 32,
+        "over": false,
+        "canvas": false,
+        "id": 41,
+        "req_list": [
+            "カルキュレーション"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "42": {
+        "req": "ままこ立て",
+        "res": "最後の一文を言い換えていただけませんか。",
+        "QType": "NE",
+        "Q_id": 33,
+        "over": false,
+        "canvas": false,
+        "id": 42,
+        "req_list": [
+            "ままこ立て"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "はい",
+                    "visit": true,
+                    "child": [
+                        43
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "いいえ",
+                    "visit": true,
+                    "child": [
+                        44
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "おまかせレース",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "レースを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ゲームを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "コースを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "車種を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "まかせを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "名を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "ランダムを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "あなたを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "45": {
+        "req": "ままこ立て",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "NE",
+        "Q_id": 33,
+        "over": false,
+        "canvas": false,
+        "id": 45,
+        "req_list": [
+            "ままこ立て"
+        ],
+        "candidates": {},
+        "parent": 6
+    },
+    "46": {
+        "req": "ダンジョンズ&ドラゴンズ ミニチュアゲーム",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 34,
+        "over": false,
+        "canvas": false,
+        "id": 46,
+        "req_list": [
+            "ダンジョンズ&ドラゴンズ ミニチュアゲーム"
+        ],
+        "candidates": {},
+        "parent": 6
+    }
+}

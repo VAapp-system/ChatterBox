@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Mr Attack",
+        "res": "OK. Let's get Mr Attack.I'm Mr Attack ,ask me if you are alive",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mr Attack"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "if you are alive",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

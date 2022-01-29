@@ -1,0 +1,76 @@
+{
+    "response": "Primary Care Physician, a doctor you choose to manage and coordinate your care. In a health maintenance organization (HMO) plan, your PCP authorizes referrals to specialists and hospitals. You can ask me to explain another term like Deductible. or you can start one of our interactive journeys. undefined",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1bk...",
+    "audioResponse": "//NExAASmD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Here's what it means"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "PCP",
+                    "subtitle": "",
+                    "formattedText": "Primary Care Physician, a doctor you choose to manage and coordinate your care. In a health maintenance organization (HMO) plan, your PCP authorizes referrals to specialists and hospitals.\n \n    \nYou can also ask about:    \n   Deductible    \n   HSA    \n   Medicaid    \n  \nWould you like a journey to Manage your Health, Manage your Money, or a journey for those New to Insurance ",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Deductible"
+            },
+            {
+                "title": "HSA"
+            },
+            {
+                "title": "Medicaid"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/vYYr7sG5Eo5fuVRe1gvWJuPmw72OtqRRaI_bT0Eqa7f45YC-0jjB5kOaudWRJMCeSm8oUBNtLYNz",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Deductible",
+                    "HSA",
+                    "Medicaid"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My Cap BlueCross",
+    "servingModelOutdated": false,
+    "request": "PCP"
+}

@@ -1,0 +1,101 @@
+{
+    "response": "Alright. Getting Ludo Pro.Hello and welcome to Ludo.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Ludo Pro."
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://ludopro.boltd.in/v1/index.html",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "LAUNCH"
+                                                }
+                                            ],
+                                            [
+                                                "isNewUser",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ],
+                                            [
+                                                "userLocale",
+                                                {
+                                                    "stringValue": "en-US"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/t4yGh2dvqVqsgXqTsC6eD2DufIl3z-2qWDUZcYIz-HHMxU1JRJyXHr1WElbjYXVn0smAB-VY3ADr",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://ludopro.boltd.in/v1/index.html",
+                "updatedStateJson": "[{\"command\":\"LAUNCH\",\"isNewUser\":true,\"userLocale\":\"en-US\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Ludo Pro",
+    "servingModelOutdated": false,
+    "request": "Talk to Ludo Pro"
+}

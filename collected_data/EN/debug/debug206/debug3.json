@@ -1,0 +1,58 @@
+{
+    "response": "We're sorry, but something went wrong. Please try again.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "I'm fine, thank you for asking. I hope you and your loved ones are safe and healthy. Let me know if I can help with something."
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": ""
+    },
+    "clientError": 8,
+    "is3pResponse": false,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Help me stretch",
+                    "Can I ask you a question?",
+                    "I'm good thank you"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "",
+    "servingModelOutdated": false,
+    "request": "How are you?"
+}

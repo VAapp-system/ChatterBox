@@ -1,0 +1,69 @@
+{
+    "132": {
+        "req": "はい",
+        "res": "現在対応しているスケールは、メジャー、マイナー、メロディックマイナー、ハーモニックマイナー、ドリアン、フリジアン、リディアン、ミクソリディアン、エオリアン、ロクリアン、です。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 132,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "スケールを教えてください",
+                    "visit": false,
+                    "child": [
+                        133
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "モードを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "音を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "ダイアを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "トニックを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "コードを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 131
+    }
+}

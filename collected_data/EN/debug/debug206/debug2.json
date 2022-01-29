@@ -1,0 +1,71 @@
+{
+    "response": "In spanish Hello is\nThis phrase is added to your list. You can remove it by saying REMOVE. You can also remove it later. What other phrase do you want to know",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "\"Hello\" is \"Hola\".  This phrase is added to your list. You can remove it by saying REMOVE. You can also remove it later.\nWhat other phrase do you want to know?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "How are you?"
+            },
+            {
+                "title": "I love you"
+            },
+            {
+                "title": "REMOVE"
+            },
+            {
+                "title": "DONE"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/RXnHnsMnp16JBW-OU8sxNmHjmRetOM7gF9OYw8YMG0dI0zkSSJipA9676TvnoB0EFgfj__9Cpys",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "How are you?",
+                    "I love you",
+                    "REMOVE",
+                    "DONE"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Learn Spanish",
+    "servingModelOutdated": false,
+    "request": "Hello"
+}

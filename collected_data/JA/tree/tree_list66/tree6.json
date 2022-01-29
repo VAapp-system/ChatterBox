@@ -1,0 +1,44 @@
+{
+    "6": {
+        "req": "種類",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "種類"
+        ],
+        "candidates": {},
+        "parent": 5
+    },
+    "7": {
+        "req": "前菜",
+        "res": "少し言い換えていただけませんか。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "前菜"
+        ],
+        "candidates": {},
+        "parent": 5
+    },
+    "8": {
+        "req": "副菜",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "副菜"
+        ],
+        "candidates": {},
+        "parent": 5
+    }
+}

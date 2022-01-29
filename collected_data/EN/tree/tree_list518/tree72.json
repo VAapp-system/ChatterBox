@@ -1,0 +1,83 @@
+{
+    "72": {
+        "req": "location",
+        "res": "We are located at 20 Kruger Street It is on the 5th Floor of Main Change Building in the Maboneng Precinct in Johannesburg, the zip is 2094 We are open Wednesday to Sunday from 11 am until 10 pm Wednesday to Saturday. We close at 7 pm on Sunday. How else may I help you today? Do you need the contact details or the services on offer?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 72,
+        "req_list": [
+            "location"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "contact",
+                    "visit": false,
+                    "child": [
+                        73
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "the contact details",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "the services",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know The living Room.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Johannesburg.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know South Africa.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know PrecinctJohannesburg.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 71
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "response": "OK. Here's Turkey trip.Hi. If you tell us your keyword, I'll help you travel to the Turkey.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Turkey trip."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi. If you tell us your keyword, I'll help you travel to the Turkey."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Restaurant"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/cUQT6lg_lWDWSyRyUidMEwVynE6YVOv1uTA102vbagKwkEedKpZ8vejHNqi2Msi-f42K9-JO2raZ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Restaurant"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Turkey trip",
+    "servingModelOutdated": false,
+    "request": "Talk to Turkey trip"
+}

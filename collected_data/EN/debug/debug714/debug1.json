@@ -1,0 +1,82 @@
+{
+    "response": "OK. Getting LCDP Fun Trivia Challenge.Hola Amigos! Espero que tengas un buen día. Hello friends! Hope you're all having a great day.\nI'm a La Casa De Papel trivia bot. I will ask you five questions and there are three options for each. Out of these three, you'll need to choose the correct option. If you get the answer right, you'll be prompted to the next question directly. You can play each season in three levels which are Easy, Medium and Hard. Get set! Which Season do you want to start with?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting LCDP Fun Trivia Challenge."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hola Amigos!  Espero que tengas un buen día. Hello friends! Hope you're all having a great day.\nI'm a La Casa De Papel trivia bot. I will ask you five questions and there are three options for each. Out of these three, you'll need to choose the correct option.  If you get the answer right, you'll be prompted to the next question directly. You can play each season in three levels which are Easy, Medium and Hard. Get set! Which Season do you want to start with?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Season 1"
+            },
+            {
+                "title": "Season 2"
+            },
+            {
+                "title": "Season 3"
+            },
+            {
+                "title": "Season 4"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/P0YvywhC24Z2UN5udEVof0K7pLsgoMVJymlh6CfxJ2AwEYYy6GGWKn9Z_VvBBkoxq7QVE980wzXQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Season 1",
+                    "Season 2",
+                    "Season 3",
+                    "Season 4"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "LCDP Fun Trivia Challenge",
+    "servingModelOutdated": false,
+    "request": "I want to talk to LCDP Fun Trivia Challenge"
+}

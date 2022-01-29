@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "about soldier supreme",
+        "res": "Infinity Wars: Soldier Supreme is a bombastic (if predictable) take on a magical version of Captain America, with the Doctor Strange elements impacting the reality Gamora has created in compelling ways. Throughout the issue, there are plenty of clever tweaks to the classic Marvel formula; below, we run down as many of the combined versions of classic Marvel characters as possible both heroes and villains alike.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "about soldier supreme"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "hobbie of soldier supreme",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "8": {
+        "req": "Mode of admission?",
+        "res": "Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "Mode of admission?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "no of students?",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

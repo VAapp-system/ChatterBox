@@ -1,0 +1,59 @@
+{
+    "7": {
+        "req": "Market Size",
+        "res": "The voice market can be categorized into hardware, software and services.\nOn the hardware side, according to Statista.com, the smart speaker market alone was 11 billion US dollars in 2019. The market for software and services around voice is expected to be even bigger.\nTo explore related topics, just say \"Grow My Business\" or \"Done\" to exit.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Market Size"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Grow My Business",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Grow My Business",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Done",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "response": "わかりました。 こんにちはあいさつです。Speak Helloへようこそ。 5か国語での挨拶をお手伝いできます。\nはじめに、あいさつする言語を選択してください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。こんにちはあいさつです。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Speak Helloへようこそ。 5か国語での挨拶をお手伝いできます。 🌎"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "はじめに、あいさつする言語を選択してください。 👋"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "英語"
+            },
+            {
+                "title": "フランス語"
+            },
+            {
+                "title": "ヒンディー語"
+            },
+            {
+                "title": "ドイツ人"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/eNitEps6MqO6yByGOLXc_siWfXTYVwS0xznMv5hepLqGt7e-LHnlP755ivDT9ihUBvqGYhzhVYE",
+        "agentStyle": {
+            "primaryColor": "#000080",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/wmgO7PT5-bad06tO0Z2IqeWBY1x20KAENQXycW1kLISoZQPMCy-vmMrZ_PFsgsALAWMyy9vjDV1t"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "英語",
+                    "フランス語",
+                    "ヒンディー語",
+                    "ドイツ人"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "こんにちはあいさつ",
+    "servingModelOutdated": false,
+    "request": "こんにちはあいさつにつないで"
+}

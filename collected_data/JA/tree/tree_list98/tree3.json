@@ -1,0 +1,29 @@
+{
+    "3": {
+        "req": "cancel",
+        "res": "一言日記 とリンクしていません。Google Home アプリから一言日記 と Google アカウントをリンクできます。",
+        "QType": "NOT_END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

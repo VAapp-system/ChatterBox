@@ -1,0 +1,76 @@
+{
+    "response": "High Deductible Health Plan, for the insurer, a higher deductible means you are responsible for a greater amount of your initial health care costs, saving them money. For you, the benefit comes in lower monthly premiums. If you have a high-deductible plan, you are eligible for a Health Savings Account. You can ask me to explain another term like Out-of-Network Provider. or you can start one of our interactive journeys. undefined",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1bk...",
+    "audioResponse": "//NExAAR0v...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Here's what it means"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "HDHP",
+                    "subtitle": "",
+                    "formattedText": "High Deductible Health Plan, for the insurer, a higher deductible means you are responsible for a greater amount of your initial health care costs, saving them money. For you, the benefit comes in lower monthly premiums. If you have a high-deductible plan, you are eligible for a Health Savings Account.\n \n    \nYou can also ask about:    \n   Out-of-Network Provider    \n   Coinsurance    \n   PPO    \n  \nWould you like a journey to Manage your Health, Manage your Money, or a journey for those New to Insurance ",
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Out-of-Network Provider"
+            },
+            {
+                "title": "Coinsurance"
+            },
+            {
+                "title": "PPO"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/vYYr7sG5Eo5fuVRe1gvWJuPmw72OtqRRaI_bT0Eqa7f45YC-0jjB5kOaudWRJMCeSm8oUBNtLYNz",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Out-of-Network Provider",
+                    "Coinsurance",
+                    "PPO"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My Cap BlueCross",
+    "servingModelOutdated": false,
+    "request": "HDHP"
+}

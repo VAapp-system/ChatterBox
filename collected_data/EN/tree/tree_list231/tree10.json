@@ -1,0 +1,56 @@
+{
+    "10": {
+        "req": "Play part 2",
+        "res": "Jodhpur has got UNESCO approved heritage Mehrangarh fort. The main attractions include Jaswant Thada, Ghanta Ghar, Mehrangarh Fort, Umid Bhavan Palace and many beautiful lakes and temples.\nMany finger-licking dishes have originated from Jodhpur which include the tasty mawa ki kochori, mirchi vada, makhaniya lassi, dal bati churma, gatte ki sabzi, aate ka halwa, bajre ka sagra and many others.\nYou cannot miss the traditional and tasty deserts which include malpua, motichur ke laddu, besan ki barfi, thorr, ghevar and gulab jamun.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Play part 2"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Play part 1",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Ok thanks and goodbye",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Start from Begin",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Jodhpur city.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

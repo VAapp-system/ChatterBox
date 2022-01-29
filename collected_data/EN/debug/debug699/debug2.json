@@ -1,0 +1,205 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://canvas.earplay.com/",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "blocking",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "CACHE_URLS"
+                                                }
+                                            ],
+                                            [
+                                                "setup",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ],
+                                            [
+                                                "urls",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "stringValue": "https://earplay-production.s3.amazonaws.com/2283e53c-2413-4157-bf1e-e52d2f5c81c2/resources/2/Animals_30.00_StoriesMenuFallback.mp3"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "PLAY_BACKGROUND_AUDIO"
+                                                }
+                                            ],
+                                            [
+                                                "urls",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "stringValue": "https://earplay-production.s3.amazonaws.com/2283e53c-2413-4157-bf1e-e52d2f5c81c2/resources/2/Animals_30.00_StoriesMenuFallback.mp3"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "CHOICE_SINGLE"
+                                                }
+                                            ],
+                                            [
+                                                "options",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "one"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "two"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "three"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "four"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "url",
+                                                {
+                                                    "stringValue": "https://earplay-production.s3.amazonaws.com/2283e53c-2413-4157-bf1e-e52d2f5c81c2/resources/2/image/menu.png"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/NIiU3LP0qrSkZWuGe5LfM3DFshEL5evDn7JcAcwtteIJy4HJd_LrV17I67KbglvCxdb1yygA6jqFew",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://canvas.earplay.com/",
+                "updatedStateJson": "[{\"setup\":true,\"command\":\"CACHE_URLS\",\"urls\":[\"https://earplay-production.s3.amazonaws.com/2283e53c-2413-4157-bf1e-e52d2f5c81c2/resources/2/Animals_30.00_StoriesMenuFallback.mp3\"],\"blocking\":true},{\"command\":\"PLAY_BACKGROUND_AUDIO\",\"urls\":[\"https://earplay-production.s3.amazonaws.com/2283e53c-2413-4157-bf1e-e52d2f5c81c2/resources/2/Animals_30.00_StoriesMenuFallback.mp3\"]},{\"url\":\"https://earplay-production.s3.amazonaws.com/2283e53c-2413-4157-bf1e-e52d2f5c81c2/resources/2/image/menu.png\",\"options\":[{\"query\":\"one\"},{\"query\":\"two\"},{\"query\":\"three\"},{\"query\":\"four\"}],\"command\":\"CHOICE_SINGLE\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening Tales About Animals by Earplay",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{\"earplay_user_id\":\"HS_USER_ID_96dcc95b-a5b2-46c9-86a1-f2ac736ce05f\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Tales About Animals",
+    "servingModelOutdated": false,
+    "request": "t TryHippo Wants to DanceMama Antelope"
+}

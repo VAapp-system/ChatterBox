@@ -1,0 +1,29 @@
+{
+    "5": {
+        "req": "where do you live?",
+        "res": "I am living in chandigarh",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "where do you live?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "phone number?",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

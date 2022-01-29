@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Yoga Therapy",
+        "res": "OK. Getting Yoga Therapy.Welcome to Explore Yoga Therapy! Yoga therapy is an individualized and holistic approach to health and wellbeing. Invest in you. What would you like to learn more about? You can hear more on what yoga therapy is, the services we provide, about us and who we are, and how to get in contact.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Yoga Therapy"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Explore Yoga Therapy.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

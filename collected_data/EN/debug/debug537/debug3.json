@@ -1,0 +1,81 @@
+{
+    "response": "Welcome to DrukBees Bot, your automated Online Support? How can we help you today? Type One of the followings:\nGOODS SERVICES COMPLAIN\nI am DrukBees Bot",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARwN...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Welcome to DrukBees Bot, your automated Online Support? How can we help you today? Type One of the followings: \nGOODS SERVICES COMPLAIN"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "I am DrukBees Bot"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "HOME"
+            },
+            {
+                "title": "BYE"
+            },
+            {
+                "title": "GOODS"
+            },
+            {
+                "title": "SERVICES"
+            },
+            {
+                "title": "COMPLAIN"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/NptT0WAb3wRbtouipwr6rB75-x14cMqB7GBfBATHmWYcdbXlPoejfy5r126fZ6lXxHtvhKHpVeXB",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "HOME",
+                    "BYE",
+                    "GOODS",
+                    "SERVICES",
+                    "COMPLAIN"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Drooke Bees",
+    "servingModelOutdated": false,
+    "request": "HOME"
+}

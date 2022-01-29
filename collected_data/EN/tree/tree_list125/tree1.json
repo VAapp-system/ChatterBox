@@ -1,0 +1,35 @@
+{
+    "1": {
+        "req": null,
+        "res": null,
+        "QType": null,
+        "Q_id": null,
+        "over": false,
+        "canvas": false,
+        "id": 1,
+        "req_list": [
+            null
+        ],
+        "candidates": {
+            "START": {
+                "1": {
+                    "req": "Talk to Blackjack Dealer",
+                    "visit": false,
+                    "child": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        13,
+                        20
+                    ],
+                    "loop_start": true,
+                    "loop_end": [],
+                    "loop_count": 57
+                }
+            }
+        },
+        "parent": null
+    }
+}

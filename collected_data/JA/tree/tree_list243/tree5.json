@@ -1,0 +1,73 @@
+{
+    "5": {
+        "req": "ダジャレ",
+        "res": "新しいものがあったらしい　　続きを聞く場合は「ダジャレ」と言ってね！終了してほしい場合は「終わり」と言ってね！",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "ダジャレ"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "ダジャレ",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "終わり",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "ダジャレを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "アプリを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    },
+    "6": {
+        "req": "終わり",
+        "res": "ありがとうございました。\nまた使ってください。",
+        "QType": "INST",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "終わり"
+        ],
+        "candidates": {},
+        "parent": 4
+    }
+}

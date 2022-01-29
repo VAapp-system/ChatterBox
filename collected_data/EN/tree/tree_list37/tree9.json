@@ -1,0 +1,37 @@
+{
+    "11": {
+        "req": "I want to know Smaran.",
+        "res": "Rowling has said that if Voldemort saw a boggart it would embody his own corpse, since death was always his greatest fear\nDo you want to listen to another fact or exit ?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "I want to know Smaran."
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smaran.",
+                    "visit": false,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Harry Potter.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

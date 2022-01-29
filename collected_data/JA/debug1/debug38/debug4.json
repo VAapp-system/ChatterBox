@@ -1,0 +1,78 @@
+{
+    "response": "大和証券より、東京マーケットフラッシュを、お伝えします。",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1dm...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "大和証券より、東京マーケットフラッシュを、お伝えします。"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "東京マーケットフラッシュ",
+                                "description": "大和証券株式ニュース",
+                                "largeImage": {
+                                    "url": "https://s3-ap-northeast-1.amazonaws.com/rsdyxjh3msjzkdy1tswcbyy6qjsjhfl7/Images/daiwa_720_480.jpg",
+                                    "accessibilityText": "大和証券株式ニュース",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://s3-ap-northeast-1.amazonaws.com/rsdyxjh3msjzkdy1tswcbyy6qjsjhfl7/tokyo-market-flash.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "284959961375894146"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/tw93fPhfn10CjMHM5rXfWNgsoFEQW19vrWjnZuNbWXU-EfiL9jQ-ZXK9O1V9ZcGFqbxsWsGdIcUjFw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "株式ニュース",
+    "servingModelOutdated": false,
+    "request": "株式ニュースにつないで"
+}

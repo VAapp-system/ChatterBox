@@ -1,0 +1,79 @@
+{
+    "response": "Where do you want to fly to",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1ek...",
+    "audioResponse": "//NExAAPKC...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Where do you want to fly to"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Ho Chi Minh to Da Nang"
+            },
+            {
+                "title": "Ho Chi Minh to Buon Ma"
+            },
+            {
+                "title": "Ho Chi Minh to Da Lat"
+            },
+            {
+                "title": "Ho Chi Minh to Chu Lai"
+            },
+            {
+                "title": "Ho Chi Minh to Con Dao"
+            },
+            {
+                "title": "Ho Chi Minh to Hanoi"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/dd3AzLrqjBWhtFvQOwJLiCj-wQUsww6EuTzDFgMfy6QINBVK575UlVW9SeSb4g7AJa-eGC_r2xRFAg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Ho Chi Minh to Da Nang",
+                    "Ho Chi Minh to Buon Ma",
+                    "Ho Chi Minh to Da Lat",
+                    "Ho Chi Minh to Chu Lai",
+                    "Ho Chi Minh to Con Dao",
+                    "Ho Chi Minh to Hanoi"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Bamboo Airways",
+    "servingModelOutdated": false,
+    "request": "Ho Chi Minh"
+}

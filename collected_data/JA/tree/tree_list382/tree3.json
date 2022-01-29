@@ -1,0 +1,44 @@
+{
+    "3": {
+        "req": "はい",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "いいえ",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "九九を読みます",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "LINK",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "九九を読みます"
+        ],
+        "candidates": {},
+        "parent": 2
+    }
+}

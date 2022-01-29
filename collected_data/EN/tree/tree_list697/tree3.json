@@ -1,0 +1,59 @@
+{
+    "3": {
+        "req": "I want to know American.",
+        "res": "",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": true,
+        "canvas": true,
+        "id": 3,
+        "req_list": [
+            "I want to know American."
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know American.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know John F. Kennedy.",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know the United States.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know the Space Race.",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

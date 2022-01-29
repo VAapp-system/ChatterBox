@@ -1,0 +1,98 @@
+{
+    "2": {
+        "req": "Talk to What JC's Watching",
+        "res": "OK. Getting What JC's Watching.Welcome to What JC's Watching! Do you want a recommendation for something to watch at home or at the theater?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to What JC's Watching"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "at home",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "at the theater",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know JC.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to What JC's Watching",
+        "res": "Welcome to What JC's Watching! Do you want a recommendation for something to watch at home or at the theater?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to What JC's Watching"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "at home",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "at the theater",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know JC.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

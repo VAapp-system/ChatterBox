@@ -1,0 +1,38 @@
+{
+    "2": {
+        "req": "Talk to Vodo Drive",
+        "res": "Alright. Here's voodoo drive.Welcome to Vodo Drive. My goal is to give you an easy way to access the files in one folder of your Google Drive. However, to use most features, you will need to login and configure your account at vodo-drive.com. What would you like to do next?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Vodo Drive"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Vodo Drive.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Google Drive.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

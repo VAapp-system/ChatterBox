@@ -1,0 +1,48 @@
+{
+    "2": {
+        "req": "Talk to Virginian Pilot",
+        "res": "Alright. Here's Virginian Pilot.Thanks for listening! You can exit by telling Google Goodbye, and you can skip to the next story by telling Google Next.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Virginian Pilot"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "More stories",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I'm done",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Hampton Roads.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

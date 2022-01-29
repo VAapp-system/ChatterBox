@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "what is class in java",
+        "res": "all java codes defined in class and a class has variables and methods\nall java codes defined in class and a class has variables and methods",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "what is class in java"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What is variable",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

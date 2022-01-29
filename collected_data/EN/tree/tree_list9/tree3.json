@@ -1,0 +1,38 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "Try to drink water which are stored in copper vessel According to Ayurveda, water stored in a copper vessel has the ability to balance all the three doshas in your body, (vata, kapha and pitta) and it does so by positively charging the water. Storing water in a copper vessel works as a purification process. It can kill all the microorganisms like molds, fungi, algae and bacteria, present in the water that could be harmful for the body. It also helps maintain body’s pH (acid-alkaline) balance. Do you want to know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "YESNO": {
+                "1": {
+                    "req": "Yes",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "No",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 2
+    }
+}

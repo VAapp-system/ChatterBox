@@ -1,0 +1,103 @@
+{
+    "3": {
+        "req": "whether you are happy",
+        "res": "You can listen to Senorita song",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "whether you are happy"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "whether you are happy",
+        "res": "You can listen to Senorita song",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "whether you are happy"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "sad",
+        "res": "You can listen to Tum Ho song from the movie Rockstar",
+        "QType": "I&SC_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "sad"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "I want to know Music Mood Advisor.",
+        "res": "Welcome to music mood advisor. You can ask in what mood you are,like whether you are happy or sad.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "I want to know Music Mood Advisor."
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "whether you are happy",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "sad",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Music Mood Advisor.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

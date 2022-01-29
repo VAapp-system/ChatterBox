@@ -1,0 +1,118 @@
+{
+    "response": "Welcome back to Headspace. You can do today's meditation, a sleep exercise, or unlock more meditations. Which would you like?",
+    "expectUserResponse": true,
+    "conversationToken": "EooES201bk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Welcome back to Headspace. You can do today's meditation, a sleep exercise, or unlock more meditations. Which would you like?"
+                }
+            },
+            {
+                "carouselSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "today",
+                                "synonymsList": [
+                                    "today"
+                                ]
+                            },
+                            "title": "Today's meditation",
+                            "description": "",
+                            "image": {
+                                "url": "https://hs-staging-content.imgix.net/edhs-header__1504048708974.ai?crop=entropy&fit=crop&fm=png32&fs=png&h=512&ixlib=js-1.0.5&s=1c53561e706964200b5070d4ad42e582&w=928",
+                                "accessibilityText": "today",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "sleep-exercise",
+                                "synonymsList": [
+                                    "sleep exercise"
+                                ]
+                            },
+                            "title": "Sleep exercise",
+                            "description": "",
+                            "image": {
+                                "url": "https://hs-staging-content.imgix.net/singles_sleeping_header__1488513500062.ai?crop=entropy&fit=crop&fm=png32&fs=png&h=512&ixlib=js-1.0.5&s=d46d1fe6110c8513d519cb74f45a1559&w=928",
+                                "accessibilityText": "sleep exercise",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Today's meditation"
+            },
+            {
+                "title": "Sleep exercise"
+            },
+            {
+                "title": "Unlock more meditations"
+            },
+            {
+                "title": "Connect my account"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/3cCG_UDjnl6pwgjBARfpgyHQ_4Z06qugV1rNSCJy9oxYBMpLylwAmsUSZuqWrDQYUsDiRvMe2aWp",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Today's meditation",
+                    "Sleep exercise",
+                    "Unlock more meditations",
+                    "Connect my account"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Headspace",
+    "servingModelOutdated": false,
+    "request": "Talk to Headspace"
+}

@@ -1,0 +1,83 @@
+{
+    "2": {
+        "req": "Talk to MML Therapy",
+        "res": "OK. Getting MML Therapy.MML Physical therapy’s focus is to identify and maximize quality of life and movement potential within the spheres of prevention, treatment/intervention and rehabilitation.\nThis encompasses physical, psychological, emotional, and social well being. Physical therapy involves the interaction between physical therapist (PT), patients, other health professionals, families, care givers, and communities in a process where movement potential is assessed and goals are agreed upon, using knowledge and skills unique to physical therapists.\nWe have been serving the Las Vegas valley since 1992 and we are one of the only privately owned physical therapy practices in town. We have four locations to serve you. Would you like to learn more about our locations, president/owner, services, or first visit?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to MML Therapy"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "our locations",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "president / owner",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "services",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "first visit",
+                    "string_ID": 6,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know MML Therapy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know MML Physical Therapy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know Las Vegas.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

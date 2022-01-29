@@ -1,0 +1,110 @@
+{
+    "response": "岩石を使って、オンボロのドリルを、岩石のドリルにアップグレードしました！これでもっと多くの種類の鉱物を採掘できますよ。\nじゃあ、次はドリルのエンジンもアップグレードしましょう。\nエンジンをアップグレードする、と言ってみて下さい。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "//NExAAPSH...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "岩石を使って、オンボロのドリルを、岩石のドリルにアップグレードしました！これでもっと多くの種類の鉱物を採掘できますよ。  \nじゃあ、次はドリルのエンジンもアップグレードしましょう。  \nエンジンをアップグレードする、と言ってみて下さい。"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "columnPropertiesList": [
+                        {
+                            "header": "",
+                            "horizontalAlignment": 0
+                        },
+                        {
+                            "header": "新",
+                            "horizontalAlignment": 0
+                        },
+                        {
+                            "header": "旧",
+                            "horizontalAlignment": 0
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "名前"
+                                },
+                                {
+                                    "text": "岩石のドリル"
+                                },
+                                {
+                                    "text": "オンボロのドリル"
+                                }
+                            ],
+                            "dividerAfter": true
+                        },
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "採掘できる鉱物"
+                                },
+                                {
+                                    "text": "2 種類"
+                                },
+                                {
+                                    "text": "1 種類"
+                                }
+                            ],
+                            "dividerAfter": true
+                        }
+                    ],
+                    "buttonsList": []
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "エンジンをアップグレード"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/PeUdH9tPQps3Y5DPzj-W68ZOeJUebk4d_wHDw1Atp6ojrUOYtfvZPLDi1rc0H79RfmqqB0oMtr3F9Q",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "エンジンをアップグレード"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ドワーフのトンネル",
+    "servingModelOutdated": false,
+    "request": "ドリルをアップグレード"
+}

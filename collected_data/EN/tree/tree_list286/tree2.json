@@ -1,0 +1,49 @@
+{
+    "2": {
+        "req": "Talk to Touch India",
+        "res": "OK. Let's get Touch India.Welcome to Touch India Which fact do you want to hear about, India's history or it's culture?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Touch India"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "Welcome to Touch India Which fact do you want to hear about , India 's history",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "it 's culture",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know India.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

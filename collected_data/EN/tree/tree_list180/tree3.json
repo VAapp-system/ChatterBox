@@ -1,0 +1,29 @@
+{
+    "3": {
+        "req": "cancel",
+        "res": "It looks like your Starfish Me account is not linked yet. You can link Starfish Me to your Google Account from the Google Home app.",
+        "QType": "NOT_END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

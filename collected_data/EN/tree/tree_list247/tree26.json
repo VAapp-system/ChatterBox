@@ -1,0 +1,45 @@
+{
+    "28": {
+        "req": "Tell me a fact",
+        "res": "Electrical activity is detectablein a human brain up to 37 hours after death, possibly caused by chemical reactions.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 28,
+        "req_list": [
+            "Tell me a fact"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Cool",
+                    "visit": false,
+                    "child": [
+                        29
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Not Cool",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "More Facts",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 27
+    }
+}

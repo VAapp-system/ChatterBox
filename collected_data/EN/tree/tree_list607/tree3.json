@@ -1,0 +1,40 @@
+{
+    "3": {
+        "req": "I want to know Ameniti.",
+        "res": "Refined rooms have flat-screen TVs and Wi-Fi for a fee. There's a ritzy restaurant, and a plush cafe and bar, in addition to a fitness center with instructors and daily classes. Parking is available for a fee.",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "I want to know Ameniti."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Ameniti.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Sheraton New York Times Square.",
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

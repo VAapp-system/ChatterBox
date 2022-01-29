@@ -1,0 +1,71 @@
+{
+    "3": {
+        "req": "roll a dice",
+        "res": "Six",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "roll a dice"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "roll a dice",
+        "res": "Six",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "roll a dice"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "I want to know Kd Dice.",
+        "res": "FIve",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "I want to know Kd Dice."
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "I want to know Google Action.",
+        "res": "Sorry, could you say that again?",
+        "QType": "OTHER",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "I want to know Google Action."
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "ヤマト運輸につないで",
+        "res": "わかりました。 ヤマト運輸です。ヤマト運輸 とリンクしていません。Google Home アプリからヤマト運輸 と Google アカウントをリンクできます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "ヤマト運輸につないで"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

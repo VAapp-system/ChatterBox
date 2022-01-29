@@ -1,0 +1,37 @@
+{
+    "3": {
+        "req": "I want to know Pantherchat.",
+        "res": "Please go ahead",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "I want to know Pantherchat."
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Pantherchat.",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know XIME.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

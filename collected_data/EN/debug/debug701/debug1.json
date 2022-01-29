@@ -1,0 +1,86 @@
+{
+    "response": "OK. Let's get Boston Red Sox.Welcome! I am a bot that can answer questions about concessions, in-park amenities, and general FAQs in a one at a time format. If you would like to speak with a Fan Services representative please type Live Chat. How can I help?",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2s1ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get Boston Red Sox."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome! I am a bot that can answer questions about concessions, in-park amenities, and general FAQs in a one at a time format. If you would like to speak with a Fan Services representative please type Live Chat. How can I help?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Knowledge Tutorial"
+            },
+            {
+                "title": "Stats"
+            },
+            {
+                "title": "Scores"
+            },
+            {
+                "title": "Schedule"
+            },
+            {
+                "title": "Purchase Tickets"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/YmxLfMhkIuEaMQ-wexp26pFilKxsTvKkTBBnhfwGE_IrKkW1Z_wM0PwC9eEZK5W3jMw9iOyQq79r",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Knowledge Tutorial",
+                    "Stats",
+                    "Scores",
+                    "Schedule",
+                    "Purchase Tickets"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Boston Red Sox",
+    "servingModelOutdated": false,
+    "request": "Talk to Boston Red Sox"
+}

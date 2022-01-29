@@ -1,0 +1,91 @@
+{
+    "response": "Alright. Getting ieee Event Helper.Hello! How can I help you?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting IEEE Event Helper."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello! How can I help you?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Register Me"
+            },
+            {
+                "title": "Deadline"
+            },
+            {
+                "title": "Contact Us"
+            },
+            {
+                "title": "Tracks"
+            },
+            {
+                "title": "Event Venue"
+            },
+            {
+                "title": "Website"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/i7bldKzwaXb_kZUk6utP8sLSgyZ9BCv-nNzdswoPjX4PgtBSX-fXgT0yJnD_gocgk9stbJ4HdDct",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 16,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/UURWVPETIwmZFtFulEH64uFNVWq7GvXBgYXfwfAcePWJ0qBxCrhK8qFR5Ul_FTY_7hyELHPZNoG9"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Register Me",
+                    "Deadline",
+                    "Contact Us",
+                    "Tracks",
+                    "Event Venue",
+                    "Website"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ieee Event Helper",
+    "servingModelOutdated": false,
+    "request": "Talk to IEEE Event Helper"
+}

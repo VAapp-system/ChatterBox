@@ -1,0 +1,41 @@
+{
+    "3": {
+        "req": "what is R programming language",
+        "res": "The R programming language is used for data analysis, data manipulation, graphics, statistical computing and statistical analysis. In short, R helps you analyze data sets beyond basic Excel file analysis. say \"Facts\" to know about exciting facts about R programming language. What are you waiting for?",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "what is R programming language"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Facts",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "R programmer",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

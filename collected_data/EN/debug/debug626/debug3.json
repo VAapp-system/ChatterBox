@@ -1,0 +1,79 @@
+{
+    "response": "Alright. Getting Fun Cincinnati.Welcome to Fun Cincinnati! Here you can learn about all the fun attractions, great food, and exciting events Cincinnati has to offer.\nHungry? Let me know what you're craving, or play Restaurant Roulette if you aren't sure. To learn about our attractions, say \"attractions\". Finally, if you're here on a layover, tell me how long your layover is and I'll give you some fun things to do in our city while you wait!",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Fun Cincinnati."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Fun Cincinnati! Here you can learn about all the fun attractions, great food, and exciting events Cincinnati has to offer."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hungry? Let me know what you're craving, or play Restaurant Roulette if you aren't sure. To learn about our attractions, say \"attractions\". Finally, if you're here on a layover, tell me how long your layover is and I'll give you some fun things to do in our city while you wait!"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Attractions"
+            },
+            {
+                "title": "Restaurant Roulette"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/WOiNvrtDhY8K7TIqr3l73pgxVyZMbH1VUOyxbLC6BnYwvTkJ7cmSbTdYlpXfMb77Tr_UjOKFGX0",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Attractions",
+                    "Restaurant Roulette"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Fun Cincinnati",
+    "servingModelOutdated": false,
+    "request": "Talk to Fun Cincinnati"
+}

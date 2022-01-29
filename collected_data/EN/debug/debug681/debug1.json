@@ -1,0 +1,94 @@
+{
+    "response": "OK. Here's Northern Territory Surf Report.Hello dudes and dudettes! Welcome to the Northern Territory Voice Surf Report. Please select the location you want to surf by saying South East Gulf Of Carpentaria, Roper Groote Coast, Gove Peninsula Coast, Arafura Coast, North Tiwi Coast, Van Diemen Gulf, Beagle Bonaparte Gulf or North Kimberley Coast then wait a few seconds while we have a look at the surf conditions for you.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Northern Territory Surf Report."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello dudes and dudettes! Welcome to the Northern Territory Voice Surf Report. Please select the location you want to surf by saying South East Gulf Of Carpentaria, Roper Groote Coast, Gove Peninsula Coast, Arafura Coast, North Tiwi Coast, Van Diemen Gulf, Beagle Bonaparte Gulf or North Kimberley Coast then wait a few seconds while we have a look at the surf conditions for you. "
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Roper Groote Coast"
+            },
+            {
+                "title": "Gove Peninsula Coast"
+            },
+            {
+                "title": "Arafura Coast"
+            },
+            {
+                "title": "North Tiwi Coast"
+            },
+            {
+                "title": "Van Diemen Gulf"
+            },
+            {
+                "title": "Beagle Bonaparte Gulf"
+            },
+            {
+                "title": "North Kimberley Coast"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/rzwtAMioUjBkJtK9NVrpFhTZd4T7zwLFwPLC5PcKWU8dty40R0cCnjW_df8CXh_mRaJSdBz34RJ8Wg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Roper Groote Coast",
+                    "Gove Peninsula Coast",
+                    "Arafura Coast",
+                    "North Tiwi Coast",
+                    "Van Diemen Gulf",
+                    "Beagle Bonaparte Gulf",
+                    "North Kimberley Coast"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Northern Territory Surf Report",
+    "servingModelOutdated": false,
+    "request": "Talk to Northern Territory Surf Report"
+}

@@ -1,0 +1,30 @@
+{
+    "10": {
+        "req": "Yes",
+        "res": "This battle, like many others fought by the Sikhs, highlights the heroic action by a small detachment of Sikh soldiers against heavy odds. This encounter took place on 12 September 1897 in the Tirah region of North-West Frontier Province (now in Pakistan, which then formed part of British India). In keeping with the tradition of the Sikh Army, they fought to the death rather than surrender.\nWanna know more?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Saragarhi Fort Facts.",
+                    "visit": false,
+                    "child": [
+                        11
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    }
+}

@@ -1,0 +1,349 @@
+{
+    "response": "はい。 Beat The Introです。今回あなたは初めてプレイされたので、リーダーボード用の名前をご用意しました。あなたの名前は パーフェクトで 役に立つ ラビットです。 3つのカテゴリを選んでください。選択肢は以下の通りです。\nどちらを選びますか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 1,
+            "markName": "LoadCategoriesScreen",
+            "timeSeconds": 42.87974929555257
+        },
+        {
+            "timepointType": 3,
+            "markName": "ShowCategories",
+            "timeSeconds": 48.1315
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "はい。Beat The Introです。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://beat-the-intro-53649.web.app/",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "categories",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "locales",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "en-GB"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "en-US"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "ja-JP"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "musicPack",
+                                                                            {
+                                                                                "stringValue": "INTROS"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "name",
+                                                                            {
+                                                                                "stringValue": "イントロ"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "synonyms",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "classic intros"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "locales",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "en-GB"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "en-US"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "ja-JP"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "musicPack",
+                                                                            {
+                                                                                "stringValue": "MUSICALS"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "name",
+                                                                            {
+                                                                                "stringValue": "ミュージカル"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "synonyms",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "musicals"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "showtunes"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "broadway"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "locales",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "en-GB"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "en-US"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "ja-JP"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "musicPack",
+                                                                            {
+                                                                                "stringValue": "OSCARS"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "name",
+                                                                            {
+                                                                                "stringValue": "アカデミー賞"
+                                                                            }
+                                                                        ],
+                                                                        [
+                                                                            "synonyms",
+                                                                            {
+                                                                                "listValue": {
+                                                                                    "valuesList": [
+                                                                                        {
+                                                                                            "stringValue": "oscars"
+                                                                                        },
+                                                                                        {
+                                                                                            "stringValue": "red carpet"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "STORE_CATEGORIES"
+                                                }
+                                            ],
+                                            [
+                                                "gameText",
+                                                {
+                                                    "structValue": {
+                                                        "fieldsMap": [
+                                                            [
+                                                                "Artist",
+                                                                {
+                                                                    "stringValue": "アーティスト"
+                                                                }
+                                                            ],
+                                                            [
+                                                                "Category",
+                                                                {
+                                                                    "stringValue": "カテゴリを選択してください…"
+                                                                }
+                                                            ],
+                                                            [
+                                                                "Draw",
+                                                                {
+                                                                    "stringValue": "引き分けでした！"
+                                                                }
+                                                            ],
+                                                            [
+                                                                "EndGame",
+                                                                {
+                                                                    "stringValue": "勝者は…"
+                                                                }
+                                                            ],
+                                                            [
+                                                                "Game",
+                                                                {
+                                                                    "structValue": {
+                                                                        "fieldsMap": [
+                                                                            [
+                                                                                "Answering",
+                                                                                {
+                                                                                    "stringValue": "「OK Google」と呼びかけてから、 答えを言ってください。"
+                                                                                }
+                                                                            ],
+                                                                            [
+                                                                                "FindingOpponent",
+                                                                                {
+                                                                                    "stringValue": "対戦相手を探しています…"
+                                                                                }
+                                                                            ],
+                                                                            [
+                                                                                "SongWas",
+                                                                                {
+                                                                                    "stringValue": "曲名は…"
+                                                                                }
+                                                                            ]
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ],
+                                                            [
+                                                                "Repeat",
+                                                                {
+                                                                    "stringValue": "曲をもう一度聴くには、「リピート」と呼びかけてください！ "
+                                                                }
+                                                            ],
+                                                            [
+                                                                "Shuffle",
+                                                                {
+                                                                    "stringValue": "シャッフル"
+                                                                }
+                                                            ],
+                                                            [
+                                                                "SongTitle",
+                                                                {
+                                                                    "stringValue": "曲名"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/9EqibKQGAi_mYyKdpewV006IXTjivw9oPbHGK6VnmVHcth-SWHnuW-2AQ-LIUnN9QfetN6L9szF7",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://beat-the-intro-53649.web.app/",
+                "updatedStateJson": "[{\"gameText\":{\"Repeat\":\"曲をもう一度聴くには、「リピート」と呼びかけてください！ \",\"Game\":{\"FindingOpponent\":\"対戦相手を探しています…\",\"SongWas\":\"曲名は…\",\"Answering\":\"「OK Google」と呼びかけてから、 答えを言ってください。\"},\"Shuffle\":\"シャッフル\",\"SongTitle\":\"曲名\",\"Category\":\"カテゴリを選択してください…\",\"EndGame\":\"勝者は…\",\"Draw\":\"引き分けでした！\",\"Artist\":\"アーティスト\"},\"categories\":[{\"musicPack\":\"INTROS\",\"synonyms\":[\"classic intros\"],\"name\":\"イントロ\",\"locales\":[\"en-GB\",\"en-US\",\"ja-JP\"]},{\"synonyms\":[\"musicals\",\"showtunes\",\"broadway\"],\"name\":\"ミュージカル\",\"musicPack\":\"MUSICALS\",\"locales\":[\"en-GB\",\"en-US\",\"ja-JP\"]},{\"musicPack\":\"OSCARS\",\"name\":\"アカデミー賞\",\"synonyms\":[\"oscars\",\"red carpet\"],\"locales\":[\"en-GB\",\"en-US\",\"ja-JP\"]}],\"command\":\"STORE_CATEGORIES\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"userId\":\"173091b2-5315-4712-85ff-c5b32ce73865\",\"nickName\":\"パーフェクトで 役に立つ ラビット\",\"totalScore\":0.0}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Beat The Intro",
+    "servingModelOutdated": false,
+    "request": "Beat The Introと話す"
+}

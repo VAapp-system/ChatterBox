@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to black moon",
+        "res": "Alright. Getting black moon.You can ask me your future.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to black moon"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your future",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

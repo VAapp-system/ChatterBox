@@ -1,0 +1,103 @@
+{
+    "response": "The\nработа\nis Job.\nработа\n.Job\nThe next picture depicts, first\nСтенной шкаф\n, second\nМагазин\nand third\nКомната\nWhat words should I translate?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "The работа is Job. работа. Job"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "**1. Стенной шкаф** | **2. Магазин** | **3. Комната** | **4. Гардероб** | **5. Вешалка для одежды** | **6. мода** | **7. Аутлет** | **8. Розничная торговля** | **9. текстильный** | **10. Мебель**",
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE1MDAyOX0",
+                        "accessibilityText": "",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 2
+                }
+            },
+            {
+                "displayText": {
+                    "content": "The next picture depicts, first Стенной шкаф, second Магазин and third Комната What words should I translate?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Стенной шкаф"
+            },
+            {
+                "title": "Магазин"
+            },
+            {
+                "title": "Комната"
+            },
+            {
+                "title": "Гардероб"
+            },
+            {
+                "title": "Вешалка для одежды"
+            },
+            {
+                "title": "мода"
+            },
+            {
+                "title": "Аутлет"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/JM5JnQQL_X4kJfJbYM0DRDVr3wLfOa2vjB78-5EOvE4TmdNf6nvf50_7iidscSI4nsV3JgZxhafgnA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Стенной шкаф",
+                    "Магазин",
+                    "Комната",
+                    "Гардероб",
+                    "Вешалка для одежды",
+                    "мода",
+                    "Аутлет"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Russian with Pictures",
+    "servingModelOutdated": false,
+    "request": "работа"
+}

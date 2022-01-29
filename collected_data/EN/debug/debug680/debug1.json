@@ -1,0 +1,62 @@
+{
+    "response": "OK. Getting tide times.Welcome to Tide Times! I can tell you about what tides are, or whether it's high tide, low tide or anywhere inbetween. I can also tell you exactly when the next high or low tide is today or another day in the near future. To give you information in the correct time zone and to set a default place to give you tide information for, I'll just need to get your current location from Google. Is that okay?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting Tide Times."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Tide Times! I can tell you about what tides are, or whether it's high tide, low tide or anywhere inbetween. I can also tell you exactly when the next high or low tide is today or another day in the near future. To give you information in the correct time zone and to set a default place to give you tide information for, I'll just need to get your current location from Google. Is that okay?"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/swugsPFWNmx2tKaBDW9C4vKWApBvniEhoTiYQyH8-CshvUqz6po7QqfbqLLNPeA0uIKNEoOhDxHE"
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "tide times",
+    "servingModelOutdated": false,
+    "request": "Talk to Tide Times"
+}

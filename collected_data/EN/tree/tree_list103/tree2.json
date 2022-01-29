@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Lucky Teller",
+        "res": "OK. Getting Lucky Teller.Welcome to Lucky Teller! This action will give you lucky number by asking your favorite color. What is your favorite color?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Lucky Teller"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favorite color",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

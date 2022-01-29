@@ -1,0 +1,183 @@
+{
+    "response": "あなたの解答は「{50)」でした。\n不正解です。正解は「フロリダ」です。 （問題2） この州の名前は何ですか？",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wk...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "app_id",
+                                                {
+                                                    "numberValue": 27
+                                                }
+                                            ],
+                                            [
+                                                "chosenRegion",
+                                                {
+                                                    "stringValue": "ALL"
+                                                }
+                                            ],
+                                            [
+                                                "content",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "correctAnswer",
+                                                {
+                                                    "stringValue": "フロリダ"
+                                                }
+                                            ],
+                                            [
+                                                "difficulty",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "hintWord",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageSilhouetteUrl",
+                                                {
+                                                    "stringValue": ""
+                                                }
+                                            ],
+                                            [
+                                                "imageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names/OK.png"
+                                                }
+                                            ],
+                                            [
+                                                "locale",
+                                                {
+                                                    "stringValue": "ja-JP"
+                                                }
+                                            ],
+                                            [
+                                                "number_of_questions",
+                                                {
+                                                    "numberValue": 50
+                                                }
+                                            ],
+                                            [
+                                                "order",
+                                                {
+                                                    "numberValue": 1
+                                                }
+                                            ],
+                                            [
+                                                "postContent",
+                                                {
+                                                    "stringValue": "<sub alias=\"次に進みます。\"></sub><break time=\"2000ms\"/>（問題2）<break time=\"500ms\"/><br/>この州の名前は何ですか？"
+                                                }
+                                            ],
+                                            [
+                                                "preContent",
+                                                {
+                                                    "stringValue": "あなたの解答は「{50)」でした。<break time=\"500ms\"/><audio src=\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\"><desc></desc></audio>不正解です。正解は「フロリダ」です。<br/>"
+                                                }
+                                            ],
+                                            [
+                                                "preImageUrl",
+                                                {
+                                                    "stringValue": "https://www.voice-ui.work/images/state_names/ALL.png"
+                                                }
+                                            ],
+                                            [
+                                                "results",
+                                                {
+                                                    "stringValue": "0"
+                                                }
+                                            ],
+                                            [
+                                                "scene",
+                                                {
+                                                    "stringValue": "answer"
+                                                }
+                                            ],
+                                            [
+                                                "total_score",
+                                                {
+                                                    "numberValue": 0
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ne73qU1dMlvP2ndx3PuN7HVQvl5ZFYdYQBpwTxATXafcKHC63Jlvp0Bh6e7A4e_oShUdUjz53tQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/state_names",
+                "updatedStateJson": "[{\"hintWord\":\"\",\"difficulty\":\"\",\"preContent\":\"あなたの解答は「{50)」でした。\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003caudio src=\\\"https://www.voice-ui.work/music/freeSE/Quiz-Wrong_Buzzer01-1.mp3\\\"\\u003e\\u003cdesc\\u003e\\u003c/desc\\u003e\\u003c/audio\\u003e不正解です。正解は「フロリダ」です。\\u003cbr/\\u003e\",\"number_of_questions\":50,\"imageSilhouetteUrl\":\"\",\"total_score\":0,\"postContent\":\"\\u003csub alias=\\\"次に進みます。\\\"\\u003e\\u003c/sub\\u003e\\u003cbreak time=\\\"2000ms\\\"/\\u003e（問題2）\\u003cbreak time=\\\"500ms\\\"/\\u003e\\u003cbr/\\u003eこの州の名前は何ですか？\",\"results\":\"0\",\"order\":1,\"imageUrl\":\"https://www.voice-ui.work/images/state_names/OK.png\",\"locale\":\"ja-JP\",\"correctAnswer\":\"フロリダ\",\"content\":\"\",\"chosenRegion\":\"ALL\",\"scene\":\"answer\",\"preImageUrl\":\"https://www.voice-ui.work/images/state_names/ALL.png\",\"app_id\":27}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"tokenPayload\":{\"iss\":\"https://accounts.google.com\",\"picture\":\"https://lh3.googleusercontent.com/a/AATXAJx7uSKSYKwxuXfL1AarmP5LAIlhnI7cadoVFHas=s96-c\",\"iat\":1.625705314E9,\"name\":\"Logue Dia\",\"sub\":\"116039277228415351579\",\"jti\":\"233c9bfe68aa718920a7fad0a12e4dc2c38b5800\",\"aud\":\"256611444361-25f0f3h9ened9np3hj6khar5n3igbvo6.apps.googleusercontent.com\",\"given_name\":\"Logue\",\"email_verified\":true,\"nbf\":1.625705014E9,\"family_name\":\"Dia\",\"exp\":1.625708914E9,\"email\":\"XXX@example.com\"}}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "アメリカの州の名前",
+    "servingModelOutdated": false,
+    "request": "{50州)"
+}

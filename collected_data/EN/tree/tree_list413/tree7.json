@@ -1,0 +1,29 @@
+{
+    "7": {
+        "req": "favorite movie?",
+        "res": "Inception",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "favorite movie?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "your hobbies?",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

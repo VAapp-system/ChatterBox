@@ -1,0 +1,51 @@
+{
+    "69": {
+        "req": "Attractions",
+        "res": "The Boat Yard Gallery. At the beautiful old boat yard by the coast, at Greystones harbour, the Boat Yard Gallery showcases art and designs from local artists in a 200 year old stone building. Landscape Photography Gallery, Art Gallery, Handmade Jewellery Workshop, Picture... Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 69,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [
+                        70
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Greystones.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 68
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "110": {
+        "req": "Future Ear Roundtable",
+        "res": "The Future Ear Round Table.",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 110,
+        "req_list": [
+            "Future Ear Roundtable"
+        ],
+        "candidates": {
+            "EXAMPLE": {
+                "1": {
+                    "req": "Future Ear Roundtable",
+                    "visit": true,
+                    "child": [
+                        111
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know The Future Ear Roundtable.",
+                    "visit": true,
+                    "child": [
+                        112
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Dave.",
+                    "visit": true,
+                    "child": [
+                        113
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know the Castlingo App.",
+                    "visit": true,
+                    "child": [
+                        114
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "I want to know Appstore.",
+                    "visit": true,
+                    "child": [
+                        115
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "I want to know Google Play.",
+                    "visit": false,
+                    "child": [
+                        116
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "I want to know the \"Future Ear Roundtable\".",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "7": {
+                    "req": "I want to know Google.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "8": {
+                    "req": "I want to know Buildlingo.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "9": {
+                    "req": "I want to know Witlingo.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 109
+    }
+}

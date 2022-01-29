@@ -1,0 +1,37 @@
+{
+    "8": {
+        "req": "I want to know Smaran.",
+        "res": "Dumbledore is an Old English word for “bumblebee.” Rowling said she chose the name because she pictured Dumbledore humming to himself\nDo you want to listen to another fact or exit ?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "I want to know Smaran."
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Smaran.",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Harry Potter.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

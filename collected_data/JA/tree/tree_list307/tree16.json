@@ -1,0 +1,48 @@
+{
+    "17": {
+        "req": "はい",
+        "res": "人生は一冊の書物に似ている。\n馬鹿者たちはそれはパラパラとめくっているが、\n賢い人間はそれを念入りに読む。\nなぜなら、彼はただ一度しか\nそれを読むことが出来ないのを知っているから。　さらに聞きたい場合ははいと言って下さい。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 17,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "はい",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "はいを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "名言を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 16
+    }
+}

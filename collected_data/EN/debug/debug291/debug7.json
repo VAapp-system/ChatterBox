@@ -1,0 +1,110 @@
+{
+    "response": "Information about Venus",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wm...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Information about Venus"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Venus",
+                    "subtitle": "",
+                    "formattedText": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and, rarely, is visible to the naked eye in broad daylight.",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/planets-8cbb1.appspot.com/o/planet-images-logo%2Fvenus.jpg?alt=media&token=a008bd8c-2328-4b62-a122-4df7029b080b",
+                        "accessibilityText": "accessibility text",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Read More on Wikipedia",
+                            "openUrlAction": {
+                                "url": "https://en.wikipedia.org/wiki/Venus",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Mercury"
+            },
+            {
+                "title": "Earth"
+            },
+            {
+                "title": "Mars"
+            },
+            {
+                "title": "Jupiter"
+            },
+            {
+                "title": "Saturn"
+            },
+            {
+                "title": "Uranus"
+            },
+            {
+                "title": "Neptune"
+            },
+            {
+                "title": "Home"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/cS9L2o86Fl0fKE067w8HF7OHp4t-6pplkUcmC2cJ3cRJ6d-U5DtXIrbLo8y3fOtnmmfVe8HKhdot",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Mercury",
+                    "Earth",
+                    "Mars",
+                    "Jupiter",
+                    "Saturn",
+                    "Uranus",
+                    "Neptune",
+                    "Home"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My planet system",
+    "servingModelOutdated": false,
+    "request": "Venus"
+}

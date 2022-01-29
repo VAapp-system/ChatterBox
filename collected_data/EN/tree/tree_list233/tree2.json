@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to Saragarhi Fort Facts",
+        "res": "OK. Let's get Saragarhi Fort Facts.Hi I can tell you random facts about Saragarhi Fort\nWanna know ?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Saragarhi Fort Facts"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Saragarhi Fort Facts.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

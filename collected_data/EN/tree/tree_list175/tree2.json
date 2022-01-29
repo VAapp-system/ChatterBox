@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Ask The Auto bot to Talk to Auto Bot",
+        "res": "Alright. Getting The Auto bot.Sorry, The Auto bot isn't supported on this device.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Ask The Auto bot to Talk to Auto Bot"
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

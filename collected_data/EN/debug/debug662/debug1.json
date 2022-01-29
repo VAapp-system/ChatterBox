@@ -1,0 +1,90 @@
+{
+    "response": "OK. Getting daily reflection.Hi, great to see you. This is time for your daily reflection! Are you ready?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting daily reflection."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi, great to see you. This is time for your daily reflection! Are you ready?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "Daily Check In",
+                    "subtitle": "",
+                    "formattedText": "Duration: 2 minutes",
+                    "image": {
+                        "url": "https://i.ibb.co/42mb17C/Chatbot.png",
+                        "accessibilityText": "",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes!"
+            },
+            {
+                "title": "No, will do it later"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/IptmV1AX_4Y82jGk2bTD2CFWD2g-5ryKrCh4hQbr5qxpqBPCNg2qukdEgToV4Yn9t1P7H2yrgTvM",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes!",
+                    "No, will do it later"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "daily reflection",
+    "servingModelOutdated": false,
+    "request": "Talk to daily reflection"
+}

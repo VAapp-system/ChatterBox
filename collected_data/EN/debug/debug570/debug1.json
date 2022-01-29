@@ -1,0 +1,134 @@
+{
+    "response": "Alright. Here's Askey Corporation.Welcome to Askey Corporation.\nPlease refer to the below list and say a category name for more information.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's Askey Corporation."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to Askey Corporation. \nPlease refer to the below list and say a category name for more information."
+                }
+            },
+            {
+                "listSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "about us",
+                                "synonymsList": []
+                            },
+                            "title": "About us",
+                            "description": "Information about us"
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "product",
+                                "synonymsList": []
+                            },
+                            "title": "Product",
+                            "description": "Our products"
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "news",
+                                "synonymsList": []
+                            },
+                            "title": "News",
+                            "description": "Our news and events"
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "contact",
+                                "synonymsList": []
+                            },
+                            "title": "Contact",
+                            "description": "Out contract information"
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "customer service",
+                                "synonymsList": []
+                            },
+                            "title": "Customer Service",
+                            "description": "What can I do for you?"
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About us"
+            },
+            {
+                "title": "Product"
+            },
+            {
+                "title": "News"
+            },
+            {
+                "title": "Contact"
+            },
+            {
+                "title": "Customer Service"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/D5-N4I3btEB6i6rzo3Mph7WSb5lsJUOxmoDSTE33FETjCJEDvnKpocKyy1MR3GxnDm4vJdkNrKUa",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About us",
+                    "Product",
+                    "News",
+                    "Contact",
+                    "Customer Service"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Askey Corporation",
+    "servingModelOutdated": false,
+    "request": "Talk to Askey Corporation"
+}

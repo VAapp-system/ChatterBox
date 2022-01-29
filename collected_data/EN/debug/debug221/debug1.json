@@ -1,0 +1,79 @@
+{
+    "response": "OK. Here's PEP Tutor.Hi! Welcome to PEP Tutor. Which subject would you like to practice?",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Rk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's PEP Tutor."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi! Welcome to PEP Tutor. Which subject would you like to practice?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Language Arts"
+            },
+            {
+                "title": "Mathematics"
+            },
+            {
+                "title": "Science"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ybiGNI3oll5pTXqSNlOfVyngHuSj_-nw8Ls5Blrf_LfwUfkpxyvFvwfGKBlCK4McjIHhT8IuDz34Ww",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "sans-serif-medium",
+            "borderRadius": 16,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/8Q5kuBb8hv6xlEgFHfpRgGwNrNT8A1JNFj84obJBTfb-fL0UIbM26-Osc6PrukabSOrb2rEReKY"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Language Arts",
+                    "Mathematics",
+                    "Science"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "PEP Tutor",
+    "servingModelOutdated": false,
+    "request": "Ask PEP Tutor"
+}

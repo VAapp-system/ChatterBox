@@ -1,0 +1,82 @@
+{
+    "response": "Listen to Italo Sound Radio",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Vk...",
+    "audioResponse": "//NExAARkI...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Listen to Italo Sound Radio"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Italo Sound Radio",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/2f73ba5u6op2ptm/Italo%20Sound.png?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "http://stream.italosound.com:8000/italosound"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "7210162818559360052"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About us"
+            },
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ZRNL7z_OPrdeWGPu1h-VrIncm9BynM_JynLuGAxsXODDWoh_x41y6U2KQToDutAASy6G3EtMEucY",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About us",
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Italo Sound Radio",
+    "servingModelOutdated": false,
+    "request": "Play radio"
+}

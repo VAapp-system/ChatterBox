@@ -1,0 +1,63 @@
+{
+    "response": "Your avatar will be set as Minnesota. Is that OK? If not say, change avatar.",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Rk...",
+    "audioResponse": "//NExAAQ+H...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Your avatar will be set as Minnesota. Is that OK? If not say, change avatar."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "OK"
+            },
+            {
+                "title": "Change avatar"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ji-kg82g_e1s69Oe_qZJhAOd5RvhHSd5KBYcKCeJ9xsndAJYytHpavs7IN5BKg6KXK1-kcYUefX7",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "OK",
+                    "Change avatar"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "sounding board",
+    "servingModelOutdated": false,
+    "request": "Minnesota"
+}

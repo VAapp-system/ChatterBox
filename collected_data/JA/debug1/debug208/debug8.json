@@ -1,0 +1,90 @@
+{
+    "response": "和食ですね。 肉、魚、丼もの、どれがいいですか？",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "和食ですね。 肉、魚、丼もの、どれがいいですか？"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/example-9fd79.appspot.com/o/japan-1604865_640.jpg?alt=media&token=00d7ac91-7523-44d0-af36-724a63ced769",
+                        "accessibilityText": "和食",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "肉"
+            },
+            {
+                "title": "魚"
+            },
+            {
+                "title": "丼もの"
+            },
+            {
+                "title": "選び直す"
+            },
+            {
+                "title": "やっぱいい"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/AmizovCo0B6yitcVWj9fOXAj4swQJ4h8i1rJrtIBpEBFqV8e5lrbb36Izkno3__kSUoc6mD_ciYX",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "肉",
+                    "魚",
+                    "丼もの",
+                    "選び直す",
+                    "やっぱいい"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "トークロイドレミコ",
+    "servingModelOutdated": false,
+    "request": "和食"
+}

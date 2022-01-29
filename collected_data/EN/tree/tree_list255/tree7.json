@@ -1,0 +1,40 @@
+{
+    "7": {
+        "req": "procedure?",
+        "res": "Do B.Tech then M.Tech in information technology and then PhD in Networking.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "procedure?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "from where?",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know a Networking Scientist.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

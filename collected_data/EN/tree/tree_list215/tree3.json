@@ -1,0 +1,48 @@
+{
+    "3": {
+        "req": "Baby Gods name suggester",
+        "res": "Welcome to Baby Gods name suggester, where you can have an idea of God and Goddesses name. This is might help you decide a name for your baby.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Baby Gods name suggester"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "God list",
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Exit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "GODs or Goddesses",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "6": {
+        "req": "Flutter is owned by ?",
+        "res": "Google",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "Flutter is owned by ?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Flutter for desktop apps?",
+                    "visit": false,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "21": {
+        "req": "Alpha Thalassemia",
+        "res": "In people with the characteristic features of alpha thalassemia, a reduction in the amount of hemoglobin prevents enough oxygen from reaching the body's tissues. Affected individuals also have a shortage of red blood cells (anemia), which can cause pale skin, weakness, fatigue, and more serious complications.\nThere are two types of Alpha Thalassemia: 1. Hemoglobin Bart Hydrops Fetalis Syndrome, also called Hb Bart syndrome or alpha thalassemia major (severe form). 2. HbH disease. (milder form).",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 21,
+        "req_list": [
+            "Alpha Thalassemia"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Hb Bart Syndrome",
+                    "visit": false,
+                    "child": [
+                        22
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Alpha Thalassemia Major",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "HbH Disease",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "Causes",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "More Available Actions",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "syndrome",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "alpha",
+                    "string_ID": 3,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Thalassemia.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know InfoBot.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 20
+    }
+}

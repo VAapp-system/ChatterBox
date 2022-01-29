@@ -1,0 +1,29 @@
+{
+    "5": {
+        "req": "Correct Answer",
+        "res": "The correct answer is: I am going to pick my daughter at school at 6pm\nYour next sentence is: la moto",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Correct Answer"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know French.",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

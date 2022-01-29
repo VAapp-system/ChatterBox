@@ -1,0 +1,73 @@
+{
+    "2": {
+        "req": "Talk to Biggest Spectacle",
+        "res": "Alright. Let's get Biggest Spectacle.Hello, My name is Zahoor Ali Rangrez. I HAVE BROKE AND CREATED A UNIQUE AND MOST EXTRAORDINARY \"HANDCRAFTED SPECTACLE\" WHICH IS LARGEST IN WORLD. KINDLY INFORM IF YOU OR SOMEONE SIMILAR YOU KNOW WOULD BE INTERESTED TO MAKE SOMETHING LIKE THIS. You can search on youtube about this too.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Biggest Spectacle"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What's its size ?",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Who made it?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Record Breaking things",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "How did you made it?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {
+                "1": {
+                    "req": "YOU",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "SOMEONE SIMILAR",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

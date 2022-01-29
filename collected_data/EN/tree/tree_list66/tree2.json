@@ -1,0 +1,80 @@
+{
+    "2": {
+        "req": "Talk to Fortune Color",
+        "res": "Alright. Getting Fortune Color.Hey , Welcome to Fortune Color . This action will give you a lucky number by asking your favorite color. What is your favorite color?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Fortune Color"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favorite color",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Fortune Colour.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "Talk to Fortune Color",
+        "res": "Alright. Let's get Fortune Color.Hey , Welcome to Fortune Color . This action will give you a lucky number by asking your favorite color. What is your favorite color?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Talk to Fortune Color"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "your favorite color",
+                    "string_ID": 3,
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Fortune Colour.",
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

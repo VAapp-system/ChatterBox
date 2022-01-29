@@ -1,0 +1,57 @@
+{
+    "52": {
+        "req": "I want to know Edifi.",
+        "res": "If you're not sure what to do next try asking for help. If you want to leave just say stop. What would you like to do next?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 52,
+        "req_list": [
+            "I want to know Edifi."
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "help",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [
+                        53
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "stop",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Edifi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Christian.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 51
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Silent Mischief",
+        "res": "OK. Let's get Silent Mischief.Hello! I am Silent Mischief , ask me if u are alive.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Silent Mischief"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "if u are alive",
+                    "string_ID": 2,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

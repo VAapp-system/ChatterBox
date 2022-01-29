@@ -1,0 +1,90 @@
+{
+    "response": "We have one property for sale in Mawson. Would you like to receive information about this property to your email or continue searching?",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201Uk...",
+    "audioResponse": "//NExAARQk...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "We have one property for sale in Mawson.  Would you like to receive information about this property to your email or continue searching?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "1335m2 block with spectacular views in a dress circle location",
+                    "subtitle": "",
+                    "formattedText": "121 Shackleton Circuit, Mawson, ACT, 2607",
+                    "image": {
+                        "url": "https://bucket-api.domain.com.au/v1/bucket/image/2017106049_1_1_210630_083353-w1920-h1280",
+                        "accessibilityText": "1335m2 block with spectacular views in a dress circle location",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Learn more",
+                            "openUrlAction": {
+                                "url": "https://www.domain.com.au/121-shackleton-circuit-mawson-act-2607-2017106049",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Email"
+            },
+            {
+                "title": "Continue"
+            },
+            {
+                "title": "Bye"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/btDqM5qRnNDQSknJDra4ClVGfjyneyuSWLuxUBJfwu_2RlGBWEOVWC3qsjsgwVTy1wEVYVCBrWM",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Email",
+                    "Continue",
+                    "Bye"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Tim and Justine Burke Estate Agents",
+    "servingModelOutdated": false,
+    "request": "Mawson"
+}

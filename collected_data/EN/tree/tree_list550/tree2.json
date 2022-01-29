@@ -1,0 +1,41 @@
+{
+    "2": {
+        "req": "Talk to Delight Labs",
+        "res": "OK. Here's Delight Labs.Welcome to Delight! I am here to share what voice interfaces are and how they present opportunities for your business.\nTo get started, just say \"tell me more about voice interfaces\".",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Delight Labs"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Voice interfaces",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {
+                "1": {
+                    "req": "tell me more about voice interfaces \"",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 1
+    }
+}

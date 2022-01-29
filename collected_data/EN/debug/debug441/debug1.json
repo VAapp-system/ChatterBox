@@ -1,0 +1,93 @@
+{
+    "response": "Alright. Getting Neo Folk Radio.Listen to Neo Folk Radio",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting Neo Folk Radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Listen to Neo Folk Radio"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Neo Folk Radio",
+                                "description": "",
+                                "largeImage": {
+                                    "url": "https://www.dropbox.com/s/9umm9lu7fe376de/Neo%20Folk%20Radio.jpg?raw=1",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "http://stream.laut.fm/neofolk"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "7524996222938242036"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "About us"
+            },
+            {
+                "title": "Stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/vbPuQpU5PAGYOagle6VTDSD7mlczLFstBCo2LTAzarNm0GhNjPUJMrh2XI0GR1RIHNvELFxXjsDz",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "About us",
+                    "Stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Neo Folk Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to Neo Folk Radio"
+}

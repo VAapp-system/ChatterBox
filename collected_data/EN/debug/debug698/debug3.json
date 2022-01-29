@@ -1,0 +1,151 @@
+{
+    "response": "The stories in this bundle are Cosmic Conquest, League of Laughs, Portal of Doom, and Ultimate Weapon.Which story are you interested in?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAQqN...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://canvas.earplay.com/",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "CHOICE_SINGLE"
+                                                }
+                                            ],
+                                            [
+                                                "options",
+                                                {
+                                                    "listValue": {
+                                                        "valuesList": [
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "cosmic conquest"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the league of laughs"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the portal of doom"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "structValue": {
+                                                                    "fieldsMap": [
+                                                                        [
+                                                                            "query",
+                                                                            {
+                                                                                "stringValue": "the ultimate weapon"
+                                                                            }
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            [
+                                                "url",
+                                                {
+                                                    "stringValue": "https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_menucard.jpg"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/grhpXo50UTs4f6hW64YuXOWSAnb3g0QMKiotNw0kKlVOCLw8nwaH7_KBQtZueHocWcwA6qJ-vMJYWA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://canvas.earplay.com/",
+                "updatedStateJson": "[{\"url\":\"https://earplay-images.s3.amazonaws.com/capstone/justice_league/JL_menucard.jpg\",\"command\":\"CHOICE_SINGLE\",\"options\":[{\"query\":\"cosmic conquest\"},{\"query\":\"the league of laughs\"},{\"query\":\"the portal of doom\"},{\"query\":\"the ultimate weapon\"}]}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening You Choose Justice League Stories by Capstone",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{\"earplay_user_id\":\"HS_USER_ID_a8d0d7d9-fb4a-4b71-bbf0-5d782be64190\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "You Choose Justice League Stories",
+    "servingModelOutdated": false,
+    "request": "I want to know You Choose Justice League Stories."
+}

@@ -1,0 +1,40 @@
+{
+    "146": {
+        "req": "Attractions ' If you want more attractions",
+        "res": "Hi. I can tell you attractions in Greystones, If you say 'Attractions'",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 146,
+        "req_list": [
+            "Attractions ' If you want more attractions"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Attractions",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        147
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Greystones.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 145
+    }
+}

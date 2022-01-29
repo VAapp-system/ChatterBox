@@ -1,0 +1,50 @@
+{
+    "2": {
+        "req": "Talk to Mind Reading Wizard",
+        "res": "Alright. Here's Mind Reading Wizard.Hi, welcome to Mind Reading Wizard, Say continue to start the process",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Mind Reading Wizard"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "continue",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s in your mind easily. This is a unique thing, but you might have came across this during your life.Try this wizard and enjoy. Don",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Mind Reading Wizard.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

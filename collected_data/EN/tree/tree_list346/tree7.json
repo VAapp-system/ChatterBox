@@ -1,0 +1,29 @@
+{
+    "7": {
+        "req": "Your fav actor?",
+        "res": "I have not watched much movie",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Your fav actor?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Your fav movie?",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

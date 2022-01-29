@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to gBox1",
+        "res": "It looks like your gBox1 account is not linked yet. You can link gBox1 to your Google Account from the Google Home app.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to gBox1"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

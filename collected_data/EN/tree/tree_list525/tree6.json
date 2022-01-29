@@ -1,0 +1,56 @@
+{
+    "11": {
+        "req": "s being served in the mess through your voice, thanks to the power of Google Assistant. You can ask your assistant about any meal serving on any day of the week (or month).Here",
+        "res": "Which meal do you want to know about?",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "s being served in the mess through your voice, thanks to the power of Google Assistant. You can ask your assistant about any meal serving on any day of the week (or month).Here"
+        ],
+        "candidates": {
+            "NE": {},
+            "EXAMPLE": {
+                "1": {
+                    "req": "s being served in the mess through your voice, thanks to the power of Google Assistant. You can ask your assistant about any meal serving on any day of the week (or month).Here",
+                    "visit": true,
+                    "child": [
+                        12
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Google.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know iOS.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "I want to know NIIT University Mess.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 10
+    }
+}

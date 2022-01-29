@@ -1,0 +1,75 @@
+{
+    "response": "わかりました。 都バス検索です。都バス検索をご利用ありがとうございます。まずは運行情報を確認する路線を設定します。\nバス停名またはキーワードを教えてください",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ak...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "わかりました。都バス検索です。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "「都バス検索」では都営バスの運行状況を知ることができます。\nまずは運行情報を確認する路線を設定します。路線は後から変更可能です。"
+                }
+            },
+            {
+                "displayText": {
+                    "content": "バス停を検索します。\nバス停名またはキーワードを教えてください。\n（例：豊洲駅前 -> キーワード：豊洲）"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "現在位置からバス停を探す"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/utxK5qpR3BJd59FWWY0uhh3bnfzya1-EzYT7ZhrbKHw6DuQ3ZsLsbQ--UL5HNhSG89xcOdDB9l70",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "現在位置からバス停を探す"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "都バス検索",
+    "servingModelOutdated": false,
+    "request": "都バス検索につないで"
+}

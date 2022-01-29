@@ -1,0 +1,51 @@
+{
+    "67": {
+        "req": "Attractions",
+        "res": "Flowerhill Equestrian Centre. Welcome to our TripAdvisor page. I am Oliver Walsh and for the past 15 years I have welcomed visitors from all over the world to Flowerhill Equestrian Centre in Co Galway, Ireland. Visitors come for the hospitality, willing and fit horses, extensive... Say 'Attractions' If you want more attractions or Say cancel.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 67,
+        "req_list": [
+            "Attractions"
+        ],
+        "candidates": {
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Attractions ' If you want more attractions",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [
+                        68
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "cancel",
+                    "string_ID": 5,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Ballinasloe.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 66
+    }
+}

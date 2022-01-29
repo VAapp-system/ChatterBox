@@ -1,0 +1,240 @@
+{
+    "2": {
+        "req": "店舗認知症対応とはなす",
+        "res": "わかりました。 店舗認知症対応です。こんにちは！お店向け認知症サポータートレーニング　AIです。こちらでは、地域のお店の皆さまが、認知症のかたを地域で支えていくことができるようにとの願いを込めて、トレーニングAiを作成しました。キューアンドえー、形式ですが、さまざまな地域のかたの知見を学習し作成しています。これからも、勉強していきますので、よろしくお願いいたします。また、最終判断は、地域の専門のかたに、ご相談ください。それでは、ご質問をどうぞ。例えば、レジでの支払いがうまくいかない。と質問してみてください。終わりの時は、ありがとう、さようならと言ってください。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "店舗認知症対応とはなす"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "ありがとう",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "さようなら",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "LINK": {
+                "1": {
+                    "req": "例えば",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "レジでの支払いがうまくいかない",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "店を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "症を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "法を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "高齢を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "方を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "点を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    },
+    "4": {
+        "req": "店舗認知症対応とはなす",
+        "res": "こんにちは！お店向け認知症サポータートレーニング　AIです。こちらでは、地域のお店の皆さまが、認知症のかたを地域で支えていくことができるようにとの願いを込めて、トレーニングAiを作成しました。キューアンドえー、形式ですが、さまざまな地域のかたの知見を学習し作成しています。これからも、勉強していきますので、よろしくお願いいたします。また、最終判断は、地域の専門のかたに、ご相談ください。それでは、ご質問をどうぞ。例えば、レジでの支払いがうまくいかない。と質問してみてください。終わりの時は、ありがとう、さようならと言ってください。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "店舗認知症対応とはなす"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "ありがとう",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "さようなら",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": true,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "LINK": {
+                "1": {
+                    "req": "例えば",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "レジでの支払いがうまくいかない",
+                    "type_ID": [
+                        "9"
+                    ],
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "店を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "症を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "法を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "4": {
+                    "req": "高齢を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "5": {
+                    "req": "方を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "6": {
+                    "req": "点を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

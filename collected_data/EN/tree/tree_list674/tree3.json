@@ -1,0 +1,48 @@
+{
+    "3": {
+        "req": "I want to know MediaOkra.",
+        "res": "I am unable to do anything without signing in. You can say \"sign in\" to get an account",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "I want to know MediaOkra."
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "sign in",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know MediaOkra.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Udemy.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

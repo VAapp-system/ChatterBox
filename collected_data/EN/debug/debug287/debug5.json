@@ -1,0 +1,132 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Wm...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 3,
+            "markName": "video-content",
+            "timeSeconds": 0
+        },
+        {
+            "timepointType": 3,
+            "markName": "play-video",
+            "timeSeconds": 5.212791666666667
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "VIDEO"
+                                                }
+                                            ],
+                                            [
+                                                "mousePoses",
+                                                {
+                                                    "stringValue": "SING_ALONG"
+                                                }
+                                            ],
+                                            [
+                                                "onEndTextQuery",
+                                                {
+                                                    "stringValue": "finish video"
+                                                }
+                                            ],
+                                            [
+                                                "screen",
+                                                {
+                                                    "stringValue": "VideoContent"
+                                                }
+                                            ],
+                                            [
+                                                "setTimeout",
+                                                {
+                                                    "boolValue": false
+                                                }
+                                            ],
+                                            [
+                                                "suppressMic",
+                                                {
+                                                    "boolValue": true
+                                                }
+                                            ],
+                                            [
+                                                "video",
+                                                {
+                                                    "stringValue": "https://static-abcm-ga.aofk.net/assets/videos/Letter J Mobile 2016.mp4"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yo66je8Z1FgGdADZGSJy8-JptCyzJkyRgA56MTywdu09ASNPYEGx1jESXSYmPwlP4DTAw_dlGavWvQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                "updatedStateJson": "[{\"onEndTextQuery\":\"finish video\",\"mousePoses\":\"SING_ALONG\",\"screen\":\"VideoContent\",\"setTimeout\":false,\"suppressMic\":true,\"command\":\"VIDEO\",\"video\":\"https://static-abcm-ga.aofk.net/assets/videos/Letter J Mobile 2016.mp4\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening ABCmouse by Age of Learning, Inc.",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": true,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"lastLetter\":\"J\",\"lastLetterActivity\":[\"LETTER_SONG\"],\"views\":[\"SFX.LetterSongIntro\",\"LetterPackage.SelectedEntryBridge\",\"LetterSong.Entry1Bridge\"],\"LetterSpecificEntryBridge\":false,\"surpriseIntent\":false,\"video\":\"LETTER_SONG\",\"newSession\":false,\"lettersPicked\":[\"R\",\"R\",\"A\",\"A\",\"J\"],\"userId\":\"781b27c2-3680-46d6-98a3-b27b2249ebed\",\"sessionsCount\":1.0,\"MenuOfferPrompt\":true,\"flowActivity\":\"LETTER_OF_THE_DAY\",\"sessionId\":\"ABwppHHE2TRhnJdb_LMLErVNjtkL8M4wOLma1RWsq5OEw2-rIbh0xvY_p-S6kYVjVdJ0fGCgWA\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ABCmouse",
+    "servingModelOutdated": false,
+    "request": "I want to know iPad."
+}

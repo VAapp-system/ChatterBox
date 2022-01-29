@@ -1,0 +1,98 @@
+{
+    "response": "日本国の「古都奈良の文化財」 です。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "日本国の「古都奈良の文化財」 です。"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "古都奈良の文化財",
+                    "subtitle": "",
+                    "formattedText": "古都奈良の文化財（ことならのぶんかざい）は、奈良県奈良市にある寺院などから構成される世界遺産（文化遺産）である。1998年12月2日に京都市で開催されたユネスコ世界遺産委員会で、日本で9件目の世界遺産（文化遺産）として登録された。",
+                    "image": {
+                        "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Todaiji18s3200.jpg",
+                        "accessibilityText": "Image alternate text",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "詳しくはこちら",
+                            "openUrlAction": {
+                                "url": "https://ja.wikipedia.org/wiki/%E5%8F%A4%E9%83%BD%E5%A5%88%E8%89%AF%E3%81%AE%E6%96%87%E5%8C%96%E8%B2%A1",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "日本"
+            },
+            {
+                "title": "ベトナム社会主義共和国"
+            },
+            {
+                "title": "オマーン国"
+            },
+            {
+                "title": "シンガポール共和国"
+            },
+            {
+                "title": "デイリー世界遺産通知の設定をする"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/OYuDIrt-iQvSkJUw-4CBNiy5zwJLukqcN8sriPXpm-4O0MdMo2cq-_mqnINi53iITu1aY2KMUanW",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "日本",
+                    "ベトナム社会主義共和国",
+                    "オマーン国",
+                    "シンガポール共和国",
+                    "デイリー世界遺産通知の設定をする"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "世界遺産マスター",
+    "servingModelOutdated": false,
+    "request": "日本"
+}

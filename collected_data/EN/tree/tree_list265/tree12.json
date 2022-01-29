@@ -1,0 +1,29 @@
+{
+    "12": {
+        "req": "Favourite youtuber?",
+        "res": "Its a channel T-Series.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "Favourite youtuber?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Favourite Politician?",
+                    "visit": true,
+                    "child": [
+                        13
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 11
+    }
+}

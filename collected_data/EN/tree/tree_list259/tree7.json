@@ -1,0 +1,29 @@
+{
+    "7": {
+        "req": "Who invented Elevator?",
+        "res": "It was invented by Elisha Otis",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Who invented Elevator?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "who invented Printer?",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

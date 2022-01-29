@@ -1,0 +1,94 @@
+{
+    "response": "Current Sports Trends",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAOwC...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Current Sports Trends"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "Sport includes all forms of competitive physical activity or games which,through casual or organised participation, aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.Hundreds of sports exist, from those between single contestants, through to those with hundreds of simultaneous participants, either in teams or competing as individuals. In certain sports such as racing, many contestants may compete, simultaneously or consecutively, with one winner; in others, the contest (a match) is between two sides, each attempting to exceed the other. Some sports allow a \"tie\" or \"draw\", in which there is no single winner; others provide tie-breaking methods to ensure one winner and one loser.",
+                    "image": {
+                        "url": "https://www.wareable.com/media/imager/201704/22859-original.jpg",
+                        "accessibilityText": "Sports trends",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Sports trends",
+                            "openUrlAction": {
+                                "url": "http://www.espn.in/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Bollywood"
+            },
+            {
+                "title": "Hollywood"
+            },
+            {
+                "title": "Technology"
+            },
+            {
+                "title": "Current Affairs"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/DC4U8DwxkJEM7tWXgkgqTOmVJ6B95Kvk7HLnHi3VhP8IXlLN7Q5xewA7Lb5IDWA3VzRjtURzrCs",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Bollywood",
+                    "Hollywood",
+                    "Technology",
+                    "Current Affairs"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Current Drifts",
+    "servingModelOutdated": false,
+    "request": "sports"
+}

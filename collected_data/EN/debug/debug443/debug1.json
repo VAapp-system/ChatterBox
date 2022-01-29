@@ -1,0 +1,86 @@
+{
+    "response": "OK. Here's Channel Twenty Seven.This is Channel 27. Hold tight, we'll bring you the hits in a few moments.",
+    "expectUserResponse": false,
+    "conversationToken": "Et4DS2s1Vk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Channel 27."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "This is Channel 27. Hold tight, we'll bring you the hits in a few moments."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Channel 27",
+                                "description": "THE BEST STATION IN THE UNIVERSE",
+                                "largeImage": {
+                                    "url": "https://s3.amazonaws.com/com.getstoryflow.api.images/1606737299048-channel-27-splash-512x512.jpeg",
+                                    "accessibilityText": "Media Background Image",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://www.channel27.com/streamswitch/gaction"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [
+                            3,
+                            4
+                        ],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "7194466487642941680"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/_BuAKbhE6-YAjR3LTsa0aqCFUr2BlphtWbGpfKPVbe_z_zq6_2-Ss1qAr6RCeUtkkJuA7RgouuC4dg",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Channel Twenty Seven",
+    "servingModelOutdated": false,
+    "request": "Talk to Channel 27"
+}

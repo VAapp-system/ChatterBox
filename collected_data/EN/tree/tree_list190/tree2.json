@@ -1,0 +1,50 @@
+{
+    "2": {
+        "req": "Talk to sounding board",
+        "res": "OK. Getting sounding board.Welcome to Sounding Board. You can post your thoughts and also hear what other people have to say. What would you like to do?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to sounding board"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Create a post",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Listen to a post",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Sounding Board.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

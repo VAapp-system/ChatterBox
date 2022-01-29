@@ -1,0 +1,78 @@
+{
+    "4": {
+        "req": "Next",
+        "res": "You are listening to 'Major Award from featured podcasts'. If you would like to listen to a different podcast, you can say, Hey, Google, play featured podcasts. Or you can ask Google to play a specific podcast or search for a podcast. For example, Hey, Google, play Rick Warren’s podcast. You can also say, Hey, Google, search for podcasts about resurrection.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Next"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "Hey , Google , play featured podcasts",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [
+                        5
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Hey , Google , search",
+                    "string_ID": 4,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "Google to play a specific podcast",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "search for a podcast",
+                    "string_ID": 2,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Edifi.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Christian.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    }
+}

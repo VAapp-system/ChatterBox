@@ -1,0 +1,58 @@
+{
+    "3": {
+        "req": "yes",
+        "res": "Here is a fact about Breaking Bad. When you combine the titles of Season 2's first, fourth, tenth, and thirteenth episodes you get \"Seven Thirty-Seven, Down, Over, ABQ,\" which is a foreshadowing of the plane crash at the end of the season.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "yes"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "yes",
+        "res": "Here is a fact about The Flintstones. Pebbles was originally going to be a boy until a toy company said that a girl would make more money because they could sell Pebbles dolls. According to Flintstones creator Joseph Barbera, the dolls made around $3 million in the first two months.",
+        "QType": "I&SC_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "yes"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "no",
+        "res": "Goodbye",
+        "QType": "I&SC_CC",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "no"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 4
+    }
+}

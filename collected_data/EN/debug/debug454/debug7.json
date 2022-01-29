@@ -1,0 +1,88 @@
+{
+    "response": "Playing Fireplace Sounds",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Vk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Playing Fireplace Sounds"
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Fireplace Sounds",
+                                "description": "Sleep, relax, or focus to this ambient sound loop by Sleep Jar.",
+                                "icon": {
+                                    "url": "https://cdn.invokedapps.com/sleepsounds/images/app-icons/512/fireplace.png",
+                                    "accessibilityText": "",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://cdn.invokedapps.com/sleepsounds/v6/sd/3600/mp3/fireplace.mp3"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "7972784873445276908"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "more sounds"
+            },
+            {
+                "title": "stop"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/-hXnW8RDjzTCP63xzZuZ2poBINxAV8_lYnFEzw2CXWcGbb7FP5KXPkfFEOzKN7S4u8Ld1tlTl-sw",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "more sounds",
+                    "stop"
+                ]
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "fireplace sounds",
+    "servingModelOutdated": false,
+    "request": "Talk to Fireplace Sounds"
+}

@@ -1,0 +1,70 @@
+{
+    "response": "Hello! You can check our upcoming events in our Meetup page.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAAR+f...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hello! You can check our upcoming events in our Meetup page."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "GDG Philippines Events",
+                    "subtitle": "https://www.meetup.com/gdgphilippines",
+                    "formattedText": "Registration and other details about our events are available in our Meetup Page",
+                    "image": {
+                        "url": "https://lh3.googleusercontent.com/5A5qHZ1ARdUhD6CXL-6AI0jAHLTASvr2FiMAKajz6AiisDNvnQ9ByWv00X2TX-vkiNw",
+                        "accessibilityText": "",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Check out events",
+                            "openUrlAction": {
+                                "url": "https://www.meetup.com/gdgphilippines/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/8O3ynmVQUEVAyuYxVIQDvaP9Hs2P50J5iDSxrM4Z5dEX0ol4bssoWEPVMkW-9gGJrxpZN5nWYZW4",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "gdg philippines",
+    "servingModelOutdated": false,
+    "request": "Events"
+}

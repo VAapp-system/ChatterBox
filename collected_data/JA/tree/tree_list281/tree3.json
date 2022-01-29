@@ -1,0 +1,161 @@
+{
+    "3": {
+        "req": "光",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "光"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "光の話",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "光の話"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "闇",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "闇"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "6": {
+        "req": "闇の話",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "闇の話"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "8": {
+        "req": "光",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "光"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "9": {
+        "req": "光の話",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 9,
+        "req_list": [
+            "光の話"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "10": {
+        "req": "闇",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 3,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "闇"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "11": {
+        "req": "闇の話",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 4,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "闇の話"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "12": {
+        "req": "ヘルプ",
+        "res": "We're sorry, but something went wrong. Please try again.",
+        "QType": "EXAMPLE",
+        "Q_id": 5,
+        "over": false,
+        "canvas": false,
+        "id": 12,
+        "req_list": [
+            "ヘルプ"
+        ],
+        "candidates": {},
+        "parent": 7
+    },
+    "13": {
+        "req": "ストップ",
+        "res": "はい。IT業界の光闇です。すみません。IT業界の光闇は、この地域ではサポートされていません。",
+        "QType": "EXAMPLE",
+        "Q_id": 6,
+        "over": false,
+        "canvas": false,
+        "id": 13,
+        "req_list": [
+            "ストップ"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "閉じて",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "時計を表示して",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 7
+    }
+}

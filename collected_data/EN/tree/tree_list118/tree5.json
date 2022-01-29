@@ -1,0 +1,61 @@
+{
+    "5": {
+        "req": "True or False",
+        "res": "You can say a number between 1 and 20 to start a game with that number of players. How many people want to play?",
+        "QType": "CANVAS",
+        "Q_id": 1,
+        "over": false,
+        "canvas": true,
+        "id": 5,
+        "req_list": [
+            "True or False"
+        ],
+        "candidates": {
+            "CANVAS": {
+                "1": {
+                    "req": "True or False",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "INST": {},
+            "SELECT_CC": {},
+            "I&SC_CC": {
+                "1": {
+                    "req": "a number between 1",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "20",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "Think you’re a trivia pro? This is a fun game to test your knowledge about the world by answering true or false questions. The rules are simple, but the answers aren’t. ----------------------------It’s the perfect ice-breaker for parties and gatherings. Play with up to 20 users.-----------------------------------------------We go hunting to bring you awesome new facts around the world every week. Come back every week to sharpen your trivia skills!",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

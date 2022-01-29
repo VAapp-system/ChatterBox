@@ -1,0 +1,39 @@
+{
+    "5": {
+        "req": "location?",
+        "res": "BSNL Regional Telecom Training Centre, Seminary Hills, Nagpur, Maharashtra - 440006",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "location?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "objective?",
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Nagpur.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

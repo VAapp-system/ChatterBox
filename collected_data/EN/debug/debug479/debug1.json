@@ -1,0 +1,94 @@
+{
+    "response": "Alright. Here's the inside outlook.Welcome to The Inside Outlook. You have listened to all of the available podcast episodes.\nWould you like to replay the latest podcast episode?",
+    "expectUserResponse": true,
+    "conversationToken": "ErYDS2o5Vk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's the inside outlook."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Welcome to The Inside Outlook.  You have listened to all of the available podcast episodes."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": " Welcome ",
+                    "subtitle": "",
+                    "formattedText": "Welcome to The Inside Outlook.  You have listened to all of the available podcast episodes. ",
+                    "image": {
+                        "url": "https://www.createmyvoice.com/images/client/TheInsideOutlook.512x512.png",
+                        "accessibilityText": "The Inside Outlook",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            },
+            {
+                "displayText": {
+                    "content": " Would you like to replay the latest podcast episode? "
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/2PjuTGZt71AgakHWnQXlFAeOnC65_ZQinYUsUSFUqiaDPIqBqGnySxd6jhVXIENMxHJeIy6-H_X9",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "the inside outlook",
+    "servingModelOutdated": false,
+    "request": "Talk to the inside outlook"
+}

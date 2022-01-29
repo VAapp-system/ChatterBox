@@ -1,0 +1,30 @@
+{
+    "220": {
+        "req": "Yes",
+        "res": "1000 BCE, medical systems based upon herbs could be found in China, Korea, and India. Early uses were connected with magic, medicine, religion, tradition, and preservation. Wanna Know More?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 220,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spices Trivia.",
+                    "visit": false,
+                    "child": [
+                        221
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 219
+    }
+}

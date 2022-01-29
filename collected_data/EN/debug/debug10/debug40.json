@@ -1,0 +1,69 @@
+{
+    "response": "Hi, welcome back. Would you like to meditate or sleep?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5bk...",
+    "audioResponse": "//NExAAQaJ...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Hi, welcome back. Would you like to meditate or sleep?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Meditate"
+            },
+            {
+                "title": "Sleep"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/-D7sk9PsHafY/WVptkT4g-KI/AAAAAAAAASE/Glgu1BGfh6QiS9opNrD3R_vjhs45rfjRACMYCGAYYCw/h192-w192/Calm_icon%25402x.png",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Meditate",
+                    "Sleep"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "calm",
+    "servingModelOutdated": false,
+    "request": "Talk to Calm"
+}

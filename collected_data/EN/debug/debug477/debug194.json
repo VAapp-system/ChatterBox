@@ -1,0 +1,51 @@
+{
+    "response": "We're sorry, but something went wrong. Please try again.",
+    "expectUserResponse": false,
+    "conversationToken": "",
+    "audioResponse": "",
+    "ssmlMarkList": [],
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Sorry, this action is not available in simulation"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": ""
+    },
+    "clientError": 8,
+    "is3pResponse": false,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "One more",
+                    "Random fun",
+                    "Do you love me?",
+                    "Say something nice about me",
+                    "Tell me something about me",
+                    "You're awesome",
+                    "Give me a compliment",
+                    "Sing me a song",
+                    "Tell me a joke"
+                ]
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "",
+    "servingModelOutdated": false,
+    "request": "About us"
+}

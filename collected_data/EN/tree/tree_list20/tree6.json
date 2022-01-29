@@ -1,0 +1,38 @@
+{
+    "7": {
+        "req": "I want to know Cleveland Clinic.",
+        "res": "To find your closest Cleveland Clinic including address, directions, hours of operation and contact information please visit levelandclinic dot org slash locations.\nNext\nyou can hear a daily health tip,\nlearn more about medical conditions,\nor find a Cleveland Clinic location near you.\nWhat would you like to talk about?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "I want to know Cleveland Clinic."
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Cleveland Clinic.",
+                    "visit": false,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know U.S. News & World Report.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

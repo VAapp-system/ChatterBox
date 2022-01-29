@@ -1,0 +1,37 @@
+{
+    "2": {
+        "req": "Talk to Bronx Science Hackers",
+        "res": "OK. Here's Bronx Science Hackers.Welcome to the Bronx Science Hackers Chatbot on the Google Assistant.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Bronx Science Hackers"
+        ],
+        "candidates": {
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Bronx Science Hackers.",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know the Bronx High School of Science.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

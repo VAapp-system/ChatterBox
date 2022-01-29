@@ -1,0 +1,67 @@
+{
+    "response": "The season was filmed in which city?",
+    "expectUserResponse": true,
+    "conversationToken": "ErQES201ek...",
+    "audioResponse": "//NExAAR0D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "The season was filmed in which city?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Vienna"
+            },
+            {
+                "title": "Madrid"
+            },
+            {
+                "title": "Budapest"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/P0YvywhC24Z2UN5udEVof0K7pLsgoMVJymlh6CfxJ2AwEYYy6GGWKn9Z_VvBBkoxq7QVE980wzXQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Vienna",
+                    "Madrid",
+                    "Budapest"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "LCDP Fun Trivia Challenge",
+    "servingModelOutdated": false,
+    "request": "Move to question 2"
+}

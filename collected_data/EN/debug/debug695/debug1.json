@@ -1,0 +1,84 @@
+{
+    "response": "OK. Let's get Brackley Community Radio.Ok, Playing Brackley Community Radio, The stream will start in a moment.",
+    "expectUserResponse": false,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get Brackley Community Radio."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Ok, Playing Brackley Community Radio,  The stream will start in a moment."
+                }
+            },
+            {
+                "simulatorMediaResponse": {
+                    "mediaResponse": {
+                        "mediaType": 1,
+                        "mediaObjectsList": [
+                            {
+                                "name": "Brackley Community Radio",
+                                "description": "Local news and entertainment for Brackley and surrounding areas",
+                                "largeImage": {
+                                    "url": "http://brackleyradio.uk/images/BRCLogo.png",
+                                    "accessibilityText": "BCR Logo",
+                                    "height": 0,
+                                    "width": 0
+                                },
+                                "contentUrl": "https://www.radioking.com/play/brackley-community-radio"
+                            }
+                        ],
+                        "startOffsetMs": 0,
+                        "supportedMediaControlsList": [],
+                        "repeatMode": 0,
+                        "firstMediaObjectIndex": 0
+                    },
+                    "mediaSessionId": "-4495894227152185682"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/S2uBc29syqTOriccuvieQzUnvIjBh3mspQGhiqCkIs4nG1Qif2jrldz_oSMCco-0xuG27Av8u2Q",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "sans-serif-black",
+            "borderRadius": 16,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Brackley Community Radio",
+    "servingModelOutdated": false,
+    "request": "Talk to Brackley Community Radio"
+}

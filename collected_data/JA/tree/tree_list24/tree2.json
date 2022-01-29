@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "マイ大阪ガスにつないで",
+        "res": "マイ大阪ガス とリンクしていません。Google Home アプリからマイ大阪ガス と Google アカウントをリンクできます。",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "マイ大阪ガスにつないで"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

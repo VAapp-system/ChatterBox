@@ -1,0 +1,58 @@
+{
+    "90": {
+        "req": "health services like urgent care and occupational health",
+        "res": "Do you need urgent care, occupational health or brainscope services ?",
+        "QType": "SELECT_CC",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 90,
+        "req_list": [
+            "health services like urgent care and occupational health"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "urgent care",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [
+                        91
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "occupational health",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "brainscope services",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Moore Life Urgent Care.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 89
+    }
+}

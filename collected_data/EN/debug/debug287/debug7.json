@@ -1,0 +1,109 @@
+{
+    "response": "",
+    "expectUserResponse": true,
+    "conversationToken": "Et4DS2w1Wm...",
+    "audioResponse": "SUQzBAAAAA...",
+    "ssmlMarkList": [
+        {
+            "timepointType": 3,
+            "markName": "letter-package",
+            "timeSeconds": 0
+        }
+    ],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                    "oldUpdatedState": {
+                        "fieldsMap": []
+                    },
+                    "updatedState": {
+                        "listValue": {
+                            "valuesList": [
+                                {
+                                    "structValue": {
+                                        "fieldsMap": [
+                                            [
+                                                "command",
+                                                {
+                                                    "stringValue": "LETTER"
+                                                }
+                                            ],
+                                            [
+                                                "letter",
+                                                {
+                                                    "stringValue": "U"
+                                                }
+                                            ],
+                                            [
+                                                "screen",
+                                                {
+                                                    "stringValue": "LetterPackage"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/yo66je8Z1FgGdADZGSJy8-JptCyzJkyRgA56MTywdu09ASNPYEGx1jESXSYmPwlP4DTAw_dlGavWvQ",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://abcm-ga-production.web.app/index.html?ANALYTICS_ID=UA-128169279-5",
+                "updatedStateJson": "[{\"letter\":\"U\",\"screen\":\"LetterPackage\",\"command\":\"LETTER\"}]",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": true,
+                "handoffMessage": {
+                    "primaryText": "Opening ABCmouse by Age of Learning, Inc.",
+                    "secondaryText": "Exit by swiping right from the left edge."
+                },
+                "disableTapToStopTts": true,
+                "homeStorage": {
+                    "params": "{}"
+                },
+                "userStorage": {
+                    "params": "{\"flowActivity\":\"LETTER_OF_THE_DAY\",\"userId\":\"781b27c2-3680-46d6-98a3-b27b2249ebed\",\"sessionsCount\":1.0,\"sessionId\":\"ABwppHHE2TRhnJdb_LMLErVNjtkL8M4wOLma1RWsq5OEw2-rIbh0xvY_p-S6kYVjVdJ0fGCgWA\",\"lastLetterActivity\":[],\"LetterSpecificEntryBridge\":false,\"MenuOfferPrompt\":true,\"newSession\":false,\"surpriseIntent\":false,\"lettersPicked\":[\"R\",\"R\",\"A\",\"A\",\"J\",\"J\",\"X\",\"X\",\"U\"],\"lastLetter\":\"U\",\"views\":[\"LetterPackage.Offer\"],\"video\":\"LETTER_SONG\"}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ABCmouse",
+    "servingModelOutdated": false,
+    "request": "Letter of the Day"
+}

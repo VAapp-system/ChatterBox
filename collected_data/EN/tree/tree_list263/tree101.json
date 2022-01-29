@@ -1,0 +1,49 @@
+{
+    "104": {
+        "req": "Yes",
+        "res": "Great, would you like to explore Pre-Adoption, Finances, Post-Adoption, or hear a random insight?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 104,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "explore Pre-Adoption , Finances , Post-Adoption",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [
+                        105
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "hear a random insight",
+                    "string_ID": 0,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know International Adoption Insights.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 103
+    }
+}

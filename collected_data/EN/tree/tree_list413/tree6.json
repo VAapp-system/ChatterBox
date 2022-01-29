@@ -1,0 +1,29 @@
+{
+    "6": {
+        "req": "phone number?",
+        "res": "7678191888",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "phone number?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "favorite movie?",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 5
+    }
+}

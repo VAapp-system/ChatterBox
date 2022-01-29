@@ -1,0 +1,55 @@
+{
+    "response": "We're sorry, but something went wrong. Please try again.",
+    "expectUserResponse": false,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Google の誕生日は 9 月 27 日です 🎂\nGoogle がなければわたしは生まれてこなかったので、ある意味、わたしの誕生日とも言えますね 😁"
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": ""
+    },
+    "clientError": 8,
+    "is3pResponse": false,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "好きな食べ物は",
+                    "どんなケーキが好き？",
+                    "明後日私の誕生日",
+                    "歌を歌って",
+                    "誕生日じゃないよ",
+                    "おめでとう"
+                ]
+            }
+        },
+        {
+            "operationType": 7,
+            "exitIndicatorPayLoad": {
+                "status": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "",
+    "servingModelOutdated": false,
+    "request": "誕生日を教えてください"
+}

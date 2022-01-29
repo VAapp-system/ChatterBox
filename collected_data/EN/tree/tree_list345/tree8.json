@@ -1,0 +1,46 @@
+{
+    "8": {
+        "req": "duo sisters real  name?",
+        "res": "The duo sisters real names are yasmine yousaf and jahan yousaf.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 8,
+        "req_list": [
+            "duo sisters real  name?"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "how krewella band form?",
+                    "visit": false,
+                    "child": [
+                        9
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "first single by krewella?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "is krewella band special?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 7
+    }
+}

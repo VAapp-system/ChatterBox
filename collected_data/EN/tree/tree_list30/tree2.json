@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to Bot Horizon",
+        "res": "Alright. Let's get Bot Horizon.Hey! Bot Horizon is at your doorstep! Ask me about random facts!",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Bot Horizon"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "random facts !",
+                    "string_ID": 4,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

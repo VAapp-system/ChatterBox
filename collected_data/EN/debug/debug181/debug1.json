@@ -1,0 +1,130 @@
+{
+    "response": "Alright. Here's All Live Comments.The Natan Bouchard-Beauchesne Institute, creator of this application. All your confidential comments will be analyzed by artificial intelligence to detect emotions in the content of your comments. You can, for example, explain by natural words in your comment about a place. By creating an account, All Live Comments, you will now be able to search for a place to know the Google reviews of the places you are looking for, if available ! Would you like to leave a comment ?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Rk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's All Live Comments."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Would you like to leave a comment ?"
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "Horloge",
+                    "subtitle": "Institut Natan Bouchard-Beauchesne",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/causepourlacause.appspot.com/o/jaime17.jpg?alt=media&token=8810b553-e059-424a-81a1-81035cfc7fd4",
+                        "accessibilityText": "testLogo",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "columnPropertiesList": [
+                        {
+                            "header": "Day(s)",
+                            "horizontalAlignment": 1
+                        },
+                        {
+                            "header": "Hour(s)",
+                            "horizontalAlignment": 1
+                        },
+                        {
+                            "header": "Minute(s)",
+                            "horizontalAlignment": 1
+                        }
+                    ],
+                    "rowsList": [
+                        {
+                            "cellsList": [
+                                {
+                                    "text": "21"
+                                },
+                                {
+                                    "text": "5"
+                                },
+                                {
+                                    "text": "8"
+                                }
+                            ],
+                            "dividerAfter": false
+                        }
+                    ],
+                    "buttonsList": [
+                        {
+                            "title": "@institutNBB",
+                            "openUrlAction": {
+                                "url": "https://www.facebook.com/institutNBB/",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            },
+            {
+                "title": "World Polls"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/U8jBWbj2ft3-YdOD3zTu0nzEPFz2tlymLTzcnzg6qDESiobtta99TUKxanRwIrvKXzQLo99JznZ3",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "monospace",
+            "borderRadius": 0,
+            "backgroundColor": "#fafafa"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No",
+                    "World Polls"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "All Live Comments",
+    "servingModelOutdated": false,
+    "request": "Talk to All Live Comments"
+}

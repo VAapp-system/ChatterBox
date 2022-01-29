@@ -1,0 +1,39 @@
+{
+    "2": {
+        "req": "Talk to Jodhpur's Facts",
+        "res": "OK. Here's Jodhpur's Facts.Welcome to story telling app. My name is Ishita. I will be telling you a short story about Jodhpur.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Jodhpur's Facts"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Play Part 1",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Jodhpur city.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

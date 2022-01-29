@@ -1,0 +1,47 @@
+{
+    "2": {
+        "req": "Talk to Aisha HR",
+        "res": "OK. Getting Aisha HR.Hey!! I am Aisha, your personal HR Assistant. I will assist you in your HR related requirements. I am so excited to know you.. Let's get started.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to Aisha HR"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "Login/Sign Up",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Exit",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Aisha.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

@@ -1,0 +1,378 @@
+{
+    "response": "ゲームブックのアカウントの設定が完了しました。 後ほど、確認のメールが届きます。これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？ 「簡単なゲームブックを遊ぶ」なら「2番」 「おすすめのゲームブックを遊ぶ」なら「1番」 を選んでください。",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5ek...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "ゲームブックのアカウントの設定が完了しました。後ほど、確認のメールが届きます。"
+                }
+            },
+            {
+                "immersiveResponse": {
+                    "loadImmersiveId": "",
+                    "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/gamebook",
+                    "oldUpdatedState": {
+                        "fieldsMap": [
+                            [
+                                "base_url",
+                                {
+                                    "stringValue": "https://www.voice-ui.work"
+                                }
+                            ],
+                            [
+                                "choice1",
+                                {
+                                    "stringValue": "[[簡単=>2]]"
+                                }
+                            ],
+                            [
+                                "choice2",
+                                {
+                                    "stringValue": "[[おすすめ=>1]]"
+                                }
+                            ],
+                            [
+                                "choice3",
+                                {
+                                    "stringValue": "[[高評価=>undefined]]"
+                                }
+                            ],
+                            [
+                                "choiceMessage",
+                                {
+                                    "stringValue": "を選んでください。\n"
+                                }
+                            ],
+                            [
+                                "content",
+                                {
+                                    "stringValue": "これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？"
+                                }
+                            ],
+                            [
+                                "content_after_table",
+                                {
+                                    "stringValue": "その他のゲームブックは、開発者のサイト Voice UI (https://voice-ui.work/) で確認できます。\n                        「ゲームブック一覧」から遊びたいゲームブックを選んでください。"
+                                }
+                            ],
+                            [
+                                "easyChoice",
+                                {
+                                    "stringValue": "「簡単なゲームブックを遊ぶ」なら「2番」\n"
+                                }
+                            ],
+                            [
+                                "easy_book_content",
+                                {
+                                    "stringValue": "最短のゲームブック。全３フェーズで構成される。"
+                                }
+                            ],
+                            [
+                                "easy_book_id",
+                                {
+                                    "stringValue": "2"
+                                }
+                            ],
+                            [
+                                "easy_book_image",
+                                {
+                                    "stringValue": "https://voice-ui-work.s3.ap-northeast-1.amazonaws.com/book_image_uploads/1589704557215"
+                                }
+                            ],
+                            [
+                                "easy_book_name",
+                                {
+                                    "stringValue": "ゾンビの館"
+                                }
+                            ],
+                            [
+                                "errorMessage",
+                                {
+                                    "stringValue": "データベースでエラーが発生しました。申し訳ありませんが、後ほどもう一度お試しください。"
+                                }
+                            ],
+                            [
+                                "highRatingChoice",
+                                {
+                                    "stringValue": "「高評価のゲームブックを遊ぶ」なら「undefined番」\n"
+                                }
+                            ],
+                            [
+                                "locale",
+                                {
+                                    "stringValue": "ja-JP"
+                                }
+                            ],
+                            [
+                                "photo",
+                                {
+                                    "stringValue": "https://www.voice-ui.work/images/gamebook1920x1080.png"
+                                }
+                            ],
+                            [
+                                "recommendedChoice",
+                                {
+                                    "stringValue": "「おすすめのゲームブックを遊ぶ」なら「1番」\n"
+                                }
+                            ],
+                            [
+                                "recommended_book_content",
+                                {
+                                    "stringValue": "君はダンジョンを制覇できるか？　作者　yoyogijotaro （ゲームブックってどうやって作るの？ https://blog.gamebook.xyz/entry/2016/02/16/135554）　一部改変　creativival"
+                                }
+                            ],
+                            [
+                                "recommended_book_id",
+                                {
+                                    "stringValue": "1"
+                                }
+                            ],
+                            [
+                                "recommended_book_image",
+                                {
+                                    "stringValue": "https://voice-ui-work.s3.ap-northeast-1.amazonaws.com/book_image_uploads/1589703903916"
+                                }
+                            ],
+                            [
+                                "recommended_book_name",
+                                {
+                                    "stringValue": "初めてのダンジョン"
+                                }
+                            ],
+                            [
+                                "responses",
+                                {
+                                    "stringValue": "これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？\n                        「簡単なゲームブックを遊ぶ」なら「2番」\n「おすすめのゲームブックを遊ぶ」なら「1番」\nを選んでください。\n"
+                                }
+                            ],
+                            [
+                                "results",
+                                {
+                                    "stringValue": ""
+                                }
+                            ],
+                            [
+                                "scene",
+                                {
+                                    "stringValue": "first response"
+                                }
+                            ],
+                            [
+                                "title",
+                                {
+                                    "stringValue": "ゲームブック"
+                                }
+                            ]
+                        ]
+                    },
+                    "updatedState": {
+                        "structValue": {
+                            "fieldsMap": [
+                                [
+                                    "base_url",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work"
+                                    }
+                                ],
+                                [
+                                    "choice1",
+                                    {
+                                        "stringValue": "[[簡単=>2]]"
+                                    }
+                                ],
+                                [
+                                    "choice2",
+                                    {
+                                        "stringValue": "[[おすすめ=>1]]"
+                                    }
+                                ],
+                                [
+                                    "choice3",
+                                    {
+                                        "stringValue": "[[高評価=>undefined]]"
+                                    }
+                                ],
+                                [
+                                    "choiceMessage",
+                                    {
+                                        "stringValue": "を選んでください。\n"
+                                    }
+                                ],
+                                [
+                                    "content",
+                                    {
+                                        "stringValue": "これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？"
+                                    }
+                                ],
+                                [
+                                    "content_after_table",
+                                    {
+                                        "stringValue": "その他のゲームブックは、開発者のサイト Voice UI (https://voice-ui.work/) で確認できます。\n                        「ゲームブック一覧」から遊びたいゲームブックを選んでください。"
+                                    }
+                                ],
+                                [
+                                    "easyChoice",
+                                    {
+                                        "stringValue": "「簡単なゲームブックを遊ぶ」なら「2番」\n"
+                                    }
+                                ],
+                                [
+                                    "easy_book_content",
+                                    {
+                                        "stringValue": "最短のゲームブック。全３フェーズで構成される。"
+                                    }
+                                ],
+                                [
+                                    "easy_book_id",
+                                    {
+                                        "stringValue": "2"
+                                    }
+                                ],
+                                [
+                                    "easy_book_image",
+                                    {
+                                        "stringValue": "https://voice-ui-work.s3.ap-northeast-1.amazonaws.com/book_image_uploads/1589704557215"
+                                    }
+                                ],
+                                [
+                                    "easy_book_name",
+                                    {
+                                        "stringValue": "ゾンビの館"
+                                    }
+                                ],
+                                [
+                                    "errorMessage",
+                                    {
+                                        "stringValue": "データベースでエラーが発生しました。申し訳ありませんが、後ほどもう一度お試しください。"
+                                    }
+                                ],
+                                [
+                                    "highRatingChoice",
+                                    {
+                                        "stringValue": "「高評価のゲームブックを遊ぶ」なら「undefined番」\n"
+                                    }
+                                ],
+                                [
+                                    "locale",
+                                    {
+                                        "stringValue": "ja-JP"
+                                    }
+                                ],
+                                [
+                                    "photo",
+                                    {
+                                        "stringValue": "https://www.voice-ui.work/images/gamebook1920x1080.png"
+                                    }
+                                ],
+                                [
+                                    "recommendedChoice",
+                                    {
+                                        "stringValue": "「おすすめのゲームブックを遊ぶ」なら「1番」\n"
+                                    }
+                                ],
+                                [
+                                    "recommended_book_content",
+                                    {
+                                        "stringValue": "君はダンジョンを制覇できるか？　作者　yoyogijotaro （ゲームブックってどうやって作るの？ https://blog.gamebook.xyz/entry/2016/02/16/135554）　一部改変　creativival"
+                                    }
+                                ],
+                                [
+                                    "recommended_book_id",
+                                    {
+                                        "stringValue": "1"
+                                    }
+                                ],
+                                [
+                                    "recommended_book_image",
+                                    {
+                                        "stringValue": "https://voice-ui-work.s3.ap-northeast-1.amazonaws.com/book_image_uploads/1589703903916"
+                                    }
+                                ],
+                                [
+                                    "recommended_book_name",
+                                    {
+                                        "stringValue": "初めてのダンジョン"
+                                    }
+                                ],
+                                [
+                                    "responses",
+                                    {
+                                        "stringValue": "これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？\n                        「簡単なゲームブックを遊ぶ」なら「2番」\n「おすすめのゲームブックを遊ぶ」なら「1番」\nを選んでください。\n"
+                                    }
+                                ],
+                                [
+                                    "results",
+                                    {
+                                        "stringValue": ""
+                                    }
+                                ],
+                                [
+                                    "scene",
+                                    {
+                                        "stringValue": "first response"
+                                    }
+                                ],
+                                [
+                                    "title",
+                                    {
+                                        "stringValue": "ゲームブック"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "suppressMic": false
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/vx8d836CjaJ8-9i0qwI_aWW2u4MsZFVLLfeau9THassBrz9650JhxY-vGx3dVRZTmppAaFPEEjfH3A",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        },
+        {
+            "operationType": 6,
+            "showHtmlImmersivePayLoad": {
+                "loadImmersiveUrl": "https://www.voice-ui.work/interactive_canvas/gamebook",
+                "updatedStateJson": "{\"recommendedChoice\":\"「おすすめのゲームブックを遊ぶ」なら「1番」\\n\",\"easy_book_name\":\"ゾンビの館\",\"recommended_book_content\":\"君はダンジョンを制覇できるか？　作者　yoyogijotaro （ゲームブックってどうやって作るの？ https://blog.gamebook.xyz/entry/2016/02/16/135554）　一部改変　creativival\",\"easy_book_id\":\"2\",\"choice1\":\"[[簡単=\\u003e2]]\",\"recommended_book_name\":\"初めてのダンジョン\",\"base_url\":\"https://www.voice-ui.work\",\"recommended_book_image\":\"https://voice-ui-work.s3.ap-northeast-1.amazonaws.com/book_image_uploads/1589703903916\",\"easy_book_content\":\"最短のゲームブック。全３フェーズで構成される。\",\"title\":\"ゲームブック\",\"easyChoice\":\"「簡単なゲームブックを遊ぶ」なら「2番」\\n\",\"choice3\":\"[[高評価=\\u003eundefined]]\",\"results\":\"\",\"recommended_book_id\":\"1\",\"scene\":\"first response\",\"content_after_table\":\"その他のゲームブックは、開発者のサイト Voice UI (https://voice-ui.work/) で確認できます。\\n                        「ゲームブック一覧」から遊びたいゲームブックを選んでください。\",\"choiceMessage\":\"を選んでください。\\n\",\"responses\":\"これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？\\n                        「簡単なゲームブックを遊ぶ」なら「2番」\\n「おすすめのゲームブックを遊ぶ」なら「1番」\\nを選んでください。\\n\",\"photo\":\"https://www.voice-ui.work/images/gamebook1920x1080.png\",\"choice2\":\"[[おすすめ=\\u003e1]]\",\"locale\":\"ja-JP\",\"errorMessage\":\"データベースでエラーが発生しました。申し訳ありませんが、後ほどもう一度お試しください。\",\"content\":\"これからゲームブックを開始します。初めにゲームブックを選んでください。ゲーム番号は何番ですか？\",\"highRatingChoice\":\"「高評価のゲームブックを遊ぶ」なら「undefined番」\\n\",\"easy_book_image\":\"https://voice-ui-work.s3.ap-northeast-1.amazonaws.com/book_image_uploads/1589704557215\"}",
+                "ownedByGoogle": false,
+                "shouldPauseCanvas": true,
+                "shouldHideHeader": false,
+                "disableTapToStopTts": false,
+                "homeStorage": {
+                    "params": "{}"
+                }
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ゲームブック",
+    "servingModelOutdated": false,
+    "request": "はい"
+}

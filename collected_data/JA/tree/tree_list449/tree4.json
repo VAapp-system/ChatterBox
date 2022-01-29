@@ -1,0 +1,44 @@
+{
+    "4": {
+        "req": "はい",
+        "res": "ちょっと分かりませんでした。",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "はい"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "5": {
+        "req": "いいえ",
+        "res": "失礼ですが、もう一度おねがいします。",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "いいえ"
+        ],
+        "candidates": {},
+        "parent": 3
+    },
+    "6": {
+        "req": "アプリを教えてください",
+        "res": "すみません。 お役に立てそうにありません。",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "アプリを教えてください"
+        ],
+        "candidates": {},
+        "parent": 3
+    }
+}

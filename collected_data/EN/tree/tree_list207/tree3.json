@@ -1,0 +1,30 @@
+{
+    "3": {
+        "req": "Jackson",
+        "res": "It is very nice to meet you, Jackson. The internet gives us answers to almost anything. But sometimes what we really need are good questions. Choose a category.",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Jackson"
+        ],
+        "candidates": {
+            "NE": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Digital Socrates.",
+                    "visit": false,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "7": {
+        "req": "Jackson",
+        "res": "super 30, artical 15,mentel hai kya,malal,saho , are the top movies in bollywood",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Jackson"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "which movies is good for",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "I want to know india.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    }
+}

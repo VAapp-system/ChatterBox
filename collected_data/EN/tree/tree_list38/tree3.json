@@ -1,0 +1,57 @@
+{
+    "3": {
+        "req": "if you should drive today",
+        "res": "May be.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "if you should drive today"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "if you ate",
+        "res": "Run.",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "if you ate"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "I want to know Apple.",
+        "res": "I didn't get that. Can you say it again?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "I want to know Apple."
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        7
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

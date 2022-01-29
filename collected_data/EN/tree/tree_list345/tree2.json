@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to duo sisters",
+        "res": "Alright. Here's duo sisters.Hello! How can I help you?",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to duo sisters"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "\" who are duo sisters?\"",
+                    "visit": false,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "NE": {}
+        },
+        "parent": 1
+    }
+}

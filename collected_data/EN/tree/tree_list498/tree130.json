@@ -1,0 +1,30 @@
+{
+    "130": {
+        "req": "Yes",
+        "res": "During the Middle Ages, spices were as valuable in Europe as gold and gems and the single most important force driving the world’s economy. The lack of refrigeration and poor standards of hygiene meant that food often spoiled quickly and spices were in great demand to mask the flavor of food that was far from fresh. Fierce competition among European nations for control of the spice trade was the driving force behind the colonization of India and other Asian lands. Wanna Know More?",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 130,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Spices Trivia.",
+                    "visit": false,
+                    "child": [
+                        131
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 129
+    }
+}

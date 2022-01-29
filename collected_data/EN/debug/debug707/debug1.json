@@ -1,0 +1,97 @@
+{
+    "response": "OK. Getting English Football Stats.Hello, welcome to English Football Stats! You can learn about specific clubs in the English Football League and some major statistics like goals, assists, tackles, clean sheets, and passes. Hope you will have an amazing experience with us!",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1ek...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Getting English Football Stats."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hello, welcome to English Football Stats! You can learn about specific clubs in the English Football League and some major statistics like goals, assists, tackles, clean sheets, and passes. Hope you will have an amazing experience with us!"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "Hello, welcome to English Football Stats! You can learn about specific clubs in the English Football League and some major statistics like goals, assists, tackles, clean sheets, and passes. Hope you will have an amazing experience with us!",
+                    "image": {
+                        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Soccerball_England.svg/1024px-Soccerball_England.svg.png",
+                        "accessibilityText": "Image",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 2
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Liverpool"
+            },
+            {
+                "title": "Manchester City"
+            },
+            {
+                "title": "Goals"
+            },
+            {
+                "title": "Assists"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/57G6ppAjcLtuCVTxOW9aPdQR3GyeNRo8uTYImI1EvOj5wkcWGM5XtK_vFBZgeMI9_EaqQ8d7JqM",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Liverpool",
+                    "Manchester City",
+                    "Goals",
+                    "Assists"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "English Football Stats",
+    "servingModelOutdated": false,
+    "request": "Talk to English Football Stats"
+}

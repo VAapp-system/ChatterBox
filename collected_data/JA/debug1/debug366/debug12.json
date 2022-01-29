@@ -1,0 +1,67 @@
+{
+    "response": "現在地の週末の天気は17日（土）は晴れ一時雨、最高気温は28℃、最低気温は17℃。18日（日）はくもり時々晴れ、最高気温は29℃、最低気温は19℃の予想です。他にも聞きたいですか？地名や日時を指定すればお答えします。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "//NExAAR4O...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "現在地の週末の天気は17日（土）は晴れ一時雨、最高気温は28℃、最低気温は17℃。18日（日）はくもり時々晴れ、最高気温は29℃、最低気温は19℃の予想です。他にも聞きたいですか？地名や日時を指定すればお答えします。"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "明日の天気は？"
+            },
+            {
+                "title": "週間予報して"
+            },
+            {
+                "title": "今の天気は？"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/wLf8b2K8Bd3f2QeYSWQxlheHSdzW-ZA-ZVp8QAdp6hlcumCMvHa--jE-_5F4NySysKOh16J_Mqy-iA",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "明日の天気は？",
+                    "週間予報して",
+                    "今の天気は？"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "ウェザーニュース",
+    "servingModelOutdated": false,
+    "request": "週末の天気は？"
+}

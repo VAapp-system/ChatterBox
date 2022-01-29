@@ -1,0 +1,46 @@
+{
+    "44": {
+        "req": "More facts",
+        "res": "Only a few hundred people in the world are known to have the rare blood type H-H. A person with H-H blood can’t receive blood transfusions of any other blood type and may need to store their own blood in advance of an operation.",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 44,
+        "req_list": [
+            "More facts"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "More facts",
+                    "visit": false,
+                    "child": [
+                        45
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "Amazing",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "3": {
+                    "req": "Not Interesting",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "SELECT_CC": {}
+        },
+        "parent": 43
+    }
+}

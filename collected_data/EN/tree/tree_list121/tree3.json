@@ -1,0 +1,113 @@
+{
+    "3": {
+        "req": "Yes",
+        "res": "You Rolled 1.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "Yes",
+        "res": "You Rolled 4.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "6": {
+        "req": "No",
+        "res": "Thanks for visiting Mr. Roll and Roll. Please Come back soon.",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 6,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "7": {
+        "req": "I want to know Roll.",
+        "res": "I didn't get that. Can you say it again?",
+        "QType": "OTHER",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "I want to know Roll."
+        ],
+        "candidates": {
+            "END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        8
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    },
+    "98": {
+        "req": "cancel",
+        "res": "",
+        "QType": "END",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 98,
+        "req_list": [
+            "cancel"
+        ],
+        "candidates": {},
+        "parent": 4
+    },
+    "14": {
+        "req": "Yes",
+        "res": "You Rolled 3.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {},
+        "parent": 13
+    },
+    "19": {
+        "req": "No",
+        "res": "Thanks for visiting Mr. Roll and Roll. Please Come back soon.",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 19,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 13
+    }
+}

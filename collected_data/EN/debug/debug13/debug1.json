@@ -1,0 +1,74 @@
+{
+    "response": "OK. Here's Headspace.I'm not sure who you are. Voice match or personal results might be turned off. Would you like to learn how to help me recognize you?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1bk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Here's Headspace."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "I'm not sure who you are. Voice match or personal results might be turned off. Would you like to learn how to help me recognize you?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Yes"
+            },
+            {
+                "title": "No"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/3cCG_UDjnl6pwgjBARfpgyHQ_4Z06qugV1rNSCJy9oxYBMpLylwAmsUSZuqWrDQYUsDiRvMe2aWp",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Headspace",
+    "servingModelOutdated": false,
+    "request": "Talk to Headspace"
+}

@@ -1,0 +1,61 @@
+{
+    "5": {
+        "req": "もっと言って",
+        "res": "ぼくは自分にできる一番大切な問題に取り組んでいると感じられない限り、時間を有効に使っていると感じられない。そしてそれがこの会社のあり方なんだ。フェイスブック創業者、マーク・ザッカーバーグより。もっと聞く場合は「もっと言って」と、終了する場合は「終了」と言ってください。",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "もっと言って"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "もっと言って",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [
+                        6
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "終了",
+                    "type_ID": [
+                        "1"
+                    ],
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "OTHER": {
+                "1": {
+                    "req": "名言を教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "ビジネスを教えてください",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 4
+    }
+}

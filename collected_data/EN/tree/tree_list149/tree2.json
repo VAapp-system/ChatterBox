@@ -1,0 +1,30 @@
+{
+    "2": {
+        "req": "Talk to doctor soul",
+        "res": "OK. Getting doctor soul.hi i am soul , ask me if you can survive apocalypse",
+        "QType": "START",
+        "Q_id": 1,
+        "over": true,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to doctor soul"
+        ],
+        "candidates": {
+            "INST": {
+                "1": {
+                    "req": "if you can survive apocalypse",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

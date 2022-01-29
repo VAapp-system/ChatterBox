@@ -1,0 +1,110 @@
+{
+    "response": "Alright. Here's My friend Agrian.Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes. My developer is Sai Jagadesh. What would you like to do ?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Wm...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Here's My friend Agrian."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "WELCOME",
+                    "subtitle": "Agrian Welcomes You !",
+                    "formattedText": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes. I work with Google Assistant & Microsoft Bot framework. My developer is Sai Jagadesh S.",
+                    "image": {
+                        "url": "https://firebasestorage.googleapis.com/v0/b/agrian-fikx.appspot.com/o/Cover%20Image.jpg?alt=media&token=c186697e-519a-41ef-8eb2-20a157ec095c",
+                        "accessibilityText": "logo_agrian",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "What can I do ?"
+            },
+            {
+                "title": "Sowing crops"
+            },
+            {
+                "title": "Good Bugs"
+            },
+            {
+                "title": "Bad Bugs"
+            },
+            {
+                "title": "Storage Facility"
+            },
+            {
+                "title": "Irrigation facility"
+            },
+            {
+                "title": "Check health of crops"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/ratZWuXGUoY2eJlpI70FIFr2jX7L2UCuIZwDyt-U8Nl1FygLxn0i_06S0cygxVComngruSmvIKVC",
+        "agentStyle": {
+            "primaryColor": "#101010",
+            "fontFamily": "sans-serif-condensed-medium",
+            "borderRadius": 16,
+            "backgroundImageUrl": "https://lh3.googleusercontent.com/FUa2DXCAsKW_L7IZHrvVRgv9M8s_FcLOzy9lQCmYNeSR2lbI5YMfljEhNJtSux3zQJEUdJCJek-o"
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "What can I do ?",
+                    "Sowing crops",
+                    "Good Bugs",
+                    "Bad Bugs",
+                    "Storage Facility",
+                    "Irrigation facility",
+                    "Check health of crops"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "My friend Agrian",
+    "servingModelOutdated": false,
+    "request": "Talk to My friend Agrian"
+}

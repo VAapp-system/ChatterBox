@@ -1,0 +1,82 @@
+{
+    "response": "Alright. Getting HANGZHOU tour.Choose a subject what you want to find.",
+    "expectUserResponse": true,
+    "conversationToken": "ErYDS2o5Uk...",
+    "audioResponse": "//NExAAQ+D...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "Alright. Getting HANGZHOU tour."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Choose a subject what you want to find."
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "attraction"
+            },
+            {
+                "title": "restaurant"
+            },
+            {
+                "title": "hotel"
+            },
+            {
+                "title": "shopping"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/nzFki4ZDNvPPOu3FEbB4XCbzhfd4HpQCSqnbZ37hw689zQDvzA00MjFncrWdNGztPBro5GIYSQ07",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "attraction",
+                    "restaurant",
+                    "hotel",
+                    "shopping"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "HANGZHOU tour",
+    "servingModelOutdated": false,
+    "request": "Talk to HANGZHOU tour"
+}

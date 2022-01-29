@@ -1,0 +1,38 @@
+{
+    "14": {
+        "req": "September",
+        "res": "September is one of our favorite times of the year – the excitement of clearing and preparing plots, adding compost to soil, choosing seeds and transplants, and enjoying cooler mornings and evenings. September is the start of the fall planting season in Central Texas. We have a semi-arid climate and contend with drought and heat.Find in the following table. What else ?",
+        "QType": "OPTION",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "September"
+        ],
+        "candidates": {
+            "SELECT_CC": {},
+            "OTHER": {
+                "1": {
+                    "req": "I want to know Agrian.",
+                    "visit": false,
+                    "child": [
+                        15
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "I want to know Imagine Cup Junior 2021.",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 13
+    }
+}

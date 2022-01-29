@@ -1,0 +1,29 @@
+{
+    "2": {
+        "req": "Talk to start iProspect",
+        "res": "It looks like your start iProspect account is not linked yet. You can link start iProspect to your Google Account from the Google Home app.",
+        "QType": "START",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 2,
+        "req_list": [
+            "Talk to start iProspect"
+        ],
+        "candidates": {
+            "NOT_END": {
+                "1": {
+                    "req": "cancel",
+                    "visit": true,
+                    "child": [
+                        3
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 1
+    }
+}

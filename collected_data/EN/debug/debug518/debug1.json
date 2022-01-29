@@ -1,0 +1,78 @@
+{
+    "response": "OK. Let's get The Living Room Maboneng.Hey I am Noddy, and I would like to welcome you to the living room. What can I do for you? Would you like to know our contact details or our address or our services?",
+    "expectUserResponse": true,
+    "conversationToken": "EosDS2o5Uk...",
+    "audioResponse": "//NExAARgD...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "OK. Let's get The Living Room Maboneng."
+                }
+            },
+            {
+                "displayText": {
+                    "content": "Hey Noddy here, welcome to the living room. Would you like to know our contact details or our address or our services?"
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "contact"
+            },
+            {
+                "title": "location"
+            },
+            {
+                "title": "services"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/CLbbiHfbHZLwQQ1RgXpKJ_narJ_NGosNPlRoT2RP_fY4ZjTBx4A3fpKbmXjnr8RR4X_4xAtc-wU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 4,
+            "startIndicatorPayLoad": {
+                "status": 1
+            }
+        },
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "contact",
+                    "location",
+                    "services"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "The Living Room Maboneng",
+    "servingModelOutdated": false,
+    "request": "Talk to The Living Room Maboneng"
+}

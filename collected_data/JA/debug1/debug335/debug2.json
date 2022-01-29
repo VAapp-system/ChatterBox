@@ -1,0 +1,112 @@
+{
+    "response": "次の各カテゴリーからお選びいただけます。",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Tk...",
+    "audioResponse": "//NExAAAAA...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "次の各カテゴリーからお選びいただけます。"
+                }
+            },
+            {
+                "carouselSelect": {
+                    "title": "",
+                    "subtitle": "",
+                    "itemsList": [
+                        {
+                            "optionInfo": {
+                                "key": "starter",
+                                "synonymsList": []
+                            },
+                            "title": "前菜",
+                            "description": "オーストリアでは特にパスタや団子が入ったスープが有名です。",
+                            "image": {
+                                "url": "https://s3-eu-west-1.amazonaws.com/tasteofaustria/category/04.jpg",
+                                "accessibilityText": "画像はカテゴリー前菜を示しています。",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "side",
+                                "synonymsList": []
+                            },
+                            "title": "副菜",
+                            "description": "オーストリアのサイドディッシュはおいしくてきっと満足頂けるはずです。",
+                            "image": {
+                                "url": "https://s3-eu-west-1.amazonaws.com/tasteofaustria/category/03.jpg",
+                                "accessibilityText": "画像はカテゴリー副菜を示しています。",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "main",
+                                "synonymsList": []
+                            },
+                            "title": "メインコース",
+                            "description": "お腹がすきましたか？オーストリア名物、ウィーナーシュニッツェルはいかがでしょう？",
+                            "image": {
+                                "url": "https://s3-eu-west-1.amazonaws.com/tasteofaustria/category/02.jpg",
+                                "accessibilityText": "画像はカテゴリーメインコースを示しています。",
+                                "height": 0,
+                                "width": 0
+                            }
+                        },
+                        {
+                            "optionInfo": {
+                                "key": "dessert",
+                                "synonymsList": []
+                            },
+                            "title": "デザート",
+                            "description": "甘い誘惑：ザッハートルテからカイザーシュマーレンまで。",
+                            "image": {
+                                "url": "https://s3-eu-west-1.amazonaws.com/tasteofaustria/category/01.jpg",
+                                "accessibilityText": "画像はカテゴリーデザートを示しています。",
+                                "height": 0,
+                                "width": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/JD3TenrQZ2gsC_kDrISEAHYc3mspcBSy8p6rd4EvKs9IF-QdJf_XcV_gL6woU5Kgb_U2n21Disjc",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "おいしいオーストリア",
+    "servingModelOutdated": false,
+    "request": "料理したいカテゴリー"
+}

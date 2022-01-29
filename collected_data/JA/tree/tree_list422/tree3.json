@@ -1,0 +1,44 @@
+{
+    "3": {
+        "req": "魚の名前",
+        "res": "今、なんておっしゃいましたか？",
+        "QType": "INST",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "魚の名前"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "4": {
+        "req": "シャケ",
+        "res": "すみません。 魚の漢字から応答がありません。 後ほどもう一度試してください。",
+        "QType": "NE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "シャケ"
+        ],
+        "candidates": {},
+        "parent": 2
+    },
+    "5": {
+        "req": "アジ",
+        "res": "すみません。 魚の漢字から応答がありません。 後ほどもう一度試してください。",
+        "QType": "NE",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 5,
+        "req_list": [
+            "アジ"
+        ],
+        "candidates": {},
+        "parent": 2
+    }
+}

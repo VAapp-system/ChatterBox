@@ -1,0 +1,49 @@
+{
+    "3": {
+        "req": "s food and information about baby",
+        "res": "What is the age of your baby? Less than 6 months, between 6-9 months or 10-12 months?",
+        "QType": "EXAMPLE",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 3,
+        "req_list": [
+            "s food and information about baby"
+        ],
+        "candidates": {
+            "SELECT_CC": {
+                "1": {
+                    "req": "6 - 9 months",
+                    "string_ID": 1,
+                    "visit": true,
+                    "child": [
+                        4
+                    ],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "10 - 12 months",
+                    "string_ID": 1,
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            },
+            "EXAMPLE": {
+                "1": {
+                    "req": "s food and information about baby",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 2
+    }
+}

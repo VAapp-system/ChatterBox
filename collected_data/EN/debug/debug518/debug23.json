@@ -1,0 +1,82 @@
+{
+    "response": "We are located at 20 Kruger Street It is on the 5th Floor of Main Change Building in the Maboneng Precinct in Johannesburg, the zip is 2094 We are open Wednesday to Sunday from 11 am until 10 pm Wednesday to Saturday. We close at 7 pm on Sunday. How else may I help you today? Do you need the contact details or the services on offer?",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAAPsU...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "We are located at\n\n20 Kruger Street\n5th Floor Main Change Building\nMaboneng Precinct\nJohannesburg\n\n2094\n\nSouth Africa\n\nHow else may I help you today?"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "The Living Room Jozi",
+                    "subtitle": "",
+                    "formattedText": "the Living Room was born out of a desire to participate in the urban revival of inner city Johannesburg.",
+                    "image": {
+                        "url": "https://static1.squarespace.com/static/57bae5b7be6594880d2f2a04/t/59f2e6b9692670b730ea0aa5/1509091020594/logo-white-184.png?format=300w",
+                        "accessibilityText": "loation the living room",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [
+                        {
+                            "title": "Maps",
+                            "openUrlAction": {
+                                "url": "https://www.google.co.za/maps/place/Living+Room+Jozi/@-26.2045752,28.0572413,17z/data=!3m1!4b1!4m5!3m4!1s0x1e950e85d953f761:0xe5813068a3b48ee9!8m2!3d-26.20458!4d28.05943",
+                                "urlTypeHint": 0
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": 0
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "contact"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/CLbbiHfbHZLwQQ1RgXpKJ_narJ_NGosNPlRoT2RP_fY4ZjTBx4A3fpKbmXjnr8RR4X_4xAtc-wU",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "contact"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "The Living Room Maboneng",
+    "servingModelOutdated": false,
+    "request": "location"
+}

@@ -1,0 +1,162 @@
+{
+    "4": {
+        "req": "Yes",
+        "res": "Alright, I just sent you a sign-in link. You can find it in the Google Home app.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 4,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What sound does an elephant make?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What was yesterday's animal of the day?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 3
+    },
+    "7": {
+        "req": "Yes",
+        "res": "OK, I just sent you a sign-in link. You can find it in the Google Home app.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 7,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What sound does an elephant make?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What was yesterday's animal of the day?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 6
+    },
+    "10": {
+        "req": "Yes",
+        "res": "Alright, I just sent you a sign-in link. You can find it in the Google Home app.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 10,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What sound does an elephant make?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What was yesterday's animal of the day?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 9
+    },
+    "11": {
+        "req": "No",
+        "res": "OK. Just so you know, that means you won't be able to use your account with Sleeptracker. If you change your mind, you can always come back and sign in then.Goodbye",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 11,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 9
+    },
+    "14": {
+        "req": "Yes",
+        "res": "OK, I just sent you a sign-in link. You can find it in the Google Home app.",
+        "QType": "YESNO",
+        "Q_id": 1,
+        "over": false,
+        "canvas": false,
+        "id": 14,
+        "req_list": [
+            "Yes"
+        ],
+        "candidates": {
+            "OPTION": {
+                "1": {
+                    "req": "What sound does an elephant make?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                },
+                "2": {
+                    "req": "What was yesterday's animal of the day?",
+                    "visit": false,
+                    "child": [],
+                    "loop_start": false,
+                    "loop_end": [],
+                    "loop_count": 1
+                }
+            }
+        },
+        "parent": 13
+    },
+    "15": {
+        "req": "No",
+        "res": "OK then. Just so you know, that means you won't be able to use your account with Sleeptracker. If you change your mind, you can always come back and sign in then.Goodbye",
+        "QType": "YESNO",
+        "Q_id": 2,
+        "over": false,
+        "canvas": false,
+        "id": 15,
+        "req_list": [
+            "No"
+        ],
+        "candidates": {},
+        "parent": 13
+    }
+}

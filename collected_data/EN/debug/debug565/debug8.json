@@ -1,0 +1,78 @@
+{
+    "response": "The opening hours are 9am to 9pm.\nTo explore related topics, just say \"Address\" or \"Done\" to exit.",
+    "expectUserResponse": true,
+    "conversationToken": "ErMDS2s1Uk...",
+    "audioResponse": "//NExAASGG...",
+    "ssmlMarkList": [],
+    "debugInfo": {
+        "sharedDebugInfoList": [],
+        "conversationBuilderExecutionEventsList": []
+    },
+    "conversationBuilderDebugInfo": {
+        "eventList": []
+    },
+    "visualResponse": {
+        "visualElementsList": [
+            {
+                "displayText": {
+                    "content": "The opening hours are 9am to 9pm.\n\nTo explore related topics, just say \"Address\" or \"Done\" to exit."
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "",
+                    "subtitle": "",
+                    "formattedText": "Opening hours",
+                    "image": {
+                        "url": "https://www.hkcocoon.com/uploads/8/6/8/8/86884092/published/1478250105.png",
+                        "accessibilityText": "Image",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "buttonsList": [],
+                    "imageDisplayOptions": 2
+                }
+            }
+        ],
+        "suggestionsList": [
+            {
+                "title": "Address"
+            },
+            {
+                "title": "Done"
+            }
+        ],
+        "agentLogoUrl": "https://lh3.googleusercontent.com/0NwUQEiezjvA_pKSLNOmvz7EqXUW0mCmAs-sJUdYTZbeQ80aYzB4DPcljJw7zabm59tk2MJMW4sb",
+        "agentStyle": {
+            "primaryColor": "",
+            "fontFamily": "",
+            "borderRadius": 0
+        }
+    },
+    "clientError": 0,
+    "is3pResponse": true,
+    "clientOperationList": [
+        {
+            "operationType": 8,
+            "showSuggestionsPayLoad": {
+                "textsList": [
+                    "Address",
+                    "Done"
+                ]
+            }
+        },
+        {
+            "operationType": 1,
+            "micUpdatePayLoad": {
+                "micMode": 1
+            }
+        }
+    ],
+    "projectName": "",
+    "renderedHtml": "",
+    "previewStartTimeMicros": "",
+    "isEmptyResponse": false,
+    "agentName": "Hong Kong Cocoon",
+    "servingModelOutdated": false,
+    "request": "Opening hours"
+}
