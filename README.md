@@ -8,7 +8,7 @@
     - NLTK
 - Japanese
     - JUMAN++ 2.0.0-rc3
-    - KNP
+    - KNP 4.20
     - pyknp
 
 ## Usage
