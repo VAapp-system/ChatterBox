@@ -5,10 +5,10 @@
     - OS: Linux
 - Tool
     - Python3
-    - English
+    - In English
         - Stanfor Core NLP server
         - NLTK
-    - Japanese
+    - In Japanese
         - JUMAN++ 2.0.0-rc3
         - KNP 4.20
         - pyknp
