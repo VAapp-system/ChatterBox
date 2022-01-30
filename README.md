@@ -7,7 +7,7 @@
     - Stanfor Core NLP server
     - NLTK
 - Japanese
-    - JUMAN++
+    - JUMAN++ 2.0.0+
     - KNP
     - pyknp
 
