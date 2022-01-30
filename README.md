@@ -2,7 +2,7 @@
 
 ## Requirement
 - English
-    - Stanfor Core NLP
+    - Stanfor Core NLP server
     - NLTK
 - Japanese
     - JUMAN++
