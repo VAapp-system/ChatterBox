@@ -6,7 +6,7 @@
 - Tool
     - Python3
     - In English
-        - Stanfor Core NLP server
+        - Stanfor CoreNLP server
         - NLTK
     - In Japanese
         - JUMAN++ 2.0.0-rc3
