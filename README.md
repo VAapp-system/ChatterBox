@@ -8,6 +8,7 @@
     - In English
         - Stanford CoreNLP server
         - NLTK
+        - Stanza
     - In Japanese
         - JUMAN++ 2.0.0-rc3
         - KNP 4.20
