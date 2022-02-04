@@ -6,7 +6,7 @@ from decimal import Decimal, ROUND_HALF_UP
 args = sys.argv
 locale = args[1]
 
-sample_rate = 0.05 #edit
+sample_rate = 1.0 #edit
 
 if locale == 'EN':
     dir_path = './setup/category_groupEN'
