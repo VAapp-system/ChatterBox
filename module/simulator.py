@@ -46,7 +46,7 @@ class Crawler:
                 break
             try:
                 n = driver.find_element_by_xpath('/html/body/await-bootstrap-ng2/ng-transclude/div/md-content/div[1]/div/div/div/ng-transclude/div/div/div/div[1]/s7r-query-input/div/div[2]/div/div[2]/div/fb-chip/div')
-                if (locale == 'JA' and n.text == 'テスト用アプリにつないで') or (locale == 'EN' and n.text == 'Talk to my test app'):
+                if  (locale == 'EN' and n.text == 'Talk to my test app') or (locale == 'JA' and n.text == 'テスト用アプリにつないで'):
                     n.click()
                     flag = True
                     break
@@ -149,13 +149,13 @@ class Crawler:
             flag = True
             for r in reset:
                 t = r.text
-                if locale == 'JA':
-                    if t == 'リセット':
+                if locale == 'EN':
+                    if t == 'Reset':
                         reset = r
                         flag = False
                         break
-                if locale == 'EN':
-                    if t == 'Reset':
+                elif locale == 'JA':
+                    if t == 'リセット':
                         reset = r
                         flag = False
                         break
@@ -177,13 +177,13 @@ class Crawler:
             flag = True
             for s in show:
                 t = s.text
-                if locale == 'JA':
-                    if t == '[保存済みデータを表示]':
+                if locale == 'EN':
+                    if t == '[View stored data]':
                         show = s
                         flag = False
                         break
-                if locale == 'EN':
-                    if t == '[View stored data]':
+                elif locale == 'JA':
+                    if t == '[保存済みデータを表示]':
                         show = s
                         flag = False
                         break
@@ -220,13 +220,13 @@ class Crawler:
         flag = True
         for s in show:
             t = s.text
-            if locale == 'JA':
-                if t == '[保存済みデータを表示]':
+            if locale == 'EN':
+                if t == '[View stored data]':
                     show = s
                     flag = False
                     break
-            if locale == 'EN':
-                if t == '[View stored data]':
+            elif locale == 'JA':
+                if t == '[保存済みデータを表示]':
                     show = s
                     flag = False
                     break
@@ -263,13 +263,13 @@ class Crawler:
         flag = True
         for r in reset:
             t = r.text
-            if locale == 'JA':
-                if t == 'リセット':
+            if locale == 'EN':
+                if t == 'Reset':
                     reset = r
                     flag = False
                     break
-            if locale == 'EN':
-                if t == 'Reset':
+            elif locale == 'JA':
+                if t == 'リセット':
                     reset = r
                     flag = False
                     break
@@ -296,13 +296,13 @@ class Crawler:
         flag = True
         for s in show:
             t = s.text
-            if locale == 'JA':
-                if t == '[保存済みデータを表示]':
+            if locale == 'EN':
+                if t == '[View stored data]':
                     show = s
                     flag = False
                     break
-            if locale == 'EN':
-                if t == '[View stored data]':
+            elif locale == 'JA':
+                if t == '[保存済みデータを表示]':
                     show = s
                     flag = False
                     break
