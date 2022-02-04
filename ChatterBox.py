@@ -51,32 +51,23 @@ def dialogue():
         include_NE = ['キーワード', '単語', 'しりとり', '言葉', 'メモ']
 
     if not(os.path.exists(path5)):
-        pathlib.Path(path5).touch()
-    #音声コマンドリスト              
+        pathlib.Path(path5).touch()          
     with open(path1, 'r', encoding='utf-8') as f1:
         command = f1.readlines()
-    #アプリ名リスト
     with open(path2, 'r', encoding='utf-8') as f2:
         name = f2.readlines()
-    #固有表現リスト
     with open(path3, 'r', encoding='utf-8') as f3:
         taxonomy = json.load(f3)
-    #固有表現分類リスト
     with open(path4, 'r', encoding='utf-8') as f4:
         NE = json.load(f4)
-    #適切な対話を継続できなかったアプリ名リスト          
     with open(path5, 'r', encoding='utf-8') as f5:
         not_OK_list = f5.readlines()
-    #アプリ説明から抽出したリクエスト入力例リスト
     with open(path6, 'r', encoding='utf-8') as f6:
         des_dic = json.load(f6)
-    #不適切なリクエストを入力した場合のレスポンス定型文リスト
     with open(path7, 'r', encoding='utf-8') as f7:
         WR = json.load(f7)
-    #調査対象アプリリスト
     with open(path8, 'r', encoding='utf-8') as f8:
         APP = json.load(f8)
-    #OTHER用リクエストリスト
     with open(path9, 'r', encoding='utf-8') as f9:
         OTHER_all_req = json.load(f9)
 
@@ -97,7 +88,6 @@ def dialogue():
         elif locale == 'JA':
             crawler.japanese()
             
-        #アプリ呼び出し開始
         for i in range(start, end):
             try:
                 #=====initialization process=====
