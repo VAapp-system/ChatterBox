@@ -3,6 +3,7 @@
 ## Requirement
 - System
     - OS: Linux
+    - Actions on Google simulator using Dialogflow (not Actions Builder)
 - Tool
     - Python3
     - In English
