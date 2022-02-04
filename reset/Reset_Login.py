@@ -18,7 +18,7 @@ driver = webdriver.Chrome(options=options)
 driver.get('https://console.actions.google.com/')
 driver.find_element(By.XPATH, '//*[@id="Email"]').send_keys('your_gmail' + Keys.ENTER)
 WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="password"]')))
-driver.find_element(By.XPATH, '//*[@id="password"]').send_keys('your_gmail_password' + Keys.ENTER)
+driver.find_element(By.XPATH, '//*[@id="password"]').send_keys('your_password' + Keys.ENTER)
 
 time.sleep(2)
 
