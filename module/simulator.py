@@ -162,7 +162,7 @@ class Crawler:
             if flag:
                 driver.close()
                 driver.switch_to.window(driver.window_handles[0])
-                return 'Non-resettable'
+                return 'None'
             
             reset.click()
             time.sleep(1)
@@ -190,7 +190,7 @@ class Crawler:
             if flag:
                 driver.close()
                 driver.switch_to.window(driver.window_handles[0])
-                return 'Storage not displayed'
+                return 'None'
 
             show.click()
             time.sleep(1)
@@ -204,7 +204,7 @@ class Crawler:
                 except:
                     driver.close()
                     driver.switch_to.window(driver.window_handles[0])
-                    return 'Storage not available'
+                    return 'None'
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
             return data
@@ -233,7 +233,7 @@ class Crawler:
         if flag:
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
-            return 'Storage not displayed'
+            return 'None'
 
         show.click()
         time.sleep(1)
@@ -247,7 +247,7 @@ class Crawler:
             except:
                 driver.close()
                 driver.switch_to.window(driver.window_handles[0])
-                return 'Storage not available'
+                return 'None'
 
         driver.close()
         driver.switch_to.window(driver.window_handles[0])
@@ -276,7 +276,7 @@ class Crawler:
         if flag:
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
-            return 'Non-resettable'
+            return 'None'
         
         reset.click()
         time.sleep(1)
@@ -309,7 +309,7 @@ class Crawler:
         if flag:
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
-            return 'Storage not displayed'
+            return 'None'
 
         show.click()
         time.sleep(1)
@@ -327,7 +327,7 @@ class Crawler:
                 except:
                     driver.close()
                     driver.switch_to.window(driver.window_handles[0])
-                    return 'Storage not available'
+                    return 'None'
         driver.close()
         driver.switch_to.window(driver.window_handles[0])
         return data
