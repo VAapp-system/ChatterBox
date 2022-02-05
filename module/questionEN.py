@@ -3,7 +3,7 @@ from collections import deque
 import sentenceEN
 from nltk.tree import ParentedTree
 
-parser = CoreNLPParser(url='Stanford CoreNLP server URL')
+parser = CoreNLPParser(url='Stanford_CoreNLP_server_URL')
 
 w_tag = ['WHADJP', 'WHADVP', 'WHNP', 'WHPP', 'WDT', 'WP', 'WP$', 'WRB', 'WP-S']
 i_tag = ['VB', 'VBG', 'VBP']
