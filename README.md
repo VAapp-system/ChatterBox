@@ -23,6 +23,6 @@ git clone https://github.com/VAapp-system/ChatterBox.git
 
 ## Usage
 ```
-./setup.sh 'Language(EN/JA)'
+./setup.sh <Language (EN/JA)>
 python3 ChatterBox.py
 ```
