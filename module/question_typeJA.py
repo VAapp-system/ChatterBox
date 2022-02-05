@@ -1555,8 +1555,6 @@ def LINKextract(bnst_dic, LINK_list):
 def type_get(res, parse_rule):
     extract_dic = {}
     sentence_list, bnst_dic, type_dic = questionJA.question(res, parse_rule)
-    print(bnst_dic)
-    print(type_dic)
     if 'YESNO' in type_dic:
         if 'SELECT' in type_dic:
             YESNO_list = type_dic['YESNO']['question']
