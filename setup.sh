@@ -14,3 +14,4 @@ mkdir error
 mkdir user_storage
 mkdir canvas
 mkdir tree
+mkdir check
