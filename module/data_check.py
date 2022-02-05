@@ -98,7 +98,7 @@ def check_storage(storage_dic, locale, name):
     if isinstance(storage, str):
         key_list.append('userId')
     else:
-        get_key(storage)
+        get_key(storage, key_list)
     key_list = list(dict.fromkeys(key_list))
     dic = {
         'storage': storage,
