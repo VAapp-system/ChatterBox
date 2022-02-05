@@ -17,6 +17,7 @@ import Tree_VA as Tree
 from Tree_VA import Node
 from simulator import Crawler
 import emoji_remove as ER
+import data_check
 
 args = sys.argv
 locale = args[1]
@@ -1073,6 +1074,12 @@ def dialogue():
                     json.dump(storage, f14, indent=4, ensure_ascii=False)
 
                 crawler.cancel()
+                
+            #=====data check=====
+            check_dic = data_check.check(i, locale, name[i].strip())
+            path15 = './check/check' + str(i) + '.json'
+            with open(path15, 'w', encoding='utf-8') as f15:
+                json.dump(check_dic, f15, indent=4, ensure_ascii=False)
 
         try:
             crawler.quit()
