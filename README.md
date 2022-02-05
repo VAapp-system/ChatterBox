@@ -24,5 +24,5 @@ git clone https://github.com/VAapp-system/ChatterBox.git
 ## Usage
 ```
 ./setup.sh <Language (EN/JA)>
-python3 ChatterBox.py
+python3 ChatterBox.py <Language (EN/JA)>
 ```
