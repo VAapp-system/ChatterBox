@@ -19,7 +19,7 @@
 ```
 git clone https://github.com/VAapp-system/ChatterBox.git
 cd ChatterBox
-./install.sh <Gmail Address> <Gmail Password>
+./install.sh <Gmail Address> <Gmail Password> <Actions on Google Project Name>
 ```
 
 ## Usage
