@@ -18,7 +18,7 @@
 ## Installation
 ```
 git clone https://github.com/VAapp-system/ChatterBox.git
-./install.sh 'Gmail Address' 'Gmail Password'
+./install.sh <Gmail Address> <Gmail Password>
 ```
 
 ## Usage
