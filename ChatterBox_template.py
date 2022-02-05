@@ -76,8 +76,8 @@ def dialogue():
     wrong_res = WR['fixed_form_text']
     
     files = glob.glob("./debug/debug*")
-    start = len(files)
-    end = len(command)
+    start = len(files) + 1
+    end = len(command) + 1
 
     try:
         crawler = Crawler()
