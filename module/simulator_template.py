@@ -32,8 +32,8 @@ class Crawler:
         driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(pass_word + Keys.ENTER)
         time.sleep(5)
         driver.set_window_size(2000,1000)
-        WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), ' test1 ')]")))
-        driver.find_element(By.XPATH, "//*[contains(text(), ' test1 ')]").click()
+        WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), ' your_project_name ')]")))
+        driver.find_element(By.XPATH, "//*[contains(text(), ' your_project_name ')]").click()
         WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.XPATH, '/html/body/await-bootstrap-ng2/ng-transclude/div/a7t-topnav/div/div[4]/div[3]')))
         driver.find_element(By.XPATH, '/html/body/await-bootstrap-ng2/ng-transclude/div/a7t-topnav/div/div[4]/div[3]').click()
 
