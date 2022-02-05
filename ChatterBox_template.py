@@ -100,7 +100,7 @@ def dialogue():
                     os.mkdir('./debug/' + dir_path)
 
                 print('App Number: ' + str(i), file=f10)
-                print('App Name: ' + name[i].strip(), file=f10)
+                print('App Name: ' + name[i - 1].strip(), file=f10)
     
                 turn = 1
                 
@@ -113,7 +113,7 @@ def dialogue():
                 root_candidate = {
                     "START": {
                         1: {
-                            "req": command[i].strip(),
+                            "req": command[i - 1].strip(),
                         }
                     }
                 }
@@ -174,7 +174,7 @@ def dialogue():
                             break
                         QEType = "START"
                         Q_id = 1
-                        req = command[i].strip()
+                        req = command[i - 1].strip()
                     if turn == 3:
                         record_touple = req_list.popleft()
                         QEType = record_touple[0]
@@ -1076,7 +1076,7 @@ def dialogue():
                 crawler.cancel()
                 
             #=====data check=====
-            check_dic = data_check.check(i, locale, name[i].strip())
+            check_dic = data_check.check(i, locale, name[i - 1].strip())
             path15 = './check/check' + str(i) + '.json'
             with open(path15, 'w', encoding='utf-8') as f15:
                 json.dump(check_dic, f15, indent=4, ensure_ascii=False)
