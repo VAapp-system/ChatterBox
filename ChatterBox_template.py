@@ -11,8 +11,6 @@ import requests
 import http
 import pathlib
 sys.path.append('./module')
-import question_typeEN
-import question_typeJA
 import Tree_VA as Tree
 from Tree_VA import Node
 from simulator import Crawler
@@ -24,6 +22,7 @@ locale = args[1]
 
 def dialogue():
     if locale == 'EN':
+        import question_typeEN
         path1 = './command_info_en.txt'
         path2 = './name_info_en.txt'
         path3 = './data/taxonomy_info_en.json'
@@ -36,6 +35,7 @@ def dialogue():
         multiple_NE = ["digit"]
         include_NE = ["search_keyword", "word"]
     elif locale == 'JA':
+        import question_typeJA
         path1 = './command_info_ja.txt'
         path2 = './name_info_ja.txt'
         path3 = './data/taxonomy_info_ja.json'
