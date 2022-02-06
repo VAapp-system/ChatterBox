@@ -7,7 +7,7 @@
 - Tool
     - Python3
     - In English
-        - Stanford CoreNLP server
+        - Stanford CoreNLP Server
         - NLTK
         - Stanza
     - In Japanese
@@ -19,9 +19,12 @@
 ```
 git clone https://github.com/VAapp-system/ChatterBox.git
 cd ChatterBox
-./install.sh <Gmail Address> <Gmail Password> <Actions on Google Project Name> <Stanford CoreNLP server URL>
+./install.sh <Gmail Address> <Gmail Password> <Actions on Google Project Name>
 ```
-
+- In English
+```
+./setNLP.sh <Stanford CoreNLP Server URL>
+```
 ## Usage
 ```
 ./setup.sh <Language (EN/JA)>
