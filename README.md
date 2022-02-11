@@ -40,7 +40,7 @@ python3 ChatterBox.py <Language (EN/JA)>
 ```
 
 ## Collectable Data
-- JSON payload sent by the VA app
+- JSON payload sent by VA apps
 - Tree structure
 - Data stored in User Storage
 - Interactive Canvas HTML
