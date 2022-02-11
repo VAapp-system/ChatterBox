@@ -38,3 +38,5 @@ How to use ChatterBox
 ./setup.sh <Language (EN/JA)>
 python3 ChatterBox.py <Language (EN/JA)>
 ```
+
+## Collectable Data
