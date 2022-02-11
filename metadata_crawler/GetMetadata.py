@@ -21,7 +21,7 @@ driver = webdriver.Chrome(options=options)
 if locale == 'EN':
     driver.get('https://assistant.google.com/explore?hl=en')
     path1 = './appurl_en.txt'
-    path2 = './page_info_en.json'
+    path2 = '../page_info_en.json'
     if not(os.path.exists('./page_source_en')):
         os.mkdir('./page_source_en')
     if not(os.path.exists('./metadata_en')):
@@ -29,7 +29,7 @@ if locale == 'EN':
 elif locale == 'JA':
     driver.get('https://assistant.google.com/explore?hl=ja_jp')
     path1 = './appurl_ja.txt'
-    path2 = './page_info_ja.json'
+    path2 = '../page_info_ja.json'
     if not(os.path.exists('./page_source_ja')):
         os.mkdir('./page_source_ja')
     if not(os.path.exists('./metadata_ja')):
