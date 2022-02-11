@@ -41,7 +41,7 @@ python3 ChatterBox.py <Language (EN/JA)>
 
 ## Collectable Data
 - JSON payload sent by VA apps
-     It contains VA app responses, Rich Response and Interactive Canvas configuration information, and Suggestions.
+    - It contains VA app responses, Rich Response and Interactive Canvas configuration information, and Suggestions.
 - Tree structure
 - Data stored in User Storage
 - Interactive Canvas HTML
