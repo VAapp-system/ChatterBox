@@ -33,10 +33,15 @@ python3 GetAppPageUrl.py <Language (EN/JA)>
 python3 GetMetadata.py <Language (EN/JA)>
 
 ```
-How to use ChatterBox
+How to use ChatterBox.
 ```
 ./setup.sh <Language (EN/JA)>
 python3 ChatterBox.py <Language (EN/JA)>
 ```
 
 ## Collectable Data
+- JSON payload sent by the VA app
+- Tree structure
+- Data stored in User Storage
+- Interactive Canvas HTML
+- Analysis data by Background Checker
