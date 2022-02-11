@@ -26,7 +26,7 @@ cd ChatterBox
 ./setNLP.sh <Stanford CoreNLP Server URL>
 ```
 ## Usage
-Before you can use ChatterBox, you need a metadata file (named page_info_(en/ja).json). Please use the metadata crawler.
+Before using ChatterBox, you need a metadata file (named page_info_(en/ja).json). Please use the metadata crawler.
 ```
 cd metadata_crawler
 python3 GetAppPageUrl.py <Language (EN/JA)>
